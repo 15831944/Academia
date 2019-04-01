@@ -161,7 +161,7 @@ int main(void) {
 	int arr7[2][3] = { 1, 2, 3, 4, 5, };
 
 	cout << arr7 << endl;
-	cout << "sizeof(arr7): " << sizeof(arr7) << endl; // 배열 전체의 크기
+	cout << "sizeof(arr7): " << sizeof(arr7) << endl; // 배열 전체의 (Byte 단위) 크기
 	cout << "sizeof(arr7[0]): " << sizeof(arr7[0]) << endl; // 행의 크기
 
 	for (int i = 0; i < 2; i++) {
@@ -177,35 +177,28 @@ int main(void) {
 	cout << "### 이차원 배열의 포인터 연산" << endl << endl;
 
 	int arr8[2][3] = { 1, 2, 3, 4, 5, 6 };
-	cout << "arr8: " << arr8 << endl; // 배열의 시작, 배열 전체를 의미함, 배열의 첫 행을 가리킴.
-	cout << "&arr8: " << &arr8 << endl;
-	cout << "sizeof(arr8): " << sizeof(arr8) << endl; // 그래서 배열 전체의 크기
+	int (*ptr)[3] = arr8 + 1; // 이차원 배열의 포인터 형, 두 번째 행을 가리키고 있음.
+	
+	cout << "arr8: " << arr8 << endl; // 배열의 시작, 배열 전체를 의미함, 실질적으로 배열의 첫 행을 가리킴.
+	cout << "&arr8: " << &arr8 << endl; // 배열의 이름의 주소를 담고 있는 메모리 공간의 주소
+	cout << "sizeof(arr8): " << sizeof(arr8) << endl; // 그래서 배열 전체의 크기 24 Bytes
 	cout << "sizeof(&arr8): " << sizeof(&arr8) << endl; // 당연히 변수의 주소값은 4Bytes
 	cout << "arr8 + 1: " << arr8 + 1 << endl; // 12만큼 증가 했다고???! 다음 행을 가리키네.
-	int (*ptr)[3] = arr8 + 1;
-	cout << "sizeof(&(arr8 + 1)): " << sizeof(&ptr) << endl; // 당연히 변수의 주소값 4Bytes
-	cout << "&(arr8 + 1): " << &ptr << endl; // 당연히 변수의 주소값 4Bytes
-	cout << "sizeof(ptr): " << sizeof(ptr) << endl;
-	cout << "ptr: " << ptr << endl;
-	cout << "ptr - 1: " << ptr - 1 << endl;
-	cout << "sizeof(arr8 + 1): " << sizeof(arr8 + 1) << endl << endl; // 
-	cout << "*(arr8 + 1): " << *(arr8 + 1) << endl;
-	cout << "&arr8[1]: " << &(arr8[1]) << endl;
-	cout << (*(arr8 + 1) + 1) << endl;
-	cout << "*arr8[0]: " << *(arr8[0]) << endl;
+						  // 포인터 연산을 수행하고 나면 일반 주소값처럼 됨.
+						  // 더이상 이차원 배열의 의미가 없음.
+	cout << "sizeof(arr8 + 1): " << sizeof(arr8 + 1) << endl << endl; // 그래서 4Bytes
+	
+	
+	cout << "*(arr8 + 1): " << *(arr8 + 1) << endl; // *(arr8 + 1) = arr8[1]
+	cout << (*(arr8 + 1) + 1) << endl; // (*(arr8 + 1) + 1) = arr8[1][1]
+	
+	// 주소 찍어 봄.
 	for (int i = 0; i < 2; i++) {
 		for (int j = 0; j < 3; j++) {
 			cout << &arr8[i][j] << '\t';
 		}
 		cout << endl;
 	}
-
-	cout << "###################################" << endl;
-	cout << "*arr8: " << *arr8 << endl; // 첫 번째 행을 가리키고 있음
-	cout << "sizeof(*arr8): " << sizeof(*arr8) << endl;
-	cout << "arr8[0]: " << arr8[0] << endl;
-	cout << "**arr8: " << **arr8 << endl; // 첫 번째 행의 첫 번째 열을 가리키고 있음.
-	cout << "sizeof(**arr8): " << sizeof(**arr8) << endl << endl;
 
 	cout << "###########################################################" << endl;
 	cout << "### 정리(이차원 배열 포인터 연산)" << endl << endl;
