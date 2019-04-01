@@ -82,8 +82,8 @@ int main(void) {
 	cout << num4 << endl;
 	cout << "#################" << endl;
 
-  // seed 값을 주어 변경되는 난수를 출력.
-	srand(unsigned(time(NULL))); // time() 함수의 반환 값을 unsigned로 표기하라.
+  	// seed 값을 주어 변경되는 난수를 출력.
+	srand(unsigned(time(NULL))); // time() 함수의 반환 값을 unsigned로 형변환.
 	num2 = rand();
 	num3 = rand();
 	num4 = rand();
