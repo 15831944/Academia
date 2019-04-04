@@ -1,39 +1,39 @@
 /*
 
-2019.04.04.01 ¸ñ
+2019.04.04.01 ëª©
 
 
 ###############################
-        °ø¿ëÃ¼ (union)
+        ê³µìš©ì²´ (union)
 ###############################
 
-- ±¸Á¶Ã¼¿Í ÇÔ²² »ç¿ëÀÚ Á¤ÀÇ ÀÚ·áÇüÀÇ ÀÏÁ¾ÀÌ´Ù.
-- µ¥ÀÌÅÍÀÇ ÁýÇÕ.
+- êµ¬ì¡°ì²´ì™€ í•¨ê»˜ ì‚¬ìš©ìž ì •ì˜ ìžë£Œí˜•ì˜ ì¼ì¢…ì´ë‹¤.
+- ë°ì´í„°ì˜ ì§‘í•©.
 
-- °ø¿ëÃ¼´Â ¿¬¼ÓµÈ ¸Þ¸ð¸® °ø°£À» »ç¿ëÇÏÁö ¾Ê´Â´Ù.
-because, ¸â¹öµéÀº ÇÏ³ªÀÇ ¸Þ¸ð¸® °ø°£À» °øÀ¯ÇÏ±â ¶§¹®ÀÌ´Ù.
-(±×·¸±â ¶§¹®¿¡.... ¸â¹ö º¯¼öµéÀÇ ÁÖ¼Ò°¡ °°À½.)
+- ê³µìš©ì²´ëŠ” ì—°ì†ëœ ë©”ëª¨ë¦¬ ê³µê°„ì„ ì‚¬ìš©í•˜ì§€ ì•ŠëŠ”ë‹¤.
+because, ë©¤ë²„ë“¤ì€ í•˜ë‚˜ì˜ ë©”ëª¨ë¦¬ ê³µê°„ì„ ê³µìœ í•˜ê¸° ë•Œë¬¸ì´ë‹¤.
+(ê·¸ë ‡ê¸° ë•Œë¬¸ì—.... ë©¤ë²„ ë³€ìˆ˜ë“¤ì˜ ì£¼ì†Œê°€ ê°™ìŒ.)
 
-- ¸â¹ö º¯¼ö Áß °¡Àå Å©±â°¡ Å« ÀÚ·áÇüÀ» ±âÁØÀ¸·Î °ø¿ëÃ¼ÀÇ ¸Þ¸ð¸® °ø°£ÀÌ ÇÒ´çµÈ´Ù.
+- ë©¤ë²„ ë³€ìˆ˜ ì¤‘ ê°€ìž¥ í¬ê¸°ê°€ í° ìžë£Œí˜•ì„ ê¸°ì¤€ìœ¼ë¡œ ê³µìš©ì²´ì˜ ë©”ëª¨ë¦¬ ê³µê°„ì´ í• ë‹¹ëœë‹¤.
 
 ex.
 
-union °ø¿ëÃ¼ ÀÌ¸§ {
+union ê³µìš©ì²´ ì´ë¦„ {
 
 };
 
 
 ########################
- °ø¿ëÃ¼ ¼±¾ð°ú ÃÊ±âÈ­
+  ê³µìš©ì²´ ì„ ì–¸ê³¼ ì´ˆê¸°í™”
 ########################
 
-struct taxBox { // ±¸Á¶Ã¼
+struct taxBox { // êµ¬ì¡°ì²´
 
 	short a;
 	int b;
 };
 
-union uniBox { // °ø¿ëÃ¼
+union uniBox { // ê³µìš©ì²´
 
 	short a;
 	int b;
@@ -43,30 +43,30 @@ tabBox tBox = {};
 uniBox uBox = {};
 
 tabBox tBox = { 10, 20 };
-uniBox uBox = { 10, 20 }; // ¿À·ù ¹ß»ý !!!!.
-						  // ÇÑ °³ÀÇ ¸Þ¸ð¸® °ø°£À» °øÀ¯ÇÏ±â ¶§¹®¿¡ °ªÀº "1"°³¸¸ ÀÔ·ÂÇØ¾ß ÇÔ.
+uniBox uBox = { 10, 20 }; // ì˜¤ë¥˜ ë°œìƒ !!!!.
+						  // í•œ ê°œì˜ ë©”ëª¨ë¦¬ ê³µê°„ì„ ê³µìœ í•˜ê¸° ë•Œë¬¸ì— ê°’ì€ "1"ê°œë§Œ ìž…ë ¥í•´ì•¼ í•¨.
 
 
 #######################################################################################################################
 
 
 #####################################
-      ¿­°ÅÇü - "enumerated type"
+      ì—´ê±°í˜• - "enumerated type"
 #####################################
 
-- "enumeration"ÀÇ ¾àÀÚ.
+- "enumeration"ì˜ ì•½ìž.
 
-- »ç¿ëÀÚ Á¤ÀÇ ÀÚ·áÇüÀÇ ÀÏÁ¾.
-- »óÅÂ º¯¼ö¸¦ Á¤ÀÇÇÏ´Â µ¥ »ç¿ë µÈ´Ù.
+- ì‚¬ìš©ìž ì •ì˜ ìžë£Œí˜•ì˜ ì¼ì¢….
+- ìƒíƒœ ë³€ìˆ˜ë¥¼ ì •ì˜í•˜ëŠ” ë° ì‚¬ìš© ëœë‹¤.
 
-- ¿­°ÅÇüÀÇ µ¥ÀÌÅÍ´Â »ó¼ö´Ù !!!!!
-(switch ¹®¿¡ »ç¿ë °¡´É)
+- ì—´ê±°í˜•ì˜ ë°ì´í„°ëŠ” ìƒìˆ˜ë‹¤ !!!!!
+(switch ë¬¸ì— ì‚¬ìš© ê°€ëŠ¥)
 
-- ¿­°ÅÇüÀÇ Å©±â´Â "4 Bytes"·Î °íÁ¤µÇ¾îÀÖ´Ù.
-(³»ºÎÀÇ µ¥ÀÌÅÍ °³¼ö¿Í´Â »ó°üÀÌ ¾ø´Ù !!!!!)
+- ì—´ê±°í˜•ì˜ í¬ê¸°ëŠ” "4 Bytes"ë¡œ ê³ ì •ë˜ì–´ìžˆë‹¤.
+(ë‚´ë¶€ì˜ ë°ì´í„° ê°œìˆ˜ì™€ëŠ” ìƒê´€ì´ ì—†ë‹¤ !!!!!)
 
 
-ex. ¿­°ÅÇü µ¥ÀÌÅÍÀÇ °ª ¼³Á¤
+ex. ì—´ê±°í˜• ë°ì´í„°ì˜ ê°’ ì„¤ì •
 
 enum PlayerStance { IDLE, WALK, ATTACK, END };
 					  0    1      2      3
@@ -74,7 +74,7 @@ enum PlayerStance { IDLE, WALK, ATTACK, END };
 enum PlayerStance { IDLE = 1, WALK, ATTACK, END };
 						       2      3      4
 
-enum PlayerStance { IDLE = 2, WALK = 1, ATTACK, END }; // Áßº¹ÇØ¼­ °ªÀ» °¡Áú ¼ö°¡ ÀÖ±¸³ª...
+enum PlayerStance { IDLE = 2, WALK = 1, ATTACK, END }; // ì¤‘ë³µí•´ì„œ ê°’ì„ ê°€ì§ˆ ìˆ˜ê°€ ìžˆêµ¬ë‚˜...
 										  2      3
 
 enum PlayerStance { IDLE = 1, WALK, ATTACK = 7, END };
@@ -82,40 +82,40 @@ enum PlayerStance { IDLE = 1, WALK, ATTACK = 7, END };
 
 
 ###########################
-   ¿­°ÅÇü º¯¼öÀÇ ÃÊ±âÈ­
+    ì—´ê±°í˜• ë³€ìˆ˜ì˜ ì´ˆê¸°í™”
 ###########################
 
-¸¸¾à, ÀÏ¹ÝÀûÀÎ ÇÔ¼ö ³»¿¡¼­ Áö¿ª º¯¼öÀÇ ÀÏÁ¾À¸·Î ¼±¾ðÇØ¼­ »ç¿ëÇÑ´Ù¸é...
+ë§Œì•½, ì¼ë°˜ì ì¸ í•¨ìˆ˜ ë‚´ì—ì„œ ì§€ì—­ ë³€ìˆ˜ì˜ ì¼ì¢…ìœ¼ë¡œ ì„ ì–¸í•´ì„œ ì‚¬ìš©í•œë‹¤ë©´...
 
-PlayerStance stance = WALK; // ÀÌ·± ½ÄÀ¸·Î ´ëÀÔÇØ¼­ ¾´´Ù.
+PlayerStance stance = WALK; // ì´ëŸ° ì‹ìœ¼ë¡œ ëŒ€ìž…í•´ì„œ ì“´ë‹¤.
 
 
-- ¿­°ÅÇü º¯¼ö´Â ³ª¿­µÈ »ó¼ö µ¥ÀÌÅÍ¸¸ °¡Áú ¼ö ÀÖ´Ù.
-- ÀÏ¹Ý »ó¼ö¸¦ ´ëÀÔÇÒ °æ¿ì ¿À·ù°¡ ¹ß»ýÇÑ´Ù !!!!
+- ì—´ê±°í˜• ë³€ìˆ˜ëŠ” ë‚˜ì—´ëœ ìƒìˆ˜ ë°ì´í„°ë§Œ ê°€ì§ˆ ìˆ˜ ìžˆë‹¤.
+- ì¼ë°˜ ìƒìˆ˜ë¥¼ ëŒ€ìž…í•  ê²½ìš° ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤ !!!!
 
 
 #######################################################################################################################
 
 
 ##############################
-       ¸Þ¸ð¸® Ã³¸® ÇÔ¼ö
+       ë©”ëª¨ë¦¬ ì²˜ë¦¬ í•¨ìˆ˜
 ##############################
 
-- ¸Þ¸ð¸® °ø°£ »çÀÌ¿¡ µ¥ÀÌÅÍ¸¦ ÃÊ±âÈ­, º¹»ç¸¦ ¼öÇàÇÏ´Â ÇÔ¼ö
+- ë©”ëª¨ë¦¬ ê³µê°„ ì‚¬ì´ì— ë°ì´í„°ë¥¼ ì´ˆê¸°í™”, ë³µì‚¬ë¥¼ ìˆ˜í–‰í•˜ëŠ” í•¨ìˆ˜
 
 
 case 1. memset
 
-- ¸Þ¸ð¸® ÃÊ±âÈ­ ÇÏ´Âµ¥ »ç¿ë µÊ.
-- °¢ ByteÀÇ LSB¿¡ ÃÊ±âÈ­ ½ÃÅ³ °ªÀ» Àü´Þ.
-- ¹è¿­ÀÌµç, ±¸Á¶Ã¼µç ¿¬¼ÓµÈ ¸Þ¸ð¸®¸¦ °¡Áö´Â °´Ã¼¿¡ ´ëÇÑ ¸Þ¸ð¸® "0"À¸·Î ÃÊ±âÈ­.
+- ë©”ëª¨ë¦¬ ì´ˆê¸°í™” í•˜ëŠ”ë° ì‚¬ìš© ë¨.
+- ê° Byteì˜ LSBì— ì´ˆê¸°í™” ì‹œí‚¬ ê°’ì„ ì „ë‹¬.
+- ë°°ì—´ì´ë“ , êµ¬ì¡°ì²´ë“  ì—°ì†ëœ ë©”ëª¨ë¦¬ë¥¼ ê°€ì§€ëŠ” ê°ì²´ì— ëŒ€í•œ ë©”ëª¨ë¦¬ "0"ìœ¼ë¡œ ì´ˆê¸°í™”.
 
 void* memset(void *_Dst, int _Val, size_t _Size);
 
-¸Å°³º¯¼ö void *_Dst : ¸Þ¸ð¸®¸¦ ÃÊ±âÈ­ ½ÃÅ³ º¯¼öÀÇ ½ÃÀÛ ÁÖ¼Ò¸¦ Àü´Þ
-¸Å°³º¯¼ö int _Val : °¢ ByteÀÇ LSB¿¡ ÃÊ±âÈ­ ½ÃÅ³ °ªÀ» Àü´Þ
-¸Å°³º¯¼ö size_t _Size : ÃÊ±âÈ­µÉ °ø°£ÀÇ Å©±â Àü´Þ.
-¹ÝÈ¯°ª void* : _Det Áï, ÃÊ±âÈ­ µÈ ¸Þ¸ð¸®°¡ ¹ÝÈ¯ µÈ´Ù.
+ë§¤ê°œë³€ìˆ˜ void *_Dst : ë©”ëª¨ë¦¬ë¥¼ ì´ˆê¸°í™” ì‹œí‚¬ ë³€ìˆ˜ì˜ ì‹œìž‘ ì£¼ì†Œë¥¼ ì „ë‹¬
+ë§¤ê°œë³€ìˆ˜ int _Val : ê° Byteì˜ LSBì— ì´ˆê¸°í™” ì‹œí‚¬ ê°’ì„ ì „ë‹¬
+ë§¤ê°œë³€ìˆ˜ size_t _Size : ì´ˆê¸°í™”ë  ê³µê°„ì˜ í¬ê¸° ì „ë‹¬.
+ë°˜í™˜ê°’ void* : _Det ì¦‰, ì´ˆê¸°í™” ëœ ë©”ëª¨ë¦¬ê°€ ë°˜í™˜ ëœë‹¤.
 
 
 case 2. memcpy
@@ -124,10 +124,10 @@ errno_t memcpy_s(void *const _Destination, const rsize_t _DestinationSize, const
 
 void* memcpy(void *_Dst, const void *_Src, size_t _Size);
 
-¸Å°³º¯¼ö void *_Dst : 
-¸Å°³º¯¼ö const void *_Src :
-¸Å°³º¯¼ö size_t _Size :
-¹ÝÈ¯°ª void* : _Dst Áï, ÃÊ±âÈ­ µÈ ¸Þ¸ð¸®°¡ ¹ÝÈ¯ µÈ´Ù.
+ë§¤ê°œë³€ìˆ˜ void *_Dst : 
+ë§¤ê°œë³€ìˆ˜ const void *_Src :
+ë§¤ê°œë³€ìˆ˜ size_t _Size :
+ë°˜í™˜ê°’ void* : _Dst ì¦‰, ì´ˆê¸°í™” ëœ ë©”ëª¨ë¦¬ê°€ ë°˜í™˜ ëœë‹¤.
 
 
 case 3. memmove
@@ -136,10 +136,10 @@ errno_t memmove_s(void *const _Destination, const rsize_t _DestinationSize, cons
 
 void* memmove(void *_Dst, const void *_Src, size_t _Size);
 
-¸Å°³º¯¼ö 
-¸Å°³º¯¼ö 
-¸Å°³º¯¼ö 
-¹ÝÈ¯°ª void* : _Dst Áï, ÃÊ±âÈ­ µÈ ¸Þ¸ð¸®°¡ ¹ÝÈ¯ µÈ´Ù.
+ë§¤ê°œë³€ìˆ˜ 
+ë§¤ê°œë³€ìˆ˜ 
+ë§¤ê°œë³€ìˆ˜ 
+ë°˜í™˜ê°’ void* : _Dst ì¦‰, ì´ˆê¸°í™” ëœ ë©”ëª¨ë¦¬ê°€ ë°˜í™˜ ëœë‹¤.
 
 
 #######################################################################################################################
@@ -184,7 +184,7 @@ enum BATTLE { RUN = 1, AGAIN, HUNT = 7, DIE };
 int main(void) {
 
 	cout << "##################################################################################" << endl;
-	cout << "### °ø¿ëÃ¼ union " << endl << endl;
+	cout << "### ê³µìš©ì²´ union " << endl << endl;
 
 	struct taxBox {
 
@@ -202,7 +202,7 @@ int main(void) {
 
 
 	cout << "##################################################################################" << endl;
-	cout << "### °ø¿ëÃ¼ union ¸â¹öÀÇ ÁÖ¼Ò È®ÀÎ" << endl << endl;
+	cout << "### ê³µìš©ì²´ union ë©¤ë²„ì˜ ì£¼ì†Œ í™•ì¸" << endl << endl;
 
 
 	cout << "&uBox: " << &uBox << endl;
@@ -210,17 +210,17 @@ int main(void) {
 	cout << "&(uBox.b): " << &(uBox.b) << endl << endl;
 
 	cout << "##################################################################################" << endl;
-	cout << "### °ø¿ëÃ¼ ¸â¹öÀÇ ¸Þ¸ð¸® °øÀ¯" << endl << endl;
+	cout << "### ê³µìš©ì²´ ë©¤ë²„ì˜ ë©”ëª¨ë¦¬ ê³µìœ " << endl << endl;
 
 	uBox.a = 10;
 	cout << "uBox.a: " << uBox.a << endl;
 
-	uBox.b = 50; // ´Ù¸¥ ¸â¹öÀÇ °ªÀ» ¹Ù²Ù¾ú´Âµ¥, ½ÇÁúÀûÀ¸·Î ¸Þ¸ð¸®¸¦ °øÀ¯ÇÏ±â ¶§¹®¿¡...
+	uBox.b = 50; // ë‹¤ë¥¸ ë©¤ë²„ì˜ ê°’ì„ ë°”ê¾¸ì—ˆëŠ”ë°, ì‹¤ì§ˆì ìœ¼ë¡œ ë©”ëª¨ë¦¬ë¥¼ ê³µìœ í•˜ê¸° ë•Œë¬¸ì—...
 	cout << "uBox.a: " << uBox.a << endl << endl;
 
 
 	cout << "##################################################################################" << endl;
-	cout << "### °ø¿ëÃ¼¸¦ ÀÌ¿ëÇÑ floatÇü ÀÚ·á Âï¾îº¸±â" << endl << endl;
+	cout << "### ê³µìš©ì²´ë¥¼ ì´ìš©í•œ floatí˜• ìžë£Œ ì°ì–´ë³´ê¸°" << endl << endl;
 
 	union uniTest {
 
@@ -231,11 +231,11 @@ int main(void) {
 	uniTest uTest = {};
 	uTest.b = 3.14;
 
-	// 10Áø¼ö·Î ÀÐÀº ½Ç¼öÇü....
+	// 10ì§„ìˆ˜ë¡œ ì½ì€ ì‹¤ìˆ˜í˜•....
 	cout << "uTest.a: " << uTest.a << endl;
 
 	cout << "##################################################################################" << endl;
-	cout << "### ¿­°ÅÇü enum ¼±¾ð°ú »ç¿ë" << endl << endl;
+	cout << "### ì—´ê±°í˜• enum ì„ ì–¸ê³¼ ì‚¬ìš©" << endl << endl;
 
 	enum PlayerStance { IDLE, WALK, ATTACK, END };
 
@@ -244,13 +244,13 @@ int main(void) {
 	switch (stance) {
 
 	case IDLE:
-		cout << "´ë±â »óÅÂ" << endl;
+		cout << "ëŒ€ê¸° ìƒíƒœ" << endl;
 		break;
 	case WALK:
-		cout << "°È±â »óÅÂ" << endl;
+		cout << "ê±·ê¸° ìƒíƒœ" << endl;
 		break;
 	case ATTACK:
-		cout << "°ø°Ý »óÅÂ" << endl;
+		cout << "ê³µê²© ìƒíƒœ" << endl;
 		break;
 	}
 	cout << endl;
@@ -263,7 +263,7 @@ int main(void) {
 	cout << "sizeof(BATTLE): " << sizeof(BATTLE) << endl << endl;
 
 	cout << "##################################################################################" << endl;
-	cout << "### ¸Þ¸ð¸® Ã³¸® ÇÔ¼ö - memset " << endl << endl;
+	cout << "### ë©”ëª¨ë¦¬ ì²˜ë¦¬ í•¨ìˆ˜ - memset " << endl << endl;
 
 	int a;
 
@@ -271,7 +271,7 @@ int main(void) {
 
 	cout << "a: " << a << endl << endl;
 
-	int *ptr = new int[10]; // µ¿Àû ¹è¿­Àº ¼±¾ð°ú µ¿½Ã¿¡ ÃÊ±âÈ­ ºÒ°¡´É.
+	int *ptr = new int[10]; // ë™ì  ë°°ì—´ì€ ì„ ì–¸ê³¼ ë™ì‹œì— ì´ˆê¸°í™” ë¶ˆê°€ëŠ¥.
 
 	for (int i = 0; i < 10; i++) {
 		cout << ptr[i] << " ";
@@ -287,7 +287,7 @@ int main(void) {
 
 
 	cout << "##################################################################################" << endl;
-	cout << "### ¸Þ¸ð¸® Ã³¸® ÇÔ¼ö - memcpy, memmove " << endl << endl;
+	cout << "### ë©”ëª¨ë¦¬ ì²˜ë¦¬ í•¨ìˆ˜ - memcpy, memmove " << endl << endl;
 
 
 
