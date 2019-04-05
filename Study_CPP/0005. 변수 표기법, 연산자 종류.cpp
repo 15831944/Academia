@@ -229,6 +229,7 @@ using std::endl;
 using std::bitset;
 
 int main(void) {
+	// 나눗셈은 일반적으로 생각하는 것과 같음.
 	cout << "10/3 : " << (10 / -3) << endl; // -3
 	cout << "11/ -3.0: " << (11 / -3.0) << endl; // -3.66667
 	cout << "-1.2/ -2.0: " << (-1.2 / -2.0) << endl << endl; // 0.6
