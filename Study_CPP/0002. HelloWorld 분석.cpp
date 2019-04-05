@@ -1,35 +1,30 @@
 /*
 
-ÀÛ°è 0408~0411»çÀÌ
-±âº»ÈÆ·Ã 4¿ù ¸»
-
-
-
-2019.03.14.01 ¸ñ
+2019.03.14.01 ëª©
 
 ######################
-¼Ò½º ºÐ¼®(Å°¿öµå À§ÁÖ)
+ì†ŒìŠ¤ ë¶„ì„(í‚¤ì›Œë“œ ìœ„ì£¼)
 ######################
 
 1. #include <iostream>
-# : ÀüÃ³¸® Áö½ÃÀÚ -> ÄÄÆÄÀÏ Àü¿¡ Ã³¸®ÇØ¶ó!
-include : Æ÷ÇÔÇÏ´Ù
+# : ì „ì²˜ë¦¬ ì§€ì‹œìž -> ì»´íŒŒì¼ ì „ì— ì²˜ë¦¬í•´ë¼!
+include : í¬í•¨í•˜ë‹¤
 
-<iostream> : C++ÀÇ Ç¥ÁØ ÀÔÃâ·Â ¶óÀÌºê·¯¸® - ¿ìÅ¬¸¯ ÇØ¼­ ¹®¼­ ¿­±â(ÇØ´ç ³»¿ë º¼ ¼ö ÀÖÀ½)
-- i = Input / o = Output / stream = Åë·ÎÀÇ ÀÇ¹Ì
+<iostream> : C++ì˜ í‘œì¤€ ìž…ì¶œë ¥ ë¼ì´ë¸ŒëŸ¬ë¦¬ - ìš°í´ë¦­ í•´ì„œ ë¬¸ì„œ ì—´ê¸°(í•´ë‹¹ ë‚´ìš© ë³¼ ìˆ˜ ìžˆìŒ)
+- i = Input / o = Output / stream = í†µë¡œì˜ ì˜ë¯¸
 
-So, iostream ³»ºÎ¿¡ ¼±¾ðµÈ ±â´ÉÀ» »ç¿ëÇÒ ¼ö ÀÖµµ·Ï Æ÷ÇÔ½ÃÅ°´Â ÀüÃ³¸®±â
+So, iostream ë‚´ë¶€ì— ì„ ì–¸ëœ ê¸°ëŠ¥ì„ ì‚¬ìš©í•  ìˆ˜ ìžˆë„ë¡ í¬í•¨ì‹œí‚¤ëŠ” ì „ì²˜ë¦¬ê¸°
 
 
 2. using namespace std;
 
-using : Áö½ÃÀÚ -> ¹«¾ùÀ» »ç¿ëÇÏ¶ó´Â Áö½ÃÀÚ
+using : ì§€ì‹œìž -> ë¬´ì—‡ì„ ì‚¬ìš©í•˜ë¼ëŠ” ì§€ì‹œìž
 
-namespace : ÀÌ¸§°ø°£
-- C++ºÎÅÍ Áßº¹µÈ ÀÌ¸§ÀÇ Ãæµ¹À» ¹æÁöÇÏ±â À§ÇØ µîÀåÇÔ.
-- °¢±â ´Ù¸¥ ¼ÒÇÁÆ®¿þ¾î °³¹ß ¾÷Ã¼µéÀÌ Á¦°øÇÏ´Â ¶óÀÌºê·¯¸® ¾ÈÀÇ ÄÚµåµéÀ» »ç¿ë°¡´ÉÇÏ°Ô ÇÑ´Ù.
+namespace : ì´ë¦„ê³µê°„
+- C++ë¶€í„° ì¤‘ë³µëœ ì´ë¦„ì˜ ì¶©ëŒì„ ë°©ì§€í•˜ê¸° ìœ„í•´ ë“±ìž¥í•¨.
+- ê°ê¸° ë‹¤ë¥¸ ì†Œí”„íŠ¸ì›¨ì–´ ê°œë°œ ì—…ì²´ë“¤ì´ ì œê³µí•˜ëŠ” ë¼ì´ë¸ŒëŸ¬ë¦¬ ì•ˆì˜ ì½”ë“œë“¤ì„ ì‚¬ìš©ê°€ëŠ¥í•˜ê²Œ í•œë‹¤.
 
-std : standardÀÇ ¾àÀÚ, Ç¥ÁØÀ» ¶æÇÏ´Â ÀÌ¸§À» °¡Áø ÀÌ¸§°ø°£ÀÌ´Ù.
+std : standardì˜ ì•½ìž, í‘œì¤€ì„ ëœ»í•˜ëŠ” ì´ë¦„ì„ ê°€ì§„ ì´ë¦„ê³µê°„ì´ë‹¤.
 
 ex.
 
@@ -45,48 +40,48 @@ namespace B {
 	}
 }
 
-main ÇÔ¼ö¿¡¼­ Render()¸¦ È£ÃâÇÏ¸é ¿À·ù°¡ »ý±è.
-- ÀÌ¸§°ø°£À» »ç¿ëÇÏ¶ó´Â Áö½ÃÀÚÀÇ ¸í·ÉÀÌ ÇÊ¿äÇÔ.
+main í•¨ìˆ˜ì—ì„œ Render()ë¥¼ í˜¸ì¶œí•˜ë©´ ì˜¤ë¥˜ê°€ ìƒê¹€.
+- ì´ë¦„ê³µê°„ì„ ì‚¬ìš©í•˜ë¼ëŠ” ì§€ì‹œìžì˜ ëª…ë ¹ì´ í•„ìš”í•¨.
 
 using namespace A;
 using namespace B;
 
-µÑ Áß ÇÏ³ª¸¸ ½á¾ßÇÔ.
-but, µÑ ´Ù ¾²¸é µÑ ´Ù Render()´Ï±î ¿À·ù»ý±â´Â °ÅÀÓ.
+ë‘˜ ì¤‘ í•˜ë‚˜ë§Œ ì¨ì•¼í•¨.
+but, ë‘˜ ë‹¤ ì“°ë©´ ë‘˜ ë‹¤ Render()ë‹ˆê¹Œ ì˜¤ë¥˜ìƒê¸°ëŠ” ê±°ìž„.
 
-±×·¡¼­ scope ¿¬»êÀÚ <= ::
-- ¿µ¿ªÁöÁ¤ ¿¬»êÀÚ
-- namespace ¼±¾ð ¾øÀÌ »ç¿ëÀ» °¡´ÉÇÏ°Ô ÇÑ´Ù.
+ê·¸ëž˜ì„œ scope ì—°ì‚°ìž <= ::
+- ì˜ì—­ì§€ì • ì—°ì‚°ìž
+- namespace ì„ ì–¸ ì—†ì´ ì‚¬ìš©ì„ ê°€ëŠ¥í•˜ê²Œ í•œë‹¤.
 
-So, ÀÌ¸§°ø°£À» »ç¿ëÇÏÁö ¾Ê¾Æµµ ÇÔ¼ö È£Ãâ °¡´É
+So, ì´ë¦„ê³µê°„ì„ ì‚¬ìš©í•˜ì§€ ì•Šì•„ë„ í•¨ìˆ˜ í˜¸ì¶œ ê°€ëŠ¥
 ex.
 A::Render();
 B::Render();
 
 
-3. main ÇÔ¼ö
-- ÇÁ·Î±×·¥ ½ÇÇà ½Ã Ã³À½ È£ÃâµÇ´Â ÇÔ¼ö
-- »ç¿ëÀÚ°¡ ÀÓÀÇ·Î ÀÌ¸§À» º¯°æÇÒ ¼ö ¾ø´Ù.
-- 2°³ ÀÌ»ó Á¸Àç ÇÒ ¼ö ¾ø´Ù.
+3. main í•¨ìˆ˜
+- í”„ë¡œê·¸ëž¨ ì‹¤í–‰ ì‹œ ì²˜ìŒ í˜¸ì¶œë˜ëŠ” í•¨ìˆ˜
+- ì‚¬ìš©ìžê°€ ìž„ì˜ë¡œ ì´ë¦„ì„ ë³€ê²½í•  ìˆ˜ ì—†ë‹¤.
+- 2ê°œ ì´ìƒ ì¡´ìž¬ í•  ìˆ˜ ì—†ë‹¤.
 
 
 4. cout << "Hello World!" << endl;
 
-cout : Console OutputÀÇ ¾àÀÚ
-- Ãâ·ÂÀÇ ±â´ÉÀ» ´ã´çÇÏ´Â °´Ã¼
+cout : Console Outputì˜ ì•½ìž
+- ì¶œë ¥ì˜ ê¸°ëŠ¥ì„ ë‹´ë‹¹í•˜ëŠ” ê°ì²´
 
-endl : End LineÀÇ ¾àÀÚ
-- ÁÙ¹Ù²Þ(°³Çà)ÀÇ ±â´ÉÀ» ´ã´çÇÏ´Â °´Ã¼
+endl : End Lineì˜ ì•½ìž
+- ì¤„ë°”ê¿ˆ(ê°œí–‰)ì˜ ê¸°ëŠ¥ì„ ë‹´ë‹¹í•˜ëŠ” ê°ì²´
 
-<< : cout°ú ¸¸³ª¸é¼­ ÃßÃâ ¿¬»êÀÚ·Î »ç¿ëµÈ´Ù.
-- ¿ø·¡´Â Shift ¿¬»êÀÚ. but!!!
+<< : coutê³¼ ë§Œë‚˜ë©´ì„œ ì¶”ì¶œ ì—°ì‚°ìžë¡œ ì‚¬ìš©ëœë‹¤.
+- ì›ëž˜ëŠ” Shift ì—°ì‚°ìž. but!!!
 
-"Hello World!" : ¹®ÀÚ¿­
-- 2°³ ÀÌ»óÀÇ ¹®ÀÚ¸¦ »ç¿ëÇÏ¸ç Å« µû¿ÈÇ¥·Î °¨½Ñ´Ù.
+"Hello World!" : ë¬¸ìžì—´
+- 2ê°œ ì´ìƒì˜ ë¬¸ìžë¥¼ ì‚¬ìš©í•˜ë©° í° ë”°ì˜´í‘œë¡œ ê°ì‹¼ë‹¤.
 
-'A' ´ÜÀÏ¹®ÀÚ: 1°³ÀÇ ¹®ÀÚ¸¦ »ç¿ëÇÏ¸ç ÀÛÀº µû¿ÈÇ¥·Î °¨½Ñ´Ù.
+'A' ë‹¨ì¼ë¬¸ìž: 1ê°œì˜ ë¬¸ìžë¥¼ ì‚¬ìš©í•˜ë©° ìž‘ì€ ë”°ì˜´í‘œë¡œ ê°ì‹¼ë‹¤.
 
-(¼¼¹ÌÄÝ·Ð) ; : ¸¶Ä§Ç¥¿Í °°Àº °ÍÀ¸·Î, ¹®ÀåÀÇ Á¾·á¸¦ ÀÇ¹ÌÇÔ. 
+(ì„¸ë¯¸ì½œë¡ ) ; : ë§ˆì¹¨í‘œì™€ ê°™ì€ ê²ƒìœ¼ë¡œ, ë¬¸ìž¥ì˜ ì¢…ë£Œë¥¼ ì˜ë¯¸í•¨. 
 
 
 
