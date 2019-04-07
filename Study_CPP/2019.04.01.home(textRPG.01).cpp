@@ -1,33 +1,27 @@
 /*
 
-2019.04.01.home ¿ù
-
-
-°úÁ¦.
-
-
 case 1.
 
-textRPG ¸¸µé±â
+textRPG ë§Œë“¤ê¸°
 
-- ÇÃ·¹ÀÌ¾î´Â Á÷¾÷°ú Ã¼·Â, °ø°İ·Â µîÀÇ µ¥ÀÌÅÍ¸¦ °®´Â´Ù.
-- °ÔÀÓÀ» ½ÃÀÛÇÏ¸é ÇÃ·¹ÀÌ¾îÀÇ Á÷¾÷ ¼±ÅÃÇÔ.(Àü»ç, ¸¶¹ı»ç, µµÀû µî)
-- Ä³¸¯ÅÍ¸¦ »ı¼ºÇÏ¸é Ä³¸¯ÅÍÀÇ Á¤º¸´Â »ó½Ã º¸¿©ÁÜ. (¸Ş´º, »ç³ÉÅÍ µî)
-- ¸Ş´º¿¡¼­´Â ´øÀüÀ» °í¸¦ ¼ö ÀÖ´Ù.(ÃÊ±Ş, Áß±Ş, °í±Ş µî)
-- ´øÀü ³» µîÀåÇÏ´Â ¸ó½ºÅÍ´Â ÀÌ¸§°ú °ø°İ·Â, Ã¼·ÂÀ» °®´Â´Ù.
-- °¢ ´øÀü º° µîÀåÇÏ´Â ¸ó½ºÅÍÀÇ Á¾·ù¿Í ´É·ÂÄ¡´Â ´Ù¸£´Ù.
-- ´øÀü ÀÔÀå ÈÄ °ø°İ/µµ¸Á µîÀÇ ¼±ÅÃÁö°¡ ÁÖ¾îÁø´Ù.
-- °ø°İ ¼±ÅÃ ½Ã ÇÃ·¹ÀÌ¾îÀÇ °ø°İ·Â¸¸Å­ ¸ó½ºÅÍÀÇ Ã¼·ÂÀÌ ³·¾ÆÁü.
-(±× ¹İ´ëÀÇ °æ¿ìµµ ÇØ´ç µÊ)
-- ¸ó½ºÅÍÀÇ Ã¼·ÂÀÌ "0"ÀÌ µÇ¸é »ç³É ¼º°ø! ÀÌÈÄ, ¸Ş´º·Î µ¹¾Æ¿Â´Ù.
-- ÇÃ·¹ÀÌ¾îÀÇ Ã¼·ÂÀÌ "0"ÀÌ µÇ¸é »ç³É ½ÇÆĞ!
-- ÇÃ·¹ÀÌ¾î »ç¸Á ½Ã ¸Ş´º ¼±ÅÃÃ¢À¸·Î µ¹¾Æ¿À°Ô µÇ¸ç, Ã¼·ÂÀº ÃÊ±â°ªÀ¸·Î Àç¼³Á¤µÈ´Ù.
+- í”Œë ˆì´ì–´ëŠ” ì§ì—…ê³¼ ì²´ë ¥, ê³µê²©ë ¥ ë“±ì˜ ë°ì´í„°ë¥¼ ê°–ëŠ”ë‹¤.
+- ê²Œì„ì„ ì‹œì‘í•˜ë©´ í”Œë ˆì´ì–´ì˜ ì§ì—… ì„ íƒí•¨.(ì „ì‚¬, ë§ˆë²•ì‚¬, ë„ì  ë“±)
+- ìºë¦­í„°ë¥¼ ìƒì„±í•˜ë©´ ìºë¦­í„°ì˜ ì •ë³´ëŠ” ìƒì‹œ ë³´ì—¬ì¤Œ. (ë©”ë‰´, ì‚¬ëƒ¥í„° ë“±)
+- ë©”ë‰´ì—ì„œëŠ” ë˜ì „ì„ ê³ ë¥¼ ìˆ˜ ìˆë‹¤.(ì´ˆê¸‰, ì¤‘ê¸‰, ê³ ê¸‰ ë“±)
+- ë˜ì „ ë‚´ ë“±ì¥í•˜ëŠ” ëª¬ìŠ¤í„°ëŠ” ì´ë¦„ê³¼ ê³µê²©ë ¥, ì²´ë ¥ì„ ê°–ëŠ”ë‹¤.
+- ê° ë˜ì „ ë³„ ë“±ì¥í•˜ëŠ” ëª¬ìŠ¤í„°ì˜ ì¢…ë¥˜ì™€ ëŠ¥ë ¥ì¹˜ëŠ” ë‹¤ë¥´ë‹¤.
+- ë˜ì „ ì…ì¥ í›„ ê³µê²©/ë„ë§ ë“±ì˜ ì„ íƒì§€ê°€ ì£¼ì–´ì§„ë‹¤.
+- ê³µê²© ì„ íƒ ì‹œ í”Œë ˆì´ì–´ì˜ ê³µê²©ë ¥ë§Œí¼ ëª¬ìŠ¤í„°ì˜ ì²´ë ¥ì´ ë‚®ì•„ì§.
+(ê·¸ ë°˜ëŒ€ì˜ ê²½ìš°ë„ í•´ë‹¹ ë¨)
+- ëª¬ìŠ¤í„°ì˜ ì²´ë ¥ì´ "0"ì´ ë˜ë©´ ì‚¬ëƒ¥ ì„±ê³µ! ì´í›„, ë©”ë‰´ë¡œ ëŒì•„ì˜¨ë‹¤.
+- í”Œë ˆì´ì–´ì˜ ì²´ë ¥ì´ "0"ì´ ë˜ë©´ ì‚¬ëƒ¥ ì‹¤íŒ¨!
+- í”Œë ˆì´ì–´ ì‚¬ë§ ì‹œ ë©”ë‰´ ì„ íƒì°½ìœ¼ë¡œ ëŒì•„ì˜¤ê²Œ ë˜ë©°, ì²´ë ¥ì€ ì´ˆê¸°ê°’ìœ¼ë¡œ ì¬ì„¤ì •ëœë‹¤.
 
 
- °á±¹¿£ ÇÏ³ªÀÇ ±¸Á¶Ã¼·Î ÇÃ·¹ÀÌ¾î¿Í ¸ó½ºÅÍ¸¦ ÇÏ³ª·Î...
- µ¿Àû ÇÒ´çÀ» ÅëÇÑ °´Ã¼ »ı¼º
- ¸ó½ºÅÍ´Â ÇÔ¼ö ³»¿¡¼­ °´Ã¼ »ı¼º,
- ´õºí Æ÷ÀÎÅÍ »ç¿ëÇØ¼­ ½ºÅ×ÀÌÅÍ½ºµµ ¼³Á¤
+ ê²°êµ­ì—” í•˜ë‚˜ì˜ êµ¬ì¡°ì²´ë¡œ í”Œë ˆì´ì–´ì™€ ëª¬ìŠ¤í„°ë¥¼ í•˜ë‚˜ë¡œ...
+ ë™ì  í• ë‹¹ì„ í†µí•œ ê°ì²´ ìƒì„±
+ ëª¬ìŠ¤í„°ëŠ” í•¨ìˆ˜ ë‚´ì—ì„œ ê°ì²´ ìƒì„±,
+ ë”ë¸” í¬ì¸í„° ì‚¬ìš©í•´ì„œ ìŠ¤í…Œì´í„°ìŠ¤ë„ ì„¤ì •
 
 */
 
@@ -56,30 +50,30 @@ typedef struct CharacterType {
 
 void playTextRPG(void);
 
-void printTRPGTitle(void); // ÃÊ±â Å¸ÀÌÆ² È­¸é
+void printTRPGTitle(void); // ì´ˆê¸° íƒ€ì´í‹€ í™”ë©´
 
 void printClassMenu(void);
-Character* selectClass(void); // Å¬·¡½º ¼±ÅÃ
+Character* selectClass(void); // í´ë˜ìŠ¤ ì„ íƒ
 
 void initCharacter(Character **dpPlayer, char *name, int maxHp, int damage);
 
-void printStatus(const Character player, const Character monster); // ÇÃ·¹ÀÌ¾î + ¸ó½ºÅÍ UI
-void printCharacterStatus(const Character character); // Ä³¸¯ÅÍ UI
+void printStatus(const Character player, const Character monster); // í”Œë ˆì´ì–´ + ëª¬ìŠ¤í„° UI
+void printCharacterStatus(const Character character); // ìºë¦­í„° UI
 
 enum BATTLE { RUN, AGAIN, HUNT, DIE };
 enum CLASS { WARRIOR, WIZARD, THIEF };
 
-int dungeonExploration(Character *pPlayer, Character *pMonster); // ´øÀü Å½Çè
+int dungeonExploration(Character *pPlayer, Character *pMonster); // ë˜ì „ íƒí—˜
 
-void beginnerDungeon(Character **dpMonster); // ÇØ´ç µî±Ş¿¡ ¸Â´Â ¸ó½ºÅÍ »ı¼º, ±Ô¸ğ Ä¿Áö¸é ·£´ı Ç®.
+void beginnerDungeon(Character **dpMonster); // í•´ë‹¹ ë“±ê¸‰ì— ë§ëŠ” ëª¬ìŠ¤í„° ìƒì„±, ê·œëª¨ ì»¤ì§€ë©´ ëœë¤ í’€.
 void intermediateDungeon(Character **dpMonster);
 void advancedDungeon(Character **dpMonster);
 
-int attackMonster(Character *pPlayer, Character *pMonster, bool counterAttack = FALSE); // °ø°İ or Ä«¿îÅÍ ¸ÂÀ½
+int attackMonster(Character *pPlayer, Character *pMonster, bool counterAttack = FALSE); // ê³µê²© or ì¹´ìš´í„° ë§ìŒ
 
-int runAwayFromDungeon(const Character player, const Character monster); // µµ¸Á
+int runAwayFromDungeon(const Character player, const Character monster); // ë„ë§
 
-//void printWinResult(const Character monster); // ÀÇ¹Ì ¾øÁö¸¸ ±×³É ³ª´¯½Ã´Ù.
+//void printWinResult(const Character monster); // ì˜ë¯¸ ì—†ì§€ë§Œ ê·¸ëƒ¥ ë‚˜ëˆ•ì‹œë‹¤.
 //void printLoseResult(const Character monster);
 
 int main(void) {
@@ -92,7 +86,7 @@ int main(void) {
 
 void playTextRPG(void) {
 
-	system("mode con cols=110 lines=25"); // Ã¢ Å©±â Á¶Àı.
+	system("mode con cols=110 lines=25"); // ì°½ í¬ê¸° ì¡°ì ˆ.
 
 	Character *pPlayer = nullptr, *pMonster = nullptr;
 
@@ -100,7 +94,7 @@ void playTextRPG(void) {
 	int battleLoop = BATTLE::AGAIN;
 
 	//printTRPGTitle();
-	pPlayer = selectClass(); // ÇÃ·¹ÀÌ¾î »ı¼º
+	pPlayer = selectClass(); // í”Œë ˆì´ì–´ ìƒì„±
 	if (pPlayer == nullptr) {
 
 		return;
@@ -110,8 +104,8 @@ void playTextRPG(void) {
 
 		printCharacterStatus(*pPlayer);
 
-		cout << "1.ÃÊ±Ş, 2.Áß±Ş, 3.°í±Ş, 4.Á¾·á" << endl;
-		cout << "ÀÔ·Â: "; cin >> sel;
+		cout << "1.ì´ˆê¸‰, 2.ì¤‘ê¸‰, 3.ê³ ê¸‰, 4.ì¢…ë£Œ" << endl;
+		cout << "ì…ë ¥: "; cin >> sel;
 
 		switch (sel) {
 		case 1:
@@ -126,7 +120,7 @@ void playTextRPG(void) {
 			advancedDungeon(&pMonster);
 			break;
 		case 4:
-			cout << "°ÔÀÓÀ» Á¾·áÇÕ´Ï´Ù." << endl << endl;
+			cout << "ê²Œì„ì„ ì¢…ë£Œí•©ë‹ˆë‹¤." << endl << endl;
 
 			if (pPlayer != nullptr) {
 
@@ -135,19 +129,19 @@ void playTextRPG(void) {
 			}
 			return;
 		default:
-			cout << "Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù." << endl << endl;
+			cout << "ì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤." << endl << endl;
 			system("pause");
 			continue;
 			//break;
 		}
 
 		battleLoop = BATTLE::AGAIN;
-		while (battleLoop == AGAIN) { // µµ¸Á, ÁøÇà, »ç³É ¼º°ø, Á×À½
+		while (battleLoop == AGAIN) { // ë„ë§, ì§„í–‰, ì‚¬ëƒ¥ ì„±ê³µ, ì£½ìŒ
 
 			battleLoop = dungeonExploration(pPlayer, pMonster);
 		}
 
-		if (pMonster != NULL) { // ÀüÅõ°¡ Á¾·á µÇ¾úÀ¸¹Ç·Î ¸ó½ºÅÍ ÇØÁ¦ ½ÃÄÑÁà¾ß ÇÔ.
+		if (pMonster != NULL) { // ì „íˆ¬ê°€ ì¢…ë£Œ ë˜ì—ˆìœ¼ë¯€ë¡œ ëª¬ìŠ¤í„° í•´ì œ ì‹œì¼œì¤˜ì•¼ í•¨.
 
 			delete pMonster;
 			pMonster = NULL;
@@ -164,22 +158,22 @@ void printTRPGTitle(void) {
 
 	enum {
 
-		BLOCK,   /*  0 : ±î¸Á */
-		DARK_BLUE,  /*  1 : ¾îµÎ¿î ÆÄ¶û */
-		DARK_GREEN,  /*  2 : ¾îµÎ¿î ÃÊ·Ï */
-		DARK_SKY_BLUE, /*  3 : ¾îµÎ¿î ÇÏ´Ã */
-		DARK_RED,  /*  4 : ¾îµÎ¿î »¡°­ */
-		DARK_VOILET, /*  5 : ¾îµÎ¿î º¸¶ó */
-		DARK_YELLOW, /*  6 : ¾îµÎ¿î ³ë¶û */
-		GRAY,   /*  7 : È¸»ö */
-		DARK_GRAY,  /*  8 : ¾îµÎ¿î È¸»ö */
-		BLUE,   /*  9 : ÆÄ¶û */
-		GREEN,   /* 10 : ÃÊ·Ï */
-		SKY_BLUE,  /* 11 : ÇÏ´Ã */
-		RED,   /* 12 : »¡°­ */
-		VOILET,   /* 13 : º¸¶ó */
-		YELLOW,   /* 14 : ³ë¶û */
-		WHITE,   /* 15 : ÇÏ¾ç */
+		BLOCK,   /*  0 : ê¹Œë§ */
+		DARK_BLUE,  /*  1 : ì–´ë‘ìš´ íŒŒë‘ */
+		DARK_GREEN,  /*  2 : ì–´ë‘ìš´ ì´ˆë¡ */
+		DARK_SKY_BLUE, /*  3 : ì–´ë‘ìš´ í•˜ëŠ˜ */
+		DARK_RED,  /*  4 : ì–´ë‘ìš´ ë¹¨ê°• */
+		DARK_VOILET, /*  5 : ì–´ë‘ìš´ ë³´ë¼ */
+		DARK_YELLOW, /*  6 : ì–´ë‘ìš´ ë…¸ë‘ */
+		GRAY,   /*  7 : íšŒìƒ‰ */
+		DARK_GRAY,  /*  8 : ì–´ë‘ìš´ íšŒìƒ‰ */
+		BLUE,   /*  9 : íŒŒë‘ */
+		GREEN,   /* 10 : ì´ˆë¡ */
+		SKY_BLUE,  /* 11 : í•˜ëŠ˜ */
+		RED,   /* 12 : ë¹¨ê°• */
+		VOILET,   /* 13 : ë³´ë¼ */
+		YELLOW,   /* 14 : ë…¸ë‘ */
+		WHITE,   /* 15 : í•˜ì–‘ */
 	};
 
 	while (index < 15) {
@@ -228,7 +222,7 @@ void printClassMenu(void) {
 	cout << "1. ";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);
-	cout << "Àü»ç";
+	cout << "ì „ì‚¬";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 	cout << ", ";
 
@@ -236,7 +230,7 @@ void printClassMenu(void) {
 	cout << "2. ";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 3);
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
-	cout << "¸¶¹ı»ç";
+	cout << "ë§ˆë²•ì‚¬";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 	cout << ", ";
 
@@ -244,7 +238,7 @@ void printClassMenu(void) {
 	cout << "3. ";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 13);
-	cout << "µµÀû ";
+	cout << "ë„ì  ";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 	cout << "#" << endl;
 
@@ -265,25 +259,25 @@ Character* selectClass() {
 		printClassMenu();
 
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
-		cout << "ÀÔ·Â: "; cin >> sel;
+		cout << "ì…ë ¥: "; cin >> sel;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 
 		switch (sel) {
 
 		case CLASS::WARRIOR:
-			initCharacter(&pReturn, "Àü»ç", 200, 10);
+			initCharacter(&pReturn, "ì „ì‚¬", 200, 10);
 			break;
 
 		case CLASS::WIZARD:
-			initCharacter(&pReturn, "¸¶¹ı»ç", 100, 30);
+			initCharacter(&pReturn, "ë§ˆë²•ì‚¬", 100, 30);
 			break;
 
 		case CLASS::THIEF:
-			initCharacter(&pReturn, "µµÀû", 150, 20);
+			initCharacter(&pReturn, "ë„ì ", 150, 20);
 			break;
 
 		default:
-			cout << "\nÀß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù." << endl << endl;
+			cout << "\nì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤." << endl << endl;
 			system("pause");
 			continue;
 		}
@@ -295,8 +289,8 @@ Character* selectClass() {
 
 void initCharacter(Character **dpPlayer, char *name, int maxHp, int damage) {
 
-	(*dpPlayer) = new Character; // C++ ¹æ½ÄÀÇ ¸Ş¸ğ¸® µ¿Àû ÇÒ´ç !!!!
-								// ÇÔ¼ö¿¡¼­ ¸Ş¸ğ¸® µ¿Àû ÇÒ´çÀ» ÇÑ µÚ, ¹İÈ¯ÇØÁÖ·Á°í ´õºí Æ÷ÀÎÅÍ »ç¿ë !!!!
+	(*dpPlayer) = new Character; // C++ ë°©ì‹ì˜ ë©”ëª¨ë¦¬ ë™ì  í• ë‹¹ !!!!
+								// í•¨ìˆ˜ì—ì„œ ë©”ëª¨ë¦¬ ë™ì  í• ë‹¹ì„ í•œ ë’¤, ë°˜í™˜í•´ì£¼ë ¤ê³  ë”ë¸” í¬ì¸í„° ì‚¬ìš© !!!!
 	strcpy_s((*dpPlayer)->className, sizeof((*dpPlayer)->className), name);
 	(*dpPlayer)->currentHp = (*dpPlayer)->maxHp = maxHp;
 	(*dpPlayer)->damage = damage;
@@ -311,11 +305,11 @@ void printCharacterStatus(const Character character) {
 	cout.width(30 - 1);
 	cout << "#" << endl;
 
-	cout << "#   Å¬·¡½º: [" << character.className << "]"; // 14
+	cout << "#   í´ë˜ìŠ¤: [" << character.className << "]"; // 14
 	cout.width(30 - (14 + strlen(character.className)));
 	cout << "#" << endl;
 
-	cout << "#     Ã¼·Â: ["; // 13
+	cout << "#     ì²´ë ¥: ["; // 13
 	cout.width(3); // 3
 	cout << character.currentHp << "/"; // 1
 	cout.width(3); // 3
@@ -323,7 +317,7 @@ void printCharacterStatus(const Character character) {
 	cout.width(30 - 21);
 	cout << "#" << endl;
 
-	cout << "#   °ø°İ·Â: "; // 12
+	cout << "#   ê³µê²©ë ¥: "; // 12
 	cout.width(3);
 	cout << character.damage; // 3
 	cout.width(30 - 15);
@@ -332,19 +326,19 @@ void printCharacterStatus(const Character character) {
 	cout << "##############################" << endl;
 }
 
-// ÃÊ±Ş, Áß±Ş, °í±Ş ´øÀüÀ» ÇÔ¼öº°·Î ³ª´­ ÇÊ¿ä¼ºÀÌ ÀÖ³ª ½ÍÀ½.
-// ³ªÁß¿¡ ¸ó½ºÅÍÀÇ Â÷º°È­¶óµçÁö ´õ ÇÊ¿äÇÒ °Í °°À½.
+// ì´ˆê¸‰, ì¤‘ê¸‰, ê³ ê¸‰ ë˜ì „ì„ í•¨ìˆ˜ë³„ë¡œ ë‚˜ëˆŒ í•„ìš”ì„±ì´ ìˆë‚˜ ì‹¶ìŒ.
+// ë‚˜ì¤‘ì— ëª¬ìŠ¤í„°ì˜ ì°¨ë³„í™”ë¼ë“ ì§€ ë” í•„ìš”í•  ê²ƒ ê°™ìŒ.
 void beginnerDungeon(Character **dpMonster) {
 
-	initCharacter(dpMonster, "½½¶óÀÓ", 30, 5);
+	initCharacter(dpMonster, "ìŠ¬ë¼ì„", 30, 5);
 }
 void intermediateDungeon(Character **dpMonster) {
 
-	initCharacter(dpMonster, "°ñ·½", 120, 35);
+	initCharacter(dpMonster, "ê³¨ë ˜", 120, 35);
 }
 void advancedDungeon(Character **dpMonster) {
 
-	initCharacter(dpMonster, "¿¤µå¸®Ä¡", 300, 70);
+	initCharacter(dpMonster, "ì—˜ë“œë¦¬ì¹˜", 300, 70);
 }
 
 void printStatus(const Character player, const Character monster) {
@@ -362,8 +356,8 @@ int dungeonExploration(Character *pPlayer, Character *pMonster) {
 
 		printStatus(*pPlayer, *pMonster);
 
-		cout << "1. °ø°İ, 2. µµ¸Á" << endl;
-		cout << "ÀÔ·Â: "; cin >> sel;
+		cout << "1. ê³µê²©, 2. ë„ë§" << endl;
+		cout << "ì…ë ¥: "; cin >> sel;
 
 		switch (sel) {
 		case 1:
@@ -379,14 +373,14 @@ int dungeonExploration(Character *pPlayer, Character *pMonster) {
 			break;
 
 		default:
-			cout << "Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù." << endl << endl;
+			cout << "ì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤." << endl << endl;
 			system("pause");
 			continue;
 			//break;
 		}
 
 
-		// ÀüÅõ ÁøÇà¿¡ µû¸¥ ÀÌº¥Æ® ¹ß»ı
+		// ì „íˆ¬ ì§„í–‰ì— ë”°ë¥¸ ì´ë²¤íŠ¸ ë°œìƒ
 		switch (battleLoop) {
 		case BATTLE::RUN:
 			//cout << "RUN" << endl;
@@ -418,12 +412,12 @@ int attackMonster(Character *pPlayer, Character *pMonster, bool counterAttack) {
 
 	pPlayer->currentHp -= pMonster->damage;
 
-	if (!counterAttack) { // µµ¸Á ½ÇÆĞ ½Ã, ÇÃ·¹ÀÌ¾î´Â ¹İ°İ ´çÇÔ.
+	if (!counterAttack) { // ë„ë§ ì‹¤íŒ¨ ì‹œ, í”Œë ˆì´ì–´ëŠ” ë°˜ê²© ë‹¹í•¨.
 
 		pMonster->currentHp -= pPlayer->damage;
 	}
 
-	if (pPlayer->currentHp <= 0) { // ÇÃ·¹ÀÌ¾î DIE
+	if (pPlayer->currentHp <= 0) { // í”Œë ˆì´ì–´ DIE
 
 		pPlayer->currentHp = 0;
 		if (pMonster->currentHp <= 0) {
@@ -431,23 +425,23 @@ int attackMonster(Character *pPlayer, Character *pMonster, bool counterAttack) {
 			pMonster->currentHp = 0;
 		}
 
-		printStatus(*pPlayer, *pMonster); // ÇÃ·¹ÀÌ¾î¿Í ¸ó½ºÅÍÀÇ Ã¼·ÂÀ» °»½Å.
+		printStatus(*pPlayer, *pMonster); // í”Œë ˆì´ì–´ì™€ ëª¬ìŠ¤í„°ì˜ ì²´ë ¥ì„ ê°±ì‹ .
 
-		if (pMonster->currentHp <= 0) { // ÇÃ·¹ÀÌ¾î Á×À½ && ¸ó½ºÅÍµµ Á×À½
+		if (pMonster->currentHp <= 0) { // í”Œë ˆì´ì–´ ì£½ìŒ && ëª¬ìŠ¤í„°ë„ ì£½ìŒ
 
-			cout << "¾Æ±õ°Ôµµ..." << endl;
+			cout << "ì•„ê¹ê²Œë„..." << endl;
 		}
-		cout << "[" << pMonster->className << "] »ç³É ½ÇÆĞ ¤Ğ¤Ğ." << endl << endl;
+		cout << "[" << pMonster->className << "] ì‚¬ëƒ¥ ì‹¤íŒ¨ ã… ã… ." << endl << endl;
 		system("pause");
 		//printLoseResult(*pMonster);
 
 		pPlayer->currentHp = pPlayer->maxHp;
 		result = BATTLE::DIE;
 	}
-	else if (pMonster->currentHp <= 0) { // ¸ó½ºÅÍ DIE
+	else if (pMonster->currentHp <= 0) { // ëª¬ìŠ¤í„° DIE
 		pMonster->currentHp = 0;
 		printStatus(*pPlayer, *pMonster);
-		cout << "[" << pMonster->className << "] »ç³É ¼º°ø !!!" << endl << endl;
+		cout << "[" << pMonster->className << "] ì‚¬ëƒ¥ ì„±ê³µ !!!" << endl << endl;
 		system("pause");
 		//printWinResult(*pMonster);
 		result = BATTLE::HUNT;
@@ -460,34 +454,34 @@ int runAwayFromDungeon(const Character player, const Character monster) {
 
 	int coin = rand() % 3;
 	if (coin == 0) {
-		// ³ª°¥·¡ !!!
+		// ë‚˜ê°ˆë˜ !!!
 		system("cls");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 3);
-		cout << "[" << player.className << "] Àº/´Â µµ¸Á Ä¡´Âµ¥ ¼º°øÇß½À´Ï´Ù." << endl << endl;
+		cout << "[" << player.className << "] ì€/ëŠ” ë„ë§ ì¹˜ëŠ”ë° ì„±ê³µí–ˆìŠµë‹ˆë‹¤." << endl << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 		system("pause");
 
 		system("cls");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
-		cout << "[" << monster.className << "]: ¾ÈµÅ! µ¹¾Æ¿Í !!!!" << endl << endl;
+		cout << "[" << monster.className << "]: ì•ˆë¼! ëŒì•„ì™€ !!!!" << endl << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 		system("pause");
 
 		return BATTLE::RUN;
 	}
 	else {
-		// ¾îµô ³ª°¡?!
+		// ì–´ë”œ ë‚˜ê°€?!
 		system("cls");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);
-		cout << "[" << player.className << "] Àº/´Â µµ¸Á Ä¡´Âµ¥ ½ÇÆĞ Çß½À´Ï´Ù." << endl << endl;
+		cout << "[" << player.className << "] ì€/ëŠ” ë„ë§ ì¹˜ëŠ”ë° ì‹¤íŒ¨ í–ˆìŠµë‹ˆë‹¤." << endl << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
-		cout << "[" << player.className << "] : ¾Æ´Ï ¿Ö?!" << endl << endl;
+		cout << "[" << player.className << "] : ì•„ë‹ˆ ì™œ?!" << endl << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 		system("pause");
 
 		system("cls");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
-		cout << "[" << monster.className << "]: ¤»¤»¤»¤»¤»¤»¤» !!!!" << endl << endl;
+		cout << "[" << monster.className << "]: ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ !!!!" << endl << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 		system("pause");
 
@@ -495,11 +489,11 @@ int runAwayFromDungeon(const Character player, const Character monster) {
 	}
 }
 
-//void printWinResult(const Character monster) { // ÀÇ¹Ì ¾øÁö¸¸ ±×³É ³ª´¯½Ã´Ù.
-//	cout << "[" << monster.className << "] »ç³É ¼º°ø !!!" << endl << endl;
+//void printWinResult(const Character monster) { // ì˜ë¯¸ ì—†ì§€ë§Œ ê·¸ëƒ¥ ë‚˜ëˆ•ì‹œë‹¤.
+//	cout << "[" << monster.className << "] ì‚¬ëƒ¥ ì„±ê³µ !!!" << endl << endl;
 //	system("pause");
 //}
 //void printLoseResult(const Character monster) {
-//	cout << "[" << monster.className << "] »ç³É ½ÇÆĞ ¤Ğ¤Ğ." << endl << endl;
+//	cout << "[" << monster.className << "] ì‚¬ëƒ¥ ì‹¤íŒ¨ ã… ã… ." << endl << endl;
 //	system("pause");
 //}
