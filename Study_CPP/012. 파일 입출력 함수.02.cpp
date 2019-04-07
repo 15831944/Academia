@@ -1,60 +1,59 @@
 /*
 
-2019.04.05.01 ±Ý
 
 
 ###########################
-    ÆÄÀÏ ÀÔÃâ·Â ÇÔ¼ö.02
+    íŒŒì¼ ìž…ì¶œë ¥ í•¨ìˆ˜.02
 ###########################
 
 case 1. fseek()
 
-- ÆÄÀÏ Áö½ÃÀÚÀÇ À§Ä¡¸¦ º¯°æÇÒ ¼ö ÀÖ´Â ÇÔ¼ö
-(´ÙÀ½ ¹ø¿¡ ÀÐÀ» ¹®ÀÚÀÇ ¾Õ¿¡ À§Ä¡ÇÏ°í ÀÖ´Ù !!!!!)
+- íŒŒì¼ ì§€ì‹œìžì˜ ìœ„ì¹˜ë¥¼ ë³€ê²½í•  ìˆ˜ ìžˆëŠ” í•¨ìˆ˜
+(ë‹¤ìŒ ë²ˆì— ì½ì„ ë¬¸ìžì˜ ì•žì— ìœ„ì¹˜í•˜ê³  ìžˆë‹¤ !!!!!)
 
 int fseek(FILE *_Stream, long _Offset, int _Origin);
 
-¸Å°³º¯¼ö FILE *_Stream : ´ë»ó ÆÄÀÏÀÇ ½ºÆ®¸²
-¸Å°³º¯¼ö long _Offset : ÆÄÀÏ Áö½ÃÀÚ¸¦ ÀÌµ¿ ½ÃÅ³ byte ¼ö (¾ç¼ö¸é µÚÂÊ_¿À¸¥ÂÊ, À½¼ö¸é ¾ÕÂÊ_¿ÞÂÊ)
-¸Å°³º¯¼ö int _Origin : »ó´ëÀûÀÎ ÆÄÀÏ Áö½ÃÀÚÀÇ À§Ä¡
-                      (SEEK_SET ÆÄÀÏÀÇ ½ÃÀÛ, SEEK_CUR ÆÄÀÏ Áö½ÃÀÚÀÇ ÇöÀç À§Ä¡, SEEK_END ÆÄÀÏÀÇ ³¡)
-¹ÝÈ¯°ª int : ÆÄÀÏ Áö½ÃÀÚÀÇ À§Ä¡¸¦ ¿Å±â´Âµ¥ ¼º°øÇÏ¸é "0", ½ÇÆÐÇÏ¸é "0"ÀÌ ¾Æ´Ñ °ª.
+ë§¤ê°œë³€ìˆ˜ FILE *_Stream : ëŒ€ìƒ íŒŒì¼ì˜ ìŠ¤íŠ¸ë¦¼
+ë§¤ê°œë³€ìˆ˜ long _Offset : íŒŒì¼ ì§€ì‹œìžë¥¼ ì´ë™ ì‹œí‚¬ byte ìˆ˜ (ì–‘ìˆ˜ë©´ ë’¤ìª½_ì˜¤ë¥¸ìª½, ìŒìˆ˜ë©´ ì•žìª½_ì™¼ìª½)
+ë§¤ê°œë³€ìˆ˜ int _Origin : ìƒëŒ€ì ì¸ íŒŒì¼ ì§€ì‹œìžì˜ ìœ„ì¹˜
+                      (SEEK_SET íŒŒì¼ì˜ ì‹œìž‘, SEEK_CUR íŒŒì¼ ì§€ì‹œìžì˜ í˜„ìž¬ ìœ„ì¹˜, SEEK_END íŒŒì¼ì˜ ë)
+ë°˜í™˜ê°’ int : íŒŒì¼ ì§€ì‹œìžì˜ ìœ„ì¹˜ë¥¼ ì˜®ê¸°ëŠ”ë° ì„±ê³µí•˜ë©´ "0", ì‹¤íŒ¨í•˜ë©´ "0"ì´ ì•„ë‹Œ ê°’.
 
 
 case 2. ftell()
 
-- ÆÄÀÏ Áö½ÃÀÚÀÇ ÇöÀç À§Ä¡¸¦ ¾Ë·ÁÁÖ´Â ÇÔ¼ö
-- Ã¹ ½ÃÀÛ À§Ä¡´Â "0"ºÎÅÍ ½ÃÀÛÇÔ.
+- íŒŒì¼ ì§€ì‹œìžì˜ í˜„ìž¬ ìœ„ì¹˜ë¥¼ ì•Œë ¤ì£¼ëŠ” í•¨ìˆ˜
+- ì²« ì‹œìž‘ ìœ„ì¹˜ëŠ” "0"ë¶€í„° ì‹œìž‘í•¨.
 
 long ftell(FILE *_Stream);
 
-¸Å°³º¯¼ö FILE *_Stream : ÀÛ¾÷À» ¼öÇàÇÒ ½ºÆ®¸²ÀÇ FILE ±¸Á¶Ã¼ÀÇ Æ÷ÀÎÅÍ
-¹ÝÈ¯°ª long : ÆÄÀÏ Áö½ÃÀÚÀÇ ÇöÀç À§Ä¡¸¦ ¹ÝÈ¯. (ÆÄÀÏÀÇ ½ÃÀÛÀº "0"À» ÀÇ¹ÌÇÑ´Ù.)
+ë§¤ê°œë³€ìˆ˜ FILE *_Stream : ìž‘ì—…ì„ ìˆ˜í–‰í•  ìŠ¤íŠ¸ë¦¼ì˜ FILE êµ¬ì¡°ì²´ì˜ í¬ì¸í„°
+ë°˜í™˜ê°’ long : íŒŒì¼ ì§€ì‹œìžì˜ í˜„ìž¬ ìœ„ì¹˜ë¥¼ ë°˜í™˜. (íŒŒì¼ì˜ ì‹œìž‘ì€ "0"ì„ ì˜ë¯¸í•œë‹¤.)
 
 
 case 3. feof()
 
-- ÆÄÀÏ Áö½ÃÀÚ°¡ EOF(End Of File)¿¡ µµ´Þ Çß´ÂÁö °Ë»çÇÏ´Â ÇÔ¼ö.
-- µµ´Þ ÇßÀ¸¸é "0"ÀÌ ¾Æ´Ñ °ªÀ» ¹ÝÈ¯
-  "0"ÀÌ¸é ÆÄÀÏÀ» ÀÐ°í ÀÖ´Â µµÁß !!!!
+- íŒŒì¼ ì§€ì‹œìžê°€ EOF(End Of File)ì— ë„ë‹¬ í–ˆëŠ”ì§€ ê²€ì‚¬í•˜ëŠ” í•¨ìˆ˜.
+- ë„ë‹¬ í–ˆìœ¼ë©´ "0"ì´ ì•„ë‹Œ ê°’ì„ ë°˜í™˜
+  "0"ì´ë©´ íŒŒì¼ì„ ì½ê³  ìžˆëŠ” ë„ì¤‘ !!!!
 
 int feof(FILE *_Stream);
 
-FILE *_Stream : ÀÛ¾÷À» ¼öÇàÇÒ ½ºÆ®¸²ÀÇ FILE ±¸Á¶Ã¼ÀÇ Æ÷ÀÎÅÍ
-¹ÝÈ¯°ª int : ÆÄÀÏÀÇ ³¡¿¡ µµ´Þ ÇßÀ¸¸é "0"ÀÌ ¾Æ´Ñ °ªÀ» ¹ÝÈ¯, "0"ÀÌ¸é ÆÄÀÏÀ» ÀÐ°í ÀÖ´Â Áß !!!!
+FILE *_Stream : ìž‘ì—…ì„ ìˆ˜í–‰í•  ìŠ¤íŠ¸ë¦¼ì˜ FILE êµ¬ì¡°ì²´ì˜ í¬ì¸í„°
+ë°˜í™˜ê°’ int : íŒŒì¼ì˜ ëì— ë„ë‹¬ í–ˆìœ¼ë©´ "0"ì´ ì•„ë‹Œ ê°’ì„ ë°˜í™˜, "0"ì´ë©´ íŒŒì¼ì„ ì½ê³  ìžˆëŠ” ì¤‘ !!!!
 
 while (feof(fp3) == 0) {
 	int ch = fgetc(fp3);
-	fputc(ch, stdout); // ´ÜÀÏ ¹®ÀÚ Ãâ·ÂÀÌ¶ó ¾Æ½ºÅ° ÄÚµå °ª¿¡ µû¸¥ ¹®ÀÚ !!!!
+	fputc(ch, stdout); // ë‹¨ì¼ ë¬¸ìž ì¶œë ¥ì´ë¼ ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’ì— ë”°ë¥¸ ë¬¸ìž !!!!
 }
-// Ãâ·Â "1234567890 " ºóÄ­ÀÌ Ãâ·Â µÇ¾ú³×???
-// ÁøÂ¥ ³¡ÀÎÁö ÇÑ ¹ø ´õ È®ÀÎÇÏ´Â °úÁ¤¿¡¼­ Ãâ·ÂÇÏ´Â °ÍÀÓ.
-// ±×¸®°í, Windows¿¡¼­´Â °³ÇàÀ» "\r\n"À¸·Î »ç¿ëÇÏ´Ï±î ¹®ÀÚ 2°³·Î ÀÐÈû.
+// ì¶œë ¥ "1234567890 " ë¹ˆì¹¸ì´ ì¶œë ¥ ë˜ì—ˆë„¤???
+// ì§„ì§œ ëì¸ì§€ í•œ ë²ˆ ë” í™•ì¸í•˜ëŠ” ê³¼ì •ì—ì„œ ì¶œë ¥í•˜ëŠ” ê²ƒìž„.
+// ê·¸ë¦¬ê³ , Windowsì—ì„œëŠ” ê°œí–‰ì„ "\r\n"ìœ¼ë¡œ ì‚¬ìš©í•˜ë‹ˆê¹Œ ë¬¸ìž 2ê°œë¡œ ì½íž˜.
 
-- ÇÑ ¹ø ´õ EOF°¡ ¸Â´ÂÁö È®ÀÎÇÑ´Ù !!!!
-(¿À·ù¸¦ ¸¸³ª¼­ ÆÄÀÏ ÀÔÃâ·ÂÀÌ ³¡³ª´Â °ÍÀÎÁö, Á¤»óÀûÀ¸·Î ³¡³ª´Â °ÍÀÎÁö È®ÀÎÇÏ±â À§ÇØ¼­...)
+- í•œ ë²ˆ ë” EOFê°€ ë§žëŠ”ì§€ í™•ì¸í•œë‹¤ !!!!
+(ì˜¤ë¥˜ë¥¼ ë§Œë‚˜ì„œ íŒŒì¼ ìž…ì¶œë ¥ì´ ëë‚˜ëŠ” ê²ƒì¸ì§€, ì •ìƒì ìœ¼ë¡œ ëë‚˜ëŠ” ê²ƒì¸ì§€ í™•ì¸í•˜ê¸° ìœ„í•´ì„œ...)
 
-because, EOF¸¦ ¸¸³ªµµ "0"À» ¹ÝÈ¯ÇÏ±â ¶§¹®¿¡... ³Ñ¾î¼­¾ß ´Ù¸¥ °ª ¹ÝÈ¯ÇØ¼­ ³¡³² !!!!
+because, EOFë¥¼ ë§Œë‚˜ë„ "0"ì„ ë°˜í™˜í•˜ê¸° ë•Œë¬¸ì—... ë„˜ì–´ì„œì•¼ ë‹¤ë¥¸ ê°’ ë°˜í™˜í•´ì„œ ëë‚¨ !!!!
 
 
 #########################################################################################################
@@ -70,42 +69,42 @@ using std::endl;
 int main(void) {
 
 	cout << "###############################################################################" << endl;
-	cout << "### ÆÄÀÏ ÀÔÃâ·Â ÇÔ¼ö.02 " << endl << endl;
+	cout << "### íŒŒì¼ ìž…ì¶œë ¥ í•¨ìˆ˜.02 " << endl << endl;
 
 	FILE *fp = nullptr;
-	errno_t err = fopen_s(&fp, "test.txt", "rb"); // 1234567890 ÀÔ·ÂÇØ¼­ Source ÅØ½ºÆ® ¸¸µé °Í !!!!
+	errno_t err = fopen_s(&fp, "test.txt", "rb"); // 1234567890 ìž…ë ¥í•´ì„œ Source í…ìŠ¤íŠ¸ ë§Œë“¤ ê²ƒ !!!!
 
-	if (err == 0) { // ÆÄÀÏ °³¹æ ¼º°ø
+	if (err == 0) { // íŒŒì¼ ê°œë°© ì„±ê³µ
 
 		cout << "Hello test.txt" << endl << endl;
 
 		int ch = 0;
 
-		// ¤±1234567890
+		// ã…1234567890
 
-		// ÆÄÀÏ Áö½ÃÀÚ°¡ ½ÃÀÛ À§Ä¡¿¡¼­ µÚ·Î(¾ç¼ö_¿À¸¥ÂÊ) 2 bytes ÀÌµ¿
-		// 12 ¤± 34567890
+		// íŒŒì¼ ì§€ì‹œìžê°€ ì‹œìž‘ ìœ„ì¹˜ì—ì„œ ë’¤ë¡œ(ì–‘ìˆ˜_ì˜¤ë¥¸ìª½) 2 bytes ì´ë™
+		// 12 ã… 34567890
 		fseek(fp, 2, SEEK_SET);
 		ch = fgetc(fp);
-		fputc(ch, stdout); // "3" Ãâ·ÂÀÌ µÇ´Ï±î ÆÄÀÏ Áö½ÃÀÚÀÇ À§Ä¡°¡ "2"¿Í "3" »çÀÌ !!!!
+		fputc(ch, stdout); // "3" ì¶œë ¥ì´ ë˜ë‹ˆê¹Œ íŒŒì¼ ì§€ì‹œìžì˜ ìœ„ì¹˜ê°€ "2"ì™€ "3" ì‚¬ì´ !!!!
 		fseek(fp, -1, SEEK_CUR);
 
 		cout << endl;
 
-		// ÆÄÀÏ Áö½ÃÀÚ°¡ ÇöÀç À§Ä¡¿¡¼­ µÚ·Î(¾ç¼ö_¿À¸¥ÂÊ) 2 bytes ÀÌµ¿
-		// 1234 ¤± 567890
+		// íŒŒì¼ ì§€ì‹œìžê°€ í˜„ìž¬ ìœ„ì¹˜ì—ì„œ ë’¤ë¡œ(ì–‘ìˆ˜_ì˜¤ë¥¸ìª½) 2 bytes ì´ë™
+		// 1234 ã… 567890
 		fseek(fp, 2, SEEK_CUR);
 		ch = fgetc(fp);
-		fputc(ch, stdout); // "5" Ãâ·ÂÀÌ µÇ´Ï±î ÆÄÀÏ Áö½ÃÀÚÀÇ À§Ä¡°¡ "4"¿Í "5" »çÀÌ !!!!
+		fputc(ch, stdout); // "5" ì¶œë ¥ì´ ë˜ë‹ˆê¹Œ íŒŒì¼ ì§€ì‹œìžì˜ ìœ„ì¹˜ê°€ "4"ì™€ "5" ì‚¬ì´ !!!!
 		fseek(fp, -1, SEEK_CUR);
 
 		cout << endl;
 		
-		// ÆÄÀÏ Áö½ÃÀÚ°¡ ÆÄÀÏÀÇ ³¡ À§Ä¡¿¡¼­ ¾ÕÀ¸·Î(À½¼ö_¿ÞÂÊ) 2 bytes ÀÌµ¿
-		// 12345678 ¤± 90
+		// íŒŒì¼ ì§€ì‹œìžê°€ íŒŒì¼ì˜ ë ìœ„ì¹˜ì—ì„œ ì•žìœ¼ë¡œ(ìŒìˆ˜_ì™¼ìª½) 2 bytes ì´ë™
+		// 12345678 ã… 90
 		fseek(fp, -2, SEEK_END);
 		ch = fgetc(fp);
-		fputc(ch, stdout); // "9" Ãâ·ÂÀÌ µÇ´Ï±î ÆÄÀÏ Áö½ÃÀÚÀÇ À§Ä¡°¡ "8"°ú "9" »çÀÌ !!!!
+		fputc(ch, stdout); // "9" ì¶œë ¥ì´ ë˜ë‹ˆê¹Œ íŒŒì¼ ì§€ì‹œìžì˜ ìœ„ì¹˜ê°€ "8"ê³¼ "9" ì‚¬ì´ !!!!
 		fseek(fp, -1, SEEK_CUR);
 
 		cout << endl;
@@ -115,53 +114,53 @@ int main(void) {
 	}
 	else {
 
-		cout << "ÆÄÀÏ °³¹æ ½ÇÆÐ" << endl;
+		cout << "íŒŒì¼ ê°œë°© ì‹¤íŒ¨" << endl;
 	}
 
 	cout << "###############################################################################" << endl;
-	cout << "### ÆÄÀÏ Áö½ÃÀÚÀÇ ÇöÀç À§Ä¡ - ftell()" << endl << endl;
+	cout << "### íŒŒì¼ ì§€ì‹œìžì˜ í˜„ìž¬ ìœ„ì¹˜ - ftell()" << endl << endl;
 
 	FILE *fp2 = nullptr;
 	errno_t err2 = fopen_s(&fp2, "test.txt", "rb");
 
-	if (err2 == 0) { // ÆÄÀÏ °³¹æ ¼º°ø
+	if (err2 == 0) { // íŒŒì¼ ê°œë°© ì„±ê³µ
 
-		// 12 ¤± 34567890
+		// 12 ã… 34567890
 		fseek(fp2, 2, SEEK_SET);
 
 		// 123 4567890
 		int ch = fgetc(fp2);
 
-		// So, Ã³À½ "0"ºÎÅÍ ½ÃÀÛÇØ¼­, 2 bytes ÀÌµ¿ÇÏ°í, ÇÑ°³ÀÇ ¹®ÀÚ¸¦ Ãâ·ÂÇßÀ¸´Ï - 3 Ãâ·Â.
-		cout << "ÆÄÀÏ Áö½ÃÀÚÀÇ À§Ä¡: " << ftell(fp2) << endl;
+		// So, ì²˜ìŒ "0"ë¶€í„° ì‹œìž‘í•´ì„œ, 2 bytes ì´ë™í•˜ê³ , í•œê°œì˜ ë¬¸ìžë¥¼ ì¶œë ¥í–ˆìœ¼ë‹ˆ - 3 ì¶œë ¥.
+		cout << "íŒŒì¼ ì§€ì‹œìžì˜ ìœ„ì¹˜: " << ftell(fp2) << endl;
 
 		fclose(fp2);
 	}
 	else {
 
-		cout << "ÆÄÀÏ °³¹æ ½ÇÆÐ" << endl;
+		cout << "íŒŒì¼ ê°œë°© ì‹¤íŒ¨" << endl;
 	}
 
 	cout << "###############################################################################" << endl;
-	cout << "### ÆÄÀÏÀÇ ³¡¿¡ µµ´ÞÇß´ÂÁö È®ÀÎ - feof()" << endl << endl;
+	cout << "### íŒŒì¼ì˜ ëì— ë„ë‹¬í–ˆëŠ”ì§€ í™•ì¸ - feof()" << endl << endl;
 
 	FILE *fp3 = nullptr;
 	errno_t err3 = fopen_s(&fp3, "test.txt", "rb");
 	int count = 0;
 
-	if (err3 == 0) { // ÆÄÀÏ °³¹æ ¼º°ø
+	if (err3 == 0) { // íŒŒì¼ ê°œë°© ì„±ê³µ
 
-		while (feof(fp3) == 0) { // ÆÄÀÏÀ» ÀÐ°í ÀÖ´Â ÁßÀÌ¸é...
+		while (feof(fp3) == 0) { // íŒŒì¼ì„ ì½ê³  ìžˆëŠ” ì¤‘ì´ë©´...
 
 			int ch = fgetc(fp3);
 			fputc(ch, stdout);
 
-			count++; // "Enter"´Â Windows¶ó¼­ ±×·±Áö \r\nÀ¸·Î ÀÎ½ÄÇÏ´Â °Í °°À½.
+			count++; // "Enter"ëŠ” Windowsë¼ì„œ ê·¸ëŸ°ì§€ \r\nìœ¼ë¡œ ì¸ì‹í•˜ëŠ” ê²ƒ ê°™ìŒ.
 
 		}
 		
-		// Ãâ·Â "1234567890 " ºóÄ­ÀÌ 1°³ Ãâ·Â µÇ¾ú³×???
-		// ÁøÂ¥ ³¡ÀÎÁö ÇÑ ¹ø ´õ È®ÀÎÇÏ´Â °úÁ¤¿¡¼­ Ãâ·ÂÇÏ´Â °ÍÀÓ.
+		// ì¶œë ¥ "1234567890 " ë¹ˆì¹¸ì´ 1ê°œ ì¶œë ¥ ë˜ì—ˆë„¤???
+		// ì§„ì§œ ëì¸ì§€ í•œ ë²ˆ ë” í™•ì¸í•˜ëŠ” ê³¼ì •ì—ì„œ ì¶œë ¥í•˜ëŠ” ê²ƒìž„.
 		cout << "count1 : " << count << endl;
 
 
@@ -172,20 +171,20 @@ int main(void) {
 
 			int ch = fgetc(fp3);
 
-			if (feof(fp3) != 0) { // ÀÔ·ÂÀ» ¹Þ°í ¹Ù·Î °Ë»ç¸¦ ÇØ¼­ ¹Ýº¹¹®À» ºüÁ®³ª°¡¾ß ¿øÇÏ´Â °á°ú¸¦ ¾òÀ½.
+			if (feof(fp3) != 0) { // ìž…ë ¥ì„ ë°›ê³  ë°”ë¡œ ê²€ì‚¬ë¥¼ í•´ì„œ ë°˜ë³µë¬¸ì„ ë¹ ì ¸ë‚˜ê°€ì•¼ ì›í•˜ëŠ” ê²°ê³¼ë¥¼ ì–»ìŒ.
 
 				break;
 			}
 
 			fputc(ch, stdout);
-			if (ch == '6') { // ´ÜÀÏ ¹®ÀÚ·Î ³Ö¾îÁà¾ß ÇÏ³×...
+			if (ch == '6') { // ë‹¨ì¼ ë¬¸ìžë¡œ ë„£ì–´ì¤˜ì•¼ í•˜ë„¤...
 				fputs("Hello", stdout);
 			}
 			if (ch == EOF) {
 				fputs("World", stdout);
 			}
 
-			count++; // "Enter"´Â Windows¶ó¼­ ±×·±Áö \r\nÀ¸·Î ÀÎ½ÄÇÏ´Â °Í °°À½.
+			count++; // "Enter"ëŠ” Windowsë¼ì„œ ê·¸ëŸ°ì§€ \r\nìœ¼ë¡œ ì¸ì‹í•˜ëŠ” ê²ƒ ê°™ìŒ.
 		}
 
 		cout << "count2 : " << count << endl;
@@ -194,11 +193,11 @@ int main(void) {
 	}
 	else {
 
-		cout << "ÆÄÀÏ °³¹æ ½ÇÆÐ" << endl;
+		cout << "íŒŒì¼ ê°œë°© ì‹¤íŒ¨" << endl;
 	}
 
 	cout << "###############################################################################" << endl;
-	cout << "### ÀÌ¹ÌÁö ÆÄÀÏ ¹ÙÀÌ³Ê¸® º¹»ç" << endl << endl;
+	cout << "### ì´ë¯¸ì§€ íŒŒì¼ ë°”ì´ë„ˆë¦¬ ë³µì‚¬" << endl << endl;
 
 	FILE *fInput = nullptr;
 	FILE *fOutput = nullptr;
@@ -210,8 +209,8 @@ int main(void) {
 		errno_t errOutput = fopen_s(&fOutput, "./copy.png", "wb");
 		if (errOutput == 0) {
 
-			// case 1. µ¿Àû ¹è¿­À» ¸¸µé¾î¼­.... fseek()À» ÀÌ¿ëÇÑ ¹æ¹ý
-			// - ÆÄÀÏÀÇ ³¡À» ftell()·Î Âï¾î¼­ Bytes ÀÐ¾î¿À°í, ¸Þ¸ð¸® µ¿Àû ÇÒ´çÀ» ÇÑ µÚ¿¡ º¹»ç ¹ÞÀ½.
+			// case 1. ë™ì  ë°°ì—´ì„ ë§Œë“¤ì–´ì„œ.... fseek()ì„ ì´ìš©í•œ ë°©ë²•
+			// - íŒŒì¼ì˜ ëì„ ftell()ë¡œ ì°ì–´ì„œ Bytes ì½ì–´ì˜¤ê³ , ë©”ëª¨ë¦¬ ë™ì  í• ë‹¹ì„ í•œ ë’¤ì— ë³µì‚¬ ë°›ìŒ.
 
 		/*	fseek(fInput, 0, SEEK_END);
 			int size = ftell(fInput);
@@ -223,15 +222,15 @@ int main(void) {
 			fwrite(ptr, sizeof(char) * size, 1, fOutput);*/
 
 
-			// case 2. feof()¸¦ ÀÌ¿ëÇÏ´Â ¹æ¹ý
-			while (feof(fInput) == 0) { // ¾Æ±î feof()´Â ¹ÙÀÌÆ® ´õ ÀÐÀ» ¼ö ÀÖ´Ù´Â °Í !!!!
+			// case 2. feof()ë¥¼ ì´ìš©í•˜ëŠ” ë°©ë²•
+			while (feof(fInput) == 0) { // ì•„ê¹Œ feof()ëŠ” ë°”ì´íŠ¸ ë” ì½ì„ ìˆ˜ ìžˆë‹¤ëŠ” ê²ƒ !!!!
 				char ch = 0;
 				fread(&ch, sizeof(char), 1, fInput);
 				fwrite(&ch, sizeof(char), 1, fOutput);
 			}
 
 
-			cout << "ÆÄÀÏ º¹»ç ¼º°ø" << endl;
+			cout << "íŒŒì¼ ë³µì‚¬ ì„±ê³µ" << endl;
 
 			fclose(fOutput);
 
