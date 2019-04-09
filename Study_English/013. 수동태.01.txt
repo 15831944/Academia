@@ -1,0 +1,231 @@
+
+####################
+       수동태
+####################
+
+Somebody built this house in 1935. (능동태)
+  주어           목적어
+
+This house was built in 1935. (수동태)
+  주어
+
+
+ex. Ron's parents died when he was very young. He and his sister were brought up by their grandparents.
+- Ron의 부모님은 그가 아주 어렸을 때 돌아가셨다. 그와 그의 여동생은 그들의 조부모님들에 의해 길러졌다.
+
+ex. While I was on vacation, my camera disappeared from my hotel room.
+- 내가 휴가 중인 동안에, 내 카메라가 나의 호텔방에서 사라졌다.
+
+
+====================================================================================================
+
+#######################
+   수동태 불가 동사
+#######################
+
+1. go, come, arrive, walk, run 왕래발착 동사
+
+2. live, rise, rain, snow, cry, sleep 자동사
+
+3. look, smell, taste, feel 오감동사
+
+4. have, possess 소유동사
+
+5. appear, disappear, consist of, occur, happen, exist 자동사
+(해석이 수동적이지만, 능동으로 사용해야 한다 !!!!)
+
+
+- consist of = be made up of ~로 구성되다.
+
+
+목적어가 없는 자동사는 수동태로 바꿀 수 없습니다.
+단, 자동사가 전치사와 함께 쓰여 목적어를 취할 경우에는 수동태로 전환이 가능합니다.
+
+ex. I looked at the man.
+-> The man was looked at by me.
+
+
+====================================================================================================
+
+###########################
+      조동사의 수동태
+###########################
+
+A. will/ can/ must/ going to/ want to 뒤에 나오는 수동태
+
+ex. Somebody will clean this room later.
+- 누군가가 나중에 이 방을 청소할 것이다.
+
+This room will be cleaned (by somebody) later.
+- 이 방은 나중에 (누군가에 의해) 청소될 것이다.
+
+
+B. should have p.p/ might have p.p/ would have p.p/ seem to have p.p 수동태
+
+ex. Somebody should have cleaned this room.
+- 누군가가 이 방을 청소했어야 했다.
+
+This room should have been cleaned (by somebody).
+- 이 방은 (누군가에 의해) 청소되었어야 했다.
+
+
+C. 현재 완료/ 과거 완료 수동태
+
+ex. The room looked nice. Somebody had cleaned it.
+- 그 방은 좋아 보였다. 누군가가 그것을 청소했던 것이다.
+
+The room looked nice. It had been cleaned.
+- 그 방은 좋아 보였다. 그것은 청소되어 있었다.
+
+
+D. 현재 진행/ 과거 진행 수동태
+
+ex. Somebody was cleaning this room when I arrived/
+- 내가 도착했을 때 누군가가 이 방을 청소하고 있었다.
+
+This room was being cleaned when I arrived.
+- 내가 도착했을 때 이 방은 청소되고 있었다.
+
+
+====================================================================================================
+
+############################
+     Let's Practice
+############################
+
+ex. A decision will not be made until next meeting.
+- 결정은 다음 회의까지 내려지지 않을 것이다.
+
+- make a decision : 결정을 내리다, 결정하다
+
+
+ex. Do you think that more money should be sent on education?
+- 너는 더 많은 돈이 교육에 쓰여야 한다고 생각하니?
+
+- spend 목적어(money) on + N/ v-ing : ~에/ ~하는 데에 돈을 쓰다.
+
+
+ex. If you hadn't pushed the policeman, you wouldn't have been arrested.
+- 만약 네가 그 경찰관을 밀지 않았더라면, 너는 체포되지 않았을 텐데.
+
+
+ex. Somebody is using the computer right now.
+- 누군가가 그 컴퓨터를 지금 사용하고 있다.
+
+The computer is being used right now.
+- 그 컴퓨터는 지금 사용되고 있다.
+
+
+ex. When we got to the stadium, we found that they had canceled the game.
+- 우리가 경기장에 도착했을 때, 우리는 그들이 그 시합을 취소했다는 것을 알게 되었다.
+
+When we got to the stadium, we found that the game had been canceled.
+- 우리가 경기장에 도착했을 때, 우리는 그 시합이 취소되었다는 것을 알게 되었다.
+
+
+====================================================================================================
+
+################################################
+      2개의 목적어를 가지는 동사의 수동태
+################################################
+
+종류: ask, offer, pay, show, teach, tell
+
+ex. Someone gave the police the information.
+- 누군가가 경찰에게 그 정보를 주었다.
+
+someone gave the information to the police.
+           직접 목적어(~을/를) 간접 목적어(~에게)
+
+
+A. 간접 목적어를 주어로 하는 수동태
+
+ex. The police were given the information.
+- 경찰은 그 정보를 받았다. (be given_받다.)
+
+- the police는 복수명사 취급.
+
+
+B. 직접 목적어를 주어로 하는 수동태
+
+ex. The information was given to the police
+- 그 정보는 경찰에게 주어졌다. (be given to_주어지다.)
+
+- information 불가산 명사
+
+
+====================================================================================================
+
+############################
+       v-ing 수동태
+############################
+
+ex. I don't like people telling me what to do.
+- 나는 사람들이 무엇을 하라고 말하는 것을 좋아하지 않는다.
+
+I don't like being told what to do.
+- 내가 무엇을 해야 하는지 듣는 것을 좋아하지 않는다. (be told_말하는 것을 듣다.)
+
+
+ex. I remember being taken to the zoo when I was a child.
+- 나는 내가 어린 아이였을 때 동물원으로 데러가졌던 것을 기억한다.
+
+remember to-v : (미래에) 할 일을 기억하다.
+remember v-ing : (과거에) 했던 일을 기억하다.
+
+- take A to B : A를 B로 데려가다.
+
+
+ex. We went to the party without being invited.
+- 우리는 초대 받지 않은 채 그 파티에 갔다.
+
+
+====================================================================================================
+
+##########################
+         get p.p
+##########################
+
+A. be p.p 와는 달리 get p.p는 수동태의 의미를 가지고 있지만, 주로 어떤 일이 일어나게 되거나 변화가 있을 경우에만 사용합니다.
+하지만 be p.p는 모든 상황에 쓸 수 있는 수동태 표현입니다.
+
+ex. Jill is liked by everybody.
+-Jill은 모든 사람들에게 호감을 받고 있다.
+
+Jill get liked by everybody. (X)
+- 어떤 일이 일어나게 되거나 변화가 있는 경우가 아니라서 안된다 !!!!
+
+
+B. get p.p 형식으로 쓰인 여러 표현은 수동의 형태를 가지고 있지만 의미는 능동인 경우가 많으므로 해석에 주의할 것.
+
+- get married 결혼하다
+
+- get divorced 이혼하다
+
+- get lost 길을 잃다
+
+- get dressed 옷을 입다
+
+- get changed 옷을 갈아입니다.
+
+
+====================================================================================================
+
+#################################
+       TODAY'S EXPRESSION
+#################################
+
+A: I don't think you should do that in that way. You should do it like this. I'll show you ...
+- 너 그거 그런 식으로 하면 안될 것 같은데. 이렇게 해야 돼. 내가 보여줄게...
+
+B: Jay, I know what to do. Please don't boss me around. I don't like being told what to do.
+- Jay, 난 뭘 해야 하는 지 알고 있어. 나에게 이래라 저래라 하지 말아 줘. 난 무엇을 해야 하는 지 듣는 걸 좋아하지 않아.
+
+A: Okay, I'm sorry about that.
+- 알았어, 미안해.
+
+
+- boss A around : ~에게 이래라 저래라 하다.
+
+====================================================================================================
+

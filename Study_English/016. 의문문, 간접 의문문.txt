@@ -1,0 +1,221 @@
+
+################
+     의문문
+################
+
+case 1. "who"가 목적어로 쓰인 경우
+
+Sarah called somebody.
+
+Who did Sarah call?
+- Sarah가 누구를 불렀어?
+
+
+case 2. "who"가 주어로 쓰인 경우
+
+Somebody called Sarah.
+
+Who called Sarah?
+- 누가 Sarah를 불렀어?
+
+
+ex. 누가 먹을 것을 원하니?
+Who wants something to eat?
+
+ex. 어제 너에게 무슨 일이 일어났니?
+What happened to you last night?
+
+
+의문사 "who"나 "what"가 주어로 쓰인 의문문에서는 조동사 do, does, did를 쓰지 않습니다.
+
+
+====================================================================================================
+
+######################
+    Let's Practice
+######################
+
+ex. I fell over something.
+- 나는 어떤 것에 걸려 넘어졌어.
+
+What did you fall over?
+- 너는 무엇에 걸려 넘어졌니?
+
+
+ex. Something fell on the floor.
+- 어떤 것이 바닥에 떨어졌어.
+
+What fell on the floor?
+- 무엇이 바닥에 떨어졌니?
+
+
+ex. This word means something.
+- 이 단어는 어떤 것을 의미해.
+
+What does this word mean?
+- 이 단어는 무엇을 의미하니?
+
+
+ex. I borrowed the money from somebody.
+- 나는 그 돈을 누군가로부터 빌렸어
+
+Who did you borrow it from?
+- 너는 누구로부터 그걸 빌렸니?
+
+
+====================================================================================================
+
+########################
+      간접 의문문 - 의문사 + S + V
+########################
+
+ex. What time is it?
+- 몇 시 입니까?
+
+Do you know what time it is?
+- 몇 시인지 아시나요?
+
+
+ex. Who are those people?
+- 저 사람들은 누구입니까?
+
+I don't know who those people are.
+- 나는 저 사람들이 누구인지 모릅니다.
+
+
+ex. Where can I find Linda?
+- 제가 어디에서 Linda를 찾을 수 있을까요?
+
+Can you tell me where I can find Linda?
+- 제가 어디서 Linda를 찾을 수 있는지 말해주실 수 있나요?
+
+
+ex. How much will it cost?
+- 그것은 얼마나 비용이 들까요?
+
+Do you have any idea how much it will cost?
+- 그것의 비용이 얼마나 들지 아시나요?
+
+
+ex. What time deos the movie begin?
+- 영화가 시작하는 시간은 몇 시입니까?
+
+Do you know what time the movie begin?
+- 영화가 시작하는 시간이 몇 시인지 아시나요?
+
+
+ex. What do you mean?
+- 무엇을 의미하신 건가요? (무슨 말이에요?)
+
+Please explain what you mean.
+- 당신이 의미하는 것을 설명해주세요.
+(무슨 말인지 설명해주세요.)
+
+
+ex. Why did she leave early?
+- 그녀는 왜 일찍 떠났나요?
+
+I wonder why she left early.
+- 나는 그녀가 왜 일찍 떠났는지 궁금해요.
+
+
+의문사가 없는 의문문을 간접 의문문으로 쓸 때에는 "if"나 "whether"를 사용합니다.
+
+ex. Did anybody see you?
+- 누가 당신을 보았나요?
+
+Do you know if anybody saw you?
+Do you know whether anybody saw you? (or not.)
+- 누가 당신을 보았는지 아시나요?
+
+
+의문문을 간접 화법으로 옮길 때도 "의문사 + 주어 + 동사" 어순으로 바뀝니다.
+
+직접 화법(direct speech)
+ex. The police officer said to us, "Where are you going?"
+- 그 경찰관은 우리에게 "여러분은 어디로 가는 중인가요?"라고 말했다.
+
+간접 화법(reported speech)
+ex. The police officer asked us where we were going.
+- 그 경찰관은 우리에게 어디로 가고 있는지를 물었다.
+
+
+간접 화법으로 바뀌면 문장의 동사인 asked(과거 시제)의 시제에 영향을 받아 간접 의문문의 시제도 과거 시제로 바뀝니다.
+
+직접 화법(direct speech)
+ex. Claire asked, "What time do the banks close?"
+- Claire는 "은행은 몇 시에 문을 닫나요?"라고 물었다.
+
+간접 화법(reported speech)
+ex. Claire wanted to know what time the banks close.
+- Claire는 은행이 몇 시에 문을 닫는지 알고 싶어했다.
+
+
+의문사가 없는 의문문
+
+ex. Are you willing to travel?
+- 당신은 기꺼이 여행을 할 의향이 있나요?
+
+- be willing to-v : 기꺼이 ~할 의향이 있다.
+
+She asked if[whether] I was willing to travel.
+- 그녀는 내가 기꺼이 여행할 의향이 있는지 물어보았다.
+
+
+ex. Do you have a dirver's license?
+- 당신은 운전 면혀를 갖고 있나요?
+
+She asked if[whether] I had a driver's license.
+- 그녀는 내가 면혀증을 갖고 있는지 물어보았다.
+
+
+ex. How long have you been working at your present job.
+- 그녀는 내가 얼마나 오래 현재의 직장에서 일해왔는지 물어보았다.
+
+
+====================================================================================================
+
+######################
+    Let's Practice
+######################
+
+ex. Has the plane left yet?
+- 그 비행기가 이제 떠났나요?
+
+Do you know if the plane has left yet?
+- 그 비행기가 떠났는지 아닌지 알고 계시나요?
+
+
+ex. Where does Carol live?
+- Carol은 어디 살아?
+
+Do you have any idea where Carol lives?
+- Carol이 어디에서 사는지 알고 있나요?
+
+
+====================================================================================================
+
+#########################
+    TODAY'S EXPRESSION
+#########################
+
+A: I had a job interview this morning.
+- 나 오늘 아침에 면접이 있었어.
+
+B: How dit it go? Do you think you could get the job?
+- 어떻게 되었어? 취직할 수 있을 것 같아?
+
+A: I'm pretty positive. She wanted to know if I could speak English. So, I said, "of course."
+- 난 상당히 긍정적이야. 그녀는 내가 영어를 할 수 있는지 알고 싶어 했어. 그래서 난 말했지, "물론이죠."
+
+B: Wow, good for you. You should buy me lunch if you get it.
+- 와, 잘됐다. 너 취직하면 나한테 점심 사야 돼.
+
+A: Why not. Surely I will. You've taught me English.
+- 물론이지, 꼭 그럴게. 네가 나한테 영어를 가르쳐줬잖아.
+
+- Why not : 당연하지, 왜 아니겠어?, (~하는 것이 어때?)
+
+====================================================================================================
+
+

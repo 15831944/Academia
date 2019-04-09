@@ -1,0 +1,271 @@
+
+#######################
+       현재 완료
+#######################
+
+Bob and Alice are married.
+- Bob과 Alice는 결혼한 상태입니다. (상태)
+
+They got married exactly 20 years ago.
+- 그들은 정확히 20년 전에 결혼했습니다. (행위)
+
+So today is their 20th wedding anniversary.
+- 그래서 오늘은 그들의 20번째 결혼 기념일입니다.
+
+
+
+
+case 1. 현재
+
+Are they married? (현재)
+- 그들은 결혼한 상태인가요?
+
+Yes, they are. (현재)
+- 네, 그렇습니다.
+
+
+case 2. 과거
+
+When did they get married? (과거)
+- 그들은 언제 결혼했나요?
+
+They got married 20 years ago. (과거)
+- 그들은 20년 전에 결혼했습니다.
+
+case 3. 현재 완료
+
+How long have they been married? (현재 완료)
+- 그들은 결혼한지 얼마나 오래되었나요?
+
+They have been married for 20 years.
+- 그들은 20년 동안 결혼한 상태입니다. (현재완료: 계속)
+
+====================================================================================================
+
+#########################################
+  for + 기간 (two hours, six weeks 등)
+#########################################
+
+ex. I've been waiting for two hours.
+- 나는 2시간 동안 기다려오고 있는 중이다.
+
+two hours, a long time, a week,
+20 minutes, six months, ages,
+five days, 50 years, years 등...
+
+ex. I haven't seen Tome for three days.
+- 나는 3일 동안 Tom을 보지 못했다.
+
+
+#########################################
+ since + 과거 시작시점 (8:00, Monday 등)
+#########################################
+
+ex. I've been waiting since 8:00.
+- 나는 8시부터 기다려오고 있는 중이다.
+
+8:00, April, lunchtime,
+Monday, 1985, we arrived,
+May 12, Christmas, yesterday 등...
+
+ex. I haven't seen Tom since Monday.
+- 나는 Tom을 월요일 이후로 보지 못했다.
+
+
+
+
+"for"는 생략 가능하지만, 부정문에서는 생략 불가능하다 !!!!
+
+ex. They've been married (for) 10 years.
+- 그들은 10년 동안 결혼한 상태이다. (결혼한지 10년 되었다.)
+
+
+부정문에서는 "for"를 반드시 써야 하며, "in"으로 바꾸어 쓸 수도 있습니다.
+
+ex. They haven't had a vacation for(int) 10 years.
+- 그들은 10년 동안 휴가를 간 적이 없다. (휴가를 가지 못했다.)
+
+
+"all"이 쓰인 경우에는 "for"를 사용하지 않습니다. (all day, all my life 등)
+
+ex. I've lived here all my life.
+- 나는 여기에 일생 동안(평생) 살아왔다.
+
+
+====================================================================================================
+
+################################
+    현재 완료 vs. 과거 시제
+################################
+
+의문사 When은 (단순) 과거 시제, How long은 현재 완료와 함께 쓰입니다.
+- 시점을 묻는 의문문에 쓰이는 when, what time과 같은 의문사는 현재 완료 시제와 쓸 수 없습니다.
+
+ex. How long have you known Jeff?
+- 너는 Jeff를 알고 지낸 지 얼마나 되었어?
+
+ex. When did you meet Jeff?
+- 너는 Jeff를 언제 만났어?
+
+
+====================================================================================================
+
+##############################
+        현재 완료 진행
+##############################
+
+have/ has + p.p : 현재 완료 "~해왔다"
+
+I have known : 나는 알아왔다.
+I have had : 나는 가지고 있어왔다.
+I have lived : 나는 살아왔다.
+
+
+have/ has + been + v-ing : 현재 완료 진행 "~해오고 있는 중이다"
+
+I have been learning : 나는 배워오고 있는 중이다.
+I have been waiting : 나는 기다려오고 있는 중이다.
+I have been doing : 나는 해오고 있는 중이다.
+
+"How long~?"을 쓴 의문문이나, 그에 대한 대답으로 주로 현재 완료 진행 시제를 더 많이 사용합니다.
+
+
+A. know/ like/ believe/ have 등 인지, 감정, 신념, 소유를 나타내는 동사들은 현재 완료 진행 시제를 사용할 수 없습니다.
+
+ex. How long have you knowing? (X)
+- 인지를 나타내는 동사 "know"는 진행 시제를 사용할 수가 없음.
+
+
+but, live와 work과 같은 동사는 현재 완료, 현재 완료 진행 시제 모두 사용 가능합니다.
+
+ex. How long have you been working here?
+- 너는 여기서 얼마나 오래 일해오고 있니?
+
+How long have you worked here?
+- 너는 여기서 얼마나 오래 일해왔니?
+
+====================================================================================================
+
+############################
+       현재 완료 진행
+############################
+
+Is it raining?
+- 지금 비가 오고 있니?
+
+No, but the ground is wet.
+- 아니, 그런데 땅은 젖어있어.
+
+It has been raining.
+- 비가 (방금까지) 오고 있는 중이었구나.
+
+
+A. 현재 완료 진행은 얼마 전에, 또는 방금 막 끝낸 행동을 표현할 때 사용합니다.
+
+그리고, 현재 완료 진행은 현재와 관련이 있습니다.
+
+ex. You're out of breath. Have you been running?
+- 넌 지금 숨이 차 있구나. 계속 뛰고 있었어?
+
+
+ex. How long has it been raining?
+- 얼마나 오래 비가 오고 있는 중이니?
+
+It has been raining for two hours.
+- 2시간 동안 비가 오고 있는 중이야.
+
+(비가 2시간 전에 내리기 시작하여, 지금도 여전히 비가 오고 있는 상황)
+
+
+
+B. 현재 완료 진행은 how long~?, for, since와 함께 쓰이며, 상황이 여전히 진행되고 있거나 (계속되는 상황),
+이제 막 끝났음 (완료된 상황)을 의미합니다.
+
+
+ex. She has been watching TV.
+- 그녀는 (방금까지) TV를 시청해오고 있었어. (지금은 아님)
+
+ex. He has been jogging.
+- 그는 (방금까지) 조깅을 해오고 있었어. (지금은 아님)
+
+
+====================================================================================================
+
+######################################
+    현재 완료 vs. 현재 완료 진행 2
+######################################
+
+Ling's clothes are covered with paint. She has been painting.
+- Ling의 옷들은 페인트로 덮여있었다. 그녀는 페인트 칠하는 중이다.
+
+현재 완료 진행은 행동 자체(페인트 칠하는 것)가 관심의 초점일 때 사용한다.
+
+
+The ceiling was white. It is red. She has painted the ceiling.
+- 천장은 흰색이었다. 그것은 지금 빨간색이다. 그녀는 천장을 페인트칠 했다.
+
+현재 완료는 행동 그 자체가 아니라 행동의 결과(페인트칠이 된 천장)가 관심의 초점일 때 사용한다.
+
+
+
+현재 완료 진행: (진행 중인 행동이) 얼마 동안 지속되었는지 말할 때
+
+ex. How long have you been reading that book?
+- 너는 얼마나 오래 그 책을 읽어오고 있니?
+
+(책 읽는 행동을 얼마나 오래 지속했는지 묻는 질문)
+
+
+ex. Lisa is still writing her report. She's been writing it all day.
+- Lisa는 여전히 그녀의 보고서를 쓰고 있다. 그녀는 그것을 하루 종일 써오고 있는 중이다.
+
+
+현재 완료: (완료된 행동이) 얼마나 많이, 또는 몇 번(횟수) 일어났는지 말할 때
+
+ex. How much of that book have you read?
+- 너는 그 책의 얼마나 많은 부분을 읽었니?
+
+(행동의 지속이 아닌 책을 얼마나 많이 읽었는지 묻는 질문)
+
+ex. Lisa has read 10 pages.
+- Lisa는 10 페이지를 읽었다.
+
+
+
+ex. When they graduated from college, Lisa and Amy started making movies together.
+They still make movies.
+
+
+They have made five movies since they finished college.
+
+(영화 다섯 편을 만들었다는 것은 다섯 편의 영화라는 결과물에 초점을 맞춘 말이기도 하며,
+영화를 만드는 행위를 다섯 번 했다는 횟수와 관련되기 때문에 현재 완료 시제를 사용한다.)
+
+
+They have been making movies since they finished college.
+
+(영화를 만드는 행위에 초점을 두었으며, 그 행위의 지속성을 언급하기 때문에 현재 완료 진행을 사용한다.)
+
+
+====================================================================================================
+
+##########################
+    TODAY'S EXPRESSION
+##########################
+
+A: Jay, how long have you known Jeff?
+- Jay, Jeff랑 안지 얼마나 됐어?
+
+B: I have known him for a long time.
+- 나는 그를 오랜 시간 동안 알아왔어.
+
+A: Do you still see him very often?
+- 너 여전히 그를 그렇게 자주 보니?
+
+B: No, It's been ages since we last met.
+- 아니, 우리 마지막으로 만난 이후로 한 참 지났어.
+
+
+====================================================================================================
+
+

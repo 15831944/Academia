@@ -1,0 +1,203 @@
+###########
+   should
+###########
+
+ex. 
+Lisa said to Mary. "Why don't you buy some nice clothes?"
+- Lisa가 Mary에게 말했습니다. 멋진 옷 좀 사는 게 어때?
+
+Lisa suggested that Mary buy some nice clothes.
+- Lisa는 Mary 가 멋진 옷을 좀 사야 한다고 제안 했습니다.
+
+이 예제에서는 "buy" is the subjunctive. (가정법)
+The subjunctive is always the same as base form. (동사의 기본 형태와 같아야 함)
+- I buy, he buy, she buy : should가 생략된 상태
+
+
+
+A. 요구, 명령, 주장, 제안의 동사에 대한 목적어로 명사절 that절이 나올 때,
+명사절의 내용이 당위성(~해야 한다의 의미)을 나타낸다면 "that + 주어 + (should) + 동사원형" 형태를 쓴다.
+
+- demand(요구하다), insist(주장하다), propose(제안하다), recommend(추천하다, 권고하다), suggest(제안하다)
+
+ex. I insisted he have dinner with us.
+- 나는 그가 우리와 저녁을 먹어야 한다고 주장했다.
+
+ex. John demaded that Lisa apologize to him.
+- John은 Lisa가 그에게 사과해야 한다는 것을 요구했다.
+
+- aplogize to : ~에게 사과하다
+
+
+B. it's essential/ imperative/ important/ necessary/ vital + (that) 주어 + (should) 동사원형
+        
+(essential, necessary, vital : 필수적인
+ imperative : 반드시 해야하는(필수성)/ ~해야 하는, 명령을 나타내는(당위성)
+
+ex. It's essential that everyone be at work by 9:00 tomorrow morning.
+- 모든 사람이 내일 아침 9시까지 출근해야 한다는 것은 필수적이다.
+
+It's essential for everyone to be at work by 9:00 tomorrow morning.
+- it is + 형용사 that 주어 + 동사 = it is + 형용사 + for 의미상 주어 + to 부정사
+(that절의 주어 = for + 의미상 주어, that 절의 동사 = to 부정사)
+
+
+C. 부정문에서는 that절에 [not + 동사원형]을 사용한다.
+
+ex. The doctor strongly recommended that I not go to work for two days.
+- 의사는 내가 2일 동안 일하러 가지 않아야 한다는 것을 강력하게 권유했다.
+
+
+D. 수동태일 경우 that절에 [be + 과거분사]를 사용한다.
+
+ex. I insisted that something be done about the problem.
+- 나는 그 문제에 대하여 뭔가가 행해져야 한다고 주장했다.
+
+====================================================================================================
+Dear Jay.
+
+My husband and I have been together for 10 years.
+We've had a great relationship so far on the whole, but sometimes we have arguments about one thing for no reason. 
+My husband is always telling me I am a cheater and cannot be trusted.
+
+Jay, I haven't done a single thing to make him fell this way.
+It is a constant fight between us.
+I have suggested that we should get couseling so we can work on this issue, but he hasn't been willing.
+Is there anyting else I can do to make this annoying part of our relationship go away?
+
+- Wonder Woman
+
+(so far - 지금까지
+ work on this issue - 문제를 해결하다
+ annoying - 짜증나게 하는, 화나게 하는
+ go away - 사라지다)
+
+Jay 에게.
+
+제 남편과 저는 10년 동안 함께 지내왔어요.
+저희는 전체적으로 지금까지 아주 좋은 관계를 가져왔어요.
+하지만 때때로 저희는 별 이유 없이 어떤 한 가지에 대해 말싸움을 합니다.
+제 남편은 항상 저에게 제가 바람둥이고 신뢰가 안 간다고 말하고 있습니다.
+
+Jay, 저는 그가 이런 식으로 느끼게 만들 만한 어떠한 일도 한 적이 없어요.
+그게 저희들 사이에 지속적인 싸움거리 입니다.
+저는 우리가 상담을 받아야 한다고 제안해왔어요. 그래서 우리가 이 문제에 대해 노력을 할 수 있게요.
+하지만 그는 선뜻 그려러고 하지 않아요.
+이밖에 저희 관계에서 이 짜증스러운 부분을 사라지게 만들 수 있는 일이 있나요?
+
+- Wonder Woman
+
+====================================================================================================
+To. Wonder Woman
+
+A person who constantly accuses the spouse of cheating is either cheating himself or too insecure to function in a healthy marriage.
+First, ask him to see his doctor and find out if there is a medical reason for his behavior.
+Then stop "suggesting" and insist that your husband go with you for counseling.
+If he refuses, go on your own to decide whether this is something you can tolerate or alleviate.
+
+- Jay Kim
+
+(accuse A of B : A를 B로 비난하다
+ insecure : 자신이 없는, 불안정한
+ tolerate : 참다
+ alleviate : 완화하다, 경감하다
+
+ either A or B : A이거나 B이다.
+ too A to-v : 너무 A해서 v 못하다, 할 수 없다
+ stop v-ing : v하는 것을 멈추다)
+
+Wonder Woman에게
+
+지속적으로 자신의 배우자를 바람둥이로 비난하는 사람은 자신이 바람을 피고 있거나
+건강한 결혼생활에서 제대로 역할을 하기엔 너무나 자신이 없거나 둘 중 하나입니다.
+먼저, 그에게 의사를 찾아가서 그의 행동에 대한 의료적인 이유가 있는지 알아보도록 하세요.
+그리고 나서 "제안"하는 건 그만 두시고 당신의 남편은 당신과 함께 상담을 받으러 가야 한다고 주장하세요.
+만약 그가 거절한다면, 이것이 당신이 참을 수 있는 것인지 완화시킬 수 있는 것인지 결정하기 위해 혼자라도 가세요.
+
+- Jay Kim
+
+====================================================================================================
+
+"앞으로 ~해야 한다"의 당위성을 가진 내용이 아니라,
+that절의 내용이 단순 사실일 경우 주절의 시제와 일치시켜야 합니다 !!!!
+
+ex. She ordered that I clean my room.
+- 그녀는 내가 나의 방을 청소해야 한다고 명령했다.
+(해야 할 행동의 당위성을 언급하고 있으므로 "(should) + 동사원형)"
+
+ex. The woman insisted that she saw the accident.
+- 그 여자는 그 사고를 보았다고 강력하게 주장했다.
+(that절의 내용이 과거의 사실을 언급하고 있으므로 주절의 시제와 일치시켜 과거시제를 씁니다.)
+
+====================================================================================================
+
+###############
+  had better
+###############
+
+had better + 동사 원형: ~하는 편이 좋다.(가벼운 명령, 권고)
+- 그렇게 하지 않을 경우, 부정적인 결과를 초래할 것이라는 의미도 포함하고 있음 !!!!
+
+had better: ~하는 편이 좋다.(하지 않으면 좋지 않은 결과가 있을 것이다.)
+may as well: ~하는 것이 낫다.(이 상황에서는 그렇게 하는 편이 최선이다. 다른 대안이 없다.)
+
+ex. I have to meet Amy in 10 minutes. I'd better go now.
+- 나는 10분 후에 Amy와 만나야 한다. 나는 지금 가는 편이 좋다.
+(그렇게 하지 않을 경우, 부정적인 결과를 초래할 것이라는 의미를 포함.)
+
+had better not + 동사원형(부정형): ~하지 않는 편이 좋다.
+
+ex. We'd better not stay here.
+- 우리 여기서 머무르지 않는 것이 좋겠다.
+(had better의 had는 과거시제를 나타내는 것이 아님. 항상 현재로 해석해야 한다 !!!!)
+
+==============================================================================================================
+
+###########################
+  had better vs. should
+###########################
+
+had better - 구체적인 상황에 대한 판단을 나타낸다.
+(~하는 편이 좋다, 아니면 안 좋은 상황이 발생하니까 !!!!)
+
+should - 모든 상황에서 의견이나 조언을 할 때 단순히 "~하는 것이 좋다"는 의미
+
+
+ex. It's a great movie. You should go and see it.
+- 그건 정말 좋은 영화야. 너 가서 그 영화 봐야 돼.
+(권유, 추천, 제안, 조언의 의미이기 때문에 영화를 안 봐도 상관 없음 !!!!)
+
+ex. The movie starts at 8:30. You'd better go now, or you'll be late.
+- 그 영화는 8시 30분에 시작해. 너 지금 가는 게 좋아, 아니면 넌 늦게 될 거야.
+
+
+You had better set your alarm. You'll never wake up on time if you don't.
+- 너는 알람을 설정하는 것이 좋아. 만약 그러지 않으면 넌 절대 제시간에 일어나지 못할 거야.
+
+when people are driving, they should keep their eyes on the road.
+- 사람들은 운전을 하고 있을 때, 그들은 도로를 주시해야 한다.
+
+(keep eyes on ~ : ~를 주시하다, 주목하다)
+
+
+These cookies are delicious. You should try one.
+- 이 쿠키들은 맛있어. 너 하나 먹어봐야 해(먹어보는 게 좋아)
+
+====================================================================================================
+
+######################
+  TODAY'S EXPRESSION
+######################
+
+A: Jay, do you think we should invite Karen to dinner tonight?
+- Jay, Karen을 오늘 밤 저녁식사에 초대해야 한다고 생각해?
+
+B: She'll be hurt if we don't invite her over to dinner. // 시간, 조건의 부사절에서 현재가 미래를 대신함.
+- 만약 우리가 저녁식사에 초대하지 않으면, 그녀는 상처받을 거야.
+
+A: Okay. We'd better invite her.
+- 그래. 그녀를 초대하는 게 좋겠어
+
+(invite A over to B : A를 B에 초대하다.)
+
+

@@ -1,0 +1,257 @@
+
+#########################
+          수동태
+#########################
+
+Henry is very old. Nobody knows exactly how old he is, but:
+- Henry는 나이가 매우 많다. 아무도 그가 몇 세인지 정확히 알지 못한다. 하지만...
+
+It is said that he is 108 years old.
+
+He is said to be 108 years old.
+
+- 사람들은 그가 108세라고 말한다.
+(People say that he is 108 years old.)
+
+
+- It is said that~ : "~라는 것이 말해진다.", (일반적으로 사람들이) "~라고들 말한다."
+
+
+############################################
+   It is + p.p + that 으로 쓰이는 동사
+############################################
+
+- alleged(주장하다), believed(믿다), considered(~라고 여기다), expected(기대/예상하다)
+- known(~라고 알다), reported(보고하다), thought(생각하다), understood(이해하다)
+
+- It is + p.p + that + 주어 + 동사 = 주어 + be p.p + to-v
+
+
+ex. The strike started there weeks ago.
+- 파업은 3주 전에 시작되었다.
+
+It is expected that it will end soon.
+- 그것은 곧 끝날 것으로 예상된다.
+
+
+ex. A friend of mine has been arrested.
+- 내 친구가 체포 되었다.
+
+It is alleged that he hit a police officer.
+(현재 시제)       (과거 시제)
+- 그가 경찰관을 때렸다고 주장된다.
+
+He is alleged to have hit a police officer.
+
+
+ 주절의 동사가 현재 시제이고 종속절의 시제가 과거 시제일 경우에(종속절의 동사가 한 시제 앞선 경우...)
+종속절의 동사를 to-v로 바꿀 때는 to have p.p (완료 부정사)를 사용합니다.
+
+
+====================================================================================================
+
+##################################
+         Let's Practice
+##################################
+
+ex. It is said that the company is losing a lot of money.
+- 회사가 많은 돈을 잃고 있다고 말해진다.
+
+The compony is said to be losing a lot of money.
+
+
+ex. It is believed that the company lost a lot of money last year.
+- 회사가 작년에 많은 돈을 잃었다고 믿어진다.
+
+The company is believed to have lost a lot of money last year.
+
+
+ex. It is expected that the company will lose money this year.
+- 회사가 올해 돈을 잃을 것이라고 예상된다.
+
+The company is expected to lose money this year.
+
+
+====================================================================================================
+
+#################################
+        be supposed to-v
+#################################
+
+A. "(It is) said to-v"의 의미 : "~라고 하더라"
+
+ex. Let's go and see that movie.
+- 우리 가서 영화 보자
+
+It's supposed to be good. (= It is said to be good.)
+- 그건 좋을 거야. (그건 좋다고 하더라)
+
+
+B. 계획, 준비, 예상했던 바를 표현할 때 : "~하기로 하다", "~하기로 되어있다"
+
+ex. The plan is supposed to be a secret but everybody seems to know about it.
+- 그 계획은 비밀이어야 해. 하지만 모든 사람이 그것에 대해 알고 있는 것처럼 보여.
+(그 계획을 비밀로 하기로 했음.)
+
+ex. Jane was supposed to call me last night but she didn't.
+- Jane은 어제 밤 나에개 전화하기로 했었지만, 그녀는 전화하지 않았다.
+
+
+C. 해서는 안 되는 행동, 금지를 표현할 때 : "~하지 않기로 되어있다", "~해서는 안된다"
+- be not supposed to-v, 그렇게 하는 것이 허용되지 않거나 바람직하지 않음.
+
+ex. You're not supposed to park your car here. It's private parking only.
+- 당신은 여기에 당신의 차를 주차해서는 안됩니다. 그건 개인 주차 전용입니다.
+
+====================================================================================================
+
+##################################
+         Let's Practice
+##################################
+
+ex. You shouldn't be reading the paper now. You are supposed to be working.
+- 너는 지금 신문을 읽고 있으면 안돼. 넌 일하고 있어야 해.
+
+
+ex. This door is a fire exit. You are not supposed to block it.
+- 이 문은 화재 대피구야 넌 그것을 막으면 안돼.
+
+
+====================================================================================================
+
+#######################################
+      have[get] something done - 누구를 시켜서 ~하게 만들었다.
+                  (사물)  (p.p)
+#######################################
+
+The roof of Lisa's house was damaged in a storm.
+Yesterday a worker came and repaired it.
+
+Lisa had the roof repaired yesterday.
+
+- Lisa가 다른 사람을 시켜서 지붕을 고치게 하였다는 것을 의미합니다.
+그녀가 직접 지붕을 수리한 것은 아닙니다.
+
+
+"have someting done"은 누군가를 시켜서 어떤 일을 하게 할 때 사용합니다.
+
+ex. Lisa repaired the roof. (Lisa가 직접 수리했음.)
+Lisa had the roof repaired. (Lisa가 다른 사람을 시켜서 수리했음.)
+
+
+====================================================================================================
+
+##############################
+     make, have, let, get
+##############################
+
+사역동사 : (목적어)로 하여금 ~하게 하다. (동사 + 목적어 + 동사원형)
+
+ex. I made him paint my room.
+- 나는 그가 내 방을 페인트칠 하게 했다.
+
+I had my students read the book aloud.
+- 나는 나의 학생들이 그 책을 큰 소리로 읽도록 시켰다.
+
+I let my students leave early.
+- 나는 학생들을 빨리 떠나게 했다.
+
+cf) I got the man to fix the roof.
+- 나는 남자에게 지붕 수리를 시켰다.
+
+"get"은 사역동사의 의미를 가지고 있지만, 목적어 뒤에는 동사원형이 아니라 to-v를 사용해야 합니다 !!!!
+
+
+
+사역동사 : (목적어)로 하여금 ~되게 하다 (동사 + 목적어 + p.p)
+
+A. 다른 사람에게 시켜서 목적어를 "~된 상태"가 되게 하다
+
+ex. I had my computer fixed.
+= I got my computer fixed.
+
+- 나는 내 컴퓨터를 수리되게 했어.
+(다른 사람을 시켜서 수리했음.)
+
+
+B. 사람이나 소유물에 무슨 일이 생겼을 때, 일반적으로 좋지 않은 일인 경우...
+
+ex. James had his passport stolen. (= His passport was stolen.)
+= James got his passport stolen.
+
+- James는 그의 여권을 도둑 맞았다.
+
+
+====================================================================================================
+
+##################################
+         Let's Practice
+##################################
+
+ex.
+
+Sarah is cutting her hair. (그녀가 직접 자르냐)
+Sarah is having her hair cut. (다른 사람이 잘라주냐)
+
+- Sarah는 그녀의 머리를 자르고 있다.
+
+ex.
+
+John is shining his shoes. (그가 직접 닦고 있냐)
+John is having his shoes shined. (다른 사람이 닦아주냐)
+
+- John은 그의 구두를 닦고 있다.
+
+
+ex.
+A: What are those workers doing at your house?
+- 저 인부들은 너의 집에서 무엇을 하고 있어?
+
+B: Oh, we are having our garage built.
+- 오, 우리는 차고를 지어지게 하고 있어.
+
+
+ex. If you want to wear earrings, why don't you get[have] your ears pierced?
+- 만약 귀걸이를 하길 원한다면, 너의 귀를 뚫어보는 게 어때?
+
+
+====================================================================================================
+
+##########################
+    TODAY'S EXPRESSION
+##########################
+
+A: Tom, why didn't you show up at the meeting this morning?
+- Tom, 오늘 아침 회의에 왜 나타나지 않았어?
+
+- show up : 나타나다
+
+B: I couldn't come to the meeting because I had a car accident on my way to work.
+- 나는 출근하는 길에 자동차 사고가 나서 회의에 올 수 없었어.
+
+- on one's way : "~하는 길에", "~하는 도중에"
+
+A: Really? Are you okay?
+- 정말이야? 너 괜찮아?
+
+B: Yes, I didn't get hurt at all. but my car's badly damaged, so I have to get my car serviced.
+- 응, 나는 전혀 다치지 않았어. 하지만 내 차동차는 크게 손상됐어, 그래서 나는 자동차를 수리맡겨야 해.
+
+====================================================================================================
+
+
+
+====================================================================================================
+
+
+
+
+====================================================================================================
+
+
+
+====================================================================================================
+
+
+
+====================================================================================================

@@ -1,0 +1,259 @@
+
+###########################
+         간접 화법
+###########################
+
+당신은 다른 사람에게 Tom이 말한 것을 전달하고 싶습니다.
+
+
+case 1. Tom이 말한 그대로를 전달하는 직접 화법, "direct speech"
+
+Tom said, "I'm feeling sick."
+- Tom은 "난 속이 메스꺼워."라고 말했다.
+
+
+case 2. Tom이 말한 것을 간접적으로 전달하는 간접 화법, "reported speech"
+
+Tom said that he was feeling sick.
+- Tom은 그가 속이 메스껍다고 말했다.
+
+
+직업 화법(direct speech)은 상대방의 말을 그대로 인용했다는 기호인 큰 따옴표(quotation marks)를 써야 합니다.
+
+ex. "I want to buy a car."
+- "나는 차를 사길 원한다."
+
+She said that she wanted to buy a car.
+
+ex. "John has quit his job."
+- "John은 그의 일을 관두었다."
+
+She said that John had quit his job.
+
+
+ex. "I'm going away for a few days. I'll call you when I get back."
+- 제가 며칠 동안 자리를 비울 거에요. 제가 돌아왔을 때 다시 연락드릴께요.
+
+She said that she was going away for a few days and would call me when she got back.
+
+
+직접 화법에서 단순 과거로 쓰인 말은 간접 화법에서 단순 과거나 과거 완료로 써도 됩니다.
+
+ex. Tom said, "I woke up feeling sick, so I didn't go to work."
+- Tom은 "내가 일어났을 때 몸이 아파서, 일하러 가지 않았어."라고 말했다.
+
+Tom said (that) he woke up feeling sick, so he didn't go to work. (단순 과거)
+
+Tom said (that) he had woken up feeling sick, so he hadn't gone to work. (과거 완료)
+
+
+====================================================================================================
+
+######################
+   Let's Practice
+######################
+
+당신의 친구 Rob이 당신에게 말한 내용을 간접 화법(reported speech)으로 바꾸기.
+
+
+ex. "You can come and stay at my place if you're ever in Chicago."
+- "네가 언젠가 시카고에 있게 된다면, 우리 집에 와서 머물러도 좋아."
+
+Rob said (that) I could come and stay at his place if I was ever in Chicago.
+
+
+ex. "My car was stolen a few days ago."
+- "내 차는 며칠 전에 도난 당했어."
+
+Rob said (that) his car had been stolen a few days ago.
+Rob said (that) his car was stolen a few days ago.
+
+
+====================================================================================================
+
+######################
+   Let's Practice
+######################
+
+ 간접 화법(reported speech)에서 동사의 시제를 반드시 바꿔야 하는 것은 아닙니다.
+전달하는 내용이 변함이 없다면, 동사의 시제를 바꾸지 않아도 됩니다.
+
+ex. Tom said, "My new job is very interesting."
+- Tom은 "나의 새로운 일(직업)은 아주 재미있어."라고 말했다.
+
+Tom said that his new job is[was] very interesting.
+- Tom은 그의 새로운 일(직업)이 아주 재미있다고 말했다.
+
+
+ex. Ann said, "I want to go to South America next year."
+- Ann은 "나는 내년에 남아메리카에 가고 싶어."라고 말했다.
+
+Ann told me that she wants[wanted] to go to South America next year.
+- Ann은 그녀가 내년에 남아메리카에 가고 싶다고 말했다.
+
+====================================================================================================
+
+#########################
+    간접 화법의 시제
+#########################
+
+A. 전달되는 내용이 이미 과거에 종료된 일이라면, 반드시 과거 시제로 씁니다.
+
+ex. Paul left the room suddenly. He said he had to go.
+- Paul은 갑자기 그 방을 떠났다. 그는 가야 한다고 말했다.
+
+
+(Joe가 병원에서 이미 퇴원한 상황)
+ex. I didn't expect to see you, Joe. Sonia said you were in the hospital.
+- 너를 보게 될 줄은 예상하지 못했어, Joe. Sonia가 넌 병원에 있다고 말했어.
+
+
+====================================================================================================
+
+#############################
+       Tell vs. Say
+#############################
+
+case 1. Tell
+
+A. 어순
+
+(1) tell somebody something
+
+ex. Tell me what happened.
+- 나에게 무엇이 일어났는지 말해줘.
+
+(2) tell somebody (that) S + V
+
+ex. Tom told me that he was sick.
+- Tom은 나에게 그가 아팠다고 말했어.
+
+
+B. 목적어
+
+tell sombody.
+- tell은 누구에게 말하는지를 나타낼 때 사용합니다.
+
+Tell somebody about someting.
+
+ex. Tell me about your family.
+- 나에게 당신의 가족에 관해 알려주세요.
+
+
+
+
+case 2. Say
+
+A. 어순
+
+(1) say something to somebody.
+
+ex. Ann said good bye to me.
+- Ann은 내게 작별 인사를 했어.
+
+(2) say (that) S + V
+
+ex. Tom said that he was sick.
+- Tom은 그가 아팠다고 말했어.
+
+
+B. 목적어
+
+say something (to somebody)
+
+talk to somebody about something
+speak   somebody about something
+
+ex. I want to talk to J.Kim about my class.
+- 나는 나의 수업에 관해 J.Kim에게 이야기 하고 싶어.
+
+
+====================================================================================================
+
+################################
+   명령문(요청문)의 간접 화법
+################################
+
+She said, "Leave me alone." - 명령문
+- 그녀는 "날 혼자 내버려둬."라고 말했다.
+
+She told me to leave her alone.
+- 그녀는 나에게 그녀를 홀로 내버려두라고 말했다.
+
+명령문의 간접 화법(reported speech)은 "tell + O + to-v"의 형태로 씁니다.
+
+
+
+She said, "Don't go to the party." - 부정 명령문 (~하지마)
+= 그녀는 "그 파티에 가지마."라고 말했다.
+
+She told me not to go to the party.
+- 그녀는 나에게 그 파티에 가지 말라고 말했다.
+
+부정 명령문의 간접 화법(reported speech)은 "tell + O + not to-v"의 형태로 씁니다.
+
+
+
+She said, "Please leave me alone." - 요청문
+- 그녀는 "나를 홀로 내버려두세요."라고 말했다.
+
+She asked me to leave her alone.
+- 그녀는 나에게 그녀를 홀로 내버려둬달라고 부탁했다.
+
+Please가 있는 명령문(요청문)의 간접 화법(reported speech)은 "ask + O + to-v"의 형태로 씁니다.
+
+
+She said, "Please don't tell anybody what happened."
+- 그녀는 "부디 무슨 일이 있었는지 아무에게도 말해주지 마세요."라고 말했다.
+
+She asked me not to tell anybody what happened.
+- 그녀는 무슨 일이 있었는지 아무에게도 말해주지 말아달라고 나에게 부탁했다.
+
+
+
+====================================================================================================
+
+######################
+   Let's Practice
+######################
+
+ex. I wonder where Sue is. She said she would be here at 8:00.
+- 나는 Sue가 어디 있는지 궁금해. 그녀는 8시에 이곳에 있을 거라고 말했어.
+
+ex. Don't tell anybody what I said. It's a secret just between us.
+- 내가 말한 것을 누구에게도 말해주지 마. 이건 우리 둘만의 비밀이야.
+
+
+
+ex. "Please slow down!"
+- "속도를 늦춰주세요!"
+
+Sarah was driving too fast, so I asked her to slow down.
+- Sarah는 너무 빠르게 운전하고 있었어. 그래서 나는 그녀에게 속도를 늦춰달라고 부탁했어.
+
+
+ex. "Don't wait for me if I'm late."
+- "내가 늦게 된다면, 나를 기다리지 마세요."
+
+I didn't want to delay Helen, so I told her not to wait for me if I was late.
+- 난 Helen이 늦는 걸 원하지 않아. 그래서 나는 그녀에게 내가 늦는다면 기다리지 말라고 말했어.
+
+
+====================================================================================================
+
+#########################
+   TODAY'S EXPRESSION
+#########################
+
+A: Tom, Maria told me that she is getting married next month.
+- Tom, Maria가 나에게 다음 달에 결혼할 거라고 말했어.
+
+B: Yes, I know. John said that he was in love with Maria, so he asked her to marry him last Christmas.
+- 응, 알아. John이 Maria와 사랑에 빠졌다고 말하더라고, 그래서 그는 지난 크리스마스에 그녀에게 그와 결혼해달라고 요청했어.
+
+A: That's awesome! I'm happy for them.
+- 그거 굉장한데! 난 그들 덕분에 기뻐.
+
+
+====================================================================================================
+

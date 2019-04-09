@@ -1,0 +1,209 @@
+
+############################
+     조건문 vs. 가정법
+############################
+
+case 1. 조건문
+Sue has lost her watch. She tells Ann:
+- Sue는 그녀의 시계를 잃어버렸다. 그녀가 Ann에게 말하길:
+
+Sue: I think I left my watch at your house. Have you seen it?
+- 나 내 시계를 네 집에 놔둔 것 같아. 너 그거 본 적 있어?
+
+Ann: No, but I'll look when i get home. If I find it, I'll tell you.
+- 아니, 하지만 내가 집에 도착하면 찾아 볼게. 만약 내가 찾으면 너에게 말해 줄게.
+
+
+case 2. 가정법
+Carol says:
+- Carol이 말하길:
+
+If I found a wallet in the street, I'd take it to the police station.
+- 만약 내가 길에서 지갑을 발견하면, 나는 그것을 경찰서에 갖다 줄 거야.
+
+- take sth to A : sth을 A에게 가져다 주다.
+
+====================================================================================================
+
+################
+     조건문
+################
+
+If + 주어 + 현재시제 동사, 주어 + will / can + 동사원형
+: 만약 ~한다면, ~할 것이다. (미래에 일어날 수도 있는 일을 언급)
+
+ex. If you are hungry, we will have dinner now.
+- 만약 네가 배가 고프면, 우리는 지금 저녁을 먹을 거야.
+
+ex. If it rains tomorrow, the meeting will be canceled.
+- 만약 내일 비가 온다면, 그 회의는 취소될 거야.
+
+
+====================================================================================================
+
+##################
+   가정법 과거
+##################
+
+If + 주어 + 과거시제 동사, 주어 + would + 동사원형
+: 만약 ~한다면, ~할 것이다. (~할 텐데...)
+
+ex. If I found a wallet in the street, I'd take it to the police station.
+- 만약 내가 길에서 지갑을 발견하면, 나는 그것을 경찰서에 갖다 줄 거야.
+
+
+A. 가정법 과거는 현재와 반대되는 상황, 또는 무엇을 가정하거나 상상할 때 사용합니다.
+
+ex. What would you do if you won a million dollars?
+- 만약 네가 백만 달러를 얻는다면 너는 무엇을 할거니?
+(실제로 일어날 거라고 기대하지 않는 상상, 가정을 의미함.)
+
+
+B. 주절이 if절보다 먼저 나와도 의미는 동일합니다.
+
+ex. They would be hurt if I didn't go to their party.
+          주절                   if절 (종속절)
+= If I didn't go to their party, they would be hurt.
+
+- 내가 그들의 파티에 가지 않는다면, 그들은 마음에 상처를 받을 것이다.(받을 텐데...)
+
+
+C. 일반적으로 if절에 be 동사를 쓸 경우, "was", "were" 모두 가능합니다.
+but, "was"는 덜 격식적인 표현이 됩니다.
+
+ex. If I was[were] you, I wouldn't buy that coat.
+- 만약 내가 너라면, 나는 그 코트를 사지 않을 거야.(사지 않을 텐데...)
+
+
+D. 일반적으로 if절에는 would를 사용하지 않습니다.
+
+ex. If you got some more exercise, you'd feel better.
+- 만약 네가 운동을 좀 더 한다면, 넌 기분이 나아질 거야.
+
+ex. If you got more exercise, you might feel better.
+- 만약 네가 운동을 좀 더 한다면, 넌 기분이 나아질지도 몰라.
+= it's possible that you would feel better.
+
+ex. If it stopped raining, we could go out.
+- 만약 비가 그친다면, 우리는 나갈 수 있을 거야.(나갈 수 있을 텐데...)
+= we would be able to go out.
+
+
+====================================================================================================
+
+####################
+   Let's Practice
+####################
+
+ex. A lot of people would be out of work, if the car factory closed down.
+- 만약 그 자동차 공장이 폐쇄된다면, 많은 사람들이 실직할 것이다.
+
+- be out of work : 실직한 상태이다.
+
+ex. I'm sure Amy will lend you the money. I'd be very surprised if she refused.
+- Amy가 너에게 돈을 빌려 줄 것이라고 확신해. 만약 그녀가 거절한다면, 나는 매우 놀랄 거야.
+
+ex. Dave and Kate are expecting us. They would be very disappointed if we didn't come.
+- Dave와 Kate는 (우리가 올 것을) 기대하고 있어. 만약 우리가 가지 않는다면 그들은 매우 실망할 거야.
+
+
+ex.
+A: Is she going to apply for the job?
+- 그녀는 그 일자리에 지원할 (계획인) 거야?
+
+B: No. If she applied for the job, she wouldn't get it.
+- 아니. 만약 그녀가 그 직업에 지원한다면, 그 일자리를 얻지 못할 거야.(못할 텐데...)
+
+ex.
+A: Why don't we invite Bill to the party?
+- 우리 BIll을 파티에 초대하는 게 어때?
+
+B: No. If we invited Bill, we would have to invite his friends, too.
+- 아니. 만약 우리가 Bill을 초대한다면, 우린 그의 친구들도 초대해야 할 거야.(해야 할 텐데...)
+
+
+====================================================================================================
+
+#####################
+   I wish 가정법
+#####################
+
+I wish + 주어 + 과거동사 : "~였으면 좋겠어"
+
+- 어떤 상황이 원하는 대로 되지 않아 유감스러움을 나타낼 때 사용합니다.
+
+I wish I knew~ : 알았으면 좋겠어. (사실 모르는 상태, 몰라서 유감)
+I wish you were~ : 네가 ~였으면 좋겠어 (사실 ~가 아닌 상태, 아니라서 유감)
+
+ex. I wish I knew Paul's phone number.
+- 내가 Paul의 전화번호를 알았으면 좋겠어.
+(실제로는 전화번호를 몰라서 유감스러움.)
+
+ex. It rains a lot here, I wish it didn't rain so often.
+- 여기는 비가 많이 내려. 난 그렇게 자주 비가 오지 않았으면 좋겠어.
+(실제로는 비가 많이 와서 유감스러움.)
+
+
+cf) wish somebody something.
+- 누구에게 무엇을 바라다.
+
+ex.
+I wish you luck.
+- 너에게 행운을(행운이 있길) 바랄게.
+
+I wish you all the best
+- 너에게 모든 좋은 일을(좋은 일이 있길) 바랄게.
+
+I wish you a happy birthday.
+- 너에게 행복한 생일(행복한 생일이 되길) 바랄게.
+
+
+#####################################################
+ "I wish + 주어 + 현재동사"는 사용하지 않습니다 !!!!
+#####################################################
+
+ex. I wish you a pleasant stay here.
+- 여기서 즐거운 숙박(체류)이 되길 바랍니다.
+= I hope you have a pleasant stay here. - "hope"으로 바꿔써야 함.
+
+(X) I wish you have a pleasant stay here. - 현재동사를 사용하지 않으므로 틀림 !!!!
+
+
+
+ex. I don't have a cell phone (and I need one.)
+- 나는 휴대전화를 가지고 있지않아. (그리고 난 휴대 전화 하나가 필요해.)
+= I wish I had a cell phone.
+
+ex. I live in a big city (and I don't like it.)
+- 나는 큰 도시에 살고 있어. (그리고 나는 그게 마음에 들지 않아.)
+= I wish I didn't live in a big city.
+
+ex. I'm not feeling well (and that's not pleasant.)
+- 나는 오늘 몸이 좋지 않아. (그리고 그게 즐겁지 않아.)
+= I wish I was[were] feeling better.
+
+감각동사 : 보고, 듣고, 냄새 맡고, 맛을 보고, 피부로 느끼는 등의 감각 기관과 관련된 동사
+- "look, sound, smell, taste, feel" 중에서 "look"과 "feel"은 진행 시제가 가능 함 !!!!
+- 그리고, 2형식 동사
+
+지각동사 : 감각기관을 통해 어떤 사실, 사건, 동작을 뇌로 인지하는 동사
+- "see, look at, watch, notice, hear, smell"은 5형식 동사라서, 5형식 문장으로 사용한다.
+
+====================================================================================================
+
+###########################
+    TODAY'S EXPRESSION
+###########################
+
+A: Jay, are you ready for the test tomorrow?
+- Jay, 내일 시험 준비 되었니?
+
+B: No, I didn't study at all. I wish I didn't have to go to school. what about you?
+- 아니, 공부를 전혀 안 했어. 학교에 가지 않아도 되면 좋겠어. 너는 어때?
+
+A: I don't think I've studied enough, either. I wish I was smarter.
+- 나도 충분히 공부한 것 같진 않아. 내가 더 똑똑했더라면 좋을 텐데.
+
+
+====================================================================================================
+
