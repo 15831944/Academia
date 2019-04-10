@@ -1,0 +1,383 @@
+
+#######################
+    to 부정사의 용법
+#######################
+
+A. 명사적 용법: "~하기, ~하는 것"으로 해석하며, 문장에 주어, 목적어, 보어의 역할을 한다.
+
+(1) 주어 (~하기는, ~하는 것은)
+
+ex. To study English with J.Kim is fun.
+- J.Kim과 영어 공부를 하는 것은 재미있다.
+
+= It is fun to study English wit J.Kim.
+
+진짜 주어인 to 부정사를 문장 맨 뒤로 보내고 그 자리에 (가주어 it)을 쓴 문장.
+
+
+(2) 보어 (~하는 것이다. = be + to-v)
+
+ex. My hobby is to collect stamps.
+- 내 취미는 도장을 수집하는 것이다.
+
+(3) 목적어 (~하기를, ~하는 것을)
+
+ex. He promised to phone me.
+- 그는 나에게 전화하기를 약속했다.
+
+
+#################################
+  목적어로 to-v 사용하는 동사들
+#################################
+
+- offer, decide, hope, deserve, promise
+- agree, plan, manage, afford, threaten
+- refuse, arrange, fail, forget, learn
+
+ex. I found it difficult to solve the problem.
+- 나는 그 문제를 해결하는 것이 어렵다는 것을 깨달았다.
+
+진짜 목적어인 to 부정사가 너무 길어서 문장 맨 뒤로 보내고, 그 자리에 (가목적어 it)을 쓴 문장.
+
+ex. I don't know what to do. (의문사 + to 부정사)
+- 나는 무엇을 해야 할지 모르겠다.
+
+
+
+##############################################
+  의문사 + to-v를 목적어로 쓸 수 있는 동사들
+##############################################
+
+- ask, decide, know, remember, forget
+- learn, understand, wonder, explain
+
+ex. We asked how to get to the station.
+
+ex. Have you decided where to go for your vacation?
+
+ex. I don't know whether to apply for the job or not.
+
+ex. Do you understand what to do?
+
+
+
+B. 형용사적 용법: "~할, ~하는"으로 해석하며, 명사나 대명사를 뒤에서 수식하는 역할을 한다.
+
+ex. Give him something to eat.
+- 그에게 먹을 것을 줘.
+
+ex. I have nobody to talk to.
+- 나는 이야기를 할 사람이 아무도 없다.
+
+ex. Please give me a pen to write with.
+- 나에게 쓸 펜을 주세요
+
+
+- talk to sb : ~와 이야기하다.
+- write with sth : ~을 가지고 쓰다.
+
+
+C. 부사적 용법: to 부정사가 동사, 형용사, 문장전체를 대상으로 수식을 합니다.
+               여러 가지로 해석이 가능하므로 문맥을 파악해야 합니다.
+
+
+(1) 목적 (~하기 위하여, ~하려고) : 동사수식
+
+ex. He got up early to catch the first train.
+- 그는 첫 기차를 타기 위해서 일찍 일어났다.
+
+(2) 결과 (~하게 되다) : 동사수식 (동사의 동작 후에 나타난 결과를 의미함)
+
+ex. He grew up to become a doctor.
+- 그는 자라서 의사가 되었다.
+
+ex. Tom left his home, never to return.
+- Tom은 집을 떠났으나 결국 되돌아오지 않았다.
+
+ex. He worked hard only to fail.
+- 그는 열심히 했으나 결국 실패했다.
+
+
+- only to-v : 결국 ~하다.
+
+
+(3) 감정의 원인 (~하여서, ~하니, ~하고) : 형용사수식
+
+ex. I am glad to hear that.
+- 그 말을 들으니 기쁘다.
+
+주로 감정을 나타내는 형용사 뒤에 to 부정사는 원인으로 해석한다.
+
+(4) 이유, 판단의 근거(사람) (~하다니, ~하는 것을 보니) : 형용사수식
+
+ex. Tom must be honest to say to.
+- Tom이 그렇게 말하다니 정직한 것이 틀림없다.
+
+주로 사람의 성격이나 태도를 나타내는 형용사 뒤에 to 부정사는 판단의 근거로 해석한다.
+
+
+
+ex.
+A: Can I carry your bags for you?
+B: No, thanks. I can manage.
+
+He offered to carry her bags.
+- 그는 그녀의 가방을 들어주겠다고 제안하였다.
+
+
+ex.
+A: Please don't tell anyone.
+B: I promise I won't.
+
+She promised not to tell anyone
+- 그녀는 누구에게도 이야기하지 않을 것을 약속했다.
+
+====================================================================================================
+
+###########################
+   to 부정사의 시제와 태
+###########################
+
+to 부정사의 진행형은 "to be v-ing"
+
+ex. Joe seems to be enjoying his new job.
+- Joe는 그의 새 직업을 즐기고 있는 것처럼 보인다.
+
+(= It seems that he is enjoying it.)
+
+- seem to : ~처럼 보이다.
+
+
+to 부정사의 완료형은 "to have p.p"
+
+ex. You seem to have lost weight.
+- 너는 체중이 줄어 든 것처럼 보여.
+
+(= It seems that you have lost weight.)
+
+문장의 동사인 seems는 현재 시제, but 체중이 줄어 든 것은 그것보다 더 앞선 시제인 현재 완료 시제 !!!!
+
+
+##################
+ to 부정사의 시제
+##################
+
+- 일반적으로 문장의 동사와 일치하거나 더 미래의 일을 나타냅니다.
+하지만, 문장의 동사보다 더 앞선 시제의 행위라는 것을 나타낼 때에는 완료 부정사를 씁니다. (to have p.p)
+
+ex. Jay seems to be ill. (문장의 동사와 to 부정사의 시제 일치)
+- Jay는 아픈 것처럼 보인다.
+
+(= It seems that she is ill.)
+
+
+ex. Jay seems to have been ill. (문장의 동사와 to 부정사의 시제가 더 앞선 경우)
+- Jay는 아팠던 것처럼 보인다.
+
+(= It seems that she was ill.)
+
+
+ex. Jay seemed to have been ill. (문장의 동사와 to 부정사의 시제가 더 앞선 경우)
+- Jay는 아팠던 것처럼 보였다.
+
+(= It seemed that she had been ill.)
+
+
+###################
+  to 부정사의 태
+###################
+
+- to 부정사가 수동의 의미로 쓰여야 할 때, "to be + p.p" 또는 "to have been + p.p"로 씁니다.
+
+
+[to + 동사원형]
+
+ex. I like to invite my friends.
+- 나는 친구들을 초대하는 것을 좋아한다.
+
+
+
+[to be + p.p]
+
+ex. My friends like to be invited.
+- 나의 친구들은 초대되는 것을 좋아한다.
+
+
+[to have been + p.p]
+
+ex. He was proud to have been chosen as a team leader.
+- 그는 팀의 리더로 선택된 것을 자랑스러워했다.
+
+"자랑스러워 한 것"은 과거 시제, "팀의 리더로 선택된 것은" 과거 이전의 시제(과거완료)이므로 완료 부정사를 사용
+
+
+====================================================================================================
+
+##################################
+  목적격 보여로 쓰이는 to 부정사
+##################################
+
+주어 + 동사 + 목적어 + to 부정사(목적격 보어)
+
+- tell, remind, force, encourage, teach
+- enable, order, warn, invite, persuade
+- get(= persuade, arrange for)
+
+목적격 보어로 쓰인 to 부정사는 목적어가 할 행동을 의미합니다.
+
+ex. Can you remind me to call Ann tomorrow?
+- 내일 Ann에게 전화하는 것을 제게 상기시켜줄 수 있으세요?
+
+- "to call"을 할 사람 = me (목적어)
+
+
+ex. Who taught you to drive?
+- 누가 너에게 운전하는 것을 가르쳐 주었니?
+
+- "to drive" 하는 사람 = you (목적어)
+
+ex. Jim said the switch was dangerous and warned me not to touch it.
+- Jim은 그 스위치는 위험하다고 말했고, 나에게 그것을 만지지 말라고 경고했다.
+
+- "not to touch"할 사람 = me (목적어)
+
+
+- remind A to B : A에게 B하는 것을 상기시키다.
+- teach A to B : A에게 B를 가르치다.
+
+- warn A (not) to B : A가 B 하도록(하지 않도록) 경고하다.
+= A be warned (not) to B : A는 B 하도록(하지 않도록) 경고 받았다.
+
+ex. I was warned not to touch the switch.
+- 나는 그 스위치를 만지지 말라고 경고받았다.
+
+
+====================================================================================================
+
+###################################
+  목적격 보어로 쓰이는 to 부정사
+###################################
+
+
+A. 동사 + v-ing(목적어를 쓸 때 동명사 사용)
+
+ex. I wouldn't advise staying in that hotel.
+- 저는 저 호텔에 머무는 것을 권하지는 않겠습니다.
+
+ex. They don't allow parking in front of the building.
+- 그들은 그 건물 앞에 주차를 허용하지 않는다.
+
+Parking isn't allowed in front of the building. (수동태)
+- 건물 앞에 주차하는 것은 허용되지 않는다.
+
+
+B. 동사 + 목적어 + to-v(목적격 보어를 쓸 때 to 부정사 사용)
+
+ex. I wouldn't advise anybody to stay in that hotel.
+- 저는 저 호텔에 머무는 것을 누구에게도 권하지는 않겠습니다.
+
+ex. They don't allow people to park in front of the building.
+- 그들은 사람들이 그 건물 앞에 주차를 허락하지 않는다.
+
+ex. You aren't allowed to park in front of the building. (수동태)
+- 당신은 그 건물 앞에 주차하는 것이 허용되지 않습니다.
+
+
+====================================================================================================
+
+####################
+   Let's Practice
+####################
+
+ex. At first I didn't want to apply for the job, but Sarah convinced me.
+- 처음에 나는 그 일자리에 지원하고 싶어하지 않았지만, Sarah가 나를 설득하였다.
+
+Sarah persuaded me to apply for the job.
+
+- persuade A to B : A에게 B하라고 설득하다.
+
+
+ex. My lawyer said I shouldn't say anything to the police.
+- 내 변호사는 내가 경찰에게 아무도 말하면 안 된다고 말했다.
+
+My lawyer advised me not to say anything to the police.
+
+
+====================================================================================================
+
+#############################
+   to 부정사의 의미상 주어
+#############################
+
+- "to + 동사원형"에서 동사가 나타내는 동작의 주체(행위자)를 말합니다.
+
+A. 의미상 주어를 생략하는 경우: 문장의 주어나 목적어가 부정사의 의미상 주어와 일치하는 경우,
+                               의미상의 주어가 불특정한 일반적인 사람들을 지칭할 경우.
+
+ex. It is not easy to learn a foreign language.
+- 외국어를 배우는 것은 쉽지 않다.
+
+- "to learn a foreign language"하는 주체는 불특정 일반인
+
+
+ex. I hope to visit America.
+- 나는 미국을 방문하기를 바란다.
+
+- "to visit America"하는 주체는 문장의 주어인 "I"
+
+
+ex. I want him to travel around the world.
+- 나는 그가 세계를 여행하기를 원한다.
+
+- "to travel around the world"하는 주체는 문장의 목적어인 "him"
+
+
+B. [for + 목적격]: 의미상의 주어가 문장의 주어 또는 목적어와 다를 경우, to 부정사 앞에 "for + 목적격"을 사용한다.
+
+ex. It was a mistake for her to make a wrong decision.
+- 그녀가 잘못된 결정을 한 것은 실수였다.
+
+- "to make a wrong decision"한 주체는 "그녀(her)"
+
+
+C. [of + 목적격]: 사람의 성격이나 태도를 나타내는 형용사(kind, clever, sensible, careful, foolish 등)에 대한
+                 to 부정사(판단의 근거)의 의미상 주어를 써야 하는 경우, to 부정사 앞에 "of + 목적격"을 사용한다.
+
+
+ex. It is kind of him to share his food with the poor.
+- 가난한 사람에게 그의 음식을 나눠 주다니 그는 친절하다
+
+- "to share his food with the poor"한 주체는 "그(him)"
+
+-> He is kind to share his food with the poor.
+
+
+ex. It was silly of her to be too rude.
+- 그렇게 무례하다니 그녀는 너무 어리석었다.
+
+
+====================================================================================================
+
+##############################
+      TODAY'S EXPRESSION
+##############################
+
+A: Yes, I've made huge progress in English, thanks to you.
+- 응, 네 덕분에 난 영어에 굉장한 진전을 보였어.
+
+B: Really? You think so?
+- 정말? 그렇게 생각해?
+
+A: My English seems to be getting better after studying with you.
+- 너랑 함께 공부한 후로 내 영어가 점점 좋아지고 있는 것 같아.
+
+B: Tom, It's so nice of you to say so.
+- Tom, 네가 그렇게 말하다니 참 친절하구나.
+
+
+- make progress : 발전하다, 진전을 보이다.
+
+
+====================================================================================================
+
+
