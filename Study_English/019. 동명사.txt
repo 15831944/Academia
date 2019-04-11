@@ -1,0 +1,281 @@
+
+####################
+       동명사 - to 부정사랑 마찬가지로 준동사의 일종 !!!!
+####################
+
+- 동사가 명사로 변형된 것으로 "동사 + -ing"의 형태.
+- "~하는 것"이라고 해석이 된다.
+
+ex. Reading a book is a good habit. (동명사 = 주어)
+- 책을 읽는 것은 좋은 습관이다.
+
+동사 read가 목적어를 가질 수 있듯이, 동명사로 변형되어도 목적어를 가질 수 있습니다.
+
+
+ex. I enjoy reading a book. (동명사 = 목적어)
+- 나는 책을 읽는 것을 즐긴다.
+
+ex. My hobby is reading a book. (동명사 = 보어)
+- 나의 취미는 책을 읽는 것이다.
+
+====================================================================================================
+
+#####################
+    동명사의 시제
+#####################
+
+A. 단순 동명사 [동사 + ing_ doing의 의미]
+- 문장의 동사가 나타내는 시제와 행위가 나타내는 시제가 일치하거나,
+동명사가 더 나중에 일어나는 행위를 나타낼 때 사용합니다.
+
+ex. I kept waiting.
+- 나는 기다리는 것을 계속하였다. (나는 계속 기다렸다.)
+
+문장의 동사 kept가 과거시제, 동명사 waiting의 행위도 같은 과거 시제에 해당.
+
+- keep v-ing : 계속 ~하다.
+
+
+ex. I am looking forward to hearing from you.
+- 나는 당신의 연락을 듣는 것을 기대하고 있습니다.
+
+문장의 동사의 시제는 현재 진행형, hearing의 행위는 앞으로 있을 미래를 나타내고 있다.
+
+- look forward to v-ing : ~하는 것을 기대하다.
+
+
+B. 완료 동명사 [having + p.p_ having done의 의미]
+- 문장의 동사가 나타내는 시제보다 동명사의 행위가 더 앞선 시제일 경우 사용합니다.
+
+ex. Jay is proud of having won the prize.
+- Jay는 그 상을 탔다는 것을 자랑스러워한다.
+
+문장의 동사는 is이므로 현재 시제, 동명사는 having won이므로 상을 탄 것이 더 앞선 시제의 일이다.
+
+- be proud of N : ~을 자랑스럽게 여기다.
+
+
+
+====================================================================================================
+
+#####################
+   동명사의 수동태
+#####################
+
+- "~되는 것"이라는 의미로 수동의 의미를 가진 동명사를 나타낼 때에는
+"being p.p", "having been p.p[완료 동명사]"를 사용합니다.
+
+ex. Jay doesn't like being told what to do.
+- Jay는 무엇을 해야 하는 지 듣는 것을 좋아하지 않는다.
+
+- like to-v[v-ing] 둘 다 사용 가능.
+
+
+ex. Jay is ashamed of having been scolded.
+- Jay는 야단 맞은 것을 부끄러워한다.
+
+부끄러워하는 것(be ashamed of)는 현재 시제, 야단 맞은 것(be scolded)은 현재 보다 더 앞선 시제라서 완료 동명사를 사용했다.
+
+########################
+  동명사의 의미상 주어
+########################
+
+- 동명사가 나타내는 동작의 주체(행위자)를 언급할 때에는 동명사 앞에 그 주체(행위자)를 가리키는 "명사/대명사의 소유격"을 사용합니다.
+or 동명사가 타동사나 전치사의 목적어일 경우엔 소유격 대신 "목적격"을 사용하기도 합니다.
+
+ex. Jay is proud of her son's[her son] being a doctor.
+- Jay는 그녀의 아들이 의사가 되는 것을 자랑스러워 한다.
+(동명사 being a doctor의 주체 = 그녀의 아들)
+
+
+
+동명사가 나타내는 동작의 주체(행위자)가 문장의 주어나 목적어와 동일하거나,
+그 동작의 주체가 일반적인 것이라 언급할 필요가 없을 때에는 의미상의 주어를 생략합니다.
+
+ex. Jay is proud of being a doctor.
+- Jay는 의사가 되는 것을 자랑스러워 한다.
+(동명사 being a doctor의 주체 = Jay)
+
+
+====================================================================================================
+
+#################################
+  동명사를 목적어로 취하는 동사
+#################################
+
+주어 + 동사 + 동명사(목적어) : ~하는 것을 ~하다
+
+- keep, insist, suggest, hinder, give up
+- postpone, practice, mind, miss, avoid
+- appreciate, tolerate, dislike, discontinue, discuss
+- deny, enjoy, finish, quit, consider, complete
+
+ex. I gave up trying to find a job.
+- 나는 직업을 찾는 것을 포기했다.
+
+ex. I don't mind waiting.
+- 내가 기다리는 것을 신경 쓰지 마세요.
+
+ex. She avoided answering my question.
+- 그녀는 나의 질문에 답하는 것을 피했다.
+
+ex. I considered buying a new car.
+- 나는 새 차를 사는 것을 고려했다.
+
+
+====================================================================================================
+
+###################
+  Let's Practice
+###################
+
+ex.
+A: Let's go swimming.
+B: Good idea!
+
+She suggested going swimming.[going for a swim.]
+- 그녀는 수영하러 갈 것을 제안했다.
+
+
+ex.
+A: You broke my DVD player.
+B: No, I didn't.
+
+He denied breaking the DVD player.
+- 그는 DVD 플레이어를 부순 것을 부인했다.
+
+
+====================================================================================================
+
+########################
+  동명사 vs. to 부정사
+########################
+
+
+######################################
+(1) 동명사 : 일반적, 습관적인 행위
+
+ex. Eating too much is not good for health.
+- 너무 많이 먹는 것은 건강에 좋지 않다.
+
+
+(2) to 부정사 : 구체적, 개별적 행동
+
+ex. To swim in the morning is my hobby.
+- 아침에 수영하는 것은 나의 취미이다.
+
+
+######################################
+
+동명사, to 부정사를 목적어로 사용할 때 의미가 달라지는 동사들 !!!!
+
+(1) 동명사 : 이미 한 일(과거의 행위)
+
+ex. I stopped looking at the girl.
+- 나는 그 여자애를 쳐다보는 것을 멈추었다.
+
+ex. I clearly remember locking the door.
+- 나는 그 문을 잠갔던 것을 분명히 기억한다.
+
+ex. I forgot going to the hospital.
+- 나는 병원에 갔던 것을 잊었다.
+
+ex. I regret telling you about that.
+- 나는 그것에 대해 너에게 말한 것을 후회해.
+
+ex. Jay tried swimming.
+- Jay는 수영을 시도해보았다.
+
+
+(2) to 부정사 : 앞으로 할 일(미래의 행위)
+
+ex. I stopped to look at the girl.
+- 나는 그 여자애를 쳐다보기 위해 멈추었다.
+
+ex. I remembered to lock the door.
+- 나는 그 문을 잠그는 것을 기억했다.
+
+ex. I forgot to go to the hospital.
+- 나는 병원에 가는 것을 잊었다.(병우너에 가는 것을 깜빡했다.)
+
+ex. we regret to inform you that we cannot offer you the position.
+- 저희가 당신에게 그 일자리를 드릴 수 없다는 것을 알려드리게 되어 유감입니다.
+
+ex. Jay tried to swim.
+- Jay는 수용하는 것을 노력하였다.
+
+
+######################################
+
+(1) 동명사 : go on doing something : 하던 일을 계속하다.(한 행위를 지속하다)
+
+ex. The president went on talking for hours.
+- 대통령은 몇 시간 동안 계속해서 이야기를 하였다.
+
+
+(2) to 부정사 : go on to do something : 계속해서 다른 일을 하다(연달아 다음 행위를 하다)
+
+ex. After discussing the economy, the president went on to talk about foreign policy.
+- 경제에 대한 논의를 한 후에 대통령은 계속해서 외교정책에 대해 이야기를 하였다.
+
+
+I need to do something. = 내가 ~을 할 필요가 있다.
+
+ex. He needs to work harder if he want to make progress.
+- 그는 진전을 보이고 싶다면 더 열심히 일할 필요가 있다.
+
+Something needs to be done.
+- "~는 ~될 필요가 있다."(~를 누군가 할 필요가 있다.)
+= Something needs doing.
+
+"need", "want" 뒤에 동명사를 목적어로 취하면 수동의 의미가 되며, "want"는 "원하다"라는 의미가 아니라 "필요하다"의 의미 !!!!
+
+ex. My cell phone needs charging.(= to be charged)
+- 내 휴대전화는 충전이 필요해.(충전될 필요가 있어.)
+
+ex. Your watch wants repairing.(= to be repaired)
+- 너의 시계는 수리가 필요해.(수리될 필요가 있어.)
+
+====================================================================================================
+
+###################
+  Let's Practice
+###################
+
+ex. The grass is very long.
+It need to be cut(= It needs cutting).
+
+- 잔디가 너무 길어. 그건 잘려야 할 필요가 있어.
+
+ex. The screws are loose.
+They needs to be tightened(= They need tighteding).
+
+- 나사가 헐거워. 그것들은 조여질 필요가 있어.
+
+
+====================================================================================================
+
+########################
+   TODAY'S EXPRESSION
+########################
+
+A: Tom, why did you give up trying to find a job?
+- Tom, 왜 직장 구하는 것을 포기했니?
+
+B: How did you know?
+- 너 어떻게 알았어?
+
+A: Sorry, but you were talking on the phone very loudly, so I couldn't help overhearing you.
+- 미안해, 그런데 넌 너무 큰 소리로 전화통화 중이었어, 그래서 난 우연히 들을 수밖에 없었어.
+
+B: It's not good to listen in on other people's conversations.
+- 다른 사람의 대화를 엿듣는 건 좋지 않아.
+
+
+- cannot help v-ing : ~할 수밖에 없다.
+- overhear, listen in on : 엿듣다.
+
+
+====================================================================================================
+
+
