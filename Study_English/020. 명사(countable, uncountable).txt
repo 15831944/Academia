@@ -1,0 +1,392 @@
+
+##########################
+    명사의 정의 및 종류
+##########################
+
+- 사람, 사물, 동물을 나타내는 말을 명사라 하고, 명사를 대신하는 것을 대명사라고 합니다.
+(명사와 대명사는 문장의 주어 S, 목적어 O, 보어 C, 동격으로 쓰입니다.)
+
+ex. Jay, my teacher, buys her students meat.
+- 나의 선생님 Jay는 학생들에게 고기를 사준다. (Jay = my teacher, 동격)
+
+- buy A B : A에게 B를 사주다.
+
+
+
+##########################
+셀 수 있는 명사(Countable)
+##########################
+- 보통 명사 Common Noun
+- 집합 명사 Collective Noun - 단수, 복수 둘 다 가능 !!!
+
+
+############################
+셀 수 없는 명사(Uncountable)
+############################
+- 물질 명사 Material Noun
+- 추상 명사 Abstract Noun
+- 고유 명사 Proper Noun
+
+====================================================================================================
+
+#############################
+case 1. 보통 명사 Common Noun
+#############################
+- 일정한 형태나 윤곽이 있거나 구분이 확실한 것.
+
+ex. book, flower, tree, house, dollar, day 등
+
+
+#################################
+case 2. 집합 명사 Collective Noun
+#################################
+- 사람이나 사물의 집합체를 나타내는 명사.
+
+ex. family, committee, class, nation, public, cattle 등
+
+ex. The whole family was at the table.
+- 가족 전체가 그 테이블에 있었다.
+(집합 명사, 단수 취급, 단수 동사)
+
+ex. The whole family (members) were at the table.
+- 가족 구성원 모두가 그 테이블에 있었다.
+(집합 명사, 복수 취급, 복수 동사)
+
+
+###############################
+case 3. 물질 명사 Material Noun
+###############################
+- 일정한 형태가 없는 물질, 재료, 음식물, 기체, 액체 등
+(특별한 단위가 없으면 셀 수가 없다.)
+- much, little, some, any, a lot of 등과 같은 표현과 함께 쓰이며, 항상 단수 취급 !!!!
+
+ex. water, air, paper, bread, sugar, tea, coffee, wood, meat 등
+
+cf) a paper(신문)/ a tea(차 한잔), a coffee(커피 한잔)
+
+
+###############################
+case 4. 추상 명사 Abstract Noun
+###############################
+- 생각에 의한 성질, 상태, 개념 등의 셀 수 없는 명사
+- 보이지도 않고 만질 수도 없고...
+- 부정관사 a, an을 취하지 않고 항상 단수 형태
+
+ex. love, peace, beauty, happiness, kindness 등
+
+ex. Health is better than wealth.
+- 건강이 재산(부) 보다 더 좋다.
+
+cf) a beauty(미인), a kindness(친절한 행위) -> 그러한 사람/행위
+
+(추상 명사가 보통 명사화 !!!!)
+
+
+#############################
+case 5. 고유 명사 Proper Noun
+#############################
+- 사람이나 물건에 붙여진 이름
+- 고유 명사의 첫 글자는 항상 대문자.
+- 셀 수 없는 명사이기 때문에, 복수형도 안되며 관사를 쓰지 않는 것이 원칙.
+but, 예외) 3명의 Jay -> three Jays ?!
+
+ex. Seoul is the capital of Korea.
+- 서울은 한국의 수도이다.
+
+
+
+###########################
+셀 수 있는 명사 [C]ountable
+###########################
+ex. I eat a banana everyday.
+- 나는 매일 바나나 한 개를 먹는다.
+
+ex. I like bananas.
+- 나는 바나나를 좋아한다.
+
+셀 수 있는 명사는 단수 명사와 복수 명사로 나뉩니다...
+
+
+#############################
+셀 수 없는 명사 [U]ncountable
+#############################
+ex. I eat rice everyday.
+- 나는 매일 밥을 먹는다.
+
+ex. I like rice.
+- 나는 밥을 좋아한다.
+
+셀 수 없는 명사는 a, an, -(e)s를 붙일 수 없고,
+one, two와 같은 숫자 또한 앞에 쓸 수 없다.
+
+
+====================================================================================================
+
+####################
+   Let's Practice
+####################
+
+ex. Our lives would be very difficult without electricity.
+- 전기가 없으면 우리의 삶은 아주 어려울 것이다.
+
+
+ex. "I had an interview for a job yesterday."
+- 난 어제 인터뷰(면접)을 했어.
+
+"You did? How did it go?"
+- 그랬어? 어떻게 되었어?
+
+
+ex. Our apartment is very small. We don't have much space.
+- 우리 아파트는 정말 작아. 우린 많은 공간을 가지고 있지 않아.
+
+( many_ 셀 수 있는/ much_ 부정문, 의문문에 셀 수 없는)
+
+
+====================================================================================================
+
+########################################
+   Countable Noun vs. Uncountable Noun
+########################################
+
+case 1. noise
+
+[C] Did you hear a noise just now?
+- 방금 시끄러운 소리 들었어?
+(a noise = 특정 소음, 시끄러운 소리)
+
+[U] I can't work here. There's too much noise.
+- 난 여기서 일 못하겠어. 소음이 너무 많아.
+(nose = 일반적인 소음)
+
+
+case 2. paper
+
+[C] I bought a paper to read.
+- 나는 읽을 신문을 샀다.
+(a paper = 신문)
+
+[U] I need some paper to write on.
+- 난 (글을) 쓸 종이가 좀 필요하다.
+(paper = 종이)
+
+- write on : ~위에 쓰다
+
+
+case 3. hair
+
+[C] There is a hair in my soup!
+- 내 스프에 머리카락 하나가 있어!
+(a hair = 머리카락 한 가닥)
+
+[U] You've got very long hair
+- 넌 긴 머리를 가졌구나.
+(hair = 머리카락 전체, 두발)
+
+
+case 4. room
+
+[C] You can stay with us. There is a spare room.
+- 넌 우리와 함께 머물러도 돼. 여분의 방이 있어.
+(a room = 방 하나)
+
+[U] You can't sit here. There isn't any room.
+- 넌 여기 앉을 수 없어. 공간이 하나도 없어.
+(room = 공간, 자리)
+
+
+case 5. experience
+
+[C] I had some interesting experiences while I was traveling.
+- 난 여행 중에 흥미로운 경험들을 했다.
+(experiences = 나에게 일어난 일)
+
+[U] They offered me the job because I had a lot of experience.
+- 그들은 나에게 그 일자리를 제안하였다. 왜냐하면 나는 많은 경험이 있기 때문이다.
+(experience = 일반적인 경험, 경력)
+
+
+case 6. time
+
+[C] Enjoy your trip. Have a good time!
+- 여행 즐겁게 다녀오세요. 좋은 시간 보내요!
+(a time = 특정 시간, 기간)
+
+[U] I can't wait. I don't have time.
+- 난 기다릴 수 없어. 난 시간이 없어.
+(time = 일반적인 의미의 시간)
+
+====================================================================================================
+
+#################
+셀 수 없는 명사들
+#################
+
+- advice , baggage, behavior, bread, chaos
+- damage, furniture, information, luck, luggage
+- news, permission, progress, scenery, traffic
+- weahter, work
+
+a/ an과 함께 쓸 수 없으며, 일반적으로 복수형으로 쓰지 않습니다.
+
+ex. I'm going to buy some bread.
+- 나는 빵을 좀 사러 갈 것이다.
+
+ex. I'm going to buy a loaf of[two loaves of] bread.
+- 나는 빵 한 덩이[두 덩이]를 사러 갈 것이다.
+
+ex. Let me know if you need more information.
+- 만약 네가 더 많은 정보가 필요하다면 나에게 알려줘.
+
+
+====================================================================================================
+
+####################
+   Let's Practice
+####################
+
+ex.
+A: If you wnat to know the news, you can read a paper.
+- 만약 네가 그 뉴스를 알고 싶다면, 넌 신문을 읽으면 돼.
+
+B: I want to print some documents, but the printer is out of paper.
+- 나는 몇몇 서류를 프린트하고 싶어, 하지만 프린터에 종이가 다 떨어졌네(없네).
+
+
+ex. Our trip from Paris to Istanbul by train was very tiring.
+- 기차로 파리에서 이스탄불로 가는 우리의 여행은 매우 피곤했어.
+
+
+travel (V) - 비교적 긴 여행, 여기저기 돌아다니는 것을 의미함.
+trip (N) - go on[take] a trip : 여행 가다 (비교적 짧은 여행이나 방문)
+
+
+ex. Bad news doesn't make people happy.
+- 나쁜 소식은 사람들을 행복하게 만들지 않아.
+
+
+====================================================================================================
+
+#################
+셀 수 있는 명사들
+#################
+
+- a dog, a child, the evening, this party, an umbrella
+- dogs, some children, the evenings, these parties, two umbrellas
+
+A. 셀 수 있는 명사의 단수는 a/ the/ my 등을 쓰지 않고서는 단독으로 쓸 수 없다.
+
+ex. She never wears a hat.
+- 그녀는 절대 모자를 쓰지 않는다.
+
+ex. Be careful of the dob.
+- 그 개를 조심해.
+
+
+B. a/ an은 사람이나 물건이 어떤 종류인지 밝힐 때 사용합니다.
+(부정관사는 특정하지 않은 하나를 가리킬 때...)
+
+ex. That's a nice table.
+- 그건 좋은 탁자네요.
+
+ex. Those are nice chairs.
+- 그것들은 좋은 의자들이네요.
+
+ex. I love bananas.
+- 나는 바나나를 좋아한다.
+
+종류를 말할 때나 어떤 대상의 전반을 가리킬 때는 some을 함께 쓰지 않습니다 !!!!
+
+
+C. 사람의 신체 부위나 직업명에도 a/ an을 붙입니다.
+
+ex. Jack has a long nose.
+- Jack은 긴 코를 가지고 있다.
+
+ex. Sandra is a nurse.
+- Sandra는 간호사이다.
+
+
+====================================================================================================
+
+#############################
+  혼동하기 쉬운 [C] vs. [U]
+#############################
+
+case 1. a job / work
+
+ex. I'm looking for a job.
+- 나는 일을 구하고 있습니다.
+
+= I'm looking for work.
+
+cf) works = 작품, 공사(작업)
+- works of fiction (소설 작품)
+- roadworks (도로 공사)
+
+
+case 2. a view / scenery
+
+ex. What a beautiful view!
+- 아름다운 광경이다!
+
+= What beautiful scenery!
+
+
+case 3. a day / weather
+
+ex. It's a nice day today.
+- 오늘은 좋은 날이다.
+
+ex. It's nice weather today.
+- 오늘은 좋은 날씨네.
+
+
+case 4. bags / baggage
+
+ex. We had a lot of bags and suit cases.
+- 우리는 가방들과 서류 가방들을 많이 가지고 있었다.
+
+ex. We had a lot of baggage[luggage].
+- 우리는 많은 짐[수화물]을 가지고 있었다.
+
+
+case 5. a suggestion / advice
+
+ex. That's a good suggestion.
+- 그거 좋은 제안이네요
+
+ex. That's good advice.
+- 그거 좋은 조언이네요.
+
+
+case 6. an operation / surgery
+
+ex. I had an operation.
+- 나는 수술을 했다.
+
+ex. He will require surgery on his left knee.
+- 그는 그의 왼쪽 무릎에 수술이 필요할 것이다.
+
+====================================================================================================
+
+#######################
+  TODAY'S EXPRESSION
+#######################
+
+A: This sofa takes up too much space. I want to throw it away.
+- 이 소파는 공간을 너무 많이 차지해. 나는 그걸 버리고 싶어.
+
+B: If so, can I take it home? I have no furniture, not even a bed or a table.
+- 그렇다면, 내가 가져가도 될까? 나는 가구가 없어, 침대나 테이블도 없어.
+
+A: There are plenty of chairs. You can take all of them.
+- 의자는 충분히 많아. 넌 그것들 전부 가져가도 돼.
+
+
+- take up : (공간을) 차지하다.
+- throw away : ~을 던져버리다.
+
+====================================================================================================
+
+
