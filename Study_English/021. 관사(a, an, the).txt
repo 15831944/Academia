@@ -1,0 +1,332 @@
+
+######################
+         관사
+######################
+
+####################################
+case 1. 부정관사(Indefinite Article)
+####################################
+- 단수명사 앞에 쓰이며 특별히 정해지지 않은 막연한 것을 가리킬 때 사용합니다.
+- 부정관사에는 "a"와 "an"이 있으며, 발음이 자음으로 시작되는 명사 앞에는 "a"를 쓰고,
+- 모음(a, e, i, o, u)으로 시작되는 명사 앞에는 "an"을 사용합니다.
+
+- 단어의 첫 글자가 아닌 첫 발음에 따라 사용하는 부정관사가 다르다 !!!!
+
+ex. an hour, a university, a Eruopean
+
+
+ex. I had a sandwich and an apple for lunch.
+The sandwich wasn't very good, but the apple was delicious.
+
+###################################
+case 2. 정관사(Definite Article).01 - "the"
+###################################
+
+A. 앞에 나온 명사를 다시 언급할 때
+
+ex. I found a box, but the box was empty.
+- 나는 박스를 찾았다. 하지만 그 박스는 비어있었다.
+
+
+B. 처음 나오는 명사라고 하더라도 정황상 (전후 관계)으로 보아 무엇을 가리키는지 명백할 때
+
+ex. Don't forget to turn off the light before leaving home.
+- 당신이 집을 떠나기 전에 불을 끄는 것을 잊지 마세요.
+
+어떤 불(light: 전등)을 말하는지 말하는 사람이나 듣는 사람 모두가 알고 있는 상태 !!!!
+
+
+ex. Do you mind opening the window?
+- 당신은 창문을 여는 것을 꺼리십니까? (= 창문을 열어도 괜찮을까요?)
+
+어떤 창문(window)을 말하는지 말하는 사람이나 듣는 사람 모두가 알고 있는 상태 !!!!
+
+
+C. 명사가 형용사구나 형용사절에 의해 수식을 받을 때 그 명사 앞에 붙는다.
+
+형용사구 : [전치사 + 명사, v-ing(현재분사), p.p(과거분사), to 부정사]
+형용사절 : [관계대명사, 관계형용사, 관계부사]
+
+ex. The pen on the desk is mine
+- 책상에 있는 그 펜은 나의 것입니다.
+
+ex. The tall lady wearing a hat is my mom.
+- 모자를 쓰고 있는 키가 큰 여성분은 나의 엄마입니다.
+
+ex. The information you gave me was very helpful.
+- 당신이 저에게 준 정보는 매우 유용했습니다.
+
+
+D. 형용사의 최상급, 서수사(first, second 등), only, next, same 등이 명사를 수식하여
+  그 명사가 특정한 사람이나 사물을 지칭하게 될 때.
+
+ex. Where is the nearest bus stop?
+- 가장 가까운 버스 정류장은 어디입니까?
+
+ex. Ryu is the best player on the baseball team.
+- Ryu는 그 야구팀에서 최고의 선수이다.
+
+ex. Change buses at the second stop.
+- 두 번째 정류장에서 버스를 갈아타라.
+
+
+E. 유일한 존재
+
+천체: the sun, the moon, the earth, the world, the universe, the sky
+방위: the north, the south, the east, the west, the right, the left
+
+ex. The sun rises in the east.
+- 태양은 동쪽에서 뜬다.
+
+ex. The earth goes around the sun.
+- 지구는 태양 주위를 돈다.
+ 
+
+====================================================================================================
+
+###################
+  Let's Practice
+###################
+
+ex. I saw an accident this morning. A car crashed into a tree.
+The diver of the car wasn't hunt, but the car was badly damaged.
+- 오늘 아침 나는 우연한 사고를 보았다. 한 자동차가 나무에 부딪혔다.
+그 자동차의 운전자는 다치지 않았지만, 그 차는 심하게 손상되었다.
+
+
+ex. How often do you go to the dentist?
+- 얼마나 자주 치과에 갑니까?
+(주치의 개념이라 정해진 대상)
+
+ex. Are you finished with the book I lent you?
+- 내가 빌려준 책 다 끝냈어?(다 읽었어?)
+
+
+- finish with sb/sth
+: sb. ~와의 관계를 끊다.
+: sth. ~을 다 사용하다.[다 끝내다]
+
+
+ex.
+A: Do you often listen to the radio?
+- 당신은 종종 라디오를 듣습니까? (전치사 앞에 있어서)
+B: No. In fact, I don't have a radio.
+- 아니요. 사실, 저는 라디오를 가지고 있지 않습니다. (일반적인 라디오 하나)
+
+
+ex.
+A: Would you like to travel in outer space?
+- 당신은 우주를 여행하고 싶으세요? (우주 공간_space에는 안쓴다 !!!)
+B: Yes, I'd love to go to the moon.
+- 네, 저는 달에 가보고 싶습니다. (유일한 존재)
+
+
+ex.
+A: Excuse me, where is Room 225, please?
+- 실례합니다. 255 호실은 어디입니까? (호실 앞에는 안 쓴다.)
+B: It's on the second floor.
+- 그건 2층에 있습니다. (서수사의 수식)
+
+
+====================================================================================================
+
+#######################
+   정관사 the의 활용
+#######################
+
+- go to jail/prison : 감옥에 가다
+- be in jail/prison : 수감 중이다
+
+- go to class : 수업에 가다
+- be in class : 수업 중이다
+
+- be in the class : 그 (특정)학급에 있다.
+- be in the classroom : 그 (특정)교실에 있다.
+
+
+A. 일반적인 사람이나 사물을 지칭할 때, "the"를 사용하지 않는다.
+
+ex. I'm afraid of dogs.
+- 나는 개를 무서워합니다.
+
+ex. Doctors are paid more than teacher.
+- 의사들은 교사들 보다 돈을 더 많이 받습니다.
+
+ex. Children learn from playing.
+- 아이들은 놀이로 부터 배운다.
+
+그러나 특정한 사람이나 사물을 지칭할 때, "the"를 반드시 써야합니다.
+
+ex. We took the children to the zoo.
+- 우리는 그 (특정)아이들을 동물원으로 데려갔습니다.
+
+- take A to B : A를 B에 데려가다.
+
+#################################################################
+학교의 원래 기능, 본래 용도 (the 안쓰고 그냥 school)
+
+Claudia is 10 years old.
+Every day she goes to school.
+She's at school now.
+School begins at 8:30 and ends at 3:00.
+
+but, 그냥 장소의 의미의 학교(the를 붙여준다.)
+
+Today Claudia's mother wants to speak to her daughter's teacher.
+So, she has gone to the school to see her.
+She's at the school now.
+#################################################################
+
+
+ex. Apples are good for you.
+- 사과는 당신에게 좋습니다. (일반적인 사물)
+
+ex. Look at the apples on that tree! They are very big.
+- 저 나무에 있는 사과를 봐! 그것들은 엄청 커! (지칭한 특정 사과)
+
+ex. Who are the people in the photograph?
+- 그 사진에 있는 사람들은 누구야? (사진에 있는 특정 사람들)
+
+ex. Most people believe that marriage and family life are the basis of society.
+- 대부분의 사람들은 결혼과 가정 생활이 사회의 기반이라고 믿는다. (일반적인 사람들, 보편적인 개념)
+
+
+====================================================================================================
+
+###################################
+case 2. 정관사(Definite Article).02 - "the"
+###################################
+
+###################
+F. 종류나 종족 전체를 나타낼 때, "the"를 사용합니다.
+###################
+
+ex. The giraffe is the tallest of all animals.
+- 기린은 모든 동물들 중에서 가장 큽니다.
+
+ex. When was the telephone invented?
+- 언제 전화기가 발명되었습니까?
+
+"the" + 단수명사가 동물이나 기계 등의 종류 전체를 나타낼 수 있으므로,
+위 문장의 the giraffe, the telephone은 특정한 기린 한 마리나, 해당 전화기 한 개를 의미하는 것이 아닙니다.
+the giraffe는 기린이라는 동물 전체를, the telephone은 전화기 종류의 전체를 가리킵니다.
+
+ex. play the piano.
+- 피아노(종류들)를 연주하다.
+
+
+G. "the" + 형용사 = 형용사 people (~한 사람들)
+
+- the young, the rich, the sick, the blind, the injured
+- the old, the poor, the disabled, the deaf, the dead
+- the elderly, the homeless, the unemployed
+
+
+H. 신체 부위에 어떤 동작을 가하는 경우, "전치사 + the + 신체 부위"의 형태를 사용합니다.
+
+ex. I grabbed her by the sleeve.
+- 나는 그녀의 소매를 잡았다.
+
+ex. I patted her on the shoulder.
+- 나는 그녀의 어깨를 토닥거렸다.
+
+
+I. 정관사와 고유명사
+
+일반적으로 고유명사 앞에는 정관사를 붙이지 않는 것이 원칙입니다.
+but, 예외가 있습니다.
+
+(1) 산맥, 국가, 가족명(~의 일가, ~네 가족) 등의 복수형(여러 개로 구성된) 고유명사
+
+- the Alps(알프스 산맥), the Rockies(록키 산맥), the Andes(안데스 산맥),
+- the United States(미국), the United Kingdom(영국), the Dominican Republic(도미니카 공화국),
+- the Philippines(필리핀), the Netherlands(네덜란드), the Kims(김씨네 가족), the Michelles(Michelle의 일가)
+
+(2) 강, 해협, 운하, 바다, 사막의 명칭
+
+- the Nile(나일강), the Han River(한강), the Amazon(아마존), the Mediterranean(지중해),
+- the Panama Canal(파나마 운하), the Pacific (Ocean)(태평양), the Caribbean(카리브해 지역)
+
+(3) 공공 건물[기관] 이름, 호텔, 레스토랑, 박물관, 미술관
+
+- the White House(백악관), the British Museum(대영박물관)
+- The Sheraton Hotel(셰라톤 호텔), the Holiday Inn(홀리데이 인 호텔)
+
+(4) 신문, 잡지, 조직 이름
+
+- the New York Times(뉴욕 타임즈), the Washington Post(워싱턴 포스트),
+- the Economist(이코노미스트), the BCC(BCC 방송국), the Red Cross(적십자)
+
+(5) 고유 명사에 "of"가 포함되어 있다면 일반적으로 "the"를 사용합니다.
+
+- the Bank of America(미국 은행), the Great Wall of China(만리장성),
+- the Museum of Modern Art(현대미술관)
+
+
+J. 정관사와 고유명사
+
+일반적으로 고유명사 앞에는 "the"를 붙이지 않습니다.
+위의 경우는 "of"가 포함되어 있어서 "the"를 사용한 것입니다.
+
+(1) 거리, 공원, 광장
+
+- Central Park, Hollywood Boulevard
+
+(2) 공항, 역, 대학 이름 (공공 기관이어도 얘네들은 안 쓴다는 것인가 !!!!)
+
+- Boston University, Shinchon Station, Kennedy Airport
+
+(3) 설립자 이름이 있는 상점, 레스토랑
+
+- McDonald's Macy's, Jessica's Kitchen
+
+(4) 회사, 항공사 이름
+
+- Coca-Cola, Apple Inc., Samsung, Delta Air Lines
+
+
+
+
+====================================================================================================
+
+
+
+
+
+====================================================================================================
+
+
+
+
+
+====================================================================================================
+
+
+
+
+
+====================================================================================================
+
+
+
+
+
+====================================================================================================
+
+
+
+
+
+====================================================================================================
+
+
+
+
+
+====================================================================================================
+
+
+
+
+
+====================================================================================================
