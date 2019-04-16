@@ -1,0 +1,279 @@
+
+############################################
+   단수(singular) 명사/ 복수(plural) 명사
+############################################
+
+##########################
+ A. 짝을 이루는 복수 명사
+##########################
+- pants(two legs), jeans, slacks, shorts, trousers
+- pajamas(top and bottom)
+- glasses, binoculars(쌍안경), scissors
+
+ex. My pants are too long.
+- 나의 바지는 너무 길다.
+
+ex. Those are nice jeans.
+= That's a nice pair of jeans.
+- 저것은 좋은 청바지이다.
+
+
+"짝"을 이루어 항상 복수로 쓰는 명사는 "a pair of~"(한 쌍의~)와 함께 쓸 수 있습니다.
+
+
+
+B. but, 일부 명사들은 "-ics"로 끝나지만, 복수 취급을 하지 않습니다.
+
+- ecnonomics, electronics, gymnastics(체조), mathematics, physics, politics
+
+ex. Gymnastics is my favorite sport.
+- 체조는 내가 좋아하는 스포츠이다.
+
+
+
+C. "-s"로 끝나는 일부 단어들은 단수/ 복수 모두 사용할 수 있습니다.
+
+ex. means (수단)
+singular: a means of transaction
+plural: many means of transaction
+
+ex. series(시리즈, 연속, 연쇄)
+singular: a television series
+plural: two television series
+
+ex. species(종족)
+singular: a species of bird
+plural: 200 species of birds
+
+
+
+D. "a police"는 틀린 표현
+- "(the) Police"가 경찰 조직 전체를 의미합니다.
+그래서, 항상 복수로 취급합니다.
+
+ex. The police are investigating the murder, but haven't arrested anyone yet.
+- 경찰은 그 살인 사건을 수사하는 중이지만, 아직 누구도 체포하지는 않았다.
+
+경찰관 한 명을 의미할 때는 "a police officer, a policeman, a policewoman"이라고 말합니다.
+
+
+
+E. Person의 복수형은 일반적으로 "사람들"이라는 뜻의 people을 사용합니다.
+
+ex. He's a nice person.
+- 그는 훌륭한 사람이다.
+
+ex. They are nice people.
+- 그들은 훌륭한 사람이다.
+
+ex. I saw three people.
+- 난 세 사람을 봤어.
+
+격식을 차린 (formal) 영어, 법학 영어에서는 persons를 쓰기도 한다.
+이때, A people, peoples는 국민, 백성, 인종을 의미합니다.
+
+
+
+F. 금액, 거리, 기간을 나타내는 단어는 복수의 형태라도 무조건 단수로 취급합니다 !!!!
+
+ex. Twenty thousand dollars was stolen in the robbery.
+- 그 강도 사건에서 2만 달러가 훔쳐졌다.
+
+ex. Three years is a long time to be without a job.
+- 직업도 없이 있기에 3년은 긴 시간이다.
+
+ex. Six miles is a long way to be walk everyday.
+- 6마일은 매일 걷기에 긴 거리이다.
+
+
+====================================================================================================
+
+########################
+     Let's Practice
+########################
+
+ex. The pants you bought for me don't fit me.
+- 네가 나를 위해서 산 그 바지는 나에게 맞지 않는다.
+
+ex. Physics was my best subject at school.
+- 물리학은 학교에서 내가 제일 좋아하는 과목이었다.
+
+ex. Fortunately, the news wasn't as bad as we expect.
+- 운이 좋게도, 그 뉴스는 우리가 생각했던 것만큼 나쁘지 않았다.
+
+ex. Do the police know how the accident happened?
+- 경찰은 사고가 어떻게 발행했는지 알아?
+
+
+====================================================================================================
+
+##########################################
+  합성 명사_ Compound Noun (명사 + 명사)
+##########################################
+
+- 둘 이상의 명사를 합쳐서 하나의 의미(사물, 사람, 생각 등)를 나타내는 것을 합성(복합) 명사라고 한다.
+
+- a tennis ball, a bank manager, a car accident
+- income tax, the water temperature
+
+
+cf) 앞의 명사가 형용사와 같은 역할은 한다.
+(뒤의 단어가 실질적인 대상 !!!!)
+
+- a race horse : 경주마
+- a horse race : 경마, 말 경기
+
+
+A. compound noun에서 첫 단어가 "-ing"로 끝날 경우, 뒤에 나오는 명사의 용도를 의미합니다.
+
+ex. a frying pan : 볶음용 팬(= a pan for frying)
+ex. a sleeping bag : 침낭(= a bag for sleeping)
+
+
+B. 두 개의 명사를 함께 쓸 때, 띄어쓰기를 하는 경우도 있고, 붙여서 쓰는 경우도 있다.
+
+case 1. 한 단어로 쓰는 경우
+
+- a headache(두통), toothpaste(치약)
+
+case 2. 두 단어로 쓰는 경우
+
+- pea soup(완두콩 수프), a road sign(도로 표지판)
+
+
+C. 합성 명사(명사 + 명사)와 "명사 of 명사"는 의미가 다를 수도 있다 !!!!
+
+ex. a chocolate box       vs.   a box of chocolate
+(비어있는) 초콜릿 상자        초콜릿이 들어있는 상자
+
+
+D. 하이픈(hypen, "-")으로 이어진 합성 명사에서 단위명사는 복수의 의미이지만, 항상 단수로 씁니다.
+
+ex. two 14-year-old girls
+- 두 명의 14살 여자아이들
+
+ex. a four-week course
+- 4주 과정
+
+ex. It's a three-hour trip.
+- 그건 3시간 걸리는 여행이다.
+
+The trip took three hours.
+- 그 여행은 3시간이 걸렸다.
+
+
+====================================================================================================
+
+########################
+     Let's Practice
+########################
+
+ex. Mary has just started a new job. She's got a two-year contract.
+- Mary는 새로운 일을 시작했다. 그녀는 2년짜리 계약을 얻었다.
+
+ex. We wnet for a long walk. We walked six miles.
+- 우리는 긴 산책을 했다. 우리는 6마일을 걸었다.
+
+ex. We went for a six-hour walk in the country.
+- 우리는 시골에서 6시간의 산책을 했다.
+
+
+====================================================================================================
+
+###################
+   명사의 소유격
+###################
+
+A. 대명사의 소유격 + 명사는 문장에서 주격, 목적격으로 사용될 수 있습니다.
+
+ex. your book(소유격 your + 명사 book)
+
+I want to read your book.
+- 난 너의 책을 읽고 싶어. (read의 목적어)
+
+
+B. 사람, 동물을 지칭하는 명사는 소유격(-'s)를 사용합니다.
+
+ex. Tom's computer - Tom의 컴퓨터
+the cat's tail - 그 고양이의 꼬리
+
+
+cf) 장소, 시간, 기간
+
+case 1. 장소
+- the world's population : 세계의 인구
+- the city's streets : 그 도시의 거리들
+
+case 2. 시간
+- today's newspaper : 오늘의 신문
+- next week's meeting : 다음 주의 회의
+
+case 3. 기간
+- a week's vacation : 한 주의 휴가
+- two hours' sleep : 두 시간의 수면(s로 끝나는 명사는 "-s'"를 사용한다 !!!!)
+
+so, 복수형의 "s"로 끝나면 소유격 표기시 apostrophe (')의 위치를 뒤로 !!!!
+- the men's changing room : 남성용 탈의실
+- a children's book : 아동용 도서
+
+
+C. 사물, 생각은 "of"를 사용합니다.
+
+ex. the roof of a building
+- 건물의 지붕
+
+
+D. 단체, 조직은 소유격 "명사's", "명사 of 명사" 모두 사용 가능합니다.
+
+ex. The government's decision
+= The decision of government
+- 정부의 결정
+
+
+====================================================================================================
+
+########################
+     Let's Practice
+########################
+
+ex. The garden of our neighbors is very nice.
+- 우리 이웃의 정원은 아주 좋다.
+
+(The garden of our neighbors = Our neighbors' garden)
+
+
+ex. Have you seen the car of parents of Mike?
+- Mike의 부모님의 차를 보았습니까?
+
+(the car of parents of Mike = Mike's parents' car)
+
+
+ex. Do you agree with the economic policy of government?
+- 당신은 정부의 경제 정책에 동의하십니까?
+
+(OK, 또는 the government's economic policy)
+
+
+====================================================================================================
+
+#######################
+  TODAY'S EXPRESSION
+#######################
+
+A: Jay, you look so tired. Did you stay up all night?
+- Jay, 너는 많이 피곤해 보여. 밤을 샜어?
+
+B: No, but I only had three hours' sleep.
+- 아니, 하지만 나 세시간 밖에 못 잤어.
+
+A: Why don't you get some shut-eye? I will wake you up when we get to Central Park.
+- 잠깐 눈을 붙이는 게 어때? Central Park에 도착했을 때 내가 너를 깨워줄게.
+
+
+- stay up all night : 밤을 새우다[지새우다].
+- get some shut-eye : 한숨 자다.
+
+
+====================================================================================================
+
+
