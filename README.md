@@ -1,4 +1,4 @@
-# GameAcademy
+# GameAcademy (CPP 폴더, 이미지 분할)
 
 ## 2019.03 ~ 2019.04 C++, STL
 ## 2019.05 ~ 2019.06 2D Windows Programming (API, MFC)
