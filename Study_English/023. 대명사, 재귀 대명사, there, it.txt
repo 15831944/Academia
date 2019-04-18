@@ -1,0 +1,291 @@
+
+#######################
+    대명사(Pronoun)
+#######################
+
+- 명사를 대신 받아주는 명사를 "대명사_Pronoun"이라고 한다.
+
+case 1. 지시 대명사
+- this, that
+- these, those
+
+
+case 2. 인칭 대명사
+- I, my, me
+- you, your, yours
+- she, her, her
+- it, its, it
+
+
+case 3. 비인칭 대명사 it/ 가주어 it
+- It's hot. (날씨)
+- It's Saturday. (요일)
+- It's July 2nd. (날짜)
+- It's dark. (명암)
+- It's 2:00. (시간)
+- It's not far. (거리)
+
+- It is interesting to study English with Jay. (가주어 it)
+
+case 4. 재귀 대명사
+- The man killed himself. (문장의 목적어라서 재귀 대명사 생략 X)
+- I repaired it myself. (강조용법, 재귀 대명사 생략 가능하다.)
+
+
+====================================================================================================
+
+####################################
+   재귀 대명사(Reflexive Pronoun)
+####################################
+
+ Steve introduced himself to the other guests.
+We use myself/ yourself/ himself, etc.
+when the subject and object are the same.
+(주어와 목적어가 같은 것을 지칭할 때, 목적어 자리에 재귀 대명사를 사용합니다.)
+
+
+- introduce A to B : A를 B에게 소개하다.
+
+
+목적어가 가리키는 대상이 주어와 같을 때, 재귀 대명사(Reflexive Pronoun)를 사용합니다.
+
+ex. I don't want you to pay for myself. I'll pay for myself.
+- 난 네가 나를 위해 돈을 내길 원하지 않아. 나는 내가 낼 꺼야.
+
+ex. Julia had a great vacation. She really enjoyed herself.
+- Julia는 좋은 휴가를 보냈어. 그녀는 정말로 즐겼어.(즐거워했어.)
+
+
+- enjoy
+vt. 타동사 : ~을 즐기다.
+(+ 재귀 대명사 : 즐기다)      
+
+
+====================================================================================================
+
+##########################
+    재귀 대명사의 활용
+##########################
+
+A. 타동사 + oneself : 자동사처럼 해석
+
+ex. enjoy oneself(즐기다)
+hurt oneself(다치다) - hurt vt. 다치게 하다.
+cut oneself(베다, 베어서 다치다)
+burn oneself(불에 데다, 화상을 입다)
+
+
+"oneself"는 재귀 대명사를 통칭하는 것으로, 상황에 맞게 myself, yourself 등으로 바꾸어 쓰면된다.
+
+
+B. Help yourslef : 마음껏 드세요.
+
+ex. If you want more to eat, help yourselves.
+- 만약 여러분들이 더 많은 것을 먹고 싶으시다면, 마음껏 드세요.
+
+
+C. 타동사의 목적어 (주어와 가리키는 것이 같을 경우, 생략 불가 !!!!)
+
+ex. I talk to myself.
+- 나는 혼잣말을 한다.
+
+ex. I look at myself in the mirror.
+- 나는 거울에 있는 나를 본다.
+
+
+D. 재귀 대명사는 강조용법으로도 사용됩니다.
+- 앞서 언급된 명사를 강조하기 위해 "직접", "자신/자체"라는 의미로 쓰입니다.
+- 그러나, 생략이 가능 합니다 !!!!
+
+ex. You can do it yourself.
+- 너는 직접 그걸 할 수 있어.
+
+ex. The movie itself wasn't very good, but I loved the music.
+- 영화 그 자체는 매우 좋진 않았지만, 나는 그 음악이 좋았어.
+
+
+====================================================================================================
+
+#######################
+    Let's Practice
+#######################
+
+ex. Please try and understand how I feel. Put yourself in my position.
+- 내가 기분이 어떨지 이해해보려 하고 이해해 주세요. 제 입장이 되어 봐주세요.
+
+ex. The children had a great time at the beach. They really enjoyed themselves.
+- 그 아이들은 해변에서 좋은 시간을 가졌다. 그들은 정말로 즐겼다.(즐거워했다.)
+
+ex. Sometimes I can't say what I mean. I wish I could express myself better.
+- 때때로 나는 내가 의도하는 바를 말로 할 수가 없다. 나는 내 자신을 더 잘 표현할 수 있으면 좋겠다.
+
+
+ex. I gave them a key to our house so that they could let themselves in.
+- 나는 그들 자신을 들어갈 수 있도록 하기 위해 그들에게 우리 집 열쇠를 주었다.
+
+ex. I didn't want anybody to see the letters, so I burned them.
+- 나는 아무도 그 편지를 보지 않길 원했다. 그래서 나는 그것들을 태워버렸다.
+
+
+====================================================================================================
+
+################################
+   "-selves" vs. "each other"
+################################
+
+case 1. Themselves : 자신을
+
+ex. Kate and Joe stood in the front of the mirror and looked at themselves.
+- Kate와 Joe는 거울 앞에 서있다. 그리고 그들 자신을 보았다.(각각 자기 자신을 바라보았다.)
+
+
+case 2. Each other : 서로를
+
+ex. Kate looked at Joe. Joe looked at Kate.
+- Kate는 Joe를 보았다. Joe는 Kate를 보았다.
+
+So, They looked at each other.
+- 그들은 서로를 보았다.
+
+
+ex. Sue and Ann don't like each other. (또는 one another)
+- Sue와 Ann은 서로를 좋아하지 않는다.
+
+
+====================================================================================================
+
+###################################
+   소유격(Possessive case) 표현
+###################################
+
+- "나의/ 그녀의/ 우리의/ 그들의 친구 중 한 명"이라는 표현을
+"A friend of mine/ yours/ hers/ ours/ theirs"라고 합니다.
+
+cf) My a friend/ A my friend 라고 쓸 수 없다 !!!!
+
+소유격(my)과 관사(a, an, the)는 한 명사 앞에 동시에 쓰일 수가 없기 때문입니다.
+그래서 "관사 + 명사 of 소유격 대명사"의 형태로 사용합니다.
+
+ex. I'm going to a wedding on Saturday. A friend of mine is getting married.
+- 나는 토요일에 결혼식에 갈 것이다. 나의 친구들 중 한 명이 결혼할 것이다.
+(mine = my friends)
+
+ex. Michael had an argument with a neighbor of his.
+- Michael은 그의 이웃 중 한 명과 말다툼을 했다.
+(his = neighbors)
+
+
+- have an argument with A : A와 말다툼하다.
+
+
+ex. It was a good idea of Tom's to go to the movies.
+- 영화를 보러 가는 것은 Tom의 좋은 생각 중 하나였다.
+
+
+====================================================================================================
+
+#######################
+    Let's Practice
+#######################
+
+ex. Jason borrowed one of my books.
+- Jason은 나의 책들 중 한 권을 빌렸다.
+
+= Jason borrowed a book of mine.
+
+
+ex. We had dinner with one of our neighbors.
+- 우리는 우리의 이웃들 중 한 명과 함께 저녁식사를 했다.
+
+= We had dinnerwith a neighbor of ours.
+
+
+====================================================================================================
+
+###########################
+   소유를 나타내는 "own"
+###########################
+
+A. "소유격(my/ your/ his/ its/ our/ their) + own + 명사"를 사용하여,
+해당 명사가 누구의 것인지 소유의 의미를 나타냅니다.
+
+ex. my own house, your own car, her own room
+
+("부정관사(a, an) + own + 명사"의 형태는 쓰지 않습니다 !!!!)
+
+
+B. "own"을 이용한 소유의 의미는 다른 사람과 함께 사용하거나 빌린 것이 아니라,
+오로지 언급된 대명사만의 것이라는 의미를 나타냅니다.
+
+ex. I don't want to share a room with anybody. I want my own room.
+- 나는 어느 누구와도 방을 함께 쓰고 싶지 않아. 나는 나만의 방을 원해.
+
+ex. Why do you want to borrow my car? Why don't you use yor own?
+- 왜 저의 자동차를 빌리기를 원하나요? 당신의 것을 사용하는 것이 어떤가요?
+(your own = your own car)
+
+
+C. "own"은 어떤 일을 다른 사람이 해준 것이 아니라 스스로 했다고 할 때도 사용합니다.
+
+ex. Bill usually cut his own hair.
+- Bill은 보통 직접 그의 머리카락을 자른다. (이발소에 가지 않고 직접 머리카락을 자른다.)
+
+cf) Bill usually get his hair cut at the barber.
+- Bill은 보통 이발소에서 머리카락을 자른다. (다른 사람에 의해서... get A p.p)
+
+
+D. on one's own : 독립적으로, 단독으로
+
+ex. My children are living on their own.
+- 나의 아이들은 그들의 집에서 살고 있다.
+(독립해서 다른 집에서 살고 있음)
+
+
+E. By oneself : 혼자서(= alone), 다른 사람 없이
+
+ex. I like living by myself.
+- 나는 혼자서 사는 것을 좋아한다.
+
+
+====================================================================================================
+
+#######################
+    Let's Practice
+#######################
+
+ex. Do you like working with other people, or do you prefer working by yourself?
+- 당신은 다른 사람과 함께 일하는 것을 좋아하시나요, 아니면 혼자서 일하는 것을 선호하시나요?
+
+
+ex. We had no help decorating the apartment. We did it completely on our own.
+- 우리는 아파트 꾸미는 것에 도움을 받지 않았다. 우리는 완전히 우리들의 힘만으로 해냈다.
+
+
+====================================================================================================
+
+########################
+   TODAY'S EXPRESSION
+########################
+
+A: Tom, did you get a hair cut?
+- Tom, (다른 사람을 시켜서) 머리 잘랐어?
+
+B: No, I never go to the barber. I cut my own hair.
+- 아니, 나는 절대 이발소에 가지 않아. 나는 직접 머리를 잘라.
+
+A: Do you cut your hair on your own?
+- 너는 혼자서 머리를 자르니?
+
+B: Yes, It's easy. A friend of mine always gets his hair cut at a fancy hair salon.
+I think it's a waste of money.
+- 응, 그건 쉬워. 내 친구 중 하나는 항상 고급 미용실에서 머리를 잘라.
+나는 그게 돈 낭비라고 생각해.
+
+
+- cut my own hair : 직접 머리를 자르다.
+- fancy : 고급의
+
+
+====================================================================================================
+
+
