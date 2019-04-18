@@ -1,0 +1,25 @@
+// stdafx.h : 자주 사용하지만 자주 변경되지는 않는
+// 표준 시스템 포함 파일 또는 프로젝트 관련 포함 파일이
+// 들어 있는 포함 파일입니다.
+//
+
+#pragma once
+#ifndef _STDAFX_H_
+#define _STDAFX_H_
+
+#include "targetver.h"
+
+#include <iostream>
+#include <ctime>
+
+
+#include "define.h"
+#include "enum.h"
+
+using std::cout;
+using std::endl;
+using std::cin;
+
+#endif
+
+// TODO: 프로그램에 필요한 추가 헤더는 여기에서 참조합니다.
