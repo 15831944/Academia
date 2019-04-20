@@ -35,16 +35,17 @@ case 1. 생성자(Constructor)
 ###############################
 case 1. [default] 생성자의 정의
 ###############################
-class Student {
-
+class Student
+{
 public:
-	Student() { // default 생성자
+	Student() // default 생성자 형태
+	{
 		cout << "디폴트 생성자" << endl;
 	}
 }
 
-int main(void) {
-
+int main(void)
+{
 	Student std1; // 객체 생성 시, 생성자는 반드시 호출된다.
 				  // 매개변수로 해당 생성자를 찾지 못할 경우, 컴파일 오류.
 	cout << "main 함수" << endl;
@@ -54,21 +55,21 @@ int main(void) {
 #########################################
  case 2. 매개변수가 존재하는 생성자의 정의
 #########################################
-class Student {
-
+class Student
+{
 public:
-	Student(int num) {
+	Student(int num)
+	{
 		cout << "매개변수 존재하는 생성자"<<endl;
 	}
 }
 
-int main(void) {
-
+int main(void)
+{
 	Student std2(100); // 객체 생성 시, 생성자는 반드시 호출된다.
 					   // 매개변수로 해당 생성자를 찾지 못할 경우, 컴파일 오류.
 					   // 객체 생성 시 "()"를 통해 인자를 넘겨줄 수 있다.
 					   // 물론, overloading 개념을 통해 Default Constructor도 만들 수 있음.
-
 	cout << "main 함수" << endl;
 }
 
@@ -95,10 +96,11 @@ So, Student std2 = 100; 형태는 불가능.
 오로지 Sutdent std2(100); 형태로 하도록 !!!!
 
 ex.
-class Student {
-
+class Student
+{
 public:
-	explicit Student(int num) {
+	explicit Student(int num)
+	{
 		cout << "매개변수 존재하는 생성자"<<endl;
 	}
 }
@@ -122,10 +124,10 @@ case 2. 소멸자(Destructor)
 
 ex. [default] 소멸자의 정의
 
-class Student {
-
-	~Student() {
-
+class Student
+{
+	~Student()
+	{
 		cout << "디폴트 소멸자" << endl;
 	}
 }
@@ -167,44 +169,43 @@ case 2. 객체 소멸 과정
 
 #include "stdafx.h"
 
-class Student {
-
-private:
-	int num;
-
+class Student
+{
 public: // 주로, 생성자와 소멸자는 public
-	Student() { // Default constructor 형태.
-				// 아무 생성자도 정의가 되어 있지 않으면, 컴파일러가 자동으로 추가해준다.
+	Student() // Default constructor 형태.
+	{
+		// 아무 생성자도 정의가 되어 있지 않으면, 컴파일러가 자동으로 추가해준다.
 		num = 0;
 		cout << "Default 생성자: " << this->num << endl;
 	}
 
-	Student(int num) { // 매개변수가 있는 Constructor
-
+	Student(int num) // 매개변수가 있는 Constructor
+	{
 		this->num = num;
 		cout << "매개변수 있는 생성자: " << this->num << endl;
 	}
 
-	~Student() { // Destructor는 overloading 안 된다 !!!!
-
+	~Student() // Destructor는 overloading 안 된다 !!!!
+	{
 		cout << "Overloading 안 되는 소멸자: " << this->num << endl;
 	}
-
+	
+private:
+	int num;
 };
 
-class ExplicitConstructor {
-
+class ExplicitConstructor
+{
 public:
-	explicit ExplicitConstructor(int num) { // 생성자에 추가한 explicit 키워드는 해당 클래스의 객체에 대한 대입 연산이
-											// implicit 형 변환으로 생성자 형태를 가질 수 없게 한다 !!!!
-
+	explicit ExplicitConstructor(int num) // 생성자에 추가한 explicit 키워드는 해당 클래스의 객체에 대한 대입 연산이
+	{				      // implicit 형 변환으로 생성자 형태를 가질 수 없게 한다 !!!!									
 		cout << "explicit 생성자는 대입으로는 호출 안 됩니다." << endl;
 	}
 
 };
 
-int main(void) {
-
+int main(void)
+{
 	cout << "#####################################################################################" << endl;
 	cout << "### Constructor & Destructor" << endl << endl;
 
@@ -222,14 +223,14 @@ int main(void) {
 	Student *ptr2 = new Student(400);
 	cout << endl;
 
-	if (ptr1 != nullptr) { // 메모리 동적 할당 받은 객체는 delete 연산자를 통해 메모리 반납을 해야 소멸자를 호출한다 !!!!
-
+	if (ptr1 != nullptr) // 메모리 동적 할당 받은 객체는 delete 연산자를 통해 메모리 반납을 해야 소멸자를 호출한다 !!!!
+	{
 		delete ptr1;
 		ptr1 = nullptr;
 	}
 
-	if (ptr2 != nullptr) {
-
+	if (ptr2 != nullptr)
+	{
 		delete ptr2;
 		ptr2 = nullptr;
 	}
