@@ -6,8 +6,8 @@
 
 ex.
 
-void print(const int sizeNum) {
-
+void print(const int sizeNum)
+{
 	const int size = 5;
 	int arr[size];
 }
@@ -35,8 +35,8 @@ size와 sizeNum은 지역변수이므로 Stack 영역에 함수 호출 시 할�
 using std::cout;
 using std::endl;
 
-void print(const int sizeNum) {
-
+void print(const int sizeNum)
+{
   const int size = 5;
   
   //int arr[sizeNum];
