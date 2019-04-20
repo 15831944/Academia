@@ -71,16 +71,16 @@ ex.
 === A.h ===
 class B; // 이것이 Forward Declaration?!
 
-class A {
-
+class A
+{
 private:
 	B *ptrB; // 해당 클래스의 객체 생성이 불가능하기 때문에, 포인터를 사용해야 한다. 
 			 // 왜냐하면, #include를 한 것이 아니기 때문에 사용하고자 하는 클래스의 정보를 알 수가 없다.
 }
 
 === B.h ===
-class B {
-
+class B
+{
 	구현 ...
 }
 
@@ -90,12 +90,13 @@ class B {
 
 #include "stdafx.h"
 
-class Student {
+class Student
+{
 
 };
 
-int main(void) {
-
+int main(void)
+{
 	Student stdArr[3]; // 객체 배열(정적)
 	Student *ptrStdArr = new Student[3]; // 객체 배열(동적)
 
@@ -104,6 +105,7 @@ int main(void) {
 	ptrArr[0] = new Student; // 실질적으로 객체를 생성하여 주소 값을 넣어주는 것.
 	ptrArr[1] = new Student;
 	ptrArr[2] = new Student;
-
+	
+	return 0;
 }
 
