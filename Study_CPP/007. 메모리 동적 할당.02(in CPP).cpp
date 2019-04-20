@@ -80,7 +80,8 @@ using std::endl;
 
 
 
-int main(void) {
+int main(void)
+{
 
 	cout << "#####################################################################" << endl;
 	cout << "### 메모리 동적할당 in C++" << endl << endl;
@@ -107,7 +108,8 @@ int main(void) {
 	int size = 0;
 	int *ptr3 = new int[size];
 
-	for (int i = 0; i < size; i++) {
+	for (int i = 0; i < size; i++)
+	{
 		cout << &(ptr3[i]) << endl;
 	}
 	cout << endl << endl;
