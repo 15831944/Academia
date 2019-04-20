@@ -58,7 +58,8 @@
 //
 //using namespace std;
 //
-//void main(void) {
+//void main(void) 
+//{
 //	int playerHp;
 //
 //	playerHp = 100;
