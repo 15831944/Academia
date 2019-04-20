@@ -9,7 +9,8 @@ case 2. do while 문
 - 반복문의 일종
 - while과 비슷하나 최초 1회 코드 block을 실행 후 조건을 비교한다.
 
-do {
+do
+{
 
 	우선 무조건 1회 수행하고,
 	조건이 참(1)일 경우 수행하는 코드 block
@@ -23,7 +24,8 @@ case 3. for 문
 - 변수 선언 및 초기화, 조건식, 변수의 증감 연산이라는 3가지 정보를 한 곳에 모아 가독성을 높임.
 - 
 
-for(변수 선언 및 초기화 ; 조건식 ; 변수의 증감 연산) {
+for(변수 선언 및 초기화 ; 조건식 ; 변수의 증감 연산)
+{
 	조건이 참(1)일 경우 수행하는 코드 block
 }
 
@@ -39,9 +41,10 @@ N중 for문
 - N이 늘어날수록 반복 횟수가 기하급수적으로 늘어나기 때문에
 3중 for문부터는 잘 안 씀...
 
-for(int i = 0; i < 2; i++) {
-	for(int j = 0; j < 3; j++) {
-
+for(int i = 0; i < 2; i++)
+{
+	for(int j = 0; j < 3; j++)
+	{
 
 	}
 }
@@ -95,7 +98,8 @@ int main(void) {
 
 	//int inputNum = 0, sum = 0;
 
-	//do {
+	//do 
+	//{
 	//	cin >> inputNum;
 	//	sum += inputNum; // 순서 차이가 결과 값을 바꿈 !!! 더하는 과정을 먼저 해야 원하는 결과.
 	//} while (inputNum != -1);
@@ -105,7 +109,8 @@ int main(void) {
 	cout << "##############################################################" << endl;
 	cout << "### for 문 예제 " << endl << endl;
 
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 10; i++)
+	{
 		cout << i + 1 << endl;
 	}
 	cout << endl;
@@ -113,10 +118,11 @@ int main(void) {
 	cout << "##############################################################" << endl;
 	cout << "### for 문으로 2~ 9단 출력 " << endl << endl;
 
-	for (int i = 2; i < 10; i++) {
+	for (int i = 2; i < 10; i++)
+	{
 		cout << "######################" << endl;
-
-		for (int j = 1; j < 10; j++) {
+		for (int j = 1; j < 10; j++)
+		{
 			cout << i << " * " << j << " = " << i*j << endl;
 		}
 		cout << endl;
@@ -125,8 +131,10 @@ int main(void) {
 	cout << "##############################################################" << endl;
 	cout << "### 각 단의 시작은 첫 줄에 표시, 각 곱은 세로로 표시하는 구구단?! " << endl << endl;
 
-	for (int j = 1; j < 10; j++) {
-		for (int i = 2; i < 10; i++) {
+	for (int j = 1; j < 10; j++)
+	{
+		for (int i = 2; i < 10; i++)
+		{
 			cout << i << " * " << j << " = " << i*j << "\t";
 		}
 		cout << endl;
@@ -147,13 +155,14 @@ int main(void) {
 	cin >> iGob;
 	cout << endl;
 
-	for (int i = 2; i <= iDan; i++) {
-
-		if (i >= iDan) {
+	for (int i = 2; i <= iDan; i++)
+	{
+		if (i >= iDan)
+		{
 			temp = iGob;
 		}
-		for (int j = 1; j <= temp; j++) {
-			
+		for (int j = 1; j <= temp; j++)
+		{
 			cout << i << " * " << j << " = " << i*j << endl; //
 		}
 		cout << endl;
@@ -164,10 +173,14 @@ int main(void) {
 
 	cout << "##############################################################" << endl;
 
-	for (int j = 1; j < 10; j++) {
-		for (int i = 2; i <= iDan; i++) {
+	for (int j = 1; j < 10; j++)
+	{
+		for (int i = 2; i <= iDan; i++)
+		{
 			if (i == iDan && j > iGob)
+			{
 				break;
+			}
 			cout << i << " * " << j << " = " << i*j << "\t";
 		}
 		cout << endl;
