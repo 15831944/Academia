@@ -3,108 +3,105 @@
 using std::cout;
 using std::endl;
 
-int main(void) {
-
+int main(void)
+{
 	cout << "#######################################################" << endl;
-	cout << "case 1. ¹ÙÀÌ³Ê¸® ½ºÆ®¸², ¹ÙÀÌ³Ê¸® ÀÔÃâ·Â" << endl;
+	cout << "case 1. ë°”ì´ë„ˆë¦¬ ìŠ¤íŠ¸ë¦¼, ë°”ì´ë„ˆë¦¬ ì…ì¶œë ¥" << endl;
 
 	FILE *fp = nullptr;
 	errno_t err = fopen_s(&fp, "./Hello.txt", "wb");
 
-	if (err == 0) {
-
+	if (err == 0)
+	{
 		char str[] = "\n";
 		cout << "size: " << sizeof(str) << endl;
 
 		fwrite(str, sizeof(str) / sizeof(char), 1, fp);
 
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
 		fclose(fp);
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	}
 
 
 	err = fopen_s(&fp, "./Hello.txt", "rb");
 
-	if (err == 0) {
-
+	if (err == 0)
+	{
 		int ch = 0;
 
-		while (true) {
-
-			fread(&ch, sizeof(char), 1, fp); // '\n' ÀĞ°í, NULL ÀĞÀ½, EOF ¾ø°í °è¼Ó NULL°ª
-			fputc(ch, stdout); // NULL ¹®ÀÚµµ Ãâ·Â ÇÔ.
+		while (true)
+		{
+			fread(&ch, sizeof(char), 1, fp); // '\n' ì½ê³ , NULL ì½ìŒ, EOF ì—†ê³  ê³„ì† NULLê°’
+			fputc(ch, stdout); // NULL ë¬¸ìë„ ì¶œë ¥ í•¨.
 			cout << "####" << endl;
-			if (ch == EOF) { // EOF´Â ¸ø ÀĞ´Â °Ç°¡???
-
+			if (ch == EOF) // EOFëŠ” ëª» ì½ëŠ” ê±´ê°€???
+			{
 				cout << "EOF" << endl;
 				break;
 			}
 
-			if (ch == '\0') {
-
+			if (ch == '\0')
+			{
 				cout << "NULL" << endl;
 				break;
 			}
 		}
 		fclose(fp);
 
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	}
 
 	cout << "#######################################################" << endl;
-	cout << "case 2. ¹ÙÀÌ³Ê¸® ½ºÆ®¸², ÅØ½ºÆ® ÀÔÃâ·Â" << endl;
+	cout << "case 2. ë°”ì´ë„ˆë¦¬ ìŠ¤íŠ¸ë¦¼, í…ìŠ¤íŠ¸ ì…ì¶œë ¥" << endl;
 	err = fopen_s(&fp, "./Hello2.txt", "wb");
 
-	if (err == 0) {
-
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	if (err == 0)
+	{
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
 		char str[] = "\n";
 		cout << "size: " << sizeof(str) << endl;
 
 		cout << "fputs: " << fputs(str, fp) << endl;
 		fclose(fp);
-
-
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	}
 
 
 
 	err = fopen_s(&fp, "./Hello2.txt", "rb");
 
-	if (err == 0) {
-
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	if (err == 0)
+	{
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
 		char ch = 0;
 
-		while (true) {
-
+		while (true)
+		{
 			ch = fgetc(fp);
-			fputc(ch, stdout); // "\n" ÀĞ°í, ¹®ÀÚ¿­ÀÇ ³¡ÀÎ '\0'Àº ±×³É ¹«½ÃÇØ¹ö¸®°í EOF³×...
-								// ÄÜ¼Ö ÀÔÃâ·Â ÇÔ¼ö´Â ¹®ÀÚ¿­ ³¡³ª¸é ¹Ù·Î EOF
-
-			if (ch == EOF) {
-
+			fputc(ch, stdout); // "\n" ì½ê³ , ë¬¸ìì—´ì˜ ëì¸ '\0'ì€ ê·¸ëƒ¥ ë¬´ì‹œí•´ë²„ë¦¬ê³  EOFë„¤...
+								// ì½˜ì†” ì…ì¶œë ¥ í•¨ìˆ˜ëŠ” ë¬¸ìì—´ ëë‚˜ë©´ ë°”ë¡œ EOF
+			if (ch == EOF)
+			{
 				cout << "EOF" << endl;
 				break;
 			}
 
-			if (ch == '\0') {
-
+			if (ch == '\0')
+			{
 				cout << "NULL" << endl;
 				break;
 
@@ -113,122 +110,122 @@ int main(void) {
 		fclose(fp);
 
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	}
 
 	cout << "#######################################################" << endl;
-	cout << "case 3. ÅØ½ºÆ® ½ºÆ®¸², ÅØ½ºÆ® ÀÔÃâ·Â" << endl;
+	cout << "case 3. í…ìŠ¤íŠ¸ ìŠ¤íŠ¸ë¦¼, í…ìŠ¤íŠ¸ ì…ì¶œë ¥" << endl;
 
 	FILE *fp3 = nullptr;
 	errno_t err3 = fopen_s(&fp3, "./Hello3.txt", "wt");
 
-	if (err3 == 0) {
-
+	if (err3 == 0)
+	{
 		char str[] = "\n";
 
 		fputs(str, fp3);
 
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
 		fclose(fp3);
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 
 	}
 
 	err3 = fopen_s(&fp3, "./Hello3.txt", "rt");
 
-	if (err3 == 0) {
-
+	if (err3 == 0)
+	{
 		char ch = 0;
 
-		while (true) {
-
-			ch = fgetc(fp3); // '\n'¹®ÀÚ ´ÙÀ½¿¡ ¹Ù·Î EOF
+		while (true)
+		{
+			ch = fgetc(fp3); // '\n'ë¬¸ì ë‹¤ìŒì— ë°”ë¡œ EOF
 			cout << ch << "#########" << endl;
 
-			if (ch == EOF) {
-
+			if (ch == EOF)
+			{
 				cout << "EOF" << endl;
 				break;
 			}
 
-			if (ch == '\0') {
-
+			if (ch == '\0')
+			{
 				cout << "NULL" << endl;
 				break;
 			}
 		}
 
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
 		fclose(fp3);
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
-
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	}
+	
 	cout << "#######################################################" << endl;
-	cout << "case 4. ÅØ½ºÆ® ½ºÆ®¸², ¹ÙÀÌ³Ê¸® ÀÔÃâ·Â" << endl;
+	cout << "case 4. í…ìŠ¤íŠ¸ ìŠ¤íŠ¸ë¦¼, ë°”ì´ë„ˆë¦¬ ì…ì¶œë ¥" << endl;
 
 	FILE *fp4 = nullptr;
 	errno_t err4 = fopen_s(&fp4, "./Hello4.txt", "wt");
 
-	if (err4 == 0) {
-
+	if (err4 == 0)
+	{
 		char str[] = "\n";
 
 		fwrite(str, sizeof(str) / sizeof(char), 1, fp4);
 
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
 		fclose(fp4);
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	}
 
 
 
 	err4 = fopen_s(&fp4, "./Hello4.txt", "rt");
 
-	if (err4 == 0) {
-
+	if (err4 == 0)
+	{
 		char ch = 0;
 
-		while (1) {
-
-			fread(&ch, sizeof(char), 1, fp4); // '\n' ´ÙÀ½¿¡ NULL ¹®ÀÚ ÀĞ¾ú´Ù. EOF ¾ø´Ù.
+		while (1)
+		{
+			fread(&ch, sizeof(char), 1, fp4); // '\n' ë‹¤ìŒì— NULL ë¬¸ì ì½ì—ˆë‹¤. EOF ì—†ë‹¤.
 			fputc(ch, stdout);
 			cout << "###########" << endl;
 
-			if (ch == EOF) {
-
+			if (ch == EOF)
+			{
 				cout << "EOF" << endl;
 				break;
 			}
 
-			if (ch == '\0') {
-
+			if (ch == '\0')
+			{
 				cout << "NULL" << endl;
 				break;
 			}
 
 		}
 
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
 		fclose(fp4);
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	}
 
 	return 0;
