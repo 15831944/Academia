@@ -137,11 +137,13 @@ using std::cout;
 using std::endl;
 using std::cin;
 
-int add(int a, int b) {
+int Add(int a, int b)
+{
 	return a + b;
 }
 
-int sub(int a, int b) {
+int Sub(int a, int b)
+{
 	return a - b;
 }
 
@@ -164,12 +166,13 @@ int main(void) {
 	int(*pFunc)(int , int) = NULL;
 
 
-	//switch (sel) {
+	//switch (sel)
+	//{
 	//case 1:
-	//	pFunc = add; // 함수 이름을 대입.
+	//	pFunc = Add; // 함수 이름을 대입.
 	//	break;
 	//case 2:
-	//	pFunc = sub;
+	//	pFunc = Sub;
 	//	break;
 	//default:
 	//	return 0;
