@@ -3,54 +3,53 @@
 using std::cout;
 using std::endl;
 
-int main(void) {
-
+int main(void)
+{
 	cout << "################################################################" << endl;
-	cout << "### case 1. ÅØ½ºÆ® ÀÛ¼º(fputs ¹®ÀÚ¿­), Ãâ·Â¸ğµå, ÀÔ·Â¸ğµå º¯°æ" << endl;
+	cout << "### case 1. í…ìŠ¤íŠ¸ ì‘ì„±(fputs ë¬¸ìì—´), ì¶œë ¥ëª¨ë“œ, ì…ë ¥ëª¨ë“œ ë³€ê²½" << endl;
 
 	FILE *fp = nullptr;
-	errno_t err = fopen_s(&fp, "./Hello1.txt", "wt"); // binary ¸ğµå·Î ÀúÀå ÀÌ»óÇÑ ¹®ÀÚ + ¾´ ¹®ÀÚµé, NULL ¹®ÀÚ ¾øÀ½.
-													  // text ¸ğµå·Î ÀúÀå °³Çà µÇ°í + ¾´ ¹®ÀÚµé, NULL ¹®ÀÚ ¾øÀ½.
+	errno_t err = fopen_s(&fp, "./Hello1.txt", "wt"); // binary ëª¨ë“œë¡œ ì €ì¥ ì´ìƒí•œ ë¬¸ì + ì“´ ë¬¸ìë“¤, NULL ë¬¸ì ì—†ìŒ.
+													  // text ëª¨ë“œë¡œ ì €ì¥ ê°œí–‰ ë˜ê³  + ì“´ ë¬¸ìë“¤, NULL ë¬¸ì ì—†ìŒ.
+	if (err == 0)
+	{
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
-	if (err == 0) {
-
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
-
-		char str[] = "\nbc"; // '\n' + 'b' + 'c' + '\0' 4°³
-		fputs(str, fp); // ÀÌ»óÇÑ ¹®ÀÚ('\n') + b + c, ±×·±µ¥ NULL ¹®ÀÚ´Â Ãâ·Â ¾ÈµÇ¼­ ÅØ½ºÆ® ÆÄÀÏ¿¡ ¾øÀ½ !!!!
-						// binary ¸ğµå¿¡¼­´Â NULL ¹®ÀÚ´Â Ãâ·Â ¾È ÇÏ³ªºÁ !!!!
+		char str[] = "\nbc"; // '\n' + 'b' + 'c' + '\0' 4ê°œ
+		fputs(str, fp); // ì´ìƒí•œ ë¬¸ì('\n') + b + c, ê·¸ëŸ°ë° NULL ë¬¸ìëŠ” ì¶œë ¥ ì•ˆë˜ì„œ í…ìŠ¤íŠ¸ íŒŒì¼ì— ì—†ìŒ !!!!
+						// binary ëª¨ë“œì—ì„œëŠ” NULL ë¬¸ìëŠ” ì¶œë ¥ ì•ˆ í•˜ë‚˜ë´ !!!!
 
 		fclose(fp);
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	}
 
 
 
 	//err = fopen_s(&fp, "./Hello1.txt", "rt");
 	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char ch = 0;
 	//
-	//	while (1) {
-	//
-	//		ch = fgetc(fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + EOF
-	//						// text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c' + EOF
-	//						// binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' +  'b' + 'c' + EOF
-	//						// text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' +  'b' + 'c' + EOF
-	//		if (ch == EOF) {
-	//
+	//	while (1)
+	//	{
+	//		ch = fgetc(fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + EOF
+	//						// text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c' + EOF
+	//						// binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' +  'b' + 'c' + EOF
+	//						// text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' +  'b' + 'c' + EOF
+	//		if (ch == EOF)
+	//		{
 	//			cout << "EOF" << endl;
 	//			break;
 	//		}
 	//
-	//		if (ch == '\0') {
-	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			break;
 	//		}
@@ -58,151 +57,140 @@ int main(void) {
 	//
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
-
 	//err = fopen_s(&fp, "./Hello1.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char ch = 0;
 	//
-	//	while (1) {
-	//
-	//		fread(&ch, sizeof(char), 1, fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c'(°è¼Ó)
-	//										// text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c'(°è¼Ó)
-	//										// binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c'(°è¼Ó)
-	//										// text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c'(°è¼Ó)
-	//
-	//		if (ch == EOF) {
-	//
+	//	while (1)
+	//	{
+	//		fread(&ch, sizeof(char), 1, fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c'(ê³„ì†)
+	//										// text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c'(ê³„ì†)
+	//										// binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c'(ê³„ì†)
+	//										// text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c'(ê³„ì†)
+	//		if (ch == EOF)
+	//		{
 	//			cout << "EOF" << endl;
 	//			//break;
 	//		}
 	//
-	//		if (ch == '\0') {
-	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			break;
 	//		}
-	//
 	//	}
 	//
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 
 	//err = fopen_s(&fp, "./Hello1.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char str[10];
 	//
-	//	fgets(str, sizeof(str), fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + '\0' °³ÇàÀÌ ³ª¿À¸é ¹®ÀÚ¿­ÀÌ ³¡³­ °É·Î »ı°¢ÇØ¼­ NULL ¹®ÀÚ ºÙ¿©ÁÖ°í ÀĞ¾î ¿À³ªº½...
-	//								// text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + '\0' °³ÇàÀ¸·Î ¹®ÀÚ¿­ÀÇ ³¡À» ÆÇ´ÜÇØ¼­ NULL ¹®ÀÚ ³Ö¾îÁÜ.
-	//								// binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + '\0'
-	//								// text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + '\0'
+	//	fgets(str, sizeof(str), fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + '\0' ê°œí–‰ì´ ë‚˜ì˜¤ë©´ ë¬¸ìì—´ì´ ëë‚œ ê±¸ë¡œ ìƒê°í•´ì„œ NULL ë¬¸ì ë¶™ì—¬ì£¼ê³  ì½ì–´ ì˜¤ë‚˜ë´„...
+	//								// text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + '\0' ê°œí–‰ìœ¼ë¡œ ë¬¸ìì—´ì˜ ëì„ íŒë‹¨í•´ì„œ NULL ë¬¸ì ë„£ì–´ì¤Œ.
+	//								// binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + '\0'
+	//								// text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + '\0'
 	//
-	//	fgets(str, sizeof(str), fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : 'b' + 'c' + '\0'
-	//								// text ¸ğµå ÀúÀå, binary ÀĞ±â : 'b' + 'c' + '\0'
-	//								// binary ¸ğµå ÀúÀå, text ÀĞ±â : 'b' + 'c' + '\0'
-	//								// text ¸ğµå ÀúÀå, text ÀĞ±â : 'b' + 'c' + '\0'
+	//	fgets(str, sizeof(str), fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : 'b' + 'c' + '\0'
+	//								// text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : 'b' + 'c' + '\0'
+	//								// binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : 'b' + 'c' + '\0'
+	//								// text ëª¨ë“œ ì €ì¥, text ì½ê¸° : 'b' + 'c' + '\0'
 	//
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
-
 
 
 	//err = fopen_s(&fp, "./Hello1.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char str[10];
 	//
-	//	fread(str, sizeof(char), 10, fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c'
-	//									  // ÅØ½ºÆ® ÆÄÀÏ¿¡ NULL ¹®ÀÚ°¡ ¾ø¾î¼­ µ¥ÀÌÅÍ¸¦ ¸ø ÀĞ¾î¿À´Ï±î
-	//									  // ¹®ÀÚ¿­ ³¡¿¡ NULL ¹®ÀÚ°¡ ¾ø¾î¼­ ¸Ş¸ğ¸® ´©¼ö »ı±è !!!!
+	//	fread(str, sizeof(char), 10, fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c'
+	//									  // í…ìŠ¤íŠ¸ íŒŒì¼ì— NULL ë¬¸ìê°€ ì—†ì–´ì„œ ë°ì´í„°ë¥¼ ëª» ì½ì–´ì˜¤ë‹ˆê¹Œ
+	//									  // ë¬¸ìì—´ ëì— NULL ë¬¸ìê°€ ì—†ì–´ì„œ ë©”ëª¨ë¦¬ ëˆ„ìˆ˜ ìƒê¹€ !!!!
 	//
-	//									  // text ¸ğµå ÀúÀå, binary ÀĞ±â :  '\r' + '\n' + 'b' + 'c'
-	//									  // ¸¶Âù°¡Áö·Î NULL ¹®ÀÚ°¡ ¾ø¾î¼­ ¸Ş¸ğ¸® ´©¼ö°¡ »ı±è !!!!
+	//									  // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° :  '\r' + '\n' + 'b' + 'c'
+	//									  // ë§ˆì°¬ê°€ì§€ë¡œ NULL ë¬¸ìê°€ ì—†ì–´ì„œ ë©”ëª¨ë¦¬ ëˆ„ìˆ˜ê°€ ìƒê¹€ !!!!
 	//
-	//									  // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c'
-	//									  // NULL ¹®ÀÚ ¾ø¾î¼­ ¸Ş¸ğ¸® ´©¼ö !!!!
+	//									  // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c'
+	//									  // NULL ë¬¸ì ì—†ì–´ì„œ ë©”ëª¨ë¦¬ ëˆ„ìˆ˜ !!!!
 	//
-	//									  // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c'
-	//									  // NULL ¹®ÀÚ ¾ø¾î¼­ ¸Ş¸ğ¸® ´©¼ö !!!!
-	//
+	//									  // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c'
+	//									  // NULL ë¬¸ì ì—†ì–´ì„œ ë©”ëª¨ë¦¬ ëˆ„ìˆ˜ !!!!
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 	cout << "################################################################" << endl;
-	cout << "### case 2. ÅØ½ºÆ® ÀÛ¼º(fwrite ¹®ÀÚ¿­), Ãâ·Â¸ğµå, ÀÔ·Â¸ğµå º¯°æ" << endl;
+	cout << "### case 2. í…ìŠ¤íŠ¸ ì‘ì„±(fwrite ë¬¸ìì—´), ì¶œë ¥ëª¨ë“œ, ì…ë ¥ëª¨ë“œ ë³€ê²½" << endl;
 
 	err = fopen_s(&fp, "./Hello2.txt", "wt");
-
-	if (err == 0) {
-
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	if (err == 0)
+	{
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
 		char str[] = "\nbc";
-		fwrite(str, sizeof(str) / sizeof(char), 1, fp); // binary ¸ğµå ÀúÀå : ÀÌ»óÇÑ ¹®ÀÚ('\n') + ¾´ ¹®ÀÚµé + ºó °ø°£ 1°³ NULL ('\0') !!!!
-														// text ¸ğµå ÀúÀå : °³ÇàµÇ°í + ¾´ ¹®ÀÚµé + ºó °ø°£ 1°³ null ('\0') !!!!
+		fwrite(str, sizeof(str) / sizeof(char), 1, fp); // binary ëª¨ë“œ ì €ì¥ : ì´ìƒí•œ ë¬¸ì('\n') + ì“´ ë¬¸ìë“¤ + ë¹ˆ ê³µê°„ 1ê°œ NULL ('\0') !!!!
+														// text ëª¨ë“œ ì €ì¥ : ê°œí–‰ë˜ê³  + ì“´ ë¬¸ìë“¤ + ë¹ˆ ê³µê°„ 1ê°œ null ('\0') !!!!
 		fclose(fp);
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	}
 
 
 
-
 	//err = fopen_s(&fp, "./Hello2.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char ch = 0;
 	//
-	//	while (1) {
-	//
-	//		ch = fgetc(fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + '\0' + EOF
-	//						// text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c' + '\0' + EOF
-	//						// binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0' + EOF
-	//						// text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0' + EOF
-	//		if (ch == EOF) {
-	//
+	//	while (1)
+	//	{
+	//		ch = fgetc(fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + '\0' + EOF
+	//						// text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c' + '\0' + EOF
+	//						// binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0' + EOF
+	//						// text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0' + EOF
+	//		if (ch == EOF)
+	//		{
 	//			cout << "EOF" << endl;
 	//			break;
 	//		}
 	//
-	//		if (ch == '\0') {
-	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			//break;
 	//		}
@@ -210,152 +198,139 @@ int main(void) {
 	//
 	//	fclose(fp);
 	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
-
 	//err = fopen_s(&fp, "./Hello2.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char ch = 0;
 	//
-	//	while (1) {
-	//
-	//		fread(&ch, sizeof(char), 1, fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//										 // text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//										 // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//										 // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//
-	//		if (ch == EOF) {
-	//
+	//	while (1)
+	//	{
+	//		fread(&ch, sizeof(char), 1, fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//										 // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//										 // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//										 // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//		if (ch == EOF)
+	//		{
 	//			cout << "EOF" << endl;
 	//			break;
 	//		}
 	//
-	//		if (ch == '\0') {
-	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			//break;
 	//		}
-	//
 	//	}
 	//
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
-
 
 
 	//err = fopen_s(&fp, "./Hello2.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char str[10];
 	//
-	//	fgets(str, sizeof(str), fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + '\0' °³ÇàÀ¸·Î ¹®ÀÚ¿­ÀÇ ³¡À» ÆÇ´ÜÇØ¼­ NULL ¹®ÀÚ ³Ö¾îÁÜ.
-	//								 // text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + '\0' 
-	//								 // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + '\0'
-	//								 // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + '\0'
+	//	fgets(str, sizeof(str), fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + '\0' ê°œí–‰ìœ¼ë¡œ ë¬¸ìì—´ì˜ ëì„ íŒë‹¨í•´ì„œ NULL ë¬¸ì ë„£ì–´ì¤Œ.
+	//								 // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + '\0' 
+	//								 // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + '\0'
+	//								 // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + '\0'
 	//
-	//	fgets(str, sizeof(str), fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//								 // text ¸ğµå ÀúÀå, binary ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//								 // binary ¸ğµå ÀúÀå, text ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//								 // text ¸ğµå ÀúÀå, text ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//
+	//	fgets(str, sizeof(str), fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//								 // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//								 // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//								 // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : 'b' + 'c' + '\0' + '\0'
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
-
 
 
 	//err = fopen_s(&fp, "./Hello2.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char str[10];
 	//
-	//	fread(str, sizeof(char), 10, fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + '\0'
-	//									  // fwrite·Î binary ¸ğµå ÀúÀå Çß´õ´Ï ÅØ½ºÆ® ÆÄÀÏ¿¡ NULL ¹®ÀÚ°¡ µé¾î°¡ÀÖÀ½.
+	//	fread(str, sizeof(char), 10, fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + '\0'
+	//									  // fwriteë¡œ binary ëª¨ë“œ ì €ì¥ í–ˆë”ë‹ˆ í…ìŠ¤íŠ¸ íŒŒì¼ì— NULL ë¬¸ìê°€ ë“¤ì–´ê°€ìˆìŒ.
 	//
-	//									  // text ¸ğµå ÀúÀå, binary ÀĞ±â :  '\r' + '\n' + 'b' + 'c' + '\0'
+	//									  // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° :  '\r' + '\n' + 'b' + 'c' + '\0'
 	//
-	//									  // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'
+	//									  // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'
 	//
-	//									  // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'
-	//
+	//									  // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 
 	cout << "################################################################" << endl;
-	cout << "### case 3. ÅØ½ºÆ® ÀÛ¼º(fputc ¹®ÀÚ ´ÜÀ§), Ãâ·Â¸ğµå, ÀÔ·Â¸ğµå º¯°æ" << endl;
+	cout << "### case 3. í…ìŠ¤íŠ¸ ì‘ì„±(fputc ë¬¸ì ë‹¨ìœ„), ì¶œë ¥ëª¨ë“œ, ì…ë ¥ëª¨ë“œ ë³€ê²½" << endl;
 
 	err = fopen_s(&fp, "./Hello3.txt", "wt");
+	if (err == 0)
+	{
+		cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 
-	if (err == 0) {
+		char str[] = "\nbc"; // '\n' + 'b' + 'c' + '\0' 4ê°œ
 
-		cout << "ÆÄÀÏ open ¼º°ø" << endl;
-
-		char str[] = "\nbc"; // '\n' + 'b' + 'c' + '\0' 4°³
-
-		for (int i = 0; i < sizeof(str) / sizeof(char); i++) {
-
+		for (int i = 0; i < sizeof(str) / sizeof(char); i++)
+		{
 			char ch = str[i];
-			fputc(ch, fp); // binary ¸ğµå ÀúÀå : ÀÌ»óÇÑ ¹®ÀÚ('\n') + b + c + ºó °ø°£ 1°³ NULL ('\0') ¹®ÀÚ !!!!
-						   // text ¸ğµå ÀúÀå : °³ÇàµÇ°í, b + c + ºó °ø°£ 1°³ NULL ('\0') ¹®ÀÚ !!!!
+			fputc(ch, fp); // binary ëª¨ë“œ ì €ì¥ : ì´ìƒí•œ ë¬¸ì('\n') + b + c + ë¹ˆ ê³µê°„ 1ê°œ NULL ('\0') ë¬¸ì !!!!
+						   // text ëª¨ë“œ ì €ì¥ : ê°œí–‰ë˜ê³ , b + c + ë¹ˆ ê³µê°„ 1ê°œ NULL ('\0') ë¬¸ì !!!!
 		}
 
 
 		fclose(fp);
 	}
-	else {
-
-		cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	else
+	{
+		cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	}
 
 
-
 	//err = fopen_s(&fp, "./Hello3.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char ch = 0;
 	//
-	//	while (1) {
-	//
-	//		ch = fgetc(fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + '\0' + EOF
-	//						// text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c' + '\0' + EOF
-	//						// binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0' + EOF
-	//						// text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0' + EOF
-	//		if (ch == EOF) {
-	//
+	//	while (1)
+	//	{
+	//		ch = fgetc(fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + '\0' + EOF
+	//						// text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c' + '\0' + EOF
+	//						// binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0' + EOF
+	//						// text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0' + EOF
+	//		if (ch == EOF)
+	//		{
 	//			cout << "EOF" << endl;
 	//			break;
 	//		}
 	//
-	//		if (ch == '\0') {
-	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			//break;
 	//		}
@@ -363,149 +338,140 @@ int main(void) {
 	//
 	//	fclose(fp);
 	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 
 	//err = fopen_s(&fp, "./Hello3.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char ch = 0;
 	//
-	//	while (1) {
-	//
-	//		fread(&ch, sizeof(char), 1, fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//										 // text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//										 // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//										 // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//
-	//		if (ch == EOF) {
-	//
+	//	while (1)
+	//	{
+	//		fread(&ch, sizeof(char), 1, fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//										 // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//										 // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//										 // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//		if (ch == EOF)
+	//		{
 	//			cout << "EOF" << endl;
 	//			break;
 	//		}
 	//
-	//		if (ch == '\0') {
-	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			//break;
 	//		}
-	//
 	//	}
 	//
 	//	fclose(fp);
 	//}
-	//else {
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
+	//}
+
+
+	//err = fopen_s(&fp, "./Hello3.txt", "rt");
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//	char str[10];
+	//
+	//	fgets(str, sizeof(str), fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + '\0' ê°œí–‰ìœ¼ë¡œ ë¬¸ìì—´ì˜ ëì„ íŒë‹¨í•´ì„œ NULL ë¬¸ì ë„£ì–´ì¤Œ.
+	//								 // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + '\0' 
+	//								 // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + '\0'
+	//								 // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + '\0'
+	//
+	//	fgets(str, sizeof(str), fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//								 // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//								 // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//								 // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//
+	//	fclose(fp);
+	//}
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 
 	//err = fopen_s(&fp, "./Hello3.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
-	//
-	//	char str[10];
-	//
-	//	fgets(str, sizeof(str), fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + '\0' °³ÇàÀ¸·Î ¹®ÀÚ¿­ÀÇ ³¡À» ÆÇ´ÜÇØ¼­ NULL ¹®ÀÚ ³Ö¾îÁÜ.
-	//								 // text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + '\0' 
-	//								 // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + '\0'
-	//								 // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + '\0'
-	//
-	//	fgets(str, sizeof(str), fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//								 // text ¸ğµå ÀúÀå, binary ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//								 // binary ¸ğµå ÀúÀå, text ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//								 // text ¸ğµå ÀúÀå, text ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//
-	//	fclose(fp);
-	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
-	//}
-
-
-
-	//err = fopen_s(&fp, "./Hello3.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char str[10];
 	//
-	//	fread(str, sizeof(char), 10, fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + '\0'
-	//									  // fputcµµ binary ¸ğµå ÀúÀå Çß´õ´Ï ÅØ½ºÆ® ÆÄÀÏ¿¡ NULL ¹®ÀÚ°¡ µé¾î°¡ÀÖÀ½.
+	//	fread(str, sizeof(char), 10, fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + '\0'
+	//									  // fputcë„ binary ëª¨ë“œ ì €ì¥ í–ˆë”ë‹ˆ í…ìŠ¤íŠ¸ íŒŒì¼ì— NULL ë¬¸ìê°€ ë“¤ì–´ê°€ìˆìŒ.
 	//
-	//									  // text ¸ğµå ÀúÀå, binary ÀĞ±â :  '\r' + '\n' + 'b' + 'c' + '\0'
+	//									  // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° :  '\r' + '\n' + 'b' + 'c' + '\0'
 	//
-	//									  // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'
+	//									  // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'
 	//
-	//									  // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'
-	//
+	//									  // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 	cout << "################################################################" << endl;
-	cout << "### case 4. ÅØ½ºÆ® ÀÛ¼º(fwrite ¹®ÀÚ ´ÜÀ§), Ãâ·Â¸ğµå, ÀÔ·Â¸ğµå º¯°æ" << endl;
+	cout << "### case 4. í…ìŠ¤íŠ¸ ì‘ì„±(fwrite ë¬¸ì ë‹¨ìœ„), ì¶œë ¥ëª¨ë“œ, ì…ë ¥ëª¨ë“œ ë³€ê²½" << endl;
 
 	//err = fopen_s(&fp, "./Hello4.txt", "wt");
-
-	//if (err == 0) {
-
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
-
+	//if (err == 0)
+	//{
+	//
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
+	//
 	//	char str[] = "\nbc";
-	//	for (int i = 0; i < sizeof(str) / sizeof(char); i++) {
-
-	//		fwrite(&(str[i]), sizeof(char), 1, fp); // binary ¸ğµå ÀúÀå : ÀÌ»óÇÑ ¹®ÀÚ('\n') + ¾´ ¹®ÀÚµé + ºó °ø°£ 1°³ NULL ('\0') !!!!
-	//												// text ¸ğµå ÀúÀå : °³ÇàµÇ°í + ¾´ ¹®ÀÚµé + ºó °ø°£ 1°³ NULL ('\0') !!!!
+	//	for (int i = 0; i < sizeof(str) / sizeof(char); i++)
+	//	{
+	//		fwrite(&(str[i]), sizeof(char), 1, fp); // binary ëª¨ë“œ ì €ì¥ : ì´ìƒí•œ ë¬¸ì('\n') + ì“´ ë¬¸ìë“¤ + ë¹ˆ ê³µê°„ 1ê°œ NULL ('\0') !!!!
+	//							// text ëª¨ë“œ ì €ì¥ : ê°œí–‰ë˜ê³  + ì“´ ë¬¸ìë“¤ + ë¹ˆ ê³µê°„ 1ê°œ NULL ('\0') !!!!
 	//	}
 	//	fclose(fp);
 	//}
-	//else {
-
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//}
-
 
 
 
 
 	//err = fopen_s(&fp, "./Hello4.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char ch = 0;
 	//
-	//	while (1) {
-	//
-	//		ch = fgetc(fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + '\0' + EOF
-	//						// text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c' + '\0' + EOF
-	//						// binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0' + EOF
-	//						// text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0' + EOF
-	//		if (ch == EOF) {
-	//
+	//	while (1)
+	//	{
+	//		ch = fgetc(fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + '\0' + EOF
+	//						// text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c' + '\0' + EOF
+	//						// binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0' + EOF
+	//						// text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0' + EOF
+	//		if (ch == EOF)
+	//		{
 	//			cout << "EOF" << endl;
 	//			break;
 	//		}
 	//
-	//		if (ch == '\0') {
-	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			//break;
 	//		}
@@ -513,34 +479,33 @@ int main(void) {
 	//
 	//	fclose(fp);
 	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 
 	//err = fopen_s(&fp, "./Hello4.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char ch = 0;
 	//
-	//	while (1) {
-	//
-	//		fread(&ch, sizeof(char), 1, fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//										 // text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//										 // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//										 // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'(°è¼Ó)
-	//
-	//		if (ch == EOF) {
+	//	while (1)
+	//	{
+	//		fread(&ch, sizeof(char), 1, fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//										 // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//										 // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//										 // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'(ê³„ì†)
+	//		if (ch == EOF)
+	//		{
 	//
 	//			cout << "EOF" << endl;
 	//			break;
 	//		}
 	//
-	//		if (ch == '\0') {
-	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			//break;
 	//		}
@@ -549,186 +514,173 @@ int main(void) {
 	//
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 
 	//err = fopen_s(&fp, "./Hello4.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char str[10];
 	//
-	//	fgets(str, sizeof(str), fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + '\0' °³ÇàÀ¸·Î ¹®ÀÚ¿­ÀÇ ³¡À» ÆÇ´ÜÇØ¼­ NULL ¹®ÀÚ ³Ö¾îÁÜ.
-	//								 // text ¸ğµå ÀúÀå, binary ÀĞ±â : '\r' + '\n' + '\0' 
-	//								 // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + '\0'
-	//								 // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + '\0'
+	//	fgets(str, sizeof(str), fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + '\0' ê°œí–‰ìœ¼ë¡œ ë¬¸ìì—´ì˜ ëì„ íŒë‹¨í•´ì„œ NULL ë¬¸ì ë„£ì–´ì¤Œ.
+	//								 // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\r' + '\n' + '\0' 
+	//								 // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + '\0'
+	//								 // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + '\0'
 	//
-	//	fgets(str, sizeof(str), fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//								 // text ¸ğµå ÀúÀå, binary ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//								 // binary ¸ğµå ÀúÀå, text ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//								 // text ¸ğµå ÀúÀå, text ÀĞ±â : 'b' + 'c' + '\0' + '\0'
-	//
+	//	fgets(str, sizeof(str), fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//								 // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//								 // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : 'b' + 'c' + '\0' + '\0'
+	//								 // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : 'b' + 'c' + '\0' + '\0'
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 
 	//err = fopen_s(&fp, "./Hello4.txt", "rt");
-	//
-	//if (err == 0) {
-	//
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
 	//
 	//	char str[10];
 	//
-	//	fread(str, sizeof(char), 10, fp); // binary ¸ğµå ÀúÀå, binary ÀĞ±â : '\n' + 'b' + 'c' + '\0'
-	//									  // fwrite·Î binary ¸ğµå ÀúÀå Çß´õ´Ï ÅØ½ºÆ® ÆÄÀÏ¿¡ NULL ¹®ÀÚ°¡ µé¾î°¡ÀÖÀ½.
+	//	fread(str, sizeof(char), 10, fp); // binary ëª¨ë“œ ì €ì¥, binary ì½ê¸° : '\n' + 'b' + 'c' + '\0'
+	//									  // fwriteë¡œ binary ëª¨ë“œ ì €ì¥ í–ˆë”ë‹ˆ í…ìŠ¤íŠ¸ íŒŒì¼ì— NULL ë¬¸ìê°€ ë“¤ì–´ê°€ìˆìŒ.
 	//
-	//									  // text ¸ğµå ÀúÀå, binary ÀĞ±â :  '\r' + '\n' + 'b' + 'c' + '\0'
+	//									  // text ëª¨ë“œ ì €ì¥, binary ì½ê¸° :  '\r' + '\n' + 'b' + 'c' + '\0'
 	//
-	//									  // binary ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'
+	//									  // binary ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'
 	//
-	//									  // text ¸ğµå ÀúÀå, text ÀĞ±â : '\n' + 'b' + 'c' + '\0'
+	//									  // text ëª¨ë“œ ì €ì¥, text ì½ê¸° : '\n' + 'b' + 'c' + '\0'
 	//
 	//	fclose(fp);
 	//}
-	//else {
-	//
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 	cout << "################################################################" << endl;
-	cout << "### case 5. ÅØ½ºÆ® ÀÛ¼º(¸Ş¸ğÀå), Ãâ·Â¸ğµå, ÀÔ·Â¸ğµå º¯°æ" << endl;
+	cout << "### case 5. í…ìŠ¤íŠ¸ ì‘ì„±(ë©”ëª¨ì¥), ì¶œë ¥ëª¨ë“œ, ì…ë ¥ëª¨ë“œ ë³€ê²½" << endl;
 
-	// Enter(°³Çà ÇÑµÚ), b + c ÀÔ·Â, NULL ¹®ÀÚ °°Àº°Ç ÀÔ·ÂÇÒ ¼ö ¾ø¾úÀ½.
+	// Enter(ê°œí–‰ í•œë’¤), b + c ì…ë ¥, NULL ë¬¸ì ê°™ì€ê±´ ì…ë ¥í•  ìˆ˜ ì—†ì—ˆìŒ.
 
 	//err = fopen_s(&fp, "./Hello5.txt", "rb");
-
-	//if (err == 0) {
-
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
-
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
+	//
 	//	char ch = 0;
-
-	//	while (1) {
-
-	//		ch = fgetc(fp); // ¸Ş¸ğÀå ÀÛ¼º, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c' + EOF
-	//						// ¸Ş¸ğÀå ÀÛ¼º, text ÀĞ±â : '\n' + 'b' + 'c' + EOF
-
-	//		if (ch == EOF) {
-
+	//
+	//	while (1)
+	//	{
+	//		ch = fgetc(fp); // ë©”ëª¨ì¥ ì‘ì„±, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c' + EOF
+	//						// ë©”ëª¨ì¥ ì‘ì„±, text ì½ê¸° : '\n' + 'b' + 'c' + EOF
+	//
+	//		if (ch == EOF)
+	//		{
 	//			cout << "EOF" << endl;
 	//			break;
 	//		}
-
-	//		if (ch == '\0') {
-
+	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			//break;
 	//		}
 	//	}
-
+	//
 	//	fclose(fp);
-
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 
 	//err = fopen_s(&fp, "./Hello5.txt", "rb");
-
-	//if (err == 0) {
-
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
-
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
+	//
 	//	char ch = 0;
-
-	//	while (1) {
-
-	//		fread(&ch, sizeof(char), 1, fp); // ¸Ş¸ğÀå ÀÛ¼º, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c'(°è¼Ó)
-	//										 // ¸Ş¸ğÀå ÀÛ¼º, text ÀĞ±â : '\n' + 'b' + 'c'(°è¼Ó)
-
-	//		if (ch == EOF) {
-
+	//
+	//	while (1)
+	//	{
+	//		fread(&ch, sizeof(char), 1, fp); // ë©”ëª¨ì¥ ì‘ì„±, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c'(ê³„ì†)
+	//						 // ë©”ëª¨ì¥ ì‘ì„±, text ì½ê¸° : '\n' + 'b' + 'c'(ê³„ì†)
+	//
+	//		if (ch == EOF)
+	//		{
 	//			cout << "EOF" << endl;
 	//			break;
 	//		}
-
-	//		if (ch == '\0') {
-
+	//
+	//		if (ch == '\0')
+	//		{
 	//			cout << "NULL" << endl;
 	//			//break;
 	//		}
-
 	//	}
-
+	//
 	//	fclose(fp);
 	//}
-	//else {
-
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
 
 
 
 	//err = fopen_s(&fp, "./Hello5.txt", "rb");
-
-	//if (err == 0) {
-
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
-
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
+	//
 	//	char str[10];
-
-	//	fgets(str, sizeof(str), fp); // ¸Ş¸ğÀå ÀÛ¼º, binary ÀĞ±â : '\r' + '\n' + '\0' °³ÇàÀ¸·Î ¹®ÀÚ¿­ÀÇ ³¡À» ÆÇ´ÜÇØ¼­ NULL ¹®ÀÚ ³Ö¾îÁÜ.
-	//								 // ¸Ş¸ğÀå ÀÛ¼º, text ÀĞ±â : '\n' + '\0'
-
-	//	fgets(str, sizeof(str), fp); // ¸Ş¸ğÀå ÀÛ¼º, binary ÀĞ±â : 'b' + 'c' + '\0'
-	//								 // ¸Ş¸ğÀå ÀÛ¼º, text ÀĞ±â : 'b' + 'c' + '\0'
-
+	//
+	//	fgets(str, sizeof(str), fp); // ë©”ëª¨ì¥ ì‘ì„±, binary ì½ê¸° : '\r' + '\n' + '\0' ê°œí–‰ìœ¼ë¡œ ë¬¸ìì—´ì˜ ëì„ íŒë‹¨í•´ì„œ NULL ë¬¸ì ë„£ì–´ì¤Œ.
+	//								 // ë©”ëª¨ì¥ ì‘ì„±, text ì½ê¸° : '\n' + '\0'
+	//
+	//	fgets(str, sizeof(str), fp); // ë©”ëª¨ì¥ ì‘ì„±, binary ì½ê¸° : 'b' + 'c' + '\0'
+	//								 // ë©”ëª¨ì¥ ì‘ì„±, text ì½ê¸° : 'b' + 'c' + '\0'
 	//	fclose(fp);
 	//}
-	//else {
-
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
-
 
 
 	//err = fopen_s(&fp, "./Hello5.txt", "rb");
-
-	//if (err == 0) {
-
-	//	cout << "ÆÄÀÏ open ¼º°ø" << endl;
-
+	//if (err == 0)
+	//{
+	//	cout << "íŒŒì¼ open ì„±ê³µ" << endl;
+	//
 	//	char str[10];
-
-	//	fread(str, sizeof(char), 10, fp); // ¸Ş¸ğÀå ÀÛ¼º, binary ÀĞ±â : '\r' + '\n' + 'b' + 'c'
-	//									  // ¸Ş¸ğÀå¿¡¼­ (Enter + b + c) ÀúÀå Çß´õ´Ï NULL ¹®ÀÚ´Â ÀÔ·ÂÇØÁØ °ÍÀÌ ¾Æ´Ï¶ó¼­ ¾øÀ½.
-	//									  // So, ¸Ş¸ğ¸® ´©¼ö ¹ß»ı !!!!
-
-	//									  // ¸Ş¸ğÀå ÀÛ¼º, text ÀĞ±â : '\n' + 'b' + 'c'
-	//									  // ÀÔ·Â ÇØÁÖÁöµµ ¾ÊÀº NULL ¹®ÀÚ°¡ ³ªÅ¸³¯¸®°¡ ¾øÀ¸´Ï±î, ¸Ş¸ğ¸® ´©¼ö ¹ß»ı !!!!
-
+	//
+	//	fread(str, sizeof(char), 10, fp); // ë©”ëª¨ì¥ ì‘ì„±, binary ì½ê¸° : '\r' + '\n' + 'b' + 'c'
+	//									  // ë©”ëª¨ì¥ì—ì„œ (Enter + b + c) ì €ì¥ í–ˆë”ë‹ˆ NULL ë¬¸ìëŠ” ì…ë ¥í•´ì¤€ ê²ƒì´ ì•„ë‹ˆë¼ì„œ ì—†ìŒ.
+	//									  // So, ë©”ëª¨ë¦¬ ëˆ„ìˆ˜ ë°œìƒ !!!!
+	//
+	//									  // ë©”ëª¨ì¥ ì‘ì„±, text ì½ê¸° : '\n' + 'b' + 'c'
+	//									  // ì…ë ¥ í•´ì£¼ì§€ë„ ì•Šì€ NULL ë¬¸ìê°€ ë‚˜íƒ€ë‚ ë¦¬ê°€ ì—†ìœ¼ë‹ˆê¹Œ, ë©”ëª¨ë¦¬ ëˆ„ìˆ˜ ë°œìƒ !!!!
 	//	fclose(fp);
 	//}
-	//else {
-
-	//	cout << "ÆÄÀÏ open ½ÇÆĞ" << endl;
+	//else
+	//{
+	//	cout << "íŒŒì¼ open ì‹¤íŒ¨" << endl;
 	//}
-
 
 	cout << "################################################################" << endl;
-
 
 	return 0;
 }
