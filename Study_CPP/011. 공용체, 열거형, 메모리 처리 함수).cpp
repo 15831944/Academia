@@ -17,7 +17,8 @@ because, 멤버들은 하나의 메모리 공간을 공유하기 때문이다.
 
 ex.
 
-union 공용체 이름 {
+union 공용체 이름
+{
 
 };
 
@@ -26,14 +27,14 @@ union 공용체 이름 {
  공용체 선언과 초기화
 ########################
 
-struct taxBox { // 구조체
-
+struct taxBox // 구조체
+{
 	short a;
 	int b;
 };
 
-union uniBox { // 공용체
-
+union uniBox // 공용체
+{
 	short a;
 	int b;
 };
@@ -198,19 +199,19 @@ using std::cin;
 
 enum BATTLE { RUN = 1, AGAIN, HUNT = 7, DIE };
 
-int main(void) {
-
+int main(void)
+{
 	cout << "##################################################################################" << endl;
 	cout << "### 공용체 union " << endl << endl;
 
-	struct taxBox {
-
+	struct taxBox
+	{
 		short a;
 		int b;
 	};
 
-	union uniBox {
-
+	union uniBox
+	{
 		short a;
 		int b;
 	};
@@ -235,12 +236,11 @@ int main(void) {
 	uBox.b = 50; // 다른 멤버의 값을 바꾸었는데, 실질적으로 메모리를 공유하기 때문에...
 	cout << "uBox.a: " << uBox.a << endl << endl;
 
-
 	cout << "##################################################################################" << endl;
 	cout << "### 공용체를 이용한 float형 자료 찍어보기" << endl << endl;
 
-	union uniTest {
-
+	union uniTest
+	{
 		int a;
 		float b;
 	};
@@ -258,8 +258,8 @@ int main(void) {
 
 	PlayerStance stance = WALK; // 이런 식으로 사용 하는 건가...
 
-	switch (stance) {
-
+	switch (stance)
+	{
 	case IDLE:
 		cout << "대기 상태" << endl;
 		break;
@@ -290,18 +290,21 @@ int main(void) {
 
 	int *ptr = new int[10]; // 동적 배열은 선언과 동시에 초기화 불가능.
 
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 10; i++)
+	{
 		ptr[i] = i;
 	}
 
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 10; i++)
+	{
 		cout << ptr[i] << " ";
 	}
 	cout << endl;
 
 	memset(ptr, 0, sizeof(int) * 10); 
 
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 10; i++)
+	{
 		cout << ptr[i] << " ";
 	}
 	cout << endl << endl;
@@ -317,8 +320,8 @@ int main(void) {
 
 	memcpy(arrDst, arrSrc, sizeof(arrDst));
 
-	for (int i = 0; i < 5; i++) {
-
+	for (int i = 0; i < 5; i++)
+	{
 		cout << arrDst[i] << " ";
 	}
 	cout << endl << endl;
@@ -331,7 +334,8 @@ int main(void) {
 	// 개선 전: 1 1 1 1 1 1 1 1 1 1 - 한 칸씩 복사를 진행하기 때문에 숫자가 밀려서....
 	// 개선 후: 1 1 2 3 4 5 6 7 8 9 - 그렇지만, 수정 했기 때문에 원하는 결과 !!!!
 	
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 10; i++)
+	{
 		cout << arr[i] << " ";
 	}
 	cout << endl << endl;
@@ -340,7 +344,8 @@ int main(void) {
 	memmove(arr2 + 1, arr2, sizeof(arr2) - 4);
 	// 1 1 2 3 4 5 6 7 8 9
 
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 10; i++)
+	{
 		cout << arr2[i] << " ";
 	}
 	cout << endl << endl;
