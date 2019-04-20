@@ -153,8 +153,8 @@ int arr9[2][3][4] = {
 using std::cout;
 using std::endl;
 
-int main(void) {
-
+int main(void)
+{
 	cout << "###########################################################" << endl;
 	cout << "### 이차원 배열의 이름의 의미" << endl << endl;
 
@@ -164,9 +164,10 @@ int main(void) {
 	cout << "sizeof(arr7): " << sizeof(arr7) << endl; // 배열 전체의 (Byte 단위) 크기
 	cout << "sizeof(arr7[0]): " << sizeof(arr7[0]) << endl; // 행의 크기
 
-	for (int i = 0; i < 2; i++) {
-		for (int j = 0; j < 3; j++) {
-
+	for (int i = 0; i < 2; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
 			cout << "&arr7[" << i << "][" << j << "]: " << &arr7[i][j] << " ";
 		}
 		cout << endl;
@@ -193,8 +194,10 @@ int main(void) {
 	cout << (*(arr8 + 1) + 1) << endl; // (*(arr8 + 1) + 1) = arr8[1][1]
 	
 	// 주소 찍어 봄.
-	for (int i = 0; i < 2; i++) {
-		for (int j = 0; j < 3; j++) {
+	for (int i = 0; i < 2; i++)
+	{
+		for (int j = 0; j < 3; j++)
+		{
 			cout << &arr8[i][j] << '\t';
 		}
 		cout << endl;
