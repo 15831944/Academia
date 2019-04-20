@@ -2,51 +2,53 @@
 
 
 ##################
-   static º¯¼ö
+   static ë³€ìˆ˜
 ##################
 
-- Áö¿ªÀûÀÎ Æ¯Â¡ : ÇØ´ç ¿µ¿ª¿¡¼­¸¸ Á¢±ÙÀÌ °¡´ÉÇÔ.
-- Àü¿ªÀûÀÎ Æ¯Â¡ : Data ¸Þ¸ð¸® ¿µ¿ª¿¡ ÀúÀåµÇ°í, ÇÁ·Î±×·¥ ½ÃÀÛ ½Ã ÇÒ´ç, Á¾·á ½Ã ¼Ò¸ê
+- ì§€ì—­ì ì¸ íŠ¹ì§• : í•´ë‹¹ ì˜ì—­ì—ì„œë§Œ ì ‘ê·¼ì´ ê°€ëŠ¥í•¨.
+- ì „ì—­ì ì¸ íŠ¹ì§• : Data ë©”ëª¨ë¦¬ ì˜ì—­ì— ì €ìž¥ë˜ê³ , í”„ë¡œê·¸ëž¨ ì‹œìž‘ ì‹œ í• ë‹¹, ì¢…ë£Œ ì‹œ ì†Œë©¸
 
 
 #####################################################################################################
 
 ###########################################
-     static Å°¿öµå¿Í Å¬·¡½ºÀÇ ¸â¹ö º¯¼ö
+     static í‚¤ì›Œë“œì™€ í´ëž˜ìŠ¤ì˜ ë©¤ë²„ ë³€ìˆ˜
 ###########################################
 
-- (const ¸â¹ö º¯¼öÃ³·³) ¼±¾ð°ú µ¿½Ã¿¡ ÃÊ±âÈ­¸¦ ÇÒ ¼ö°¡ ¾ø´Ù.
+- (const ë©¤ë²„ ë³€ìˆ˜ì²˜ëŸ¼) ì„ ì–¸ê³¼ ë™ì‹œì— ì´ˆê¸°í™”ë¥¼ í•  ìˆ˜ê°€ ì—†ë‹¤.
 
-- static ¸â¹ö º¯¼ö´Â ÇÁ·Î±×·¥ ½ÃÀÛ ½Ã, Data ¸Þ¸ð¸® ¿µ¿ª¿¡ ÇÒ´çÀÌ µÇ°í,
-Member Initializer¿Í »ý¼ºÀÚ´Â °´Ã¼°¡ »ý¼ºµÇ¾î¾ß È£ÃâµÈ´Ù.
-So, ÇÒ´çµÇ´Â ½ÃÁ¡ÀÌ ´Ù¸£±â ¶§¹®¿¡ ÃÊ±âÈ­ ÇÏ´Â °úÁ¤ÀÌ¶ó°í º¼ ¼ö ¾ø´Ù.
+- static ë©¤ë²„ ë³€ìˆ˜ëŠ” í”„ë¡œê·¸ëž¨ ì‹œìž‘ ì‹œ, Data ë©”ëª¨ë¦¬ ì˜ì—­ì— í• ë‹¹ì´ ë˜ê³ ,
+Member Initializerì™€ ìƒì„±ìžëŠ” ê°ì²´ê°€ ìƒì„±ë˜ì–´ì•¼ í˜¸ì¶œëœë‹¤.
+So, í• ë‹¹ë˜ëŠ” ì‹œì ì´ ë‹¤ë¥´ê¸° ë•Œë¬¸ì— ì´ˆê¸°í™” í•˜ëŠ” ê³¼ì •ì´ë¼ê³  ë³¼ ìˆ˜ ì—†ë‹¤.
 
 ex.
 
-class Obj {
-
+class Obj
+{
 private:
-	static int num1 = 10;// ¿À·ù, static º¯¼öÀÇ ÃÊ±âÈ­ ¹æ¹ýÀº?!
+	static int num1 = 10;// ì˜¤ë¥˜, static ë³€ìˆ˜ì˜ ì´ˆê¸°í™” ë°©ë²•ì€?!
 	static int num2;
 
 public:
 	Obj() {}
-	Obj(int a) {
-		num2 = a; // °´Ã¼°¡ »ý¼ºµÉ ¶§¸¶´Ù static º¯¼ö¿¡ °ªÀ» ³Ö¾îÁÖ´Â °Í.
-				// ÃÊ±âÈ­ÇÏ´Â ÇàÀ§¶ó°í º¼ ¼ö°¡ ¾ø´Ù.
+	Obj(int a)
+	{
+		num2 = a; // ê°ì²´ê°€ ìƒì„±ë  ë•Œë§ˆë‹¤ static ë³€ìˆ˜ì— ê°’ì„ ë„£ì–´ì£¼ëŠ” ê²ƒ.
+				// ì´ˆê¸°í™”í•˜ëŠ” í–‰ìœ„ë¼ê³  ë³¼ ìˆ˜ê°€ ì—†ë‹¤.
 	}
 
-	void SumStaticVal() {
+	void SumStaticVal()
+	{
 		++num2;
 		cout << "num2: " << num2 << endl;
 	}
-}; // Å¬·¡½º Á¤ÀÇ µÚ¿¡ ¹Ýµå½Ã ¼¼¹ÌÄÝ·Ð ";" ³Ö¾îÁÖÀÚ !!!!!!!!!!
+}; // í´ëž˜ìŠ¤ ì •ì˜ ë’¤ì— ë°˜ë“œì‹œ ì„¸ë¯¸ì½œë¡  ";" ë„£ì–´ì£¼ìž !!!!!!!!!!
 
-int Obj::num2 = 10; // °á±¹, Global ¿µ¿ª(static º¯¼ö°¡ Á¸ÀçÇÏ´Â ¸Þ¸ð¸®¿µ¿ª)À» ÁöÁ¤ÇØ¼­ ÃÊ±âÈ­¸¦ ÇØÁØ´Ù.
-					// ±×¸®°í ÇÁ·Î±×·¥ÀÌ ½ÃÀÛµÇ¸é, µü ÇÑ¹ø¸¸ ¼±¾ð°ú ÃÊ±âÈ­°¡ ÀÌ·ç¾îÁø´Ù.
+int Obj::num2 = 10; // ê²°êµ­, Global ì˜ì—­(static ë³€ìˆ˜ê°€ ì¡´ìž¬í•˜ëŠ” ë©”ëª¨ë¦¬ì˜ì—­)ì„ ì§€ì •í•´ì„œ ì´ˆê¸°í™”ë¥¼ í•´ì¤€ë‹¤.
+					// ê·¸ë¦¬ê³  í”„ë¡œê·¸ëž¨ì´ ì‹œìž‘ë˜ë©´, ë”± í•œë²ˆë§Œ ì„ ì–¸ê³¼ ì´ˆê¸°í™”ê°€ ì´ë£¨ì–´ì§„ë‹¤.
 
-int main(void) {
-
+int main(void)
+{
 	Obj obj1;
 	Obj obj2;
 	Obj obj3;
@@ -55,94 +57,96 @@ int main(void) {
 	obj2.SumStaticVal(); // 12
 	obj3.SumStaticVal(); // 13
 
-	// °á±¹, µ¿ÀÏÇÑ Å¬·¡½ºÀÇ °´Ã¼°¡ static ¸â¹ö º¯¼ö¸¦ °øÀ¯ÇÑ´Ù !!!!
-	// but, static ¸â¹ö º¯¼ö´Â °´Ã¼ÀÇ ¼ÒÀ¯°¡ ¾Æ´Ô.
+	// ê²°êµ­, ë™ì¼í•œ í´ëž˜ìŠ¤ì˜ ê°ì²´ê°€ static ë©¤ë²„ ë³€ìˆ˜ë¥¼ ê³µìœ í•œë‹¤ !!!!
+	// but, static ë©¤ë²„ ë³€ìˆ˜ëŠ” ê°ì²´ì˜ ì†Œìœ ê°€ ì•„ë‹˜.
 }
 
 
 
 ############################################
-   ¿µ¿ª ÁöÁ¤À» ÅëÇÑ static ¸â¹ö º¯¼ö Á¢±Ù
+   ì˜ì—­ ì§€ì •ì„ í†µí•œ static ë©¤ë²„ ë³€ìˆ˜ ì ‘ê·¼
 ############################################
 
-- Access Modifier¿¡ µû¶ó¼­ Á¢±Ù °¡´É¼ºÀÌ °áÁ¤µÊ.
-- Å¬·¡½ºÀÌ¸§ + "::" scope ¿¬»êÀÚ
+- Access Modifierì— ë”°ë¼ì„œ ì ‘ê·¼ ê°€ëŠ¥ì„±ì´ ê²°ì •ë¨.
+- í´ëž˜ìŠ¤ì´ë¦„ + "::" scope ì—°ì‚°ìž
 
 ex.
 
-class Obj {
-
+class Obj
+{
 public:
 	static int num2;
 
 };
 
-int Obj::num2 = 10;
+int Obj::num2 = 10; // static í‚¤ì›Œë“œê°€ ì´ˆê¸°í™”í•  ë•ŒëŠ” ì—†ë‹¤ !!!!
 
-int main(void) {
+int main(void)
+{
 
-	cout << Obj::num2 << endl; // scope ¿¬»êÀÚ¸¦ ÅëÇÑ public ¸â¹ö Á¢±Ù
+	cout << Obj::num2 << endl; // scope ì—°ì‚°ìžë¥¼ í†µí•œ public ë©¤ë²„ ì ‘ê·¼
 }
 
 
 #####################################################################################################
 
 ###########################################
-     static Å°¿öµå¿Í Å¬·¡½ºÀÇ ¸â¹ö ÇÔ¼ö
+     static í‚¤ì›Œë“œì™€ í´ëž˜ìŠ¤ì˜ ë©¤ë²„ í•¨ìˆ˜
 ###########################################
 
-- static Å°¿öµå¸¦ ¸â¹ö ÇÔ¼ö ¾Õ¿¡´Ù°¡ ºÙÀÌ¸é µÈ´Ù.
-- »ý¼ºµÇÁö ¾ÊÀº °´Ã¼´Â ¸Þ¸ð¸®¿¡ ÇÒ´çµÇÁö ¾Ê¾ÒÀ¸¹Ç·Î, °´Ã¼¿¡ ´ëÇÑ Á¤º¸¸¦ ¾Ë ¼ö ¾ø´Ù.
-(¹°·Ð, °´Ã¼ÀÇ ¸â¹ö¿¡ ´ëÇØ¼­µµ ¾Ë ¼ö°¡ ¾øÀ½.)
+- static í‚¤ì›Œë“œë¥¼ ë©¤ë²„ í•¨ìˆ˜ ì•žì—ë‹¤ê°€ ë¶™ì´ë©´ ëœë‹¤.
+- ìƒì„±ë˜ì§€ ì•Šì€ ê°ì²´ëŠ” ë©”ëª¨ë¦¬ì— í• ë‹¹ë˜ì§€ ì•Šì•˜ìœ¼ë¯€ë¡œ, ê°ì²´ì— ëŒ€í•œ ì •ë³´ë¥¼ ì•Œ ìˆ˜ ì—†ë‹¤.
+(ë¬¼ë¡ , ê°ì²´ì˜ ë©¤ë²„ì— ëŒ€í•´ì„œë„ ì•Œ ìˆ˜ê°€ ì—†ìŒ.)
 
-- static Å°¿öµå°¡ ÀÖÀ¸¸é, ÇÁ·Î±×·¥ ½ÃÀÛ ½Ã ¸Þ¸ð¸®¿¡ ÇÒ´ç µÇ¾ú´ÂÁö ¿©ºÎ¿¡ µû¸¥ È£Ãâ °¡´É¼ºÀ» ¿°µÎ !!!!
+- static í‚¤ì›Œë“œê°€ ìžˆìœ¼ë©´, í”„ë¡œê·¸ëž¨ ì‹œìž‘ ì‹œ ë©”ëª¨ë¦¬ì— í• ë‹¹ ë˜ì—ˆëŠ”ì§€ ì—¬ë¶€ì— ë”°ë¥¸ í˜¸ì¶œ ê°€ëŠ¥ì„±ì„ ì—¼ë‘ !!!!
 
 ex.
 
-class Obj {
-
-private:
-	int num;
-	static int staticNum;
-
+class Obj
+{
 public:
-	void Func() {
-		num++; // °´Ã¼ »ý¼º ½Ã, ÀÏ¹Ý ¸â¹ö º¯¼ö´Â Á¸ÀçÇÔ.
-		staticNum++; // °¡´ÉÇÔ.
+	void Func()
+	{
+		num++; // ê°ì²´ ìƒì„± ì‹œ, ì¼ë°˜ ë©¤ë²„ ë³€ìˆ˜ëŠ” ì¡´ìž¬í•¨.
+		staticNum++; // ê°€ëŠ¥í•¨.
 	}
 
-	static void StaticFunc() { // static ¸â¹ö ÇÔ¼ö
-		//num++; // ¿À·ù, °´Ã¼°¡ ¸¸µé¾îÁöÁöµµ ¾Ê¾Ò±â ¶§¹®¿¡ ¸Þ¸ð¸®¿¡ ÇÒ´çÀ» ¹ÞÁöµµ ¾Ê¾ÒÀ½ !!!!
+	static void StaticFunc() // static ë©¤ë²„ í•¨ìˆ˜, static í‚¤ì›Œë“œê°€ ë§¨ ì•žì— ìœ„ì¹˜í•œë‹¤ !!!!
+	{
+		//num++; // ì˜¤ë¥˜, ê°ì²´ê°€ ë§Œë“¤ì–´ì§€ì§€ë„ ì•Šì•˜ê¸° ë•Œë¬¸ì— ë©”ëª¨ë¦¬ì— í• ë‹¹ì„ ë°›ì§€ë„ ì•Šì•˜ìŒ !!!!
 		staticNum++;
 	}
-}
+private:
+	int num;
+	static int staticNum;	
+	
+};
 
-¾êµµ Obj::StaticFunc(); ·Î È£Ãâ °¡´ÉÇÔ?!
-
+ì–˜ë„ Obj::StaticFunc(); ë¡œ í˜¸ì¶œ ê°€ëŠ¥í•¨?!
 
 #####################################################################################################
 
-
 ###########################
-        this Æ÷ÀÎÅÍ
+        this í¬ì¸í„°
 ###########################
 
-- ÀÚ±â ÂüÁ¶?!
-- "this" Å°¿öµå¸¦ »ç¿ëÇÏ´Â °´Ã¼ÀÇ ÁÖ¼Ò¸¦ ¹ÝÈ¯ÇØÁÖ´Â Æ÷ÀÎÅÍ.
-- Å¬·¡½º ³»¿¡¼­ ¸â¹ö º¯¼ö¸¦ »ç¿ëÇÏ°í ÀÖÀ» ½Ã, "this->"°¡ »ý·«µÈ ÇüÅÂ¿´´Ù.
+- ìžê¸° ì°¸ì¡°?!
+- "this" í‚¤ì›Œë“œë¥¼ ì‚¬ìš©í•˜ëŠ” ê°ì²´ì˜ ì£¼ì†Œë¥¼ ë°˜í™˜í•´ì£¼ëŠ” í¬ì¸í„°.
+- í´ëž˜ìŠ¤ ë‚´ì—ì„œ ë©¤ë²„ ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•˜ê³  ìžˆì„ ì‹œ, "this->"ê°€ ìƒëžµëœ í˜•íƒœì˜€ë‹¤.
 
-Æ¯È÷, ¸â¹ö º¯¼ö¿Í ¸Å°³º¯¼öÀÇ ÀÌ¸§ÀÌ °°À» °æ¿ì »ç¿ëÇÑ´Ù.
+íŠ¹ížˆ, ë©¤ë²„ ë³€ìˆ˜ì™€ ë§¤ê°œë³€ìˆ˜ì˜ ì´ë¦„ì´ ê°™ì„ ê²½ìš° ì‚¬ìš©í•œë‹¤.
 
 ex.
 
-class A {
-
+class A
+{
 private:
 	int num;
 public:
-	void Func(int num) {
-		this->num = num; // ¾ÕÀÇ this->numÀº ¸â¹ö º¯¼ö num
-						 // µÚÀÇ numÀº ¸Å°³º¯¼öÀÇ num
+	void Func(int num)
+	{
+		this->num = num; // ì•žì˜ this->numì€ ë©¤ë²„ ë³€ìˆ˜ num
+						 // ë’¤ì˜ numì€ ë§¤ê°œë³€ìˆ˜ì˜ num
 	}
 };
 
@@ -150,18 +154,18 @@ public:
 ######################################################################################################
 
 ##################################
-     extern Å°¿öµå¿Í Àü¿ª º¯¼ö
+     extern í‚¤ì›Œë“œì™€ ì „ì—­ ë³€ìˆ˜
 ##################################
 
-- ÆÄÀÏ ¿ÜºÎÀÇ ¾îµò°¡¿¡ ÇØ´ç Àü¿ª º¯¼ö°¡ ÀÖ´Ù°í ¾Ë·ÁÁÖ´Â Å°¿öµå
-¸¶Ä¡, Å¬·¡½ºÀÇ Forward Declaration°ú ºñ½ÁÇÔ.
-(¿Ö³ÄÇÏ¸é ÄÄÆÄÀÏ·¯°¡ ÆÄÀÏ ´ÜÀ§·Î ÄÄÆÄÀÏÀ» ¼öÇàÇÏ±â ¶§¹®¿¡,
-´Ù¸¥ ÆÄÀÏ¿¡¼­´Â Á¸ÀçÀÇ À¯¹«¸¦ ¾Ë ¼ö ¾ø¾î¼­ ÄÄÆÄÀÏ·¯¿¡°Ô ¹Ì¸® ¾Ë·ÁÁÖ´Â °Í !!!!)
+- íŒŒì¼ ì™¸ë¶€ì˜ ì–´ë”˜ê°€ì— í•´ë‹¹ ì „ì—­ ë³€ìˆ˜ê°€ ìžˆë‹¤ê³  ì•Œë ¤ì£¼ëŠ” í‚¤ì›Œë“œ
+ë§ˆì¹˜, í´ëž˜ìŠ¤ì˜ Forward Declarationê³¼ ë¹„ìŠ·í•¨.
+(ì™œëƒí•˜ë©´ ì»´íŒŒì¼ëŸ¬ê°€ íŒŒì¼ ë‹¨ìœ„ë¡œ ì»´íŒŒì¼ì„ ìˆ˜í–‰í•˜ê¸° ë•Œë¬¸ì—,
+ë‹¤ë¥¸ íŒŒì¼ì—ì„œëŠ” ì¡´ìž¬ì˜ ìœ ë¬´ë¥¼ ì•Œ ìˆ˜ ì—†ì–´ì„œ ì»´íŒŒì¼ëŸ¬ì—ê²Œ ë¯¸ë¦¬ ì•Œë ¤ì£¼ëŠ” ê²ƒ !!!!)
 
-- ±×¸®°í, extern Å°¿öµå´Â ÆÄÀÏ ¿ÜºÎ¿¡ Á¸ÀçÇÑ´Ù´Â °Í¸¸ ¾Ë·ÁÁÙ »Ó, ¼±¾ð ÀÚÃ¼·Î ¸Þ¸ð¸® °ø°£¿¡ ÇÒ´çÇÏ´Â °ÍÀÌ ¾Æ´Ô.
+- ê·¸ë¦¬ê³ , extern í‚¤ì›Œë“œëŠ” íŒŒì¼ ì™¸ë¶€ì— ì¡´ìž¬í•œë‹¤ëŠ” ê²ƒë§Œ ì•Œë ¤ì¤„ ë¿, ì„ ì–¸ ìžì²´ë¡œ ë©”ëª¨ë¦¬ ê³µê°„ì— í• ë‹¹í•˜ëŠ” ê²ƒì´ ì•„ë‹˜.
 
-- Àü¿ª º¯¼ö°¡ ¼±¾ðµÈ ÆÄÀÏ¸»°í, ´Ù¸¥ ÆÄÀÏ¿¡¼­ extern Å°¿öµå¸¦ »ç¿ëÇÏ¸é µÈ´Ù.
-(Àü¿ª º¯¼öÀÇ Á¢±Ù ¿µ¿ªÀº ÇÁ·ÎÁ§Æ® ¹üÀ§ ³» !!!!)
+- ì „ì—­ ë³€ìˆ˜ê°€ ì„ ì–¸ëœ íŒŒì¼ë§ê³ , ë‹¤ë¥¸ íŒŒì¼ì—ì„œ extern í‚¤ì›Œë“œë¥¼ ì‚¬ìš©í•˜ë©´ ëœë‹¤.
+(ì „ì—­ ë³€ìˆ˜ì˜ ì ‘ê·¼ ì˜ì—­ì€ í”„ë¡œì íŠ¸ ë²”ìœ„ ë‚´ !!!!)
 
 ex.
 
@@ -169,7 +173,7 @@ extern int gNum;
 
 
 ##################################
-   extern Å°¿öµå¿Í Àü¿ª ÇÔ¼ö
+   extern í‚¤ì›Œë“œì™€ ì „ì—­ í•¨ìˆ˜
 ##################################
 
 ex.
@@ -178,34 +182,26 @@ extern void Func(int num, int num2);
 
 
 ###################################
-     extern Å°¿öµå ³Ö´Â ¹ý
+     extern í‚¤ì›Œë“œ ë„£ëŠ” ë²•
 ###################################
 
-- ¸ðµç cpp ÆÄÀÏ¿¡ ÇØ´ç ¹®ÀåÀ» ³ÖÁö ¸»°í, header ÆÄÀÏ ¸¸µé¾î¼­ stdafx.h ¿¡ #include·Î Æ÷ÇÔ½ÃÅ°¸é µÈ´Ù.
+- ëª¨ë“  cpp íŒŒì¼ì— í•´ë‹¹ ë¬¸ìž¥ì„ ë„£ì§€ ë§ê³ , header íŒŒì¼ ë§Œë“¤ì–´ì„œ stdafx.h ì— #includeë¡œ í¬í•¨ì‹œí‚¤ë©´ ëœë‹¤.
 
 ######################################################################################################
-
-
-
 
 */
 
 #include "stdafx.h"
 
-// ´ÙÀ½¹ø ¼Ò½º ÄÚµå¿¡ ¼ÓÇØÀÖÀ½. °°ÀÌ ´Ù¿î ¹Þ¾Æ¾ßÇÔ.
-// ´ÙÀ½¹ø ¼Ò½º ÄÚµåÀÇ main ÇÔ¼ö ÁÖ¼®Ã³¸®ÇÏ°í ½ÇÇà.
+// ë‹¤ìŒë²ˆ ì†ŒìŠ¤ ì½”ë“œì— ì†í•´ìžˆìŒ. ê°™ì´ ë‹¤ìš´ ë°›ì•„ì•¼í•¨.
+// ë‹¤ìŒë²ˆ ì†ŒìŠ¤ ì½”ë“œì˜ main í•¨ìˆ˜ ì£¼ì„ì²˜ë¦¬í•˜ê³  ì‹¤í–‰.
 
-//extern int gNum; // ´Ù¸¥ ÆÄÀÏ¿¡ ¼ÓÇØÀÖ´Â Àü¿ªº¯¼ö¸¦ extern Å°¿öµå¸¦ ÅëÇØ ÄÄÆÄÀÏ·¯¿¡°Ô ¹Ì¸® ¾Ë·ÁÁÖ´Â °Í !!!!
-//extern void Func(int num, int num2); // ÇÔ¼öµµ extern Å°¿öµå¸¦ ÅëÇØ ´Ù¸¥ ¼Ò½ºÆÄÀÏÀÇ Àü¿ª ÇÔ¼ö¿¡ Á¢±ÙÇÒ ¼ö ÀÖ´Ù.
+//extern int gNum; // ë‹¤ë¥¸ íŒŒì¼ì— ì†í•´ìžˆëŠ” ì „ì—­ë³€ìˆ˜ë¥¼ extern í‚¤ì›Œë“œë¥¼ í†µí•´ ì»´íŒŒì¼ëŸ¬ì—ê²Œ ë¯¸ë¦¬ ì•Œë ¤ì£¼ëŠ” ê²ƒ !!!!
+//extern void Func(int num, int num2); // í•¨ìˆ˜ë„ extern í‚¤ì›Œë“œë¥¼ í†µí•´ ë‹¤ë¥¸ ì†ŒìŠ¤íŒŒì¼ì˜ ì „ì—­ í•¨ìˆ˜ì— ì ‘ê·¼í•  ìˆ˜ ìžˆë‹¤.
 
 
-
-class Obj {
-
-private:
-	int num1;
-	static int num2;
-
+class Obj
+{
 public:
 	Obj()
 		: num1(42)
@@ -213,35 +209,42 @@ public:
 
 	}
 
-	void NormalFunc() { // ÀÌ¹Ì ÇÁ·Î±×·¥ÀÌ ½ÃÀÛµÉ ¶§, ÇÒ´çÀÌ µÇ¾úÀ¸¹Ç·Î
-						// °´Ã¼ »ý¼º µÚ, static ¸â¹ö º¯¼ö¿¡ Á¢±ÙÇÏ¸é ÃæºÐÈ÷ °¡´ÉÇÔ.
+	void NormalFunc() // ì´ë¯¸ í”„ë¡œê·¸ëž¨ì´ ì‹œìž‘ë  ë•Œ, í• ë‹¹ì´ ë˜ì—ˆìœ¼ë¯€ë¡œ
+	{		  // ê°ì²´ ìƒì„± ë’¤, static ë©¤ë²„ ë³€ìˆ˜ì— ì ‘ê·¼í•˜ë©´ ì¶©ë¶„ížˆ ê°€ëŠ¥í•¨.			
 		cout << "num1: " << num1 << endl;
 		cout << "num2: " << num2 << endl;
 	}
 
-	static void StaticFunc() {
-		//cout << "num1: " << num1 << endl; // ÇÁ·Î±×·¥ ½ÃÀÛ ÈÄ, static ¸â¹öµéÀÌ ÇÒ´çµÉ ¶§¿¡´Â
-											// ÀÎ½ºÅÏ½º(¸â¹ö) º¯¼öµéÀº ÇÒ´çÀÌ µÇ¾îÀÖÁö ¾ÊÀ¸¹Ç·Î Á¢±ÙÀÌ ºÒ°¡´ÉÇÏ´Ù.
+	static void StaticFunc()
+	{
+		//cout << "num1: " << num1 << endl; // í”„ë¡œê·¸ëž¨ ì‹œìž‘ í›„, static ë©¤ë²„ë“¤ì´ í• ë‹¹ë  ë•Œì—ëŠ”
+											// ì¸ìŠ¤í„´ìŠ¤(ë©¤ë²„) ë³€ìˆ˜ë“¤ì€ í• ë‹¹ì´ ë˜ì–´ìžˆì§€ ì•Šìœ¼ë¯€ë¡œ ì ‘ê·¼ì´ ë¶ˆê°€ëŠ¥í•˜ë‹¤.
 		cout << "num2: " << num2 << endl;
 	}
 
+private:
+	int num1;
+	static int num2;	
+	
 };
 
-int Obj::num2 = 442; // static Å°¿öµå´Â ¼±¾ð ½Ã, ÇÑ ¹ø¸¸ !!!!
-					// ÃÊ±âÈ­ÇÒ ¶§´Â ¾ø¾î¾ß ÇÔ !!!!
+int Obj::num2 = 442; // static í‚¤ì›Œë“œëŠ” ì„ ì–¸ ì‹œ, í•œ ë²ˆë§Œ !!!!
+					// ì´ˆê¸°í™”í•  ë•ŒëŠ” ì—†ì–´ì•¼ í•¨ !!!!
 
 
-class A {
-
+class A
+{
 private:
 	int num;
 public:
-	void Func(int num) {
-		this->num = num; // ¾ÕÀÇ this->numÀº ¸â¹ö º¯¼ö num
-						 // µÚÀÇ numÀº ¸Å°³º¯¼öÀÇ num
+	void Func(int num)
+	{
+		this->num = num; // ì•žì˜ this->numì€ ë©¤ë²„ ë³€ìˆ˜ num
+						 // ë’¤ì˜ numì€ ë§¤ê°œë³€ìˆ˜ì˜ num
 	}
 
-	int GetNum(void) {
+	int GetNum(void)
+	{
 		return num;
 	}
 };
@@ -250,30 +253,30 @@ public:
 int main(void)
 {
 	cout << "####################################################################" << endl;
-	cout << "### static Å°¿öµå¿Í Å¬·¡½ºÀÇ ¸â¹ö ÇÔ¼ö" << endl << endl;
+	cout << "### static í‚¤ì›Œë“œì™€ í´ëž˜ìŠ¤ì˜ ë©¤ë²„ í•¨ìˆ˜" << endl << endl;
 
 	Obj obj;
 
-	obj.NormalFunc(); // ÀÏ¹ÝÀûÀÎ ÀÎ½ºÅÏ½º º¯¼ö¿Í static ¸â¹ö º¯¼ö ¸ðµÎ Á¢±ÙÀÌ °¡´ÉÇÔ.
+	obj.NormalFunc(); // ì¼ë°˜ì ì¸ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì™€ static ë©¤ë²„ ë³€ìˆ˜ ëª¨ë‘ ì ‘ê·¼ì´ ê°€ëŠ¥í•¨.
 	cout << endl;
 
-	obj.StaticFunc(); // static ¸â¹ö º¯¼ö¸¸ Á¢±ÙÀÌ °¡´ÉÇÔ.
-					  // ¸Þ¸ð¸® ÇÒ´ç ½Ã±â¸¦ »ý°¢ÇÏ¸é ÀÌÇØÇÏ±â ½¬¿ò.
+	obj.StaticFunc(); // static ë©¤ë²„ ë³€ìˆ˜ë§Œ ì ‘ê·¼ì´ ê°€ëŠ¥í•¨.
+					  // ë©”ëª¨ë¦¬ í• ë‹¹ ì‹œê¸°ë¥¼ ìƒê°í•˜ë©´ ì´í•´í•˜ê¸° ì‰¬ì›€.
 
 	cout << "####################################################################" << endl;
-	cout << "### this Æ÷ÀÎÅÍ" << endl << endl;
+	cout << "### this í¬ì¸í„°" << endl << endl;
 
 	A a;
 	a.Func(42);
 
-	cout << a.GetNum() << endl; // this Æ÷ÀÎÅÍ¸¦ ÀÌ¿ëÇÑ ¸â¹ö º¯¼öÀÇ ÃÊ±âÈ­°¡ Àß µÇ¾úÀ½.
+	cout << a.GetNum() << endl; // this í¬ì¸í„°ë¥¼ ì´ìš©í•œ ë©¤ë²„ ë³€ìˆ˜ì˜ ì´ˆê¸°í™”ê°€ ìž˜ ë˜ì—ˆìŒ.
 
 	cout << "####################################################################" << endl;
-	cout << "### extern Å°¿öµå" << endl << endl;
+	cout << "### extern í‚¤ì›Œë“œ" << endl << endl;
 
-	//cout << "gNum: " << gNum << endl; // ÇöÀç ¼Ò½ºÄÚµå ¸»°í, ÇÁ·ÎÁ§Æ® ³» ´Ù¸¥ ¼Ò½ºÄÚµåÀÇ Àü¿ª º¯¼ö¸¦ extern Å°¿öµå·Î ¹ÞÀ½.
+	//cout << "gNum: " << gNum << endl; // í˜„ìž¬ ì†ŒìŠ¤ì½”ë“œ ë§ê³ , í”„ë¡œì íŠ¸ ë‚´ ë‹¤ë¥¸ ì†ŒìŠ¤ì½”ë“œì˜ ì „ì—­ ë³€ìˆ˜ë¥¼ extern í‚¤ì›Œë“œë¡œ ë°›ìŒ.
 
-	//Func(42, 442); // ÇöÀç ¼Ò½ºÄÚµå ¸»°í, ÇÁ·ÎÁ§Æ® ³» ´Ù¸¥ ¼Ò½ºÄÚµåÀÇ Àü¿ª ÇÔ¼ö¸¦ extern Å°¿öµå·Î ¹ÞÀ½.
+	//Func(42, 442); // í˜„ìž¬ ì†ŒìŠ¤ì½”ë“œ ë§ê³ , í”„ë¡œì íŠ¸ ë‚´ ë‹¤ë¥¸ ì†ŒìŠ¤ì½”ë“œì˜ ì „ì—­ í•¨ìˆ˜ë¥¼ extern í‚¤ì›Œë“œë¡œ ë°›ìŒ.
 
 	cout << "####################################################################" << endl;
 
