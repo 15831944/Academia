@@ -42,7 +42,8 @@ int feof(FILE *_Stream);
 FILE *_Stream : 작업을 수행할 스트림의 FILE 구조체의 포인터
 반환값 int : 파일의 끝에 도달 했으면 "0"이 아닌 값을 반환, "0"이면 파일을 읽고 있는 중 !!!!
 
-while (feof(fp3) == 0) {
+while (feof(fp3) == 0)
+{
 	int ch = fgetc(fp3);
 	fputc(ch, stdout); // 단일 문자 출력이라 아스키 코드 값에 따른 문자 !!!!
 }
@@ -55,7 +56,6 @@ while (feof(fp3) == 0) {
 
 because, EOF를 만나도 "0"을 반환하기 때문에... 넘어서야 다른 값 반환해서 끝남 !!!!
 
-
 #########################################################################################################
 
 
@@ -66,7 +66,8 @@ because, EOF를 만나도 "0"을 반환하기 때문에... 넘어서야 다른 �
 using std::cout;
 using std::endl;
 
-int main(void) {
+int main(void)
+{
 
 	cout << "###############################################################################" << endl;
 	cout << "### 파일 입출력 함수.02 " << endl << endl;
@@ -74,8 +75,8 @@ int main(void) {
 	FILE *fp = nullptr;
 	errno_t err = fopen_s(&fp, "test.txt", "rb"); // 1234567890 입력해서 Source 텍스트 만들 것 !!!!
 
-	if (err == 0) { // 파일 개방 성공
-
+	if (err == 0) // 파일 개방 성공
+	{
 		cout << "Hello test.txt" << endl << endl;
 
 		int ch = 0;
@@ -112,8 +113,8 @@ int main(void) {
 		fclose(fp);
 
 	}
-	else {
-
+	else
+	{
 		cout << "파일 개방 실패" << endl;
 	}
 
@@ -123,8 +124,8 @@ int main(void) {
 	FILE *fp2 = nullptr;
 	errno_t err2 = fopen_s(&fp2, "test.txt", "rb");
 
-	if (err2 == 0) { // 파일 개방 성공
-
+	if (err2 == 0) // 파일 개방 성공
+	{
 		// 12 ㅁ 34567890
 		fseek(fp2, 2, SEEK_SET);
 
@@ -136,8 +137,8 @@ int main(void) {
 
 		fclose(fp2);
 	}
-	else {
-
+	else
+	{
 		cout << "파일 개방 실패" << endl;
 	}
 
@@ -148,39 +149,39 @@ int main(void) {
 	errno_t err3 = fopen_s(&fp3, "test.txt", "rb");
 	int count = 0;
 
-	if (err3 == 0) { // 파일 개방 성공
-
-		while (feof(fp3) == 0) { // 파일을 읽고 있는 중이면...
-
+	if (err3 == 0) // 파일 개방 성공
+	{
+		while (feof(fp3) == 0) // 파일을 읽고 있는 중이면...
+		{
 			int ch = fgetc(fp3);
 			fputc(ch, stdout);
 
 			count++; // "Enter"는 Windows라서 그런지 \r\n으로 인식하는 것 같음.
-
 		}
 		
 		// 출력 "1234567890 " 빈칸이 1개 출력 되었네???
 		// 진짜 끝인지 한 번 더 확인하는 과정에서 출력하는 것임.
 		cout << "count1 : " << count << endl;
 
-
 		fseek(fp3, 0, SEEK_SET);
 		count = 0;
 
-		while (1) {
-
+		while (1)
+		{
 			int ch = fgetc(fp3);
 
-			if (feof(fp3) != 0) { // 입력을 받고 바로 검사를 해서 반복문을 빠져나가야 원하는 결과를 얻음.
-
+			if (feof(fp3) != 0) // 입력을 받고 바로 검사를 해서 반복문을 빠져나가야 원하는 결과를 얻음.
+			{
 				break;
 			}
 
 			fputc(ch, stdout);
-			if (ch == '6') { // 단일 문자로 넣어줘야 하네...
+			if (ch == '6') // 단일 문자로 넣어줘야 하네...
+			{
 				fputs("Hello", stdout);
 			}
-			if (ch == EOF) {
+			if (ch == EOF)
+			{
 				fputs("World", stdout);
 			}
 
@@ -191,8 +192,8 @@ int main(void) {
 
 		fclose(fp3);
 	}
-	else {
-
+	else
+	{
 		cout << "파일 개방 실패" << endl;
 	}
 
@@ -204,10 +205,11 @@ int main(void) {
 
 	errno_t errInput = fopen_s(&fInput, "./devcat.png", "rb");
 	
-	if (errInput == 0) {
-
+	if (errInput == 0)
+	{
 		errno_t errOutput = fopen_s(&fOutput, "./copy.png", "wb");
-		if (errOutput == 0) {
+		if (errOutput == 0)
+		{
 
 			// case 1. 동적 배열을 만들어서.... fseek()을 이용한 방법
 			// - 파일의 끝을 ftell()로 찍어서 Bytes 읽어오고, 메모리 동적 할당을 한 뒤에 복사 받음.
@@ -223,19 +225,20 @@ int main(void) {
 
 
 			// case 2. feof()를 이용하는 방법
-			while (feof(fInput) == 0) { // 아까 feof()는 바이트 더 읽을 수 있다는 것 !!!!
+			while (feof(fInput) == 0) // 아까 feof()는 바이트 더 읽을 수 있다는 것 !!!!
+			{
 				char ch = 0;
 				fread(&ch, sizeof(char), 1, fInput);
 				fwrite(&ch, sizeof(char), 1, fOutput);
 			}
-
 
 			cout << "파일 복사 성공" << endl;
 
 			fclose(fOutput);
 
 		}
-		else {
+		else
+		{
 
 		}
 
