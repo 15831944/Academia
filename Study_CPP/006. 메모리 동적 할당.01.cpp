@@ -8,17 +8,17 @@ ex.
 
 // 이름을 입력 받고자 함.
 
-char* func() {
-
+char* Func()
+{
 	char name[16] = "";
 	cin >> name;
 
 	return name;
 }
 
-int main(void) {
-
-	char *pName = func();
+int main(void)
+{
+	char *pName = Func();
 	cout << pName <<endl;
 }
 
@@ -90,8 +90,8 @@ calloc() : 갯수, 자료형의 크기
 
 // 동적 할당으로 배열을 만들어 문자열을 입력 받는 함수.
 
-char* func() {
-
+char* Func()
+{
 	char pName = (char *)malloc(sizeof(char) * 16);
 	cin >> pName;
 
@@ -113,12 +113,10 @@ textRPG 만들기 !!!!
 using std::cout;
 using std::endl;
 
-int main(void) {
-
-
+int main(void)
+{
 	cout << "#####################################################################" << endl;
 	cout << "### 메모리 동적 할당_ malloc()" << endl << endl;
-
 
 	// Ctrl + Shift + Space를 치면 매개변수를 보여줌.
 
@@ -132,7 +130,6 @@ int main(void) {
 
 	free(ptr1); // Heap 영역에 동적 할당된 메모리 공간을 소멸 시킴.
 	
-
 	cout << "ptr1: " << ptr1 << endl; // 메모리 주소는 남아있고, (Dangling Pointer_ 소실된 공간의 주소를 갖고 있는 포인터)
 	cout << "*ptr1: " << *ptr1 << endl << endl; // 그 메모리 주소의 들어있는 값은 쓰레기값으로...
 	ptr1 = NULL; // 동적 할당한 메모리를 소멸시킨 후에 NULL로 초기화
@@ -143,7 +140,8 @@ int main(void) {
 	int size2 = 3; // 동적 배열이기 때문에 Runtime 시 크기를 입력받을 수 있음.
 
 	int *ptr2 = (int *)calloc(size2, sizeof(int)); // int형 크기를 size 만큼 할당 받고 싶음.
-	for (int i = 0; i < 3; i++) {
+	for (int i = 0; i < 3; i++)
+	{
 		cout << ptr2[i] << endl; // 포인터 연산을 통해 연속된 공간이라는 것을 알 수 있음.
 								// 메모리 공간이 "0"으로 자동 초기화 된다.
 	}
