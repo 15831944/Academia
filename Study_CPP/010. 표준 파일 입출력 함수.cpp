@@ -151,12 +151,6 @@ binary 입출력을 통해 데이터를 통째로 저장 및 불러 올 수 있�
 
 #############################################################################################################
 
-과제.
-
-textRPG 기능 추가
-- 레벨, 경험치
-- save & load 기능 (binary 데이터)
-
 */
 
 
@@ -166,23 +160,24 @@ using std::endl;
 using std::cout;
 using std::cin;
 
-int main(void) {
-
+int main(void)
+{
 	cout << "##############################################################################" << endl;
 	cout << "### 표준 파일 입출력 함수" << endl << endl;
 
 	FILE *fp = nullptr;
 	errno_t err = fopen_s(&fp, "./test.txt", "wt");
 
-	if (err == 0) {
-
+	if (err == 0)
+	{
 		fputs("Hello", fp); // 출력 스트림을 fp에 저장된 파일로...
 							// 그래서, 파일에 해당 문자가 들어간다.
 
 		cout << "파일 개방 성공" << endl;
 		fclose(fp);
 	}
-	else {
+	else
+	{
 
 		cout << "파일 개방 실패" << endl;
 	}
@@ -195,15 +190,15 @@ int main(void) {
 	FILE *fp2 = nullptr;
 	errno_t err2 = fopen_s(&fp, "./test.txt", "rt");
 
-	if (err2 == 0) {
-
+	if (err2 == 0)
+	{
 		fgets(buffer, sizeof(buffer), fp); // 입력 스트림을 fp에 저장된 파일에 연결하고 buffer에 입력 받음.
 
 		cout << "파일 개방 성공" << endl;
 		fclose(fp2);
 	}
-	else {
-
+	else
+	{
 		cout << "파일 개방 실패" << endl;
 	}
 
@@ -216,16 +211,16 @@ int main(void) {
 	FILE *fp3 = nullptr;
 	errno_t err3 = fopen_s(&fp, "./binary.txt", "wb");
 
-	if (err3 == 0) {
-
+	if (err3 == 0)
+	{
 		fwrite(arr, sizeof(arr), 1, fp); // 배열을 통째로 넘겨줌.
 		//fwrite(arr, sizeof(int), 5, fp); // int 형 자료를 1개씩 모두 넘겨줌.
 
 		cout << "파일 개방 성공" << endl;
 		fclose(fp3);
 	}
-	else {
-		
+	else
+	{
 		cout << "파일 개방 실패" << endl;
 	}
 
@@ -233,19 +228,20 @@ int main(void) {
 	fp3 = nullptr;
 	errno_t err4 = fopen_s(&fp, "./binary.txt", "rb");
 
-	if (err4 == 0) {
-
+	if (err4 == 0)
+	{
 		fread(arr2, sizeof(arr2), 1, fp);
 
 		cout << "파일 개방 성공" << endl;
 		fclose(fp3);
 	}
-	else {
-
+	else
+	{
 		cout << "파일 개방 실패" << endl;
 	}
 
-	for (int i = 0; i < 5; i++) {
+	for (int i = 0; i < 5; i++)
+	{
 		cout << arr2[i] << " ";
 	}
 	cout << endl << endl;
