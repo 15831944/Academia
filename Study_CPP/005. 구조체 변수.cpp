@@ -11,7 +11,8 @@
 - 구조체의 선언은 원래 전역 변수처럼 함수 밖에다가 선언한다.
 
 ex.
-struct 구조체 이름 {
+struct 구조체 이름
+{
 	구조체의 변수들 선언.
 }; <= 세미콜론 ";", 꼭 있어야 함 !!!!
 
@@ -20,8 +21,8 @@ struct 구조체 이름 {
 - {} 중괄호 안에 자료형을 나열하고, 멤버 변수라고 칭한다.
 - 구조체의 크기는 멤버 변수의 자료형과 개수에 따라 다르다.
 
-struct StudentInfo {
-
+struct StudentInfo
+{
 	char name[20]; // 20 + (4_ Byte Padding)
 
 	int kor;
@@ -131,8 +132,8 @@ Student pStd = &std1;
 
 ex.
 
-typedef struct Size1 {
-
+typedef struct Size1
+{
 	char a;
 	int b;
 	double c;
@@ -151,8 +152,8 @@ cout << sizeof(Size1) << endl; // 24
 
 구조체 안에 다른 구조체의 변수가 멤버로 있으면???
 
-typedef struct Size2 {
-
+typedef struct Size2
+{
 	char a;
 	int b; // 1 + 4 + (3_ Byte Padding)
 	double c; // 8
@@ -175,8 +176,8 @@ cout << sizeof(Size2) << endl; // 40
 
 if. 구조체 변수의 멤버 변수에 배열이 있다면 ????
 
-struct A {
-
+struct A
+{
 	char ch; 
 	int num[10]; // 1 + (3_ Byte Padding) + 4(배열의 첫 번째 원소), (4 * 2) * 4 개, 나머지 원소 1개 4 + (4_ Byte Padding)
 	double d; // 8
@@ -200,8 +201,8 @@ struct A {
 
 ex.
 
-typedef struct tagSize {
-
+typedef struct tagSize
+{
 	char a;
 	int b;
 	double c;
@@ -223,13 +224,13 @@ using std::cout;
 using std::endl;
 
 
-int main(void) {
-
+int main(void)
+{
 	cout << "#################################################################" << endl;
 	cout << "### 구조체 선언과 정의" << endl << endl;
 
-
-	struct StudentInfo {
+	struct StudentInfo
+	{
 
 		char name[20];
 
@@ -261,10 +262,8 @@ int main(void) {
 	int a = 10;
 	_int b = 20; // 둘 다 똑같은 자료형인데 명칭만 다르게...
 
-
-
-	typedef struct StudentInfo2 {
-
+	typedef struct StudentInfo2
+	{
 		char name[20];
 
 		int kor;
@@ -301,16 +300,16 @@ int main(void) {
 	cout << "#################################################################" << endl;
 	cout << "### 구조체 변수의 크기 차이 1" << endl << endl;
 
-	struct A { // 구조체 변수 중에 가장 크기가 큰 double 형 8 Bytes 규모의 공간이 잡힌다.
-
+	struct A // 구조체 변수 중에 가장 크기가 큰 double 형 8 Bytes 규모의 공간이 잡힌다.
+	{ 
 		char a;
 		int b; // 1 + 4 + (3_ Byte Padding)
 		float c; // 4 + (4_ Byte Padding)
 		double d; // 8
 	};
 
-	struct B {
-
+	struct B
+	{
 		float c; // 4 + (4_ Byte Padding)
 		double d; // 8
 		int b;
@@ -325,8 +324,8 @@ int main(void) {
 	cout << "#################################################################" << endl;
 	cout << "### 구조체 변수의 크기 차이 2" << endl << endl;
 
-	struct C {
-
+	struct C
+	{
 		char ch;
 		int b; // 1 + 4 + (3_ Byte Padding)
 
@@ -351,8 +350,8 @@ int main(void) {
 	cout << "#################################################################" << endl;
 	cout << "### 구조체 변수의 크기 차이 3" << endl << endl;
 
-	struct D {
-
+	struct D
+	{
 		char a;
 		int b; // 1 + 4 + (3_ Byte Padding)
 		char c; // 1 + (7_ Byte Padding)
@@ -369,8 +368,8 @@ int main(void) {
 	cout << "#################################################################" << endl;
 	cout << "### 구조체 변수의 크기 차이 4" << endl << endl;
 
-	struct StudentInfo3 {
-
+	struct StudentInfo3
+	{
 		char name[20]; // 20 + (4_ Byte Padding)
 						// 해당 배열은 char 형이 모인 것이니까 1 Byte 씩 계산
 
