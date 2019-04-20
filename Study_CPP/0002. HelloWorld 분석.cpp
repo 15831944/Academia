@@ -90,6 +90,7 @@ endl : End Line의 약자
 
 using namespace std;
 
-void main(void) {
+void main(void)
+{
 	cout << "Hello World!" << endl;
 }
