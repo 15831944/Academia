@@ -2,142 +2,135 @@
 
 
 #######################################
-   const Å°¿öµå¿Í Å¬·¡½ºÀÇ ¸â¹ö º¯¼ö
+   const í‚¤ì›Œë“œì™€ í´ëž˜ìŠ¤ì˜ ë©¤ë²„ ë³€ìˆ˜
 #######################################
 
 ex. 
 
-class Obj {
-
-private:
-	int num1; // °ª º¯°æÀÌ °¡´É ÇÑ º¯¼ö.
-	const int num2; // °ª º¯°æÀÌ ºÒ°¡´ÉÇÑ »ó¼öÇü º¯¼ö.
-
+class Obj
+{
 public:
-
 	// case 1.
-	Obj(int a) {
-		num2 = a; // °´Ã¼ »ý¼º ½Ã, »ý¼ºÀÚ È£Ãâ ÀÌÀü¿¡ °´Ã¼¸¦ À§ÇÑ ¸Þ¸ð¸®°¡ ÇÒ´çµÈ´Ù.
-				  // ÀÌ ¶§, const »ó¼ö num2´Â ¾²·¹±â °ªÀ¸·Î ÃÊ±âÈ­°¡ µÈ´Ù.
-				  // ±×·¸±â ¶§¹®¿¡ const »ó¼ö¿¡ ´ëÀÔ ¿¬»êÀ» ÁøÇàÇÒ ¼ö ¾ø´Ù.
+	Obj(int a)
+	{
+		num2 = a; // ê°ì²´ ìƒì„± ì‹œ, ìƒì„±ìž í˜¸ì¶œ ì´ì „ì— ê°ì²´ë¥¼ ìœ„í•œ ë©”ëª¨ë¦¬ê°€ í• ë‹¹ëœë‹¤.
+				  // ì´ ë•Œ, const ìƒìˆ˜ num2ëŠ” ì“°ë ˆê¸° ê°’ìœ¼ë¡œ ì´ˆê¸°í™”ê°€ ëœë‹¤.
+				  // ê·¸ë ‡ê¸° ë•Œë¬¸ì— const ìƒìˆ˜ì— ëŒ€ìž… ì—°ì‚°ì„ ì§„í–‰í•  ìˆ˜ ì—†ë‹¤.
 
-				  // ±×·¡¼­, ¸Þ¸ð¸® ÇÒ´ç°ú ÇÔ²² ÃÊ±âÈ­ ÇÏ´Â ¹®¹ýÀÌ ÇÊ¿äÇÏ´Ù.
+				  // ê·¸ëž˜ì„œ, ë©”ëª¨ë¦¬ í• ë‹¹ê³¼ í•¨ê»˜ ì´ˆê¸°í™” í•˜ëŠ” ë¬¸ë²•ì´ í•„ìš”í•˜ë‹¤.
 	}
-}
+	
+private:
+	int num1; // ê°’ ë³€ê²½ì´ ê°€ëŠ¥ í•œ ë³€ìˆ˜.
+	const int num2; // ê°’ ë³€ê²½ì´ ë¶ˆê°€ëŠ¥í•œ ìƒìˆ˜í˜• ë³€ìˆ˜.
+};
 
-±×·¸´Ù¸é, ¾î¶»°Ô const »ó¼ö¸¦ ÃÊ±âÈ­ ÇØ¾ßÇÏ´Â°¡?!
-- ¼±¾ð°ú µ¿½Ã¿¡ ÃÊ±âÈ­¸¦ ÁøÇàÇÑ´Ù.
+ê·¸ë ‡ë‹¤ë©´, ì–´ë–»ê²Œ const ìƒìˆ˜ë¥¼ ì´ˆê¸°í™” í•´ì•¼í•˜ëŠ”ê°€?!
+- ì„ ì–¸ê³¼ ë™ì‹œì— ì´ˆê¸°í™”ë¥¼ ì§„í–‰í•œë‹¤.
 
 const int num2 = 100;
 
-but, ±×·¸´Ù¸é º¯¼ö¸¦ °´Ã¼¸¦ ÃÊ±âÈ­ ÇÏ´Â ºÎºÐÀ» Ã£±â°¡ ¾î·Æ´Ù.
-±×¸®°í ÇØ´ç Å¬·¡½ºÀÇ ¸ðµç °´Ã¼°¡ µ¿ÀÏÇÑ °ªÀ» Áö´Ñ´Ù.
-
+but, ê·¸ë ‡ë‹¤ë©´ ë³€ìˆ˜ë¥¼ ê°ì²´ë¥¼ ì´ˆê¸°í™” í•˜ëŠ” ë¶€ë¶„ì„ ì°¾ê¸°ê°€ ì–´ë µë‹¤.
+ê·¸ë¦¬ê³  í•´ë‹¹ í´ëž˜ìŠ¤ì˜ ëª¨ë“  ê°ì²´ê°€ ë™ì¼í•œ ê°’ì„ ì§€ë‹Œë‹¤.
 
 
 #############################################################
-  So, »ý¼ºÀÚ¸¦ ÅëÇÑ const º¯¼ö ÃÊ±âÈ­(Member Initializer)
+  So, ìƒì„±ìžë¥¼ í†µí•œ const ë³€ìˆ˜ ì´ˆê¸°í™”(Member Initializer)
 #############################################################
 
-- °´Ã¼ »ý¼º °úÁ¤
+- ê°ì²´ ìƒì„± ê³¼ì •
 
-1. ¸Þ¸ð¸® °ø°£ ÇÒ´ç
-2. Member Initializer¸¦ ÅëÇÑ ¸â¹ö º¯¼ö ÃÊ±âÈ­.
-3. »ý¼ºÀÚ ½ÇÇà.
+1. ë©”ëª¨ë¦¬ ê³µê°„ í• ë‹¹
+2. Member Initializerë¥¼ í†µí•œ ë©¤ë²„ ë³€ìˆ˜ ì´ˆê¸°í™”.
+3. ìƒì„±ìž ì‹¤í–‰.
 
-- Member Initializer¸¦ ÅëÇÑ ¸â¹öÀÇ ÃÊ±âÈ­´Â ¼±¾ð°ú µ¿½Ã¿¡ ÃÊ±âÈ­¸¦ ÇÑ °Í°ú °°´Ù.
+- Member Initializerë¥¼ í†µí•œ ë©¤ë²„ì˜ ì´ˆê¸°í™”ëŠ” ì„ ì–¸ê³¼ ë™ì‹œì— ì´ˆê¸°í™”ë¥¼ í•œ ê²ƒê³¼ ê°™ë‹¤.
 
 
 ex.
 
-class Obj {
-
-private:
-	const int num2;
-
+class Obj
+{
 public:
-
 	// case 2.
 	Obj(int a)
-		: num2(a) // Member InitializerÀÇ »ç¿ë¹ý.
+		: num2(a) // Member Initializerì˜ ì‚¬ìš©ë²•.
 	{
 
 	}
+	
+private:
+	const int num2;	
 }
 
 
 
 ##########################################################
-    »ý¼ºÀÚ¿Í Member InitializerÀÇ ¸â¹ö º¯¼ö ÃÊ±âÈ­ Â÷ÀÌ
+    ìƒì„±ìžì™€ Member Initializerì˜ ë©¤ë²„ ë³€ìˆ˜ ì´ˆê¸°í™” ì°¨ì´
 ##########################################################
 
-
-case 1. »ý¼ºÀÚ
+case 1. ìƒì„±ìž
 int a;
-a = 10; // 2¹ø¿¡ °ÉÃÄ¼­...
+a = 10; // 2ë²ˆì— ê±¸ì³ì„œ...
 
 case 2. Member Initializer
-int b = 10; // ÇÑ ¹ø¿¡...
+int b = 10; // í•œ ë²ˆì—...
 
 
 #################################################################################################################
 
 #######################################
-   const Å°¿öµå¿Í Å¬·¡½ºÀÇ ¸â¹ö ÇÔ¼ö
+   const í‚¤ì›Œë“œì™€ í´ëž˜ìŠ¤ì˜ ë©¤ë²„ í•¨ìˆ˜
 #######################################
 
-- ¸â¹ö ÇÔ¼ö ³»ºÎ¿¡¼­ "¸â¹ö º¯¼öÀÇ °ª"À» º¯°æÇÒ ¼ö ¾øµµ·Ï ¸¸µå´Â const Å°¿öµå !!!!
-(±×³É Áö¿ª º¯¼ö¸¦ ¼±¾ðÇÏ°í °ª º¯°æÇÏ´Â °ÍÀº »ó°üÀÌ ¾ø´Ù !!!!)
+- ë©¤ë²„ í•¨ìˆ˜ ë‚´ë¶€ì—ì„œ "ë©¤ë²„ ë³€ìˆ˜ì˜ ê°’"ì„ ë³€ê²½í•  ìˆ˜ ì—†ë„ë¡ ë§Œë“œëŠ” const í‚¤ì›Œë“œ !!!!
+(ê·¸ëƒ¥ ì§€ì—­ ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ê³  ê°’ ë³€ê²½í•˜ëŠ” ê²ƒì€ ìƒê´€ì´ ì—†ë‹¤ !!!!)
 
-- ¸â¹ö º¯¼öÀÇ µ¥ÀÌÅÍ¸¦ ÀÐ±â¸¸ °¡´ÉÇÑ ¿ëµµÀÇ ÇÔ¼ö.
-(±×·¸±â ¶§¹®¿¡, °ª º¯°æÀÌ °¡´ÉÇÑ ÀÏ¹ÝÀûÀÎ ÇüÅÂÀÇ ÇÔ¼ö´Â È£ÃâÀÌ ºÒ°¡´ÉÇÏ´Ù.
-¹«Á¶°Ç const ¸â¹ö ÇÔ¼ö´Â const ¸â¹ö ÇÔ¼ö¸¸ È£ÃâÀÌ °¡´ÉÇÏ´Ù !!!!)
+- ë©¤ë²„ ë³€ìˆ˜ì˜ ë°ì´í„°ë¥¼ ì½ê¸°ë§Œ ê°€ëŠ¥í•œ ìš©ë„ì˜ í•¨ìˆ˜.
+(ê·¸ë ‡ê¸° ë•Œë¬¸ì—, ê°’ ë³€ê²½ì´ ê°€ëŠ¥í•œ ì¼ë°˜ì ì¸ í˜•íƒœì˜ í•¨ìˆ˜ëŠ” í˜¸ì¶œì´ ë¶ˆê°€ëŠ¥í•˜ë‹¤.
+ë¬´ì¡°ê±´ const ë©¤ë²„ í•¨ìˆ˜ëŠ” const ë©¤ë²„ í•¨ìˆ˜ë§Œ í˜¸ì¶œì´ ê°€ëŠ¥í•˜ë‹¤ !!!!)
 
 
 ex.
 
-class Obj {
-
-private:
-	int num1;
-
+class Obj
+{
 public:
-
-	void normalFunc(void) { // ÇÔ¼öÀÇ ÀÏ¹ÝÀûÀÎ ÇüÅÂ.
+	void normalFunc(void) // í•¨ìˆ˜ì˜ ì¼ë°˜ì ì¸ í˜•íƒœ.
+	{
 		cout << "normalFunc()" << endl;
 	}
 
-	void constFunc(void) const { // const ¸â¹ö ÇÔ¼ö
+	void constFunc(void) const // const ë©¤ë²„ í•¨ìˆ˜
+	{
 		cout << "constFunc()" << endl;
 	}
-
+	
+private:
+	int num1;
 }
 
 
 #################################################################################################################
 
 #######################################
-      const Å°¿öµå¿Í Å¬·¡½ºÀÇ °´Ã¼
+      const í‚¤ì›Œë“œì™€ í´ëž˜ìŠ¤ì˜ ê°ì²´
 #######################################
 
-- const Å°¿öµå°¡ ºÙÀº Å¬·¡½º´Â ¸â¹öµéÀÇ º¯°æÀ» Çã¿ëÇÏÁö ¾Ê´Â´Ù.
-(°´Ã¼ »ý¼º ½Ã, const °´Ã¼°¡ »ý¼ºµÈ´Ù.)
+- const í‚¤ì›Œë“œê°€ ë¶™ì€ í´ëž˜ìŠ¤ëŠ” ë©¤ë²„ë“¤ì˜ ë³€ê²½ì„ í—ˆìš©í•˜ì§€ ì•ŠëŠ”ë‹¤.
+(ê°ì²´ ìƒì„± ì‹œ, const ê°ì²´ê°€ ìƒì„±ëœë‹¤.)
 
 
 ex.
 
-class Obj {
-
-private:
-	int num;
-
+class Obj
+{
 public:
-
-	void normalFunc(void) { // ÇÔ¼öÀÇ ÀÏ¹ÝÀûÀÎ ÇüÅÂ.
+	void normalFunc(void) { // í•¨ìˆ˜ì˜ ì¼ë°˜ì ì¸ í˜•íƒœ.
 		cout << "normalFunc()" << endl;
 	}
 
-	void constFunc(void) const { // const ¸â¹ö ÇÔ¼ö
+	void constFunc(void) const { // const ë©¤ë²„ í•¨ìˆ˜
 		cout << "constFunc()" << endl;
 	}
 
@@ -148,30 +141,33 @@ public:
 	void Func() const {
 		constFunc();
 	}
+	
+private:
+	int num;
 }
 
 
-int main(void) {
+int main(void)
+{
+	Obj obj1; // ì¼ë°˜ì ì¸ ê°ì²´ ìƒì„±
+	const Obj obj2; // const ê°ì²´ ìƒì„±
+			// Member Initializerë¡œ const ê°ì²´ ìƒì„± ì‹œ, ë©¤ë²„ ë³€ìˆ˜ì˜ ì´ˆê¸°í™”ëŠ” ê°€ëŠ¥í•˜ë‹¤ !!!!
 
-	Obj obj1; // ÀÏ¹ÝÀûÀÎ °´Ã¼ »ý¼º
-	const Obj obj2; // const °´Ã¼ »ý¼º
-					// Member Initializer·Î const °´Ã¼ »ý¼º ½Ã, ¸â¹ö º¯¼öÀÇ ÃÊ±âÈ­´Â °¡´ÉÇÏ´Ù !!!!
-
-	obj1.normalFunc(); // ÀÏ¹ÝÀûÀÎ °´Ã¼´Â µÑ ´Ù »ç¿ë °¡´ÉÇÔ.
+	obj1.normalFunc(); // ì¼ë°˜ì ì¸ ê°ì²´ëŠ” ë‘˜ ë‹¤ ì‚¬ìš© ê°€ëŠ¥í•¨.
 	obj2.constFunc();
 
-	//obj2.normalFunc(); // const °´Ã¼´Â ÀÏ¹Ý ÇÔ¼ö(°ª º¯°æÀÇ °¡´É¼ºÀÌ ÀÖ´Â)ÀÇ È£ÃâÀÌ ºÒ°¡´ÉÇÏ´Ù.
-	obj2.constFunc(); // const °´Ã¼´Â ¹«Á¶°Ç const ¸â¹ö ÇÔ¼ö¸¸ È£ÃâÀÌ °¡´ÉÇÏ´Ù.
+	//obj2.normalFunc(); // const ê°ì²´ëŠ” ì¼ë°˜ í•¨ìˆ˜(ê°’ ë³€ê²½ì˜ ê°€ëŠ¥ì„±ì´ ìžˆëŠ”)ì˜ í˜¸ì¶œì´ ë¶ˆê°€ëŠ¥í•˜ë‹¤.
+	obj2.constFunc(); // const ê°ì²´ëŠ” ë¬´ì¡°ê±´ const ë©¤ë²„ í•¨ìˆ˜ë§Œ í˜¸ì¶œì´ ê°€ëŠ¥í•˜ë‹¤.
 
 }
 
 
 ####################################
-  const Å°¿öµå¿Í ÇÔ¼ö Overloading
+  const í‚¤ì›Œë“œì™€ í•¨ìˆ˜ Overloading
 ####################################
 
-- const Å°¿öµå·Î ÇÔ¼ö OverloadingÀÌ °¡´ÉÇÏ´Ù.
-(ÀÏ¹ÝÀûÀÎ °´Ã¼ÀÎÁö const °´Ã¼ÀÎÁö¿¡ µû¶ó¼­ È£ÃâµÇ´Â ´ë»óÀÌ ´Ù¸£´Ù !!!!)
+- const í‚¤ì›Œë“œë¡œ í•¨ìˆ˜ Overloadingì´ ê°€ëŠ¥í•˜ë‹¤.
+(ì¼ë°˜ì ì¸ ê°ì²´ì¸ì§€ const ê°ì²´ì¸ì§€ì— ë”°ë¼ì„œ í˜¸ì¶œë˜ëŠ” ëŒ€ìƒì´ ë‹¤ë¥´ë‹¤ !!!!)
 
 
 #################################################################################################################
@@ -182,48 +178,50 @@ int main(void) {
 
 #include "stdafx.h"
 
-class Obj {
-
-private:
-	int num1;
-	const int num2;
-
+class Obj
+{
 public:
-
-	Obj(int a) : num2(a) { // Member Initializer¸¦ ÀÌ¿ëÇÏ¿© const ¸â¹ö º¯¼ö ÃÊ±âÈ­.
-						   // °´Ã¼ »ý¼º ½Ã, ¸Þ¸ð¸® ÇÒ´ç ´ÙÀ½°ú »ý¼ºÀÚ È£Ãâ Àü¿¡ ¸â¹ö º¯¼ö¸¦ ÃÊ±âÈ­¸¦ ÇØÁÜ.
-
-		num1 = a; // ÀÏ¹ÝÀûÀÎ ¸â¹ö º¯¼ö.
-		//num2 = a; // const ¸â¹ö º¯¼öÀÌ±â ¶§¹®¿¡, ºÒ°¡´É ÇÏ´Ù.
+	Obj(int a) : num2(a) // Member Initializerë¥¼ ì´ìš©í•˜ì—¬ const ë©¤ë²„ ë³€ìˆ˜ ì´ˆê¸°í™”.
+	{		     // ê°ì²´ ìƒì„± ì‹œ, ë©”ëª¨ë¦¬ í• ë‹¹ ë‹¤ìŒê³¼ ìƒì„±ìž í˜¸ì¶œ ì „ì— ë©¤ë²„ ë³€ìˆ˜ë¥¼ ì´ˆê¸°í™”ë¥¼ í•´ì¤Œ.
+		num1 = a; // ì¼ë°˜ì ì¸ ë©¤ë²„ ë³€ìˆ˜.
+		//num2 = a; // const ë©¤ë²„ ë³€ìˆ˜ì´ê¸° ë•Œë¬¸ì—, ë¶ˆê°€ëŠ¥ í•˜ë‹¤.
 	}
 	
-	void Func(void) {
-		cout << "ÀÏ¹Ý ÇÔ¼ö Func()" << endl;
+	void Func(void)
+	{
+		cout << "ì¼ë°˜ í•¨ìˆ˜ Func()" << endl;
 
 		normalFunc();
-		constFunc(); // ÀÏ¹ÝÀûÀÎ ÇÔ¼ö´Â const ÇÔ¼ö È£Ãâµµ °¡´ÉÇÔ.
+		constFunc(); // ì¼ë°˜ì ì¸ í•¨ìˆ˜ëŠ” const í•¨ìˆ˜ í˜¸ì¶œë„ ê°€ëŠ¥í•¨.
 	}
 
-	void Func(void) const { // const °´Ã¼°¡ Func() ÇÔ¼ö¸¦ È£ÃâÇÏ¸é, Overloading ¶§¹®¿¡ const ÇÔ¼ö°¡ È£ÃâµÈ´Ù !!!!
-		cout << "const ÇÔ¼ö Func()" << endl;
+	void Func(void) const // const ê°ì²´ê°€ Func() í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•˜ë©´, Overloading ë•Œë¬¸ì— const í•¨ìˆ˜ê°€ í˜¸ì¶œëœë‹¤ !!!!
+	{
+		cout << "const í•¨ìˆ˜ Func()" << endl;
 
-		//normalFunc(); // ÀÏ¹ÝÀûÀÎ ÇÔ¼ö´Â ¸â¹ö º¯¼öÀÇ °ªÀ» º¯°æÇÒ ¼ö ÀÖ´Â °¡´É¼ºÀÌ ÀÖÀ¸¹Ç·Î, È£Ãâ ºÒ°¡ !!!!
-		constFunc(); // const ÇÔ¼ö ³»¿¡¼± const ÇÔ¼ö¸¸ È£ÃâÇÒ ¼ö ÀÖ´Ù.
+		//normalFunc(); // ì¼ë°˜ì ì¸ í•¨ìˆ˜ëŠ” ë©¤ë²„ ë³€ìˆ˜ì˜ ê°’ì„ ë³€ê²½í•  ìˆ˜ ìžˆëŠ” ê°€ëŠ¥ì„±ì´ ìžˆìœ¼ë¯€ë¡œ, í˜¸ì¶œ ë¶ˆê°€ !!!!
+		constFunc(); // const í•¨ìˆ˜ ë‚´ì—ì„  const í•¨ìˆ˜ë§Œ í˜¸ì¶œí•  ìˆ˜ ìžˆë‹¤.
 	}
 	
-	void normalFunc(void) {
+	void normalFunc(void)
+	{
 		cout << "normalFunc()" << endl;
 	}
 
-	void constFunc(void) const {
+	void constFunc(void) const
+	{
 		cout << "constFunc()" << endl;
 	}
+	
+private:
+	int num1;
+	const int num2;
 };
 
-int main(void) {
-
+int main(void)
+{
 	cout << "######################################################################" << endl;
-	cout << "### const Å°¿öµå¿Í ¸â¹ö ÇÔ¼ö" << endl << endl;
+	cout << "### const í‚¤ì›Œë“œì™€ ë©¤ë²„ í•¨ìˆ˜" << endl << endl;
 
 	Obj obj1(20);
 	const Obj obj2(42);
@@ -233,10 +231,9 @@ int main(void) {
 
 	cout << "case 2." << endl;
 	obj2.Func();
-	//obj2.normalFunc(); // const °´Ã¼´Â ÀÏ¹ÝÀûÀÎ ÇÔ¼ö È£ÃâÀÌ ºÒ°¡´ÉÇÏ´Ù.
+	//obj2.normalFunc(); // const ê°ì²´ëŠ” ì¼ë°˜ì ì¸ í•¨ìˆ˜ í˜¸ì¶œì´ ë¶ˆê°€ëŠ¥í•˜ë‹¤.
 
 	cout << "######################################################################" << endl;
-
 
 	return 0;
 }
