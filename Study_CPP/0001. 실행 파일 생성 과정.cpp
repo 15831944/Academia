@@ -54,7 +54,8 @@
 //
 //using namespace std;
 //
-//void main(void) {
+//void main(void)
+//{
 //	cout << "Hello World!" << endl;
 //
 //	system("pause");
