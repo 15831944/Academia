@@ -1,0 +1,303 @@
+
+######################################
+   관계 대명사(Relative Pronoun).01
+######################################
+
+ex. the Woman - she lives next door - is a doctor
+- 그 여자는 - 그녀는 옆집에 산다 - 의사이다
+
+=> The woman who lives next door is a doctor.
+- 옆집에 사는 그 여자는 의사이다.
+
+
+ex. we know a lot of people - they live in the country
+- 우리는 많은 사람들을 안다 - 그들은 시골에 산다
+
+=> We know a lot of people who live in the country.
+- 우리는 시골에 사는 많은 사람들을 안다.
+
+
+- "who" 대신 "that"을 사용할 수 있지만,
+"which"는 사람에 대해 쓰지 않습니다.
+
+
+######################################
+   관계 대명사(Relative Pronoun).02
+######################################
+
+- 한정적 용법(선행사 수식)과 계속적 용법(추가 정보_ 콤마"," + 관계 대명사)이 있습니다.
+
+case 1. 한정적 용법
+
+- 관계 대명사 = 접속사 + 대명사 : 형용사 역할(선행사 수식)을 합니다.
+- 한정적 용법으로 사용하는 관계 대명사는 주격, 소유격, 목적격으로 나뉩니다.
+
+====================================================================================================
+
+1. 주격 관계 대명사
+
+- 주격 관계 대명사 = "접속사 + 주어"를 대신하는 대명사
+
+
+ex. I know a woman, and she can speak 4 languages.
+- 나는 한 여자를 안다. 그리고 그녀는 4개 국어를 할 수 있다.
+
+=> I know a woman who can speak 4 languages.
+- 나는 4개 국어를 할 수 있는 한 여자를 알고 있다.
+
+
+ex. A girl was injured in the accident, She is now in the hospital.
+- 한 여자는 그 사고에서 부상을 당했다. 그녀는 지금 병원에 있다.
+
+=> The girl who was injured in the accident is now in the hospital.
+- 그 사고에서 부상을 당한 여성은 지금 병원에 있다.
+
+ex. Where is the cheese? The cheese was in the refrigerator.
+- 그 치즈 어디에 있어? 그 치즈는 냉장고에 있었어.
+
+=> Where is the cheese that was in the refrigerator.
+- 냉장고에 있던 그 치즈는 어디에 있어?
+
+
+====================================================================================================
+
+######################
+    Let's Practice
+######################
+
+ex. The driver who[that] cuased the accident was fined $500.
+- 그 사고를 일으킨 운전자는 500 달러의 벌금에 처해졌다.
+
+ex. Do you know the person that[who] took these photographs?
+- 이 사진들을 찍었던 사람을 알고 있니?
+
+ex. What was the name of the horse that[who] won the race?
+- 그 경주에서 우승한 말의 이름이 무엇이었나요?
+
+
+====================================================================================================
+
+2. 목적격 관계 대명사
+
+The woman who I wanted to see was away on vacation.
+- 내가 보고 싶어 했던 그 여자는 휴가를 떠나 있었다.
+
+              I wanted to see the woman. (who = the woman = 목적어)
+              - 나는 그 여자를 보길 원한다.
+
+Have you found the keys that you lost?
+- 네가 잃어버렸던 열쇠들을 찾았어?
+
+                             You lost the keys (that = the keys = 목적어)
+                             - 너는 그 열쇠들을 잃어버렸다.
+
+
+- 목적격 관계 대명사 = "접속사 + 목적어"를 대신하는 대명사
+
+
+A. 목적격 관계 대명사 who/ which/ that은 생략 가능합니다.
+
+"whom"은 "who"의 목적격이며, 목적격 관계 대명사는 "whom" 대신에 "who"로 쓰기도 합니다 !!!!
+
+ex. The woman [whom/ who/ that] I wanted to see...
+
+
+B. "who"은 전치사와 함께 쓸 수 있습니다.
+(전치사 + whom의 형태 : to whom/ from whom 등...)
+
+ex. The people with whom I work are very nice.
+- 내가 함께 일하는 사람들은 정말 착하다.
+
+- I work with the people. => the people [who(m)] I work with (목적격 관계 대명사는 주로 생략을 한다.)
+                          => the people with whom I work.
+
+관계 대명사절이 전치사로 끝나면, 그 전치사는 관계 대명사 앞에 쓸 수 있습니다.
+
+
+ex. Tom is talking to a woman - do you know her?
+- Tom은 한 여성과 이야기하고 있는 중이야. - 너 그녀를 알아?
+
+=> Do you know the woman [who/ that] Tom is talking to?
+- 너 Tom이 이야기하고 있는 그 여자를 알아?
+
+
+ex. I slept in a bed last night - it wasn't very comfortable.
+- 나는 어제 침대에서 잤어. - 그것은 그렇게 편안하지는 않았어.
+
+=> The bed [that/ which] I slept in last night wasn't very comfortable.
+- 내가 어제 잤던 침대는 그렇게 편안하지 않았어.
+
+
+C. 목적어를 두 번 쓰지 않도록 주의합니다. (목적격 관계 대명사가 목적어 역할을 하기 때문에 !!!!)
+
+ex. The books you were looking for
+- 네가 찾고 있었던 그 책들
+
+====================================================================================================
+
+######################
+    Let's Practice
+######################
+
+ex. You rented a car. It broke down after a few miles. You tell a friend:
+- 당신은 차를 대여했습니다. 그것은 몇 마일을 지나서 고장 났습니다. 당신이 친구에게 말하기를:
+
+ex. Brian is a good person to know. He's somebody [who/ that/ whom] you can rely on.
+- Biran은 알기에(알고 지내기에) 좋은 사람이다. 그는 당신이 믿을 수 있는(의지할 수 있는) 사람이다.
+
+
+====================================================================================================
+
+3. 소유격 관계 대명사
+
+- 소유격 관계 대명사 = "접속사 + 소유격 + 명사"를 대신하는 대명사 whose.
+                       관계사절에서 "his/ her/ their"를 대신해서 사용합니다.
+                       (주로 선행사가 사람일 때 사용됩니다.)
+
+We saw some people. - their car had broken down.
+- 우리는 몇몇의 사람들을 보았다. - 그들의 차는 고장이 나 있었다.
+
+We saw some people whose car had broken down.
+- 우리는 차가 고장나 있던 몇몇 사람들을 보았다.
+
+
+ex. I met a girl. Her mother speaks English very well.
+=> I met a girl whose mother speaks English very well.
+
+- 나는 영어로 아주 잘 말하는 엄마를 둔 여자아이를 만났다.
+
+
+ex. I met someone. I went to school with his/ her brother.
+=> I met someone whose brother I went to school with.
+
+- 나는 나와 함께 학교를 다녔던 형제를 가진 누군가를 만났다.
+
+
+====================================================================================================
+
+######################
+    Let's Practice
+######################
+
+ex. I met a woman who owns a restaurant.
+- 나는 음식점을 소유한 여자를 보았습니다.
+
+ex. I met somebody whose parents used to work in a circus.
+- 나는 부모님이 서커스에서 일했었던 어떤 사람을 만났습니다.
+
+====================================================================================================
+
+#################################
+    관계 부사(Relative Adverb)
+#################################
+
+- 관계 부사 : 접속사 + 부사의 기능을 함.
+(when, where, why, how + 완전한 문장)
+
+the restaurant - we had dinner there - it was near the airport.
+- 그 식당 - 우리는 거기서 저녁을 먹었다 - 그것은 공항 가까이에 있었다.
+
+The restaurant where we had dinner was near the airport.
+- 우리가 저녁을 먹었던 식당은 공항 가까이에 있었다.
+
+
+ex. I recently went back to the town where I grew up.
+- 나는 최근에 내가 자란 마을로 돌아왔다.
+
+=> I recently went back to the town [that/ which] I grew up in.
+=> I recently went back to the town in which I grew up.
+                                    in which = where (전치사 "in"이 장소를 나타낼 경우)
+                                    전치사 + 관계 대명사 = 관계 부사
+
+A. 시간을 나타내는 관계사절에는 보통 "that"을 사용합니다.
+- 이 때 "that"은 생략이 가능합니다.
+
+- The day/ the year/ the time, etc (that) something happens
+
+ex. Do you remember the day (that) we went to the zoo?
+- 우리가 동물원에 갔던 그 날을 기억하니?
+
+
+cf) Sunday is the day [when/ that/ on which] we don't work.
+=> Sunday is the day (when) we don't work. (관계 부사 when 생략 가능)
+- 일요일은 우리가 일하지 않는 날이다.
+
+
+B. 이유를 나타내는 관계사절에서는 "that" 또는 "why"를 사용하거나 생략해서 말할 수 있습니다.
+
+- The reason (that/ why) something happens
+
+ex. The reason (aht/ why) I'm calling you is to ask your advice.
+- 내가 너에게 전화한 이유는 너의 조언을 요청하기 위해서이다.
+
+
+C. 선행사 the way(방법)와 관계 부사 "how"는 함께 쓸 수 없습니다.
+
+ex. You should not judge people by the way they look.
+- 사람들을 외모로 판단해선 안 된다.
+
+- judge by : ~으로 판단하다.
+
+
+D. 관계 부사와 함께 쓰이는 선행사
+
+the time(시간을 나타내는 명사) + when
+the reason why
+the place(장소를 나타내는 명사) + where
+the way/ how/ the way in which
+
+
+E. 관계 부사는 [계속적 용법]으로 쓰일 수 있습니다.
+
+- 계속적 용법 : (콤마 "," + 관계사"의 어순으로 쓰며, 콤마에서 문장의 해석을 한 번 끊고,
+               "접속사 + 대명사/ 부사"의 의미로 관계사를 해석합니다.
+
+ex. We came to the park, where we rested for a while.
+- 우리는 공원에 왔다. 그리고 그곳에서 우리는 잠시 동안 쉬었다.
+
+=> We came to the park, and there we rested for a while.
+
+
+====================================================================================================
+
+######################
+    Let's Practice
+######################
+
+ex. The place where we spent our vacation was really beautiful.
+- 우리가 휴가를 보낸 장소는 매우 아름다웠다.
+
+ex. This school is only for children whose first language is not English.
+- 이 학교는 모국어가 영어가 아닌 아이들만을 위한 학교이다.
+
+ex. The woman with whom he fell in love left him after a month.
+- 그가 사랑에 빠진 그 여자는 한달 후에 그를 떠났다.
+
+
+====================================================================================================
+
+##############################
+      TODAY'S EXPRESSION
+##############################
+
+A: Jay, why are you pissed off? What's wrong?
+- Jay, 왜 잔뜩 화가 났어? 무슨 일있어?
+
+B: I went to a restaurant which was newly open.
+- 나는 새롭게 문을 연 음식점에 갔어.
+
+B: The waitress who served us was too impolite. What is more, the food wasn't tasty.
+- 우리를 서빙했던 웨이트리스는 너무 무례했어. 게다가, 음식은 맛이 없었어.
+
+A: Really? That's annoying.
+- 정말? 그건 짜증나는 일이네.
+
+
+- be pissed off : 화가 나다.
+- what is more : 게다가, 설상가상으로
+
+
+====================================================================================================
+
+
+
