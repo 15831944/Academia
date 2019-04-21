@@ -1,0 +1,311 @@
+
+##########################
+    관계 대명사 which
+##########################
+
+A. 주격으로 쓰일 때.
+
+The river which flows through London is called the Thames.
+- 런던을 통과하여 흐르는 강은 템즈라고 불린다.
+
+
+B. 목적격으로 쓰일 때.
+
+That is the book which I have chosen.
+- 그것은 내가 고른 책이다.
+
+
+C. 목적격 중에서 전치사의 목적어로 쓰일 때.
+
+The book which you are looking for is on the desk.
+= The book for which you are looking is on the desk.
+
+- 네가 찾고 있는 책은 책상 위에 있어.
+
+
+D. 계속적 용법으로 쓰일 때.
+
+He siad he was rich, which was not true.
+- 그는 그가 부유하다고 말했다. 하지만 그것은 사실이 아니었다.
+
+[콤마 "," 뒤에는 "that"을 사용하지 않습니다.
+"which, who, where, when"만 사용이 가능합니다 !!!!]
+
+
+====================================================================================================
+
+###################################
+     한정적 용법과 계속적 용법
+###################################
+
+case 1. 한정적 용법
+
+ex. Barbara works for a company that makes furniture.
+- Barbara는 가구를 만드는 회사에서 일한다.
+
+ex. The woman who lives next door is a doctor.
+- 옆집에 사는 여자는 의사인다.
+
+
+- 위의 관계사절은 화자가 어떤 사람/ 사물에 대해서 말하고 있는지 알려줍니다.
+
+- 이러한 관계 대명사의 용법을 "한정적 용법"이라고 하며,
+ 관계 대명사 앞에 콤마 ","를 쓰지 않습니다 !!!!
+
+
+
+case 2. 계속적 용법 (부연 설명/ 추가 정보)
+
+ex. My brother Jim, who lives in Houston, is a doctor.
+- 나의 형제인 Jim, Houston에 살고 있는 그는 의사이다.
+
+ex. Brad told me about his new job, which he's enjoying a lot.
+- Brad는 나에게 그의 새 직업에 관해 말했다. 그리고 그는 그것을 많이 즐기고 있다.
+
+
+- 위의 관계사절은 화자가 어떤 사람이나 사물에 대해 말하는지 알려주는 것이 아닙니다.
+
+- 어떠한 명사 뒤에 콤마 ","를 쓰고 관계 대명사절이 나오면,
+ 이 명사에 대한 추가적인 정보를 주는 "계속적 용법"입니다.
+
+["whom, whose, where" 모두 이러한 용법으로 쓸 수 있지만,
+관계 대명사 "that"과 "what"은 계속적 용법으로 쓸 수 없습니다 !!!!]
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. I was looking for a book this morning. I've found it now.
+- 나는 오늘 아침에 책을 찾고 있었다. 나는 지금 그것을 찾았다.
+
+=> I've found the book I was looking for this morning.
+
+
+ex. London was once the largest city in the world, but the population is now decreasing.
+- London은 세계에서 가장 큰 도시였다. 하지만 지금 인구는 감소하고 있다.
+
+=> The population of London, which was once the largest city in the world, is now decreasing.
+
+
+
+########################################
+한정적 용법과 계속적 용법을 구분하라고?!
+########################################
+
+ex. My office, which is on the second floor, is very small.
+- 나의 사무실, 이 층에 있는 그곳은 매우 작다.
+(내 사무실이라고 한정되어 있음.)
+
+
+ex. The office [that/ which] I'm using these days is very small.
+- 내가 요즘 사용하고 있는 사무실은 매우 작다.
+(일반적인 사무실)
+
+
+====================================================================================================
+
+###########################################################
+   부정 대명사(Indefinitive Pronoun) + of + 관계 대명사
+###########################################################
+
+- 명사/ 부정 대명사 (some, any, etx.) + of + whom(사람)/ which(사물)
+
+#####################################################################
+none of/ neither of/ any of/ either of
+some of/ many of/ (a) few of                         +   whom(사람)
+both of/ half of/ each of/ one of/ two of/ 분수 of       which(사물)
+######################################################################
+
+
+ex. Mary has three brothers. All of them are married. (2개의 문장)
+- Mary는 3명의 형제가 있다. 그들 중 모두가 결혼했다.
+
+=> Mary ahs three brothers, all of whom are married. (1개의 문장)
+
+
+ex. They have three cars, and two of them they rarely use.
+- 그들은 3개의 자동차를 가지고 있다. 그리고 그들은 그 중 두 대를 거의 사용하지 않는다.
+
+=> They have three cars, two of which they rarely use.
+
+
+
+- the cause of which (~의 원인)
+  the name of which (~의 이름)
+
+ex. We stayed at a beautiful hotel, the name of which I can't remember now.
+- 우리는 아름다운 호텔에 머물렀다. 그런데 지금 그것의 이름이 기억나지 않는다.
+
+
+====================================================================================================
+
+########################################
+   문장 전체를 가리키는 관계 대명사
+########################################
+
+  (sentence 1)     (sentence 2)
+Joe got the job. This surprised everybody. (2 sentences)
+- Joe는 직장을 얻었다. 이것은 모두를 놀라게 하였다.
+
+
+                 (관계사절)
+Job got the job, which surprised everybody. (1 sentece)
+- Joe는 직장을 얻었는데, 그것은 모두를 놀라게 하였다.
+
+
+- 앞 문장 전체나 일부를 가리킬 때는 "which"를 사용합니다.
+(위의 예제에서는 "which" = "the fact that Joe got the job"을 의미합니다.)
+
+- 앞 문장 전체를 가리킬 때는 "that"이나 "what"을 쓸 수 없습니다.
+
+
+ex. The weather was good, which we hadn't expected.
+- 날씨는 좋았다. 그런데 그것을 우리는 예상하지 못했다.
+
+
+====================================================================================================
+
+############################
+     관계 대명사 which
+############################
+
+A. "which"가 계속적 용법으로 사용될 때는 "which"의 선행사는 "명사, 구, 문장 전체"가 될 수 있습니다.
+- 관계 대명사 "that"과 "what"은 계속적 용법으로 사용될 수 없습니다.
+
+ex. She is rich, which I am not. (= but I am not rich.)
+- 그녀는 부유하나. 그런데 나는 그렇지 않다.
+
+ex. She said she was very sick, which was not true. (= but It was not true.)
+- 그녀는 그녀가 매우 아프다고 했다. 그것은 사실이 아니다.
+
+
+B. 선행사가 고유 명사이거나, 유일한 것 또는 문맥 속에서 명백한 것은 계속적 용법으로만 사용이 가능합니다.
+
+ex. I need a person who can type. (한정적 용법)
+- 나는 타자를 칠 수 있는 사람이 필요하다.
+
+ex. I need Tom, who can type. (계속적 용법)
+- 나는 Tom이 필요합니다. 그는 타자를 칠 수 잇습니다.
+
+ex. Jay, who knows the answer, has solved the problem. (계속적 용법)
+- Jay, 답을 알고 있는 그녀는 그 문제를 풀었다.
+
+
+====================================================================================================
+
+#########################
+    관계 대명사 that
+#########################
+
+A. 선행사로 사람, 사물 모두 가능하며 주로 주어, 목적어, 보어를 대신합니다.
+
+B. 선행사가 "사람 + 사물"일 때 "who, which" 둘 다 쓸 수 없기 때문에 "that"을 씁니다.
+
+ex. Look at the lady and her dog that are coming here.
+- 여기로 오고 있는 여자와 그녀의 개를 봐.
+
+
+C. 선행사가 부정 대명사 [the only, the very, all, some, any, etc.],
+            서수 [first, second, etc.],
+            최상급 [the best, etc.] 일 때는 "that"만 쓸 수 있다.
+
+ex. He was the only student that scored above 900 on the TOEIC test.
+- 그는 TOEIC 시험 점수 900점이 넘은 유일한 학생이었다.
+
+
+D. 전치사 뒤, 계속적 용법에서는 "that"을 쓸 수 없다.
+
+ex. The book of which I am fond belongs to Jay.
+- 내가 좋아하는 책은 Jay에게 속해있다.(Jay의 것이다.)
+
+
+- be fond of : ~을 좋아하다.
+
+
+====================================================================================================
+
+##########################
+     관계 대명사 what
+##########################
+
+- 관계 대명사 "what"은 "the thing(s) that"과 같은 의미입니다.
+
+ex. What happened was my fault.
+= The thing that happened was my fault.
+- 발생한 그 일은 나의 잘못이었다.
+
+ex. Did you hear what they said?
+= Did you hear the thing that they said?
+- 너 그들이 말한 것을 들었어?
+
+ex. Everything that happened was my fault.
+- 발생한 모든 일은 나의 잘못이었다.
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. They give their children everything that they want.
+- 그들은 그들의 아이에게 원하는 모든 것을 준다.
+
+ex. I won't be able to do much, but I'll do what I can.
+- 나는 많은 것을 할 수 없지만, 나는 내가 할 수 있는 것을 할 것이다.
+
+
+====================================================================================================
+
+###############################
+  복합(compound) 관계 대명사 
+###############################
+
+A. 명사절을 이끄는 복합 관계 대명사
+
+ex. Whoever comes will be satisfied.
+- 누가 오든지 만족할 것이다.
+
+ex. I'll give this money to whoever needs it.
+- 나는 이 돈을 누구든지 필요로 하는 사람에게 줄 것이다.
+(whoever = anyone who ~ : ~한 사람은 누구든지)
+
+ex. You can give the money to whomever you find.
+- 당신은 당신이 찾은 눈구에게나 돈을 줄 수 있다.
+(whomever = anyone whom~ : ~한 사람은 누구든지)
+
+
+B. 부사절을 이끄는 복합 관계 대명사, 복합 관계 부사
+
+ex. Whoever comes, he will be satisfied.
+- 누가 오든지, 그는 만족할 것이다.
+(whoever = no matter who ~ : ~하든지 간에)
+
+ex. Wherever you go, I will follow you.
+- 네가 어디로 가든지, 나는 너를 따를 것이다.
+(wherever = no matter where, 복합 관계 부사)
+
+
+====================================================================================================
+
+###########################
+    TODAY'S EXPRESSION
+###########################
+
+A: Have you seen Jane today? I need to talk to her.
+- 오늘 Jane 봤어? 나는 그녀와 이야기를 해야 돼.
+
+B: Why don't you call her?
+- 그녀에게 전화해 보는 게 어때?
+
+A: She doesn't have a phone, which makes it difficult to contact her.
+- 그녀는 전화기를 가지고 있지 않아. 그래서 그게 그녀와 연락하는걸 어렵게 만들어.
+
+B: I see. If so, you have to e-mail her, instead.
+- 그렇군. 그렇다면, 대신에 그녀에게 이메일을 보내야 돼.
+
+
+====================================================================================================
