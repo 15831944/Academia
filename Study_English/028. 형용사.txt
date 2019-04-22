@@ -1,0 +1,452 @@
+
+#############################
+        형용사의 형태
+#############################
+
+A. 형용사 (단어)
+
+#############
+- 한정 형용사 : 명사 앞에서 수식, "형용사 + 명사"
+#############
+
+ex. This is a "sad story".
+- 이것은 슬픈 이야기 이다.
+
+ex. There are "many books" on the table.
+- 테이블 위에 많은 책이 있다.
+
+
+#############
+- 서술 형용사 : 명사 뒤에서 수식하거나, 주격 보어, 목적격 보어로 쓰여 주어나 목적어를 보충 설명합니다.
+#############
+
+ex. The boy asleep
+
+ex. The baby is asleep
+- 그 아기는 잠들어 있다. (주격 보어)
+
+ex I found this class interesting.
+- 나는 이 수업이 재미있다는 것을 알게 되었다. (목적격 보어)
+
+
+
+B. 형용사구 : 형용사 역할을 하는 주어, 동사를 포함하지 않는 2개 이상의 단어 모임.
+
+- to 부정사, 현재 분사, 과거 분사, 전치사 + 명사의 형태
+
+- "전치사 + 명사"는 명사를 수식(형용사)하기도 하고, 그 외의 것(부사)을 수식하기도 합니다 !!!!
+
+ex. The student "sitting on the back seat" feels drowsy.
+- 뒷자리에 앉아 있는 학생은 졸리다.
+
+ex. He was the only man "to show up" yesterday.
+- 그는 어제 나타난 유일한 사람이었다.
+
+
+- drowsy : 졸린, 나른하게 만드는
+
+
+
+C. 형용사절 : 관계 대명사 또는 관계 부사가 포함된 절.
+
+관계 대명사 : who, whom, whose, which, that
+관계 부사 : when, where, why, how
+
+
+ex. I met a woman "who can speak 4 languages."
+- 나는 4개 국어를 할 수 있는 여자를 만났다.
+
+ex. The time "when whe arrived at the airport" was 2 a.m.
+- 그녀가 공항에 도착한 시간은 2시였다.
+
+
+====================================================================================================
+
+########################
+     형용사의 기능
+########################
+
+A. 명사 수식 (Describing Nouns)
+
+ex. Jay is a "brilliant student".
+- Jay는 훌륭한 학생이다.
+
+ex. Her house has a "big garden".
+- 그녀의 집에는 커다란 정원이 있다.
+
+
+
+B. 주격 보어 : 주어를 보충해주는 역할.
+
+- "주어 + 동사 + 주격 보어" 형태
+
+- 보어가 필요한 동사를 "불완전 자동사"라고 하며,
+불완전 자동사 뒤에 보어가 없으면 문장이 성립되지 않습니다 !!!!
+
+(ex. be 동사, get, seem, become, grow 등...)
+
+
+ex. The sky became dark.
+- 하늘이 어두워졌다.
+(보어가 필요한 불완전 자동사 : become)
+
+
+ex. The food is sweat.
+- 그 음식은 달콤하다.
+(보어가 필요한 불완전 자동사 : be 동사)
+
+
+
+
+C. 오감 동사의 보어 역할
+(ex. feel taste, sound, smell, look)
+
+ex. You look tired.
+- 너 피곤해 보여.
+
+I feel tired.
+- 난 피곤해.
+
+She sounds tired.
+- 그녀는 피곤한 것처럼 들려(목소리가 피곤한 것처럼 들려)
+
+
+ex. The dinner smells good.
+- 저녁식사 냄새가 좋다.
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. You look terrible! Are you all right?
+- 너 끔찍해 보여(안 좋아 보여)! 너 괜찮니?
+
+
+ex. There's no point in doing a job if you don't do it properly.
+- 만약 네가 그것을 제대로 하지 않으면 일을 하는 의미가 없어.
+
+
+- There's no point in ~ ing : ~하는 의미가 없다.
+
+
+====================================================================================================
+
+##########################
+    여러 형용사의 순서
+##########################
+
+A. 의견 형용사 => 사실 형용사
+
+ex. a nice long summer vacation
+     (의견) (길이)
+- 즐겁고 긴 여름 휴가(방학)
+
+ex. an interesting young man
+         (의견)    (나이)
+- 재미있고 젊은 남자
+
+ex. a beautiful large round wooden table
+       (의견)  (크기) (모양) (재료)
+- 아름답고 큰 둥근 나무 탁자
+
+
+
+B. 사실 형용사 : 크기 => 나이 => 색깔 => 출처 => 재료
+
+ex. the big blue eyes
+     (크기) (색깔)
+- 크고 푸른 눈
+
+ex. an old Russian song
+    (나이) (출처)
+- 오래된 러시아 노래
+
+ex. an old white cotton shirt
+    (나이) (색깔) (재료)
+- 오래된 하얀 면 셔츠
+
+
+- 색깔 형용사가 두 개 이상인 경우에는 "and"를 사용합니다.
+
+ex. a black and white dress
+- 흑백의 드레스
+
+
+- 그러나 성질이 서로 다른 형용사를 동시에 쓸 경우에는 "and"를 쓰지 않습니다.
+
+ex. a long black dress
+- 긴 검은 드레스
+
+
+====================================================================================================
+
+###############################
+   형용사에 자주 쓰이는 어미
+###############################
+
+A. "-y"
+ex. happy, pretty, lazy, easy 등.
+
+
+B. "-ful"
+ex. beautiful, wonderful, grateful, faithful 등.
+
+
+C. "-ous"
+ex. various, dangerous, serious, humorous 등.
+
+
+D. "-ish"
+ex. selfish, foolish, childish 등.
+
+
+E. "-ent/ -ant"
+ex. diligent, intelligent, brilliant, important 등.
+
+
+====================================================================================================
+
+####################################
+  하나의 용법으로만 쓰이는 형용사
+####################################
+
+A. 한정적 용법(명사 수식)으로만 쓰이는 형용사
+
+- drunken(술 취한), mere(겨우 ~의, 단지 ~만의), wooden(나무의, 나무로 만들어진),
+- elder(나이가 더 많은), only(유일한), former(이전의), inner(내부의), outer(외부의),
+- utmost(최고의), main(가장 큰, 주요한), upper(더 위에 있는), chief(주된), this(이 ~), that(저 ~) 등.
+
+ex. drunkedn tiger/ only child
+- I was drunk.
+- I am an only child. (외동이야.)
+
+ex. the former president (전 대통령)
+ex. an elder brother (형/ 오빠)
+ex. an inner court (안뜰)
+ex. the outer space (외계 우주)
+ex. fallen leaves (낙엽)
+ex. a wooden table (원목 식탁)
+ex. the chief industry (주요 산업)
+
+
+B. 서술적 용법(보어)으로만 쓰이는 형용사
+
+- afraid(두려워 하는), alone(혼자), alive(살아 있는), awake(깨어 있는), alike(비슷한),
+- aware(알고 있는), ashamed(부끄러운), worth(가치가 있는) 등.
+
+
+ex. I am alive.
+- 나는 살아있다.
+
+
+- 서술적 용법으로만 쓰이는 형용사는 대부분 "be동사" 뒤에 쓰이며,
+"of"와 같은 전치사를 함께 사용하여 목적어를 취합니다 !!!!
+
+ex. be afraid of ~ : ~을 두려워하다.
+ex. be ashamed of ~ : ~을 부끄러워하다.
+ex. be aware of ~ : ~을 알다/ 인지하다
+ex. be fond of ~ : ~을 좋아하다
+
+
+====================================================================================================
+
+##############################
+    부정 대명사 + 형용사
+##############################
+
+- 부정 대명사는 형용사가 뒤에서 수식합니다.
+(= 후치수식)
+
+
+someone, somebody, something,
+anyone, anybody, anything,         + 형용사
+no one nobody, nothing,
+every one, everybody, everything
+
+
+ex. Jay wants to buy something beautiful for her wedding.
+- Jay는 그녀의 결혼식을 위해 아름다운 것을 사길 원한다.
+
+ex. We want someone smart and humorous to lead our class.
+- 우리는 우리의 반을 이끌 똑똑하고 유머감각 있는 사람을 원한다.
+
+
+====================================================================================================
+
+#####################
+    many와 much
+#####################
+
+############
+case 1. many : "다수의", "많은"이라는 뜻으로 수가 많을 때 쓰는 표현, 셀 수 있는 명사 중 복수 명사 앞에 사용합니다.
+############
+= a lot of, lots of, a good many, a great many, a number of, plenty of 등.
+
+ex. There are many students in the class room.
+- 교실에는 많은 학생들이 있다.
+
+ex. How many DVDs do you have?
+- 너 얼마나 많은 DVD를 가지고 있니?
+
+ex. A lot of rats are runing down the street.
+- 많은 쥐들이 거리를 달리고 있다.
+
+ex. A number of people came to the party.
+- 많은 수의 사람들이 그 파티에 왔다.
+
+
+############
+case 2. much : "다량의", "많은"이라는 뜻으로 양이 많을 때 쓰는 표현, 셀 수 없는 명사 앞에만 사용합니다.
+############
+= a lot of, lots of, a good deal of, a great deal of 등.
+
+ex. I don't drink much coffee.
+- 나는 많은 커피를 마시지 않는다.
+
+ex. How much money do you want?
+- 너는 얼마나 많은 돈을 원하니?
+
+ex. I have too much work to do.
+- 나는 할 일이 너무 많다. (부정의 뉘앙스)
+
+ex. He has a lot of money.
+- 그는 많은 돈을 가지고 있다.
+
+
+====================================================================================================
+
+##########################################
+  "a few"와 "a little"/ "few"와 "little"
+##########################################
+
+- 뉘앙스를 익혀야 함.
+
+            셀 수 있는 명사    셀 수 없는 명사
+약간 있는       a few             a little
+거의 없는        few               little
+
+case 1. "a few"와 "a little"은 둘 다 "조금의", "조금 있는"이라는 의미입니다.
+
+1) a few : "조금 있는", "소수의"라는 의미로, 셀 수 있는 명사 중 복수 명사 앞에 사용합니다.
+2) a little : "조금 있는" , "소량의"라는 의미로, 셀 수 없는 명사 앞에 사용합니다.
+
+ex. He has a few friends.
+- 그는 몇 명의 (소수의) 친구가 있다.
+
+ex. Jay will come back in a few minutes.
+- Jay는 몇 분 안에 돌아올 것이다.
+
+ex. I have a little money.
+- 나는 조금의 (소량의) 돈을 가지고 있다.
+
+ex. There is a little hope.
+-조금의 (약간의) 희망은 있다.
+
+
+case 2. "few"와 "little"은 둘 다 "거의 없는"이라는 뜻으로 부정어입니다 !!!!
+
+1) few : "거의 없는"이라는 의미로, 셀 수 있는 명사 중 복수 명사 앞에 사용합니다.
+2) little : "거의 없는"이라는 의미로, 셀 수 없는 명사 앞에 사용합니다.
+
+ex. He has few friends.
+- 그는 친구가 거의 없다.
+
+ex. He has a few friends
+- 그는 몇 명의 (소수의)친구가 있다.
+
+ex. There is little hope.
+- 희망이 거의 없다.
+
+ex. There is a little hope.
+- 조금의 (약간의) 희망은 있다.
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. listen carefully. I'm going to give you a little advice.
+- 주의해서 들어. 난 너에게 약간의 조언을 해 줄 거야.
+
+ex. It's not a very interesting place to visit, so few tourists come here.
+- 그 곳은 방문하기에 아주 흥미로은 장소는 아니야. 그래서 관광객은 여기에 거의 오지 않아.
+
+ex. I don't think Jill would be a good teacher. She has little patience.
+- 난 Jill이 좋은 선생님이 될 거라고 생각하지 않아. 그녀는 참을성이 거의 없어.
+
+
+====================================================================================================
+
+######################################
+   현재 분사(-ing)/ 과거 분사(-ed)
+######################################
+
+Jane has been doing  the same job for a very long time.
+- Jane은 같은 일을 오랫동안 해오고 있다.
+Every day she does the same thing again and again.
+- 매일 그녀는 같은 것을 반복해서 한다.
+She doesn't enjoy her job anymore and would like to do something different.
+- 그녀는 더 이상 그녀의 직업을 즐기지 않는다. 그리고 무언가 다른 것을 하길 원한다.
+
+
+Jane's job is boring.
+- Jane의 일은 지루하게 한다.
+
+Jane is bored (with her job)
+- Jane은 (그녀의 일에) 지루하다.
+
+
+- 사람에 대해서는 bored,
+ 사물 (또는 다른 사람)에 대해서는 boring을 사용합니다.
+
+(주체가 누구인지에 따라서 !!!!)
+
+
+- bore(지루하게 하다), surprise(놀라게 하다), disappoint(실망하게 하다),
+depress(우울하게 하다), astonish(깜짝 놀라게 하다) 등과 같은 동사의 현재 분사(-ing)는 모두 "~하게 하는"으로,
+과거 분사(-ed)는 "~하게 된, ~을 느끼는"이라는 의미로 사용됩니다.
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. Do you get embarrassed easily?
+- 너 쉽게 당황하니(쑥스러워 지니)?
+
+ex. She has learned really fast. She has made astonishing progress.
+- 그녀는 정말 빨리 배웠다. 그녀는 정말 놀라운 진전을 보였다.
+
+
+- embarrass : 당황하게 하다.
+- astonish : 놀라게 하다.
+
+
+====================================================================================================
+
+########################
+   TODAY'S EXPRESSION
+########################
+
+A: Why do you look so bored today? Is your life so boring?
+- 오늘 왜 이렇게 지루해 보이니? 너의 인생이 지루하니?
+
+B: No, It's been raining all day. I hate this weather. This weather is depressing.
+- 아니, 오늘 하루 종일 비가 오고 있잖아. 난 이 날씨가 싫어. 이 날씨는 우울하게 만들어.
+
+A: Oh, I see. It's silly to get depressed because of the weather. Cheer up!
+- 오, 알겠어. 날씨 때문에 우울해지는 건 어리석어. 힘내!
+
+
+- depress : 우울하게 하다
+
+====================================================================================================
+
+
