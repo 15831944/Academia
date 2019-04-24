@@ -1,0 +1,433 @@
+
+#################################
+   부사(Adverbs)의 역할과 기능
+#################################
+
+- 명사를 제외한 나머지 품사들을 수식하는 품사입니다.
+
+수식 대상 : 동사, 준동사(to 부정사, 동명사, 분사), 형용사, 부사, (전치사)구, (접속사)절, 문장 전체
+
+
+ex. Students are very happy about their new teacher.
+- 학생들은 그들의 새로운 선생님에 대해 매우 행복해하고 있다.
+(부사: very, 수식 대상: happy_형용사)
+
+ex. Ann quickly baked some muffins.
+- Ann은 빠르게 몇 개의 머핀을 구웠다.
+(부사: quickly, 수식 대상: baked_동사)
+
+ex. The man spoke very fast.
+- 그 남자는 매우 빠르게 말했다.
+(부사: very, 수식 대상: fast_부사)
+
+ex. To get a job, I have to study English.
+- 일자리를 얻기 위해서, 나는 영어를 공부해야 한다.
+(부사: to 부정사, 수식 대상: 문장 전체)
+
+ex. Talking loudly is not permitted here.
+- 시끄럽게 말하는 것은 여기서 허용되지 않는다.
+(부사: loudly, 수식 대상: Taking_동명사)
+
+ex. It is very well maintained.
+- 그것은 아주 잘 유지된다.
+(부사: well, 수식 대상: maintained_과거 분사)
+
+ex. I work out early in the morning.
+- 나는 아침 일찍 운동한다.
+(부사구: in the morning, 수식 대상: work out_동사)
+
+ex. I finished the interview just before the meeting started.
+- 나는 그 회의가 시작하기 바로 전에 인터뷰를 마쳤다.
+(부사: just, 수식 대상: before the meeting started_부사절)
+
+
+ex. Luckily, the student passed the test.
+- 다행히, 그 학생은 시험을 통과했다.
+(부사: luckily, 수식 대상: 문장 전체)
+
+
+====================================================================================================
+
+#########################
+       부사의 형태
+#########################
+
+
+#############
+A. 부사(단어)
+#############
+
+case 1. 형용사 + "-ly" = 부사
+
+- quickly, slowly, entirely, completely, definitely, etc.
+
+ex. John walks slowly to his dorm room.
+- John은 그의 기숙사 방으로 천천히 걸어간다.
+
+ex. I completely forgot about my girlfriend's birthday.
+- 나는 내 여자친구의 생일에 대해 완전히 잊었었다.
+
+
+
+cf) 혼동하기 쉬운 형용사 : 명사 + "-ly" = 형용사
+
+- lovely, silly, ugly, friendly, elderly, costly, daily, etc.
+
+ex. Sonya met a friendly woman on the road.
+- Sonya는 길에서 친절한 여자를 만났다.
+
+ex. It's a daily newspaper.
+- 그건 일간 신문이다.
+
+
+
+case 2. "-ly"를 붙이지 않는 부사
+
+- ahead, just, still, only, well, etc.
+
+ex. You can go ahead and start eating.
+- 당신은 먼저 가셔서 먹기 시작하실 수 있어요.
+
+ex. They are still hungry.
+- 그들은 여전히 배가 고프다.
+
+ex. I have just arrived in Daegu.
+- 나는 대구에 방금 도착하였다.
+
+
+
+case 3. 형태가 형용사와 같은 부사
+
+- fast, late, long, high, hard, etc.
+
+ex. John runs fast in the race.
+- John은 경주에서 빠르게 달린다.
+("fast"는 명사를 수식하거나 보어로 쓰여서 "빠른"이라고 해석되기도 합니다.)
+
+ex. She got up late this morning.
+- 그들은 여전히 배가 고프다.
+("late"는 명사를 수식하거나 보어로 쓰일 때에는 "늦은"이라는 의미를 나타냅니다.)
+
+
+
+case 4. 빈도 부사(Frequency Adverbs)
+
+- often, always, sometimes, etc.
+
+ex. Many mothers often make a Caesar salad with dinner.
+- 많은 어머니들이 종종 저녁식사와 함께 시저 셀러드를 만든다.
+
+ex. I'm always tired.
+- 나는 항상 피곤하다.
+
+
+####################################
+B. 부사구: to 부정사, 분사, 전치사구
+####################################
+
+ex. I was interested to read the letter
+- 그 편지를 읽어보니 흥미가 있었다.
+(to 부정사의 부사적 용법 - 감정의 원인)
+
+ex. Watching a movie, the man started weeping.
+- 영화를 보면서, 그 남자는 울기 시작했다.
+
+
+############################################
+B. 부사절: 부사절 접속사 + 주어 + 동사 + ...
+############################################
+
+시간 - when, after, before, while, as soon as, until, since
+장소 - where, wherever
+이유 - because, not that, since, as
+조건 - if, provided, providing
+양보 - though, although, even if, even though
+비교 - that same (such, so, as) - as, more ~ than, less ~ than
+
+
+ex. When Leo is in New York, I will be in Mexico.
+- Leo가 뉴욕에 있을 때, 나는 멕시코에 있을 것이다.
+
+ex. If you take a bus, it will be cheaper.
+- 만약 네가 버스를 탄다면, 그게 더 저렴할 것이다.
+
+ex. Tim decided to go though he knew it would be dangerous.
+- Tim은 비록 그가 그것이 위험할 것이라는 것을 알았지만 가기로 결정했다.
+
+
+====================================================================================================
+
+########################
+      부사의 위치
+########################
+
+- 형용사가 들어가야 하는 위치에 부사를 쓸 수 없습니다.
+
+cf) good(형용사) : 좋은 vs. well(부사) : 잘
+
+ex. He is a good player.
+- 그는 좋은 선수이다.
+
+ex. He plays tennis well.
+- 그는 테니스를 잘한다.
+
+
+cf) "well"은 형용사로 쓰여 "건강한"이라는 의미를 나타내기도 합니다.
+
+ex. My parents are well.
+- 나의 부모님은 건강하시다.
+
+
+ex. Andy became active.
+- Andy는 활동적이게 되었다.
+
+ex. The fur coat feels smooth.
+- 그 모피 코트는 부드러운 느낌이 난다.
+
+ex. Tom is wearing short jeans
+- Tom은 짧은 청바지를 입고 있다.
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. There was a sudden change in the weather.
+- 날씨에 갑작스러운 변화가 있었다.
+
+ex. Liz fell and hurt herself really badly.
+- Liz는 넘어져서 정말 심하게 다쳤다.
+
+ex. Don't go up the ladder. It doesn't look safe.
+- 그 사다리에 올라가지마. 그건 안전해 보이지 않아.
+
+
+====================================================================================================
+
+###################################
+  접속 부사(Conjunctive Adverbs)
+###################################
+
+- 앞 문장과 뒷 문장을 연결해주는 부사입니다.
+
+- besides(게다가), furthermore(더욱이), moreover(더욱이),
+- therefore(그러므로), hence(그러므로), consequently(결과적으로),
+- nevertheless/ nonetheless(그럼에도 불구하고), however(그러나),
+- otherwise(그렇지 않으면), or (else) (그렇지 않으면),
+- then(그리고 나서, 그 때), meantime/ meanwhile(그 동안)
+
+
+A. 접속 부사(Conjunctive Adverbs)는 부사이기 때문에 접속사와 달리 두 개의 절(문장)을 바로 연결할 수 없고,
+ 접속사 역할을 하는 세미콜론 ";"과 함께 사용해야 합니다.
+
+ex. It's too far from here; besides I don't want to go there.
+- 그건 여기서 너무 멀어; 게다가 나는 거기에 가고 싶지 않아.
+
+
+B. 접속 부사(Conjunctive Adverbs)는 콤마 ","와 함께 문장의 맨 앞에 위치하여 두 개의 문장을 의미적으로 연결하기도 합니다.
+
+ex. It's too far from here. Besides, I don't want to go there.
+- 그건 여기서 너무 멀어. 게다가, 나는 거기에 가고 싶지 않아.
+
+
+====================================================================================================
+
+#####################
+     So vs. Such
+#####################
+
+##########
+case 1. So
+##########
+
+A. so + 형용사/ 부사
+(정말, 너무 ~한/ ~하게)
+
+so stupid/ so quick
+so nicely/ so quickly
+
+ex. I like Liz and Joe. They are so nice.
+- 나는 Liz와 Joe를 좋아한다. 그들은 정말 친절하다.
+
+
+B. so ... that 주어 + 동사 ~
+(너무 ... 해서 ~하다)
+
+ex. The book was so good (that) I couldn't put it down.
+- 그 책이 너무 좋아서 나는 그것을 내려 놓을 수 없었다.
+
+
+C. so long/ so far/ so much/ so many
+- 정말 긴(길게)/ 정말 먼(멀리)/ 정말 많은(많이)
+
+
+
+############
+case 2. Such
+############
+
+A. such + 명사
+(그러한 ~)
+
+such a story/ such people
+
+
+B. such + 형용사 + 명사
+(그런 ~한)
+
+such a beautiful story
+such nice people
+
+ex. I like Liz and Joe. they are such nice people.
+- 나는 Liz와 Joe를 좋아한다. 그들은 정말 친절한 사람들이다.
+
+
+C. such + ... + that + 주어 + 동사
+(너무 ...한 "명사"이어서 "주어"가 ~하다)
+
+ex. It was such a good book (that) I couldn't put it down.
+- 그 책은 너무 좋은 책이어서 나는 그것을 내려놓을 수 없었다.
+
+
+D. such a long time/ such a long way/ such a lot (of)
+- 너무 긴 시간/ 너무나 먼 길/ 너무나 많은 (것)
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. He always looks good. He wears such nice clothes.
+- 그는 항상 좋아 보인다. 그는 너무나 좋은 옷을 입니다.
+
+ex. The food at the hotel was so awful. I've never eaten such awful food.
+- 그 호텔의 음식은 정말 끔찍했어. 나는 그렇게 끔찍한 음식을 먹어본 적이 없어.
+
+ex. They've got so much money that they don't know what to do with it.
+- 그들은 너무 많은 돈을 가지고 있어서 그들은 그걸 가지고 무엇을 해야 할지 모른다.
+
+ex. I didn't realize you live such a long way from downtown.
+- 나는 네가 시내에서 그렇게 먼 거리에 살고 있는지 몰랐어.
+
+
+====================================================================================================
+
+#######################
+    Enough vs. Too
+#######################
+
+##############
+case 1. Enough
+##############
+
+A. 형용사/ 부사 + enough
+(충분히 ~한/ 충분히 ~하게)
+
+ex. The jacket is (not) big enough.
+- 그 재킷은 충분히 크다.(크지 않다.)
+
+
+B. enough + 명사
+(충분한 ~)
+
+ex. I have enough bread.
+- 나는 충분한 빵을 가지고 있다.
+
+
+###########
+case 2. Too
+###########
+
+A. too + 형용사/ 부사 (부정적 의미)
+(너무 ~한/ 너무 ~하게)
+
+ex. The jacket is too small.
+- 그 재킷은 너무 작다.
+
+######################################
+
+                                 ### for + 사람/ 사물 ###
+형용사/ 부사 + enough                ex. The jacket is big enough for my brother.
+(충분히 ~한/ 충분히 ~하게)           - 그 재킷은 나의 형에게 충분히 크다.
+                                     ex. I have enough bread for the party.
+enugh + 명사                    +    - 나는 파티를 위한 충분한 빵을 가지고 있다.
+(충분한 ~)                           ex. The jacket is too small for my brother.
+                                     - 그 재킷은 나의 형에게 너무 작다.
+too + 형용사/ 부사
+(너무 ~한/ 너무 ~하게)           ### (for + 사랑) to 동사 원형 ###
+                                     ex. The jacket is big enough for my brother to wear.
+                                     - 그 재킷은 나의 형이 입기에 충분히 크다.
+                                     ex. I have enough bread for ten people to eat.
+                                     - 나는 10명의 사람들이 먹기에 충분한 빵을 가지고 있다.
+                                     ex. The jacket is too small for my brother to wear.
+                                     - 그 재킷은 나의 형이 입기에 너무 작다.
+
+ex. I can't run very far. I'm not fit enough.
+- 나는 아주 멀리 달리지는 못해. 난 충분히 건강하지 않아.
+
+ex. Let's go. We've waited long enough.
+- 가자. 우린 충분히 오래 기다려 왔어.
+
+ex. They're too young to get married.
+- 그들은 결혼하기에 너무 어려.
+
+ex. They're not old enough to get married.
+- 그들은 결혼을 할 만큼 충분히 나이가 들지 않았어.
+
+
+cf) "enough"는 명사와 함께 쓰기도 하며, 단독으로 쓸 수도 있습니다.
+
+ex. We don't need any more money. We've got enough.
+- 우리는 더 이상의 돈을 필요하지 않아. 우린 충분히 가졌어.
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. Do you think I'm qualified enough to apply for the job?
+- 너는 내가 그 일자리에 지원할 만큼 충분히 자격이 있다고 생각해?
+
+ex. There weren't enough cups for everybody to have coffee at the same time.
+- 모든 사람이 동시에 커피를 마실 충분한 컵이 없었어.
+
+
+ex. Don't eat these apples. They're not ripe enough.
+- 이 사과들을 먹지 마. 그것들은 충분히 익지 않았어.
+
+=> These apples aren't ripe enough to eat.
+
+ex. You can't see some things without a microscope. They are too small.
+- 어떤 것들은 현미경 없이는 볼 수 없다. 그것들은 너무나 작다.
+
+Some things are too small (for you) to see without a microscope.
+
+
+====================================================================================================
+
+##########################
+    TODAY'S EXPRESSION
+##########################
+
+A: I'm very tired this morning. I hardly slept last night.
+- 나는 오늘 아침 정말 피곤해. 난 지난 밤에 거의 잠을 안 잤어.
+
+B: That's weird. You hardly say you don't sleep well. What happened last night?
+- 그거 이상하네(기이하네). 넌 잠을 잘 못 잔다고 거의 말하지 않잖아. 어제 밤에 무슨 일 있었어?
+
+A: You know I usually sleep well, but yesterday something happened to me.
+- 내가 보통 잠을 잘 잔다는 거 알잖아. 그런데 어제는 어떤 일이 일어났어.
+
+A: Umm... The situation is too complicated to explain.
+- 음... 그 상황이 설명하기에 너무 복잡해.
+
+
+
+====================================================================================================
+
