@@ -1,0 +1,263 @@
+
+######################
+   어순(Word Order)
+######################
+
+#####################
+case 1. 동사 + 목적어
+#####################
+
+A. 타동사가 쓰일 경우, 타동사 뒤에는 항상 목적어가 위치합니다.
+(부사는 "타동사와 목적어 사이"에 위치할 수 없습니다 !!!!)
+
+            타동사   목적어(~을/ 를)
+        I     like         my job     very much.
+  Did you      see   your friends     yesterday?
+Ann often    plays         tennis.
+
+
+###################
+case 2. 장소와 시간 - 장소 먼저, 그다음 시간
+###################
+
+             장소(전치사 포함)  시간(전치사 포함)
+   Tom walks           to work    every morning.
+Sam has been         to Canada      since April.
+  We arrived    at the airport            early.
+
+
+A. 시간을 나타내는 말은 문장 맨 앞에 위치하여 쓰이는 경우도 있습니다.
+
+ex. On Monday I'm going to Paris.
+- 월요일에 나는 파리로 간다.
+
+ex. Every morning Tom walks to work.
+- Tom은 매일 아침 직장까지 걸어간다.
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. Did you learn a lot of things at school today?
+- 너는 오늘 학교에서 많은 것을 배웠니?
+(장소 다음에 시간 !!!)
+
+ex. I met a friend of mine on my way home.
+- 나는 집으로 가는 길에 나의 친구 한 명을 만났다.
+
+
+ex. I didn't see you at the party on Saturday night.
+- 나는 토요일 밤 파티에서 너를 보지 못했어.
+
+ex. Jackie left her umbrella in a restaurant last night.
+- Jackie는 어제 밤에 식장에 그녀의 우산을 놔두고 왔다.
+
+
+====================================================================================================
+
+##########################
+case 3. 동사와 부사의 어순
+##########################
+
+         부사    동사
+Helen  always  drives   to work.
+    I  almost  fell     as I was going down the stairs.
+
+
+            동사 1          부사       동사 2
+           (조동사/ be 동사)          (be 동사/ 분사)
+          I can            never       remember         her name.
+     Claire doesn't        often       eat              eat.
+            Are you        definitely  going            to the party tomorrow?
+The concert will           probably    be               canceled.
+
+
+A. 일부 부사(always, also, probably 등)는 동사와 함께 문장 중간에 위치합니다.
+(부사는 조동사와 be동사 뒤, 일반 동사 앞에 씁니다.
+그러나 언제나 예외는 있으니 주의할 것.)
+
+ex. We were feeling very tired, and we were also hungry.
+- 우리는 매우 피곤함을 느끼고 있었다. 그리고 또한 우리는 배도 고팠다.
+
+ex. My parents are both teachers.
+- 나의 부모님은 두 분 모두 교사이시다.
+
+
+cf) 부사 probably는 부정어(isn't, won't 등) 앞에 씁니다.
+
+ex. I probably won't see you. / I will probably not see you.
+- 나는 어쩌면 너를 보지 않을 거야.
+
+
+B. 부사가 동사 앞에 위치하는 경우, 주어와 동사의 수 일치에 주의해야 합니다.
+
+ex. Lucy hardly ever watches TV, and rarely reads newspapers.
+- Lucy는 TV를 좀처럼 보지 않으며, 신문을 거의 읽지 않는다.
+
+
+C. 같은 동사를 반복하는 대신에 be 동사나 will, did와 같은 조동사를 쓰는 경우,
+always, never 등의 부사는 일반적으로 이러한 be 동사와 조동사의 앞에 위치합니다.
+
+(원래는  be 동사와 조동사의 뒤에 위치하지만,
+같은 동사를 생략하는 경우에는 !!!!)
+
+ex. He always says he won't be late, but he always is. (= he is always late.)
+- 그는 항상 늦지 않겠다고 말하지만, 그는 항상 늦는다.
+
+ex. I've never done it, and I never will. (= I will never do it.)
+- 나는 그것을 해본 적이 없고, 앞으로도 그럴 것이다.
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. We were "all" on vacation in Spain.
+- 우리는 전부 스페인에 휴가 중이었다.
+
+ex. We were "all" staying at the same hotel.
+- 우리는 전부 같은 호텔에서 묵고 있었다.
+
+ex. We "all" enjoyed ourselves.
+- 우리는 모두 즐거웠다.
+
+
+ex. I can "probably" help you.
+- 나는 어쩌면 너를 도와 줄 수도 있어.
+
+ex. I "probably" can't help you.
+- 나는 어쩌면 너를 도와줄 수 없을 거야.
+
+
+ex. I will probably be leaving early tomorrow.
+- 나는 어쩌면 내일 일찍 떠날 거야.
+
+ex. It's hard to contact Sue. Her cell phone is hardly ever on when I call her.
+- Sue와 연락하는 건 어려워. 그녀의 휴대 전화는 내가 전화할 때, 좀처럼 켜져 있지 않아.
+
+ex.
+A: Are you tired? - 너 피곤하니?
+B: Yes, I always am at this time of day.
+- 응, 난 하루 중 이맘때에 항상 그래.
+
+
+====================================================================================================
+
+######################################
+    anymore/ any longer/ no longer
+######################################
+
+A. [not ... anymore, not ... any longer] = no longer
+: "더 이상 ~ 않다/ 아니다"라는 의미로 상황이 바뀌었음을 나타냅니다.
+
+- "anymore"와 "any longer"는 문장의 끝에 씁니다.
+
+ex. Lucy doesn't work here [anymore/ any longer].
+- Lucy는 더 이상 여기서 일하지 않는다.
+
+= Lucy no longer works here.
+("no longer"를 쓸 경우, 동사의 수 일치를 주의합시다 !!!!)
+
+
+ex. We used to be good friends, but we aren't [anymore/ any longer].
+- 우리는 좋은 친구였지만, 더이상 좋은 친구가 아니다.
+
+= We are no longer good friends.
+
+
+====================================================================================================
+
+###################
+       Even
+###################
+
+A. even : "심지어 ~조차도"라는 의미로, 흔치 않거나 놀라운 일에 대해서 언급할 때 사용합니다.
+
+ex. She has a TV set in every room of the house - even the bathroom.
+- 그녀는 집의 모든 방에 TV가 있다. - 심지어 화장실에도 있다.
+
+ex. These pictures are really awful. Even I could take better pictures than these.
+- 이 사진들은 정말 끔찍하다. 심지어 나조차도 이것보다 더 좋은 사진을 찍을 수 있을 거야.
+
+
+B. "even"은 일반적으로 동사와 함께 문장 중간에 씁니다.
+
+ex. Sue has traveled all over the world. She has even been to the Antartic.
+- Sue는 전 세계를 여행해본 적 있다. 그녀는 심지어 남극에도 가본 적이 있다.
+
+
+C. not even : 심지어 ~조차도 아닌
+
+ex. I can't cook. I can't even boil an egg.
+- 나는 요리를 못해. 나는 심지어 달걀도 삶을 수 없어.
+
+
+D. even + 비교급(cheaper/ more expensive 등) : "훨씬 더 ~한/ ~하게"
+
+ex. I got up very early, but Jack got up even earlier.
+- 나는 매우 일찍 일어났지만, Jack은 훨씬 더 일찍 일어났다.
+
+
+E. even though : "비록 ~이지만"
+even when : "심지어 ~일 때도"
+even if : "비록 ~일지라도"
+
+ex. Even though she can't drive, she bought a car.
+- 비록 그녀는 운전을 할 수 없지만, 그녀는 자동차를 샀다.
+
+ex. I can't reach the shelf even if I stand on a chair.
+- 나는 의자를 딛고 일어서더라도 그 선반에 닿을 수 없다.
+
+
+cf) "even"은 단독적으로 접속사 역할을 할 수 없습니다 !!!
+
+(틀린 표기 !!!   X) - Even she can't drive, ~
+(틀린 표기 !!!   X) - Even I stand on ~
+
+
+====================================================================================================
+
+#########################
+     Let's Practice
+#########################
+
+ex. Even with the heat on, it was very cold in the house.
+- 심지어 히터를 켜놓았지만, 그 집은 매우 추웠다.
+
+ex. I won't forgive them for what they did even if they apologize.
+- 나는 그들이 사과를 하더라도, 그들이 한 것에 대해 그들을 용서하지 않을 것이다.
+
+ex. Even though I hadn't eaten anything for 24 hours. I wasn't hungry.
+- 비록 나는 24시간 동안 아무 것도 먹지 않았지만, 나는 배가 고프지 않았다.
+
+
+====================================================================================================
+
+##########################
+    TODAY'S EXPRESSION
+##########################
+
+A: Do your parents still live in Denver or have they moved?
+- 너의 부모님은 여전히 덴버에 사셔? 아니면 이사를 하셨어?
+
+B: They don't live in Denver anymore.
+- 그들은 더 이상 덴버에 살지 않아.
+
+A: Do they still have a lot of friends there?
+- 그들은 그곳에 여전히 친구가 많으셔?
+
+B: Yes. Even though my parents haven't seen their friends for a long time,
+they can still remember them very clearly.
+
+- 응. 비록 우리 부모님이 오랜 시간 동안 친구들을 만나지 않았지만,
+그들은 친구들을 여전히 아주 분명하게 기억하고 계셔.
+
+
+====================================================================================================
+
+
