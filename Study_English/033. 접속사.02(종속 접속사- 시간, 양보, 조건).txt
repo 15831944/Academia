@@ -1,0 +1,260 @@
+
+############################################
+    종속 접속사 - 부사절을 이끄는 접속사
+############################################
+
+- "접속사 S + V" 또는 "S + V 접속사 S + V"
+
+시간: when, while, after, before, until, as soon as, etc.
+장소: wherever, where
+이유: since, because, as, now that
+목적: so that
+결과: so
+조건: if, unless, providing, provided, supposing, etc.
+양보: though, although, even if, even though, granted, granting (~할지라도)
+비교: than, as
+
+====================================================================================================
+
+##################################
+case 1. 시간, 때를 나타내는 접속사
+##################################
+
+"after" : ~후에(접속사, 전치사, 부사)
+ex. After his rival had disappeared, he married her.
+- 그의 라이벌이 사라진 후에, 그는 그녀와 결혼했다.
+
+
+"before" : ~전에, 앞에(접속사, 전치사, 부사)
+ex. Tom had died before his son was born.
+- Tom은 그의 아들이 태어나기 전에 죽었다.
+
+
+"until(till)" : ~까지(계속)(접속사, 전치사)
+ex. I'll wait for you until you come back.
+- 네가 돌아올 때까지 나는 널 기다릴 거야.
+
+
+"by the time" : ~이전까지, ~할 때쯤(완료)
+ex. She will have finished it by the time we arrive.
+- 그녀는 우리가 도착할 때까지 그것을 끝낼 것이다.
+
+
+"while" : ~동안, 반면에
+ex. Jay fell asleep while she was reading.
+- Jay는 독서를 하고 있던 중에 잠이 들었다.
+
+ex. While the eldest child is obedient, the second child is mischievous.
+- 첫째 아이는 순종적인 반면에, 둘째 아이는 말썽꾸러기이다.
+
+
+- obedient : 순종적인
+- mischievous : 장난꾸러기의, 장난기가 심한
+
+
+"as long as(= so long as)" : ~하는 동안, ~하는 한
+ex. I will be with you as long as you love me.
+- 네가 나를 사랑하는 한 나는 너와 함께 있을 거야.
+
+
+"when" : ~할 때
+ex. When I am stressed out, I eat something sweet.
+- 내가 스트레스가 많이 쌓였을 때, 나는 단 것을 먹는다.
+
+
+- be stressed out : 스트레스 받은 상태이다.
+
+
+##########################################################################
+cf) 시간과 조건을 나타내는 부사절에서는 현재시제를 써서 미래를 표현합니다.
+
+ex. Lisa will be in Mexico when Sarah is in New York.
+- Sarah가 뉴욕에 있을 때, Lisa는 멕시코에 있을 것이다.
+
+ex. When I get home tonight, I'm going to take a shower.
+- 오늘 밤 내가 집에 도착할 때, 나는 샤워를 할 것이다.
+
+ex. I'll wait here until you come back.
+- 당신이 돌아올 때까지 나는 이곳에서 기다릴 것이다.
+
+ex. If you see Ann tomorrow, can you give this letter to her?
+- 만약 당신이 내일 Ann을 본다면, 이 편지를 그녀에게 전달해 주시겠습니까?
+
+
+====================================================================================================
+
+#########################################
+     Although/ In spite of/ Despite
+#########################################
+
+Last year Paul and Joanne spent their vacation at the beach.
+It rained a lot, but they had a good time.
+
+You can say:
+
+Although it rained a lot, they had a good time.
+- 비록 비가 많이 왔지만, 그들은 좋은 시간을 보냈다.
+
+or
+
+In spite of   the rain, they had a good time.
+Despite
+
+#########################################
+
+A. although 주어 + 동사 : 비록 ~하지만
+= in spite of[despite] + 명사
+
+ex. Although it rained a lot, we enjoyed our vacation.
+- 비록 비가 많이 왔지만, 우리는 휴가를 즐겼다.
+
+
+B. in spite of[despite] + 명사/ 대명사/ 동명사 : ~에도 불구하고
+
+ex. In spite of the rain, we enjoyed our vacation.
+- 비에도 불구하고, 우리는 휴가를 즐겼다.
+
+ex. I didn't get the job in spite of being well qualified.
+- 나는 자격을 충분히 갖추었음에도 불구하고 그 일자리를 얻지 못했다.
+
+
+- be qualified for : ~할 자격을 갖추다.
+
+
+ex. She felt sick, but despite his, she went to work.
+- 그녀는 아팠다. 하지만, 이것에도 불구하고 그녀는 출근하였다.
+
+
+C. In spite of[despite] the fact (that) S + V : ~라는 사실에도 불구하고
+
+ex. I didn't get the job in spite of the fact (that) I was well qualified.
+- 나는 자격을 충분히 갖추었다는 사실에도 불구하고 나는 일자리를 얻지 못했다.
+
+
+D. "although" 대신 "though"를 쓰기도 합니다.
+
+ex. Ididn't get the job though I was well qualified.
+- 비록 나는 자격을 충분히 갖추었지만 나는 그 일자리를 얻지 못했다.
+
+
+E. 구어체 영어에서는 종종 문장 끝에 "though - 그래도"를 씁니다.
+
+ex. the house isn't very nice. I like the garden, though. (but I like the garden.)
+- 그 집은 매우 좋지 않다. 그래도 나는 정원이 마음에 들어.
+
+
+F. "even though"는 "although"보다 의미가 강합니다 !!!!
+
+
+====================================================================================================
+
+########################
+     Let's Practice
+########################
+
+ex. She only accepted the job because of the salary, which was very high.
+- 그녀는 단지 급여 때문에 그 일자리를 수락하였는데, 그 급여는 아주 높았다.
+
+ex. She accepted the job in spite of[despite] the salary, which was rather low.
+- 그녀는 그 급여에도 불구하고 그 일자리를 수락하였는데, 그 급여는 매우 낮았다.
+
+
+ex. They have very little money. They are happy. (in spite of 사용)
+
+=> In spite of having very little money, they are happy.
+- 돈이 거의 없음에도 불구하고, 그들은 행복하다.
+
+
+ex. I enjoyed the movie. The story was silly. (in spite of 사용)
+
+=> I enjoyed the movie in spite of the silly story. (or the sotry being silly)
+- 매우 바보 같은 이야기에도 불구하고 나는 그 영화를 즐겼다.
+
+
+====================================================================================================
+
+####################
+      In case
+####################
+
+Your car should have a spare tire because it is possible you will have a flat tire.
+
+=> Your car should have a spare tire in case you have a flat tire.
+- 당신의 자동차는 타이어가 펑크 날 경우를 대비하여 예비 타이어를 가지고 있어야 합니다.
+
+In case you have a flat tire
+= because it is possible you will have a flat tire
+
+
+A. "in case + S + V" : "~할 경우를 대비하여", "만일 ~인 경우에는"이라는 뜻으로,
+                      조건절 접속사이기 때문에 현재 시제로 미래를 표현합니다. (will을 쓰지 않음 !!!!)
+
+ex. I'll leave my cell phone on in case Jane calls.
+(= because it is possible Jane will call)
+- Jane이 전화할 경우를 대비하여 나는 나의 핸드폰을 켜둘 것이다.
+
+
+B. "in case + 과거 시제"는 과거에 어떤 행동을 한 이유에 대해 언급할 때 사용합니다.
+
+ex. I left my phone on in case Jane called.
+- Jane이 전화할 경우를 대비하여 나는 나의 핸드폰을 켜두었다.
+
+
+====================================================================================================
+
+#############################
+      unless/ as long as
+#############################
+
+A. "unless" = "except if", "if ... not"
+
+ex. I'll see you tomorrow unless I have to work late. (= except if I have to work late)
+- 내가 내일 늦게까지 일해야 하지 않는다면, 나는 내일 너를 볼 것이다.
+
+ex. Unless we leave now, we'll be late. (= if we don't leave now, we'll...)
+- 우리가 지금 떠나지 않는다면, 우린 늦을 것이다.
+
+
+B. as long as/ so long as/ proved (that)/ providing (that)
+= if/ on condition that (~하는 한/ ~하는 조건이라면)
+
+ex. You can borrow my car as long as[so long as] you promise not to drive too fast.
+- 당신이 차를 너무 빠르게 운전하지 않겠다고 약속하는 한 당신은 나의 차를 빌릴 수 있습니다.
+
+ex. Providing (that)[Provided (that)] the room is clean, I don't care which hotel we stay at.
+- 만약 방이 깨끗하다면, 나는 우리가 어떤 호텔에 머물든지 상관없어.
+
+
+
+ex. I'm playing tennis tomorrow unless it rains.
+- 나는 비가 오지 않는다면 내일 테니스를 칠 것이다.
+
+ex. I'm playing tennis tomorrow providing it doesn't rain.
+- 나는 비가 오지 않는다면 내일 테니스를 칠 것이다.
+ (왜냐하면, unless가 있어서 이중 부정이 안됨.)
+
+
+====================================================================================================
+
+################################
+       TODAY'S EXPRESSION
+################################
+
+A: Can I borrow your car?
+- 내가 너의 차를 좀 빌릴 수 있을까?
+
+B: You can borrow it as long as you promise to drive safely.
+- 네가 안전 운전하겠다고 약속하는 한 난 그걸 빌려 줄 수 있어.
+
+A: Okay! Don't worry.
+- 알았어! 걱정 마.
+
+B: Why don't you buy a car? Using a car is convenient providing that you have somewhere to park.
+- 자동차를 사는 건 어때? 만약 네가 어디엔가 주차할 곳이 있다면 차를 이용하는 건 편리해.
+
+A: I like to walk to work in the morning unless I'm in a hurry.
+- 나는 바쁘지 않다면 아침에 직장까지 걸어 가는 걸 좋아해.
+
+====================================================================================================
+
+
