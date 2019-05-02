@@ -1,110 +1,110 @@
 /*
 
 ###########################################
-   ¿¬»êÀÚ ¿À¹ö·Îµù(Operator Overloading)
+   ì—°ì‚°ìž ì˜¤ë²„ë¡œë”©(Operator Overloading)
 ###########################################
 
-- Å¬·¡½º ´ë»óÀ¸·Î ¼öÇàÇÒ ¶§, ±âÁ¸¿¡ Á¸ÀçÇÏ´Â ¿¬»êÀÚÀÇ ÀÇ¹Ì¸¦ ¹Ù²Ü ¼ö ÀÖ´Ù´Â °ÍÀ» ÀÇ¹ÌÇÔ.
-- ¿¬»êÀÚ ¿À¹ö·ÎµùÀº ÁÂÃø °´Ã¼ ±âÁØÀ¸·Î ¼öÇàÇÕ´Ï´Ù.
-(¿Ö³ÄÇÏ¸é, ¿¬»êÀÚ ÀÚÃ¼µµ ÇÔ¼ö¸¦ ÀÇ¹ÌÇÏ±â ¶§¹®¿¡ !!!!)
+- í´ëž˜ìŠ¤ ëŒ€ìƒìœ¼ë¡œ ìˆ˜í–‰í•  ë•Œ, ê¸°ì¡´ì— ì¡´ìž¬í•˜ëŠ” ì—°ì‚°ìžì˜ ì˜ë¯¸ë¥¼ ë°”ê¿€ ìˆ˜ ìžˆë‹¤ëŠ” ê²ƒì„ ì˜ë¯¸í•¨.
+- ì—°ì‚°ìž ì˜¤ë²„ë¡œë”©ì€ ì¢Œì¸¡ ê°ì²´ ê¸°ì¤€ìœ¼ë¡œ ìˆ˜í–‰í•©ë‹ˆë‹¤.
+(ì™œëƒí•˜ë©´, ì—°ì‚°ìž ìžì²´ë„ í•¨ìˆ˜ë¥¼ ì˜ë¯¸í•˜ê¸° ë•Œë¬¸ì— !!!!)
 
 
-- Å¬·¡½º ³»ºÎ¿¡ operator() ÇÔ¼ö¸¦ ±¸ÇöÇÏ¿´±â ¶§¹®¿¡, ¸â¹ö ÇÔ¼ö È£Ãâ ¹æ½ÄÀ¸·Îµµ »ç¿ëÀÌ °¡´ÉÇÏ´Ù !!!
+- í´ëž˜ìŠ¤ ë‚´ë¶€ì— operator() í•¨ìˆ˜ë¥¼ êµ¬í˜„í•˜ì˜€ê¸° ë•Œë¬¸ì—, ë©¤ë²„ í•¨ìˆ˜ í˜¸ì¶œ ë°©ì‹ìœ¼ë¡œë„ ì‚¬ìš©ì´ ê°€ëŠ¥í•˜ë‹¤ !!!
 
 #######################################################################################################
 
 ######################################################
-   µ¡¼À ¿¬»êÀÚ in »ê¼ú ¿¬»êÀÚ(Arithmetic operator)
+   ë§ì…ˆ ì—°ì‚°ìž in ì‚°ìˆ  ì—°ì‚°ìž(Arithmetic operator)
 ######################################################
 
 ########################
-case 1. °´Ã¼ + °´Ã¼ ¿¬»ê
+case 1. ê°ì²´ + ê°ì²´ ì—°ì‚°
 ########################
 
-Point Å¬·¡½º ´ë»óÀ¸·Î ¸â¹ö ÇÔ¼ö·Î¼­, "Operator Overloading"
+Point í´ëž˜ìŠ¤ ëŒ€ìƒìœ¼ë¡œ ë©¤ë²„ í•¨ìˆ˜ë¡œì„œ, "Operator Overloading"
 
 Point operator+ (Point &ref);
 
-- ÀÌ¶§, ¹ÝÈ¯ÇüÀÌ "Reference"°¡ µÇÁö ¾Êµµ·Ï ÇÑ´Ù.
+- ì´ë•Œ, ë°˜í™˜í˜•ì´ "Reference"ê°€ ë˜ì§€ ì•Šë„ë¡ í•œë‹¤.
 
-(¿Ö³ÄÇÏ¸é ¹ÝÈ¯ÇÏ´Â ´ë»óÀÌ ¸Å°³º¯¼ö·Î ¹Þ¾Æ¿À´Â °´Ã¼°¡ ¾Æ´Ï¶ó,
-ÇÔ¼ö ³»ºÎ¿¡ ¼±¾ðµÈ ÀÓ½Ã °´Ã¼¸¦ ¹ÝÈ¯ÇÏ±â ¶§¹®¿¡,
-ÇÔ¼ö Á¾·á°¡ µÇ¸é ¿µ¿ªÀ» ¹þ¾î³ª¹Ç·Î ÀÓ½Ã °´Ã¼´Â »ç¶óÁö°Ô µÈ´Ù.
-So, Àß¸øµÈ ¸Þ¸ð¸® Á¢±Ù °¡´É¼ºÀÌ »ý±ä´Ù !!!!)
+(ì™œëƒí•˜ë©´ ë°˜í™˜í•˜ëŠ” ëŒ€ìƒì´ ë§¤ê°œë³€ìˆ˜ë¡œ ë°›ì•„ì˜¤ëŠ” ê°ì²´ê°€ ì•„ë‹ˆë¼,
+í•¨ìˆ˜ ë‚´ë¶€ì— ì„ ì–¸ëœ ìž„ì‹œ ê°ì²´ë¥¼ ë°˜í™˜í•˜ê¸° ë•Œë¬¸ì—,
+í•¨ìˆ˜ ì¢…ë£Œê°€ ë˜ë©´ ì˜ì—­ì„ ë²—ì–´ë‚˜ë¯€ë¡œ ìž„ì‹œ ê°ì²´ëŠ” ì‚¬ë¼ì§€ê²Œ ëœë‹¤.
+So, ìž˜ëª»ëœ ë©”ëª¨ë¦¬ ì ‘ê·¼ ê°€ëŠ¥ì„±ì´ ìƒê¸´ë‹¤ !!!!)
 
 
 
 ##########################
-case 2. ÀÏ¹Ý ÀÚ·áÇü + °´Ã¼
+case 2. ì¼ë°˜ ìžë£Œí˜• + ê°ì²´
 ##########################
 
-Point point23 = 400 + point1; // ÄÄÆÄÀÏ ¿À·ù, ÁÂÃø °´Ã¼ ±âÁØÀ¸·Î »ý°¢ÇÏ±â ¶§¹®¿¡...
-Point point23 = operator+ (400, point21); // µÑ ´Ù °°Àº Çü½Ä.
+Point point23 = 400 + point1; // ì»´íŒŒì¼ ì˜¤ë¥˜, ì¢Œì¸¡ ê°ì²´ ê¸°ì¤€ìœ¼ë¡œ ìƒê°í•˜ê¸° ë•Œë¬¸ì—...
+Point point23 = operator+ (400, point21); // ë‘˜ ë‹¤ ê°™ì€ í˜•ì‹.
 
 
 ############################################
-±×·¡¼­, ¿ìÈ¸ÇÏ´Â ¹æ¹ýÀ» ¼±ÅÃÇØ¾ß ÇÕ´Ï´Ù !!!!
+ê·¸ëž˜ì„œ, ìš°íšŒí•˜ëŠ” ë°©ë²•ì„ ì„ íƒí•´ì•¼ í•©ë‹ˆë‹¤ !!!!
 ############################################
 
-- "Operator Overloading"À» Å¬·¡½º ¿ÜºÎÀÇ "Àü¿ª ÇÔ¼ö"·Î Á¤ÀÇÇÏ¸é µË´Ï´Ù.
-(¹°·Ð, ¸Å°³º¯¼ö ¼±¾ðµµ ÇØ´ç ¿¬»ê ¼ø¼­·Î...)
+- "Operator Overloading"ì„ í´ëž˜ìŠ¤ ì™¸ë¶€ì˜ "ì „ì—­ í•¨ìˆ˜"ë¡œ ì •ì˜í•˜ë©´ ë©ë‹ˆë‹¤.
+(ë¬¼ë¡ , ë§¤ê°œë³€ìˆ˜ ì„ ì–¸ë„ í•´ë‹¹ ì—°ì‚° ìˆœì„œë¡œ...)
 
-- ´Ü, Àü¿ªÀ¸·Î Á¤ÀÇÇØÁÙ ‹š¿¡´Â ÀÎÀÚ Áß ÇÏ³ª´Â ¹«Á¶°Ç °´Ã¼ Å¸ÀÔÀÌ¾î¾ß ÇÕ´Ï´Ù.
-±× Áß¿¡¼­µµ °´Ã¼ Æ÷ÀÎÅÍ°¡ ¾Æ´Ñ "¼ø¼ö °´Ã¼ Å¸ÀÔ"°ú "Reference"°¡ ¿Í¾ßÇÑ´Ù.
+- ë‹¨, ì „ì—­ìœ¼ë¡œ ì •ì˜í•´ì¤„ Â‹Âšì—ëŠ” ì¸ìž ì¤‘ í•˜ë‚˜ëŠ” ë¬´ì¡°ê±´ ê°ì²´ íƒ€ìž…ì´ì–´ì•¼ í•©ë‹ˆë‹¤.
+ê·¸ ì¤‘ì—ì„œë„ ê°ì²´ í¬ì¸í„°ê°€ ì•„ë‹Œ "ìˆœìˆ˜ ê°ì²´ íƒ€ìž…"ê³¼ "Reference"ê°€ ì™€ì•¼í•œë‹¤.
 
 
 
 ###################################################################
-So, Å¬·¡½º ¸â¹ö ÇÔ¼ö·Î¸¸ "Operator Overloading"À» ±¸ÇöÇØ¾ßÇÏ´Â °æ¿ì
+So, í´ëž˜ìŠ¤ ë©¤ë²„ í•¨ìˆ˜ë¡œë§Œ "Operator Overloading"ì„ êµ¬í˜„í•´ì•¼í•˜ëŠ” ê²½ìš°
 ###################################################################
 
- - ¿¬»êÀÇ ±³È¯ ¹ýÄ¢ÀÌ Çã¿ëµÇÁö ¾Ê´Â °æ¿ì¸¦ ÀÇ¹ÌÇÕ´Ï´Ù.
+ - ì—°ì‚°ì˜ êµí™˜ ë²•ì¹™ì´ í—ˆìš©ë˜ì§€ ì•ŠëŠ” ê²½ìš°ë¥¼ ì˜ë¯¸í•©ë‹ˆë‹¤.
 
- case 1. ´ëÀÔ ¿¬»êÀÚ - "="
+ case 1. ëŒ€ìž… ì—°ì‚°ìž - "="
 
- case 2. ÇÔ¼ö È£Ãâ ¿¬»êÀÚ - "()"
+ case 2. í•¨ìˆ˜ í˜¸ì¶œ ì—°ì‚°ìž - "()"
 
- case 3. ¹è¿­ ÀÎµ¦½º ¿¬»êÀÚ - "[]"
+ case 3. ë°°ì—´ ì¸ë±ìŠ¤ ì—°ì‚°ìž - "[]"
 
- case 4. ¸â¹ö Á¢±Ù Æ÷ÀÎÅÍ ¿¬»êÀÚ - "->"
+ case 4. ë©¤ë²„ ì ‘ê·¼ í¬ì¸í„° ì—°ì‚°ìž - "->"
 
 #######################################################################################################
 
 ##############################################################
-   ´ëÀÔ ¿¬»êÀÚ ¿À¹ö·Îµù (Assignment Operator Overlaoding)
+   ëŒ€ìž… ì—°ì‚°ìž ì˜¤ë²„ë¡œë”© (Assignment Operator Overloading)
 ##############################################################
 
 
 #######################
-  µðÆúÆ® ´ëÀÔ ¿¬»êÀÚ
+  ë””í´íŠ¸ ëŒ€ìž… ì—°ì‚°ìž
 #######################
-- °´Ã¼ »ý¼º ½Ã, »ç¿ëÀÚ°¡ Á¤ÀÇÇÏÁö ¾Ê¾Ò´Ù¸é ÄÄÆÄÀÏ·¯°¡ ÀÚµ¿ »ý¼ºÇØÁÖ´Â ÇÔ¼öµé Áß ÇÏ³ª !!!!
-(»ý¼ºÀÚ, ¼Ò¸êÀÚ, º¹»ç »ý¼ºÀÚ, ´ëÀÔ ¿¬»êÀÚ)
+- ê°ì²´ ìƒì„± ì‹œ, ì‚¬ìš©ìžê°€ ì •ì˜í•˜ì§€ ì•Šì•˜ë‹¤ë©´ ì»´íŒŒì¼ëŸ¬ê°€ ìžë™ ìƒì„±í•´ì£¼ëŠ” í•¨ìˆ˜ë“¤ ì¤‘ í•˜ë‚˜ !!!!
+(ìƒì„±ìž, ì†Œë©¸ìž, ë³µì‚¬ ìƒì„±ìž, ëŒ€ìž… ì—°ì‚°ìž)
 
-- ÄÄÆÄÀÏ·¯°¡ »ý¼º ÇØÁØ "Default Assignment Operator"´Â
-¸â¹öµé °£ ´Ü¼ø ´ëÀÔÀ» ÇØÁÖ±â ¶§¹®¿¡ "¾èÀº º¹»ç"¸¦ ÁøÇàÇÕ´Ï´Ù.
-(¸Þ¸ð¸® µ¿Àû ÇÒ´çÇÑ ¸â¹ö¸¦ °®´Â °æ¿ì, ´ëÀÔ ¿¬»êÀÚµµ ±íÀº º¹»ç ¹æ½ÄÀ¸·Î "Operator Overloading")
+- ì»´íŒŒì¼ëŸ¬ê°€ ìƒì„± í•´ì¤€ "Default Assignment Operator"ëŠ”
+ë©¤ë²„ë“¤ ê°„ ë‹¨ìˆœ ëŒ€ìž…ì„ í•´ì£¼ê¸° ë•Œë¬¸ì— "ì–•ì€ ë³µì‚¬"ë¥¼ ì§„í–‰í•©ë‹ˆë‹¤.
+(ë©”ëª¨ë¦¬ ë™ì  í• ë‹¹í•œ ë©¤ë²„ë¥¼ ê°–ëŠ” ê²½ìš°, ëŒ€ìž… ì—°ì‚°ìžë„ ê¹Šì€ ë³µì‚¬ ë°©ì‹ìœ¼ë¡œ "Operator Overloading")
 
 
 
-´ëÀÔ ¿¬»êÀÚÀÇ Operator Overloading - Default ÇüÅÂ, ¸â¹ö °£ ´Ü¼ø ´ëÀÔ.
+ëŒ€ìž… ì—°ì‚°ìžì˜ Operator Overloading - Default í˜•íƒœ, ë©¤ë²„ ê°„ ë‹¨ìˆœ ëŒ€ìž….
 Point& operator= (Point &ref)
 {
-	xPos = ref.xPos; // ¸â¹ö¸¦ º¹»çÇÔ.
+	xPos = ref.xPos; // ë©¤ë²„ë¥¼ ë³µì‚¬í•¨.
 	yPos = ref.yPos;
 
-	return *this; // ¹ÝÈ¯°ªÀ» ÁöÁ¤ÇÏ´Â ÀÌÀ¯´Â point1 = point2 = point3;
-				  // ¿¬¼ÓÀûÀÎ ´ëÀÔ ¿¬»êÀ» ¼öÇàÇÏ±â À§ÇØ¼­ !!!!
+	return *this; // ë°˜í™˜ê°’ì„ ì§€ì •í•˜ëŠ” ì´ìœ ëŠ” point1 = point2 = point3;
+				  // ì—°ì†ì ì¸ ëŒ€ìž… ì—°ì‚°ì„ ìˆ˜í–‰í•˜ê¸° ìœ„í•´ì„œ !!!!
 }
 
 
-Visual Studio(IDE)ÀÇ ¿¬»êÀÚ »ö±òÀÌ ´Ù¸£´Ù´Ï !!!!
-- °ËÁ¤»öÀº ÀÏ¹ÝÀûÀÎ ÀÇ¹ÌÀÇ ¿¬»êÀÚ.
-- »ö±ò ÀÖ´Â °ÍÀº "Operator Overloading".
+Visual Studio(IDE)ì˜ ì—°ì‚°ìž ìƒ‰ê¹”ì´ ë‹¤ë¥´ë‹¤ë‹ˆ !!!!
+- ê²€ì •ìƒ‰ì€ ì¼ë°˜ì ì¸ ì˜ë¯¸ì˜ ì—°ì‚°ìž.
+- ìƒ‰ê¹” ìžˆëŠ” ê²ƒì€ "Operator Overloading".
 
 ########################################################################################
-- °´Ã¼ »ý¼º°ú µ¿½Ã¿¡ ´ëÀÔÀº º¹»ç »ý¼ºÀÚÀÇ È£ÃâÀÔ´Ï´Ù !!!!
-(ÀÌ¹Ì ¸¸µé¾îÁø °´Ã¼¸¦ ´ë»óÀ¸·Î ´ëÀÔ ¿¬»êÀ» ÇØÁÙ ‹š È£Ãâ µÇ´Â °ÍÀÌ ´ëÀÔ ¿¬»êÀÚÀÔ´Ï´Ù !!!!
+- ê°ì²´ ìƒì„±ê³¼ ë™ì‹œì— ëŒ€ìž…ì€ ë³µì‚¬ ìƒì„±ìžì˜ í˜¸ì¶œìž…ë‹ˆë‹¤ !!!!
+(ì´ë¯¸ ë§Œë“¤ì–´ì§„ ê°ì²´ë¥¼ ëŒ€ìƒìœ¼ë¡œ ëŒ€ìž… ì—°ì‚°ì„ í•´ì¤„ Â‹Âš í˜¸ì¶œ ë˜ëŠ” ê²ƒì´ ëŒ€ìž… ì—°ì‚°ìžìž…ë‹ˆë‹¤ !!!!
 ########################################################################################
 
 #######################################################################################################
@@ -128,7 +128,7 @@ public:
 		//cout << "explicit Point(int x, int y)" << endl;
 	}
 
-	// º¹»ç »ý¼ºÀÚ - Default ÇüÅÂ !!!!
+	// ë³µì‚¬ ìƒì„±ìž - Default í˜•íƒœ !!!!
 	Point(Point &ref)
 		: xPos(ref.xPos), yPos(ref.yPos)
 	{
@@ -139,34 +139,34 @@ public:
 
 
 public:
-	Point operator+ (Point &ref) // ÇØ´ç Å¬·¡½º °´Ã¼°¡ ´õÇØÁú ¶§ !!!!
-	{							 // ¹ÝÈ¯ÇüÀÌ "Reference"°¡ µÇÁö ¾Êµµ·Ï Á¶½ÉÇÒ °Í.
-								 // ÇÔ¼ö ³»ºÎÀÇ Áö¿ª º¯¼ö¸¦ ¹ÝÈ¯ÇÏ´Â °ÍÀÌ±â ¶§¹®¿¡, ¿¹»óÄ¡ ¸øÇÑ Á¢±ÙÀÌ °¡´ÉÇÔ !!!!
+	Point operator+ (Point &ref) // í•´ë‹¹ í´ëž˜ìŠ¤ ê°ì²´ê°€ ë”í•´ì§ˆ ë•Œ !!!!
+	{							 // ë°˜í™˜í˜•ì´ "Reference"ê°€ ë˜ì§€ ì•Šë„ë¡ ì¡°ì‹¬í•  ê²ƒ.
+								 // í•¨ìˆ˜ ë‚´ë¶€ì˜ ì§€ì—­ ë³€ìˆ˜ë¥¼ ë°˜í™˜í•˜ëŠ” ê²ƒì´ê¸° ë•Œë¬¸ì—, ì˜ˆìƒì¹˜ ëª»í•œ ì ‘ê·¼ì´ ê°€ëŠ¥í•¨ !!!!
 		cout << "Point operator+ (Point &ref)" << endl;
-		return Point(xPos + ref.xPos, yPos + ref.yPos); // ÀÓ½Ã °´Ã¼¸¦ ¹ÝÈ¯ÇÏÁö¸¸,
-														// ±×´ë·Î ¹Ù·Î ³Ö¾îÁÖ´Â °ÍÀ¸·Î ÄÄÆÄÀÏ·¯°¡ ÃÖÀûÈ­¸¦ ÁøÇàÇÑ´Ù !!!!
+		return Point(xPos + ref.xPos, yPos + ref.yPos); // ìž„ì‹œ ê°ì²´ë¥¼ ë°˜í™˜í•˜ì§€ë§Œ,
+														// ê·¸ëŒ€ë¡œ ë°”ë¡œ ë„£ì–´ì£¼ëŠ” ê²ƒìœ¼ë¡œ ì»´íŒŒì¼ëŸ¬ê°€ ìµœì í™”ë¥¼ ì§„í–‰í•œë‹¤ !!!!
 	}
 
-	Point operator+ (int n) // ÇØ´ç Å¬·¡½º °´Ã¼ ´ë»óÀ¸·Î int ÀÚ·áÇüÀÌ µ¡¼À µÉ ‹š !!!!
+	Point operator+ (int n) // í•´ë‹¹ í´ëž˜ìŠ¤ ê°ì²´ ëŒ€ìƒìœ¼ë¡œ int ìžë£Œí˜•ì´ ë§ì…ˆ ë  Â‹Âš !!!!
 	{
 		cout << "Point operator+ (int n)" << endl;
-		return Point(xPos + n, yPos + n); // ÀÓ½Ã °´Ã¼¸¦ ¹ÝÈ¯ÇÏÁö¸¸,
-										  // ±×´ë·Î ¹Ù·Î ³Ö¾îÁÖ´Â °ÍÀ¸·Î ÄÄÆÄÀÏ·¯°¡ ÃÖÀûÈ­¸¦ ÁøÇàÇÑ´Ù !!!!
+		return Point(xPos + n, yPos + n); // ìž„ì‹œ ê°ì²´ë¥¼ ë°˜í™˜í•˜ì§€ë§Œ,
+										  // ê·¸ëŒ€ë¡œ ë°”ë¡œ ë„£ì–´ì£¼ëŠ” ê²ƒìœ¼ë¡œ ì»´íŒŒì¼ëŸ¬ê°€ ìµœì í™”ë¥¼ ì§„í–‰í•œë‹¤ !!!!
 	}
 
-	// ´ëÀÔ ¿¬»êÀÚÀÇ Operator Overloading - Default ÇüÅÂ !!!!
+	// ëŒ€ìž… ì—°ì‚°ìžì˜ Operator Overloading - Default í˜•íƒœ !!!!
 	Point& operator= (Point &ref)
 	{
 		cout << "Default Assignment Operator" << endl;
-		xPos = ref.xPos; // ¸â¹ö¸¦ º¹»çÇÔ.
+		xPos = ref.xPos; // ë©¤ë²„ë¥¼ ë³µì‚¬í•¨.
 		yPos = ref.yPos;
 
-		return *this; // ¹ÝÈ¯°ªÀ» ÁöÁ¤ÇÏ´Â ÀÌÀ¯´Â point1 = point2 = point3;
-					  // ÀÌ·¯ÇÑ ¹®ÀåÀ» ¼öÇàÇÏ±â À§ÇØ¼­ !!!!
+		return *this; // ë°˜í™˜ê°’ì„ ì§€ì •í•˜ëŠ” ì´ìœ ëŠ” point1 = point2 = point3;
+					  // ì´ëŸ¬í•œ ë¬¸ìž¥ì„ ìˆ˜í–‰í•˜ê¸° ìœ„í•´ì„œ !!!!
 	}
 
 	friend ostream& operator<< (ostream &out, Point &ref) // "<< Operator Overloading"
-	{													  // ostream Å¬·¡½º ³»ºÎ¿¡ private ¸â¹ö...
+	{													  // ostream í´ëž˜ìŠ¤ ë‚´ë¶€ì— private ë©¤ë²„...
 		out << '(' << ref.xPos << ", " << ref.yPos << ')';
 		return out;
 	}
@@ -177,19 +177,19 @@ private:
 };
 
 // ###################################################
-// ÁÂÃø¿¡ ¿À´Â ÇÇ ¿¬»êÀÚ°¡ ÇØ´ç Å¬·¡½º°¡ ¾Æ´Ñ °æ¿ì...
-// ex. ÀÏ¹Ý ÀÚ·áÇü + ÇØ´ç Å¬·¡½º °´Ã¼
+// ì¢Œì¸¡ì— ì˜¤ëŠ” í”¼ ì—°ì‚°ìžê°€ í•´ë‹¹ í´ëž˜ìŠ¤ê°€ ì•„ë‹Œ ê²½ìš°...
+// ex. ì¼ë°˜ ìžë£Œí˜• + í•´ë‹¹ í´ëž˜ìŠ¤ ê°ì²´
 // 
-// ¿ìÈ¸ÇÏ´Â ¹æ¹ý - Å¬·¡½º ¿ÜºÎÀÇ Àü¿ª ÇÔ¼ö¸¦ ÀÌ¿ë !!!!
+// ìš°íšŒí•˜ëŠ” ë°©ë²• - í´ëž˜ìŠ¤ ì™¸ë¶€ì˜ ì „ì—­ í•¨ìˆ˜ë¥¼ ì´ìš© !!!!
 // ###################################################
 
-Point operator+ (int n, Point &ref) // ÀÓ½Ã °´Ã¼¸¦ "Reference"·Î ¹ÝÈ¯ÇÏÁö ¸¿½Ã´Ù !!!!
+Point operator+ (int n, Point &ref) // ìž„ì‹œ ê°ì²´ë¥¼ "Reference"ë¡œ ë°˜í™˜í•˜ì§€ ë§™ì‹œë‹¤ !!!!
 {
 	cout << "Point operator+ (int n, Point &ref)" << endl;
-	return Point(ref + n); // Point& operator+ (int n)À» ÅëÇØ °´Ã¼°¡ ¸¸µé¾îÁö°í...
-						   // ±×°ÍÀ» ÅëÇØ¼­ º¹»ç »ý¼ºÀÚ°¡ È£Ãâ µÈ´Ù.
-						   // ¿Ö³ÄÇÏ¸é, Å¬·¡½º ¿ÜºÎ¶ó¼­ get(), set() ÇÔ¼ö°¡ ¾Æ´Ï°í¼­´Â ¸â¹ö¿¡ Á¢±Ù ºÒ°¡´ÉÀÌ´Ï±î...
-						   // Å¬·¡½º ¸â¹ö·Î "Operator Overloading"ÇÑ °ÍÀ» ±×´ë·Î ½èÀ½...
+	return Point(ref + n); // Point& operator+ (int n)ì„ í†µí•´ ê°ì²´ê°€ ë§Œë“¤ì–´ì§€ê³ ...
+						   // ê·¸ê²ƒì„ í†µí•´ì„œ ë³µì‚¬ ìƒì„±ìžê°€ í˜¸ì¶œ ëœë‹¤.
+						   // ì™œëƒí•˜ë©´, í´ëž˜ìŠ¤ ì™¸ë¶€ë¼ì„œ get(), set() í•¨ìˆ˜ê°€ ì•„ë‹ˆê³ ì„œëŠ” ë©¤ë²„ì— ì ‘ê·¼ ë¶ˆê°€ëŠ¥ì´ë‹ˆê¹Œ...
+						   // í´ëž˜ìŠ¤ ë©¤ë²„ë¡œ "Operator Overloading"í•œ ê²ƒì„ ê·¸ëŒ€ë¡œ ì¼ìŒ...
 }
 
 
@@ -198,7 +198,7 @@ int main(void)
 	cout << "################################################################################" << endl;
 	cout << "### The concepts of The Operator Overloading" << endl << endl;
 
-	// °¢ X, Y ÁÂÇ¥³¢¸® µ¡¼ÀÀ» ¼öÇàÇÏ°Ô ÇÏ°í ½ÍÀ½.
+	// ê° X, Y ì¢Œí‘œë¼ë¦¬ ë§ì…ˆì„ ìˆ˜í–‰í•˜ê²Œ í•˜ê³  ì‹¶ìŒ.
 	Point point11(100, 200);
 	Point point12(300, 400);
 
@@ -206,12 +206,12 @@ int main(void)
 	cout << "point12: " << point12 << endl << endl;
 
 
-	Point point13 = point11 + point12; // µÑ ´Ù °°Àº Çü½Ä.
-	Point point14 = point11.operator+(point12); // ¸â¹ö ÇÔ¼ö È£Ãâ ¹æ½ÄÀ¸·Î ÇÑ °ÍÀÓ.
+	Point point13 = point11 + point12; // ë‘˜ ë‹¤ ê°™ì€ í˜•ì‹.
+	Point point14 = point11.operator+(point12); // ë©¤ë²„ í•¨ìˆ˜ í˜¸ì¶œ ë°©ì‹ìœ¼ë¡œ í•œ ê²ƒìž„.
 
-	// Å¬·¡½º ¸â¹ö·Î Á¤ÀÇµÈ Point& operator+ (Point &ref) ÇÔ¼ö´Â ÁÂÃø °´Ã¼ point11À» ±âÁØÀ¸·Î ¼öÇàµË´Ï´Ù. 
-	// ³»ºÎ¿¡¼­ ÀÎÀÚ·Î µé¾î¿Â point12 °´Ã¼ÀÇ ¸â¹ö¸¦ ÀÌ¿ëÇÏ¿© °¢ ÁÂÇ¥³¢¸® µ¡¼ÀÀ» ÁøÇàÇÕ´Ï´Ù.
-	// ±× °á°ú¸¦ ¹ÝÈ¯ÇÏ¿© point3¿¡ º¹»ç »ý¼ºÀ» ÇÏ°í ÀÖ´Â ÇüÅÂ
+	// í´ëž˜ìŠ¤ ë©¤ë²„ë¡œ ì •ì˜ëœ Point& operator+ (Point &ref) í•¨ìˆ˜ëŠ” ì¢Œì¸¡ ê°ì²´ point11ì„ ê¸°ì¤€ìœ¼ë¡œ ìˆ˜í–‰ë©ë‹ˆë‹¤. 
+	// ë‚´ë¶€ì—ì„œ ì¸ìžë¡œ ë“¤ì–´ì˜¨ point12 ê°ì²´ì˜ ë©¤ë²„ë¥¼ ì´ìš©í•˜ì—¬ ê° ì¢Œí‘œë¼ë¦¬ ë§ì…ˆì„ ì§„í–‰í•©ë‹ˆë‹¤.
+	// ê·¸ ê²°ê³¼ë¥¼ ë°˜í™˜í•˜ì—¬ point3ì— ë³µì‚¬ ìƒì„±ì„ í•˜ê³  ìžˆëŠ” í˜•íƒœ
 
 	cout << "point13: " << point13 << endl;
 	cout << "point14: " << point14 << endl << endl;
@@ -223,23 +223,23 @@ int main(void)
 	cout << endl;
 
 	cout << "point22" << endl;
-	Point point22 = point21 + 400; // Å¬·¡½º¸¦ ¼±¾ð°ú µ¿½Ã¿¡ °´Ã¼·Î ÃÊ±âÈ­ ÇÏ¹Ç·Î, º¹»ç »ý¼ºÀÚ È£Ãâ !!!!
+	Point point22 = point21 + 400; // í´ëž˜ìŠ¤ë¥¼ ì„ ì–¸ê³¼ ë™ì‹œì— ê°ì²´ë¡œ ì´ˆê¸°í™” í•˜ë¯€ë¡œ, ë³µì‚¬ ìƒì„±ìž í˜¸ì¶œ !!!!
 	cout << endl;
 
 	cout << "point23" << endl;
-	Point point23 = 400 + point21; // (¿¬»êÀÚ ¿À¹ö·Îµù ¾ÈÇßÀ» °æ¿ì) ÄÄÆÄÀÏ ¿À·ù, ÁÂÃø °´Ã¼ ±âÁØÀ¸·Î »ý°¢ÇÏ±â ¶§¹®¿¡...
+	Point point23 = 400 + point21; // (ì—°ì‚°ìž ì˜¤ë²„ë¡œë”© ì•ˆí–ˆì„ ê²½ìš°) ì»´íŒŒì¼ ì˜¤ë¥˜, ì¢Œì¸¡ ê°ì²´ ê¸°ì¤€ìœ¼ë¡œ ìƒê°í•˜ê¸° ë•Œë¬¸ì—...
 	cout << endl;				   //
-								   // ±×·¡¼­, ¿ìÈ¸ÇÏ´Â ¹æ¹ýÀ» ¼±ÅÃÇØ¾ß ÇÕ´Ï´Ù !!!!
-								   // "Operator Overloading"À» Àü¿ª ÇÔ¼ö·Î ¸¸µé¾î¾ßÇÕ´Ï´Ù. (¸Å°³º¯¼öµµ ÇØ´ç ¿¬»ê ¼ø¼­·Î...)
-								   // ´Ü, Àü¿ªÀ¸·Î Á¤ÀÇÇØÁÙ ‹š¿¡´Â ÀÎÀÚ Áß ÇÏ³ª´Â ¹«Á¶°Ç °´Ã¼ Å¸ÀÔÀÌ¾î¾ß ÇÑ´Ù.
-								   // °´Ã¼ Å¸ÀÔ¿¡´Â °´Ã¼ Æ÷ÀÎÅÍ°¡ ¾Æ´Ñ ¼ø¼ö °´Ã¼Å¸ÀÔ°ú Reference°¡ ¿Í¾ßÇÑ´Ù.
+								   // ê·¸ëž˜ì„œ, ìš°íšŒí•˜ëŠ” ë°©ë²•ì„ ì„ íƒí•´ì•¼ í•©ë‹ˆë‹¤ !!!!
+								   // "Operator Overloading"ì„ ì „ì—­ í•¨ìˆ˜ë¡œ ë§Œë“¤ì–´ì•¼í•©ë‹ˆë‹¤. (ë§¤ê°œë³€ìˆ˜ë„ í•´ë‹¹ ì—°ì‚° ìˆœì„œë¡œ...)
+								   // ë‹¨, ì „ì—­ìœ¼ë¡œ ì •ì˜í•´ì¤„ Â‹Âšì—ëŠ” ì¸ìž ì¤‘ í•˜ë‚˜ëŠ” ë¬´ì¡°ê±´ ê°ì²´ íƒ€ìž…ì´ì–´ì•¼ í•œë‹¤.
+								   // ê°ì²´ íƒ€ìž…ì—ëŠ” ê°ì²´ í¬ì¸í„°ê°€ ì•„ë‹Œ ìˆœìˆ˜ ê°ì²´íƒ€ìž…ê³¼ Referenceê°€ ì™€ì•¼í•œë‹¤.
 
 	cout << "point24" << endl;				  // #######################################################################################
-	Point point24 = operator+ (400, point21); // µÑ ´Ù °°Àº Çü½Ä.
-	cout << endl;							  // ÇÔ¼ö ±¸Çö¿¡¼­ "Point operator+ (int n);"À» »ç¿ëÇÔ.
-											  // ³»ºÎ¿¡¼­ ÀÓ½Ã °´Ã¼¸¦ »ý¼ºÇÏ°í Áö¿ª º¯¼ö¿¡ ÀúÀåÇÏ´Â °ÍÀÌ ¾Æ´Ï°í ¹Ù·Î return ÇÏ±â ¶§¹®¿¡,
-											  // point24 °´Ã¼°¡ »ý¼º°ú µ¿½Ã¿¡ ÃÊ±âÈ­ µÉ¶§ È£ÃâµÇ´Â º¹»ç »ý¼ºÀÚ¸¸ È£Ãâ µÈ´Ù !!!!
-											  // ÄÄÆÄÀÏ·¯°¡ ÃÖÀûÈ­¸¦ ÇØÁÖ¾ú´Ù !!!!
+	Point point24 = operator+ (400, point21); // ë‘˜ ë‹¤ ê°™ì€ í˜•ì‹.
+	cout << endl;							  // í•¨ìˆ˜ êµ¬í˜„ì—ì„œ "Point operator+ (int n);"ì„ ì‚¬ìš©í•¨.
+											  // ë‚´ë¶€ì—ì„œ ìž„ì‹œ ê°ì²´ë¥¼ ìƒì„±í•˜ê³  ì§€ì—­ ë³€ìˆ˜ì— ì €ìž¥í•˜ëŠ” ê²ƒì´ ì•„ë‹ˆê³  ë°”ë¡œ return í•˜ê¸° ë•Œë¬¸ì—,
+											  // point24 ê°ì²´ê°€ ìƒì„±ê³¼ ë™ì‹œì— ì´ˆê¸°í™” ë ë•Œ í˜¸ì¶œë˜ëŠ” ë³µì‚¬ ìƒì„±ìžë§Œ í˜¸ì¶œ ëœë‹¤ !!!!
+											  // ì»´íŒŒì¼ëŸ¬ê°€ ìµœì í™”ë¥¼ í•´ì£¼ì—ˆë‹¤ !!!!
 											  // #######################################################################################
 
 	cout << "point22: " << point22 << endl;
@@ -247,16 +247,16 @@ int main(void)
 	cout << "point24: " << point24 << endl << endl;
 
 	// ###########################################################
-	// ¸â¹ö Á¤ÀÇ·Î ÀÎÇÑ ¹®Á¦ÀÌ±â ¶§¹®¿¡, ±³È¯ ¹ýÄ¢¿¡ ÇØ´çÇÏ´Â ¿¬»ê
-	// Àü¿ªÀ¸·Î Á¤ÀÇÇØÁà¾ß ÇØ°áÇÒ ¼ö ÀÖ´Ù.
+	// ë©¤ë²„ ì •ì˜ë¡œ ì¸í•œ ë¬¸ì œì´ê¸° ë•Œë¬¸ì—, êµí™˜ ë²•ì¹™ì— í•´ë‹¹í•˜ëŠ” ì—°ì‚°
+	// ì „ì—­ìœ¼ë¡œ ì •ì˜í•´ì¤˜ì•¼ í•´ê²°í•  ìˆ˜ ìžˆë‹¤.
 	// ###########################################################
-	// Å¬·¡½º ¸â¹ö ÇÔ¼ö·Î¸¸ "Operator Overloading"ÇØ¾ß ÇÏ´Â °æ¿ì
-	// - ¿¬»êÀÇ ±³È¯ ¹ýÄ¢ÀÌ Çã¿ëµÇÁö ¾Ê´Â °æ¿ì¸¦ ÀÇ¹ÌÇÔ.
+	// í´ëž˜ìŠ¤ ë©¤ë²„ í•¨ìˆ˜ë¡œë§Œ "Operator Overloading"í•´ì•¼ í•˜ëŠ” ê²½ìš°
+	// - ì—°ì‚°ì˜ êµí™˜ ë²•ì¹™ì´ í—ˆìš©ë˜ì§€ ì•ŠëŠ” ê²½ìš°ë¥¼ ì˜ë¯¸í•¨.
 	//
-	// case 1. ´ëÀÔ ¿¬»êÀÚ - "="
-	// case 2. ÇÔ¼ö È£Ãâ ¿¬»êÀÚ - "()"
-	// case 3. ¹è¿­ ÀÎµ¦½º ¿¬»êÀÚ - "[]"
-	// case 4. ¸â¹ö Á¢±Ù Æ÷ÀÎÅÍ ¿¬»êÀÚ - "->"
+	// case 1. ëŒ€ìž… ì—°ì‚°ìž - "="
+	// case 2. í•¨ìˆ˜ í˜¸ì¶œ ì—°ì‚°ìž - "()"
+	// case 3. ë°°ì—´ ì¸ë±ìŠ¤ ì—°ì‚°ìž - "[]"
+	// case 4. ë©¤ë²„ ì ‘ê·¼ í¬ì¸í„° ì—°ì‚°ìž - "->"
 	// ###########################################################
 
 
@@ -266,12 +266,12 @@ int main(void)
 	Point point31(100, 200);
 	Point point32(300, 400);
 
-	Point point33 = point31 + point32; // °´Ã¼ »ý¼º°ú µ¿½Ã¿¡ ´ëÀÔ ¿¬»êÀº º¹»ç »ý¼ºÀÚ È£Ãâ
+	Point point33 = point31 + point32; // ê°ì²´ ìƒì„±ê³¼ ë™ì‹œì— ëŒ€ìž… ì—°ì‚°ì€ ë³µì‚¬ ìƒì„±ìž í˜¸ì¶œ
 
 	Point point34;
-	point34 = point31 + point32; // °´Ã¼ »ý¼º ÀÌÈÄÀÇ ´ëÀÔ ¿¬»êÀº µðÆúÆ® ´ëÀÔ ¿¬»êÀÚ È£Ãâ
-								 // ¸â¹ö °£ °ªÀÇ º¹»ç·Î "¾èÀº º¹»ç"
-								 // ±×·¡¼­, ¸Þ¸ð¸® µ¿Àû ÇÒ´çÇÏ´Â ¸â¹ö°¡ ÀÖ´Ù¸é "±íÀº º¹»ç"¸¦ ÇÏ´Â ·ÎÁ÷À¸·Î ±¸ÇöÇØ¾ß ÇÔ.
+	point34 = point31 + point32; // ê°ì²´ ìƒì„± ì´í›„ì˜ ëŒ€ìž… ì—°ì‚°ì€ ë””í´íŠ¸ ëŒ€ìž… ì—°ì‚°ìž í˜¸ì¶œ
+								 // ë©¤ë²„ ê°„ ê°’ì˜ ë³µì‚¬ë¡œ "ì–•ì€ ë³µì‚¬"
+								 // ê·¸ëž˜ì„œ, ë©”ëª¨ë¦¬ ë™ì  í• ë‹¹í•˜ëŠ” ë©¤ë²„ê°€ ìžˆë‹¤ë©´ "ê¹Šì€ ë³µì‚¬"ë¥¼ í•˜ëŠ” ë¡œì§ìœ¼ë¡œ êµ¬í˜„í•´ì•¼ í•¨.
 
 	cout << "################################################################################" << endl;
 
@@ -280,7 +280,7 @@ int main(void)
 	Point point43(1, 2);
 	cout << endl;
 
-	point41 = point42 = point43; // ¾ÖÃÊ¿¡, "=" ¿¬»êÀÚ°¡ ¿À¸¥ÂÊºÎÅÍ ¼öÇàµÇ¹Ç·Î ¿øÇÏ´Â °á°ú°¡ ³ª¿È !!!!
+	point41 = point42 = point43; // ì• ì´ˆì—, "=" ì—°ì‚°ìžê°€ ì˜¤ë¥¸ìª½ë¶€í„° ìˆ˜í–‰ë˜ë¯€ë¡œ ì›í•˜ëŠ” ê²°ê³¼ê°€ ë‚˜ì˜´ !!!!
 
 	cout << "point41: " << point41 << endl;
 	cout << "point42: " << point42 << endl;
