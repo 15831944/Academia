@@ -1,61 +1,64 @@
 /*
 
 ###############################
-	   ÅÛÇÃ¸´(template)
+	   í…œí”Œë¦¿(template)
 ###############################
 
-- ÇÔ¼ö³ª Å¬·¡½º°¡ °¢±â ´Ù¸¥ ÀÚ·áÇü¿¡¼­ µ¿ÀÛÇÒ ¼ö ÀÖµµ·Ï ÇÏ´Â ¹®¹ýÀÔ´Ï´Ù.
-(ÅÛÇÃ¸´Àº °ÅÇªÁý¿¡ ºø´ë¾î Ç¥ÇöÇÒ ¼ö ÀÖ½À´Ï´Ù.)
+- í•¨ìˆ˜ë‚˜ í´ëž˜ìŠ¤ê°€ ê°ê¸° ë‹¤ë¥¸ ìžë£Œí˜•ì—ì„œ ë™ìž‘í•  ìˆ˜ ìžˆë„ë¡ í•˜ëŠ” ë¬¸ë²•ìž…ë‹ˆë‹¤.
+(í…œí”Œë¦¿ì€ ê±°í‘¸ì§‘ì— ë¹—ëŒ€ì–´ í‘œí˜„í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.)
 
 
-- "Á¤ÀÇ ÇØ³õÀº ÇÏ³ªÀÇ Æ²"¿¡¼­ °è¼ÓÇØ¼­ Âï¾î³¾ ¼ö ÀÖ´Â ¹®¹ýÀÔ´Ï´Ù.
+- "ì •ì˜ í•´ë†“ì€ í•˜ë‚˜ì˜ í‹€"ì—ì„œ ê³„ì†í•´ì„œ ì°ì–´ë‚¼ ìˆ˜ ìžˆëŠ” ë¬¸ë²•ìž…ë‹ˆë‹¤.
 
 ######################################################################################################
 
 
 ###################################
-case 1. ÅÛÇÃ¸´À» »ç¿ëÇÏÁö ¾ÊÀº °æ¿ì
+case 1. í…œí”Œë¦¿ì„ ì‚¬ìš©í•˜ì§€ ì•Šì€ ê²½ìš°
 ###################################
-- Function OverloadingÀ» ÅëÇØ °¢±â ´Ù¸¥ ÀÚ·áÇüÀ» »ç¿ëÇÒ ¼ö ÀÖÁö¸¸, ºñÈ¿À²ÀûÀÌ´Ù !!!!
+- Function Overloadingì„ í†µí•´ ê°ê¸° ë‹¤ë¥¸ ìžë£Œí˜•ì„ ì‚¬ìš©í•  ìˆ˜ ìžˆì§€ë§Œ, ë¹„íš¨ìœ¨ì ì´ë‹¤ !!!!
 
 
 #######################################
-case 2. Function Template (ÇÔ¼ö ÅÛÇÃ¸´)
+case 2. Function Template (í•¨ìˆ˜ í…œí”Œë¦¿)
 #######################################
 
-- ¸ð¾çÀº ÇÔ¼öÁö¸¸ "template"À¸·Î Á¤ÀÇÇß±â ¶§¹®¿¡, "ÇÔ¼ö ÅÛÇÃ¸´"ÀÌ¶ó°í ÇÕ´Ï´Ù.
+- ëª¨ì–‘ì€ í•¨ìˆ˜ì§€ë§Œ "template"ìœ¼ë¡œ ì •ì˜í–ˆê¸° ë•Œë¬¸ì—, "í•¨ìˆ˜ í…œí”Œë¦¿"ì´ë¼ê³  í•©ë‹ˆë‹¤.
 
-"template <typename T>"ÀÇ ÇüÅÂ·Î ¼±¾ðÇÕ´Ï´Ù.
-- T ÀÚ¸®¿¡ ¿À´Â ÀÚ·áÇüÀ» ¸ðµÎ È£È¯ÇÏ´Â ÅÛÇÃ¸´À¸·Î Á¤ÀÇÇÏ´Â °ÍÀ» ¸»ÇÕ´Ï´Ù.
+"template <typename T>"ì˜ í˜•íƒœë¡œ ì„ ì–¸í•©ë‹ˆë‹¤.
+- T ìžë¦¬ì— ì˜¤ëŠ” ìžë£Œí˜•ì„ ëª¨ë‘ í˜¸í™˜í•˜ëŠ” í…œí”Œë¦¿ìœ¼ë¡œ ì •ì˜í•˜ëŠ” ê²ƒì„ ë§í•©ë‹ˆë‹¤.
 
 
 
 ###################################
-So, Template Function (ÅÛÇÃ¸´ ÇÔ¼ö)
+So, Template Function (í…œí”Œë¦¿ í•¨ìˆ˜)
 ###################################
 
-- ÅÛÇÃ¸´ ÇÔ¼ö È£Ãâ ½Ã, ÇÔ¼ö ¸í µÚ¿¡ ¿À´Â <> ¾È¿¡ ÀÚ·áÇüÀ» Àû¾îÁÝ´Ï´Ù.
-Àû¾îÁØ ÀÚ·áÇüÀº "template"ÀÇ "T"ÀÚ¸®¿¡ ¸ÅÄªµË´Ï´Ù.
+- í…œí”Œë¦¿ í•¨ìˆ˜ í˜¸ì¶œ ì‹œ, í•¨ìˆ˜ ëª… ë’¤ì— ì˜¤ëŠ” <> ì•ˆì— ìžë£Œí˜•ì„ ì ì–´ì¤ë‹ˆë‹¤.
+ì ì–´ì¤€ ìžë£Œí˜•ì€ "template"ì˜ "T"ìžë¦¬ì— ë§¤ì¹­ë©ë‹ˆë‹¤.
 
-- ¸í½ÃÇÏÁö ¾Ê´Â´Ù¸é, ÀÎÀÚÀÇ ÀÚ·áÇü¿¡ µû¶ó ¸ÅÄªµË´Ï´Ù.
+- ëª…ì‹œí•˜ì§€ ì•ŠëŠ”ë‹¤ë©´, ì¸ìžì˜ ìžë£Œí˜•ì— ë”°ë¼ ë§¤ì¹­ë©ë‹ˆë‹¤.
 
-- "Template Function"Àº ÄÄÆÄÀÏ·¯¿¡ ÀÇÇØ »ý¼ºµÇ´Â ÇÔ¼öÀÔ´Ï´Ù.
-±×·¡¼­, ÄÄÆÄÀÏ °úÁ¤ Áß¿¡ ÇØ´ç ÇÔ¼ö°¡ ¾î¶² ÀÚ·áÇüÀ¸·Î È£ÃâµÉ Áö °áÁ¤ µÉ ¶§,
-½ÇÁ¦ ÇÔ¼ö ÄÚµå°¡ »ý¼ºÀÌ µË´Ï´Ù.
+#########################################################################
+- "Template Function"ì€ ì»´íŒŒì¼ëŸ¬ì— ì˜í•´ ìƒì„±ë˜ëŠ” í•¨ìˆ˜ìž…ë‹ˆë‹¤.
+ê·¸ëž˜ì„œ, ì»´íŒŒì¼ ê³¼ì • ì¤‘ì— í•´ë‹¹ í•¨ìˆ˜ê°€ ì–´ë–¤ ìžë£Œí˜•ìœ¼ë¡œ í˜¸ì¶œë ì§€ ê²°ì • ë  ë•Œ,
+ì‹¤ì œ í•¨ìˆ˜ ì½”ë“œê°€ ìƒì„±ì´ ë©ë‹ˆë‹¤.
+#########################################################################
+
 
 
 ############################
-	ÇÔ¼ö ÅÛÇÃ¸´ÀÇ ÁÖÀÇÁ¡
+	í•¨ìˆ˜ í…œí”Œë¦¿ì˜ ì£¼ì˜ì 
 ############################
 
-- ÇØ´ç ÇÔ¼öÀÇ ¿¬»êÀ» ¼öÇàÇÒ ¼ö ¾ø´Â ÀÚ·áÇüÀÌ ¿À´Â °æ¿ì, ¹®Á¦°¡ ¹ß»ýÇÕ´Ï´Ù !!!!
+- í•´ë‹¹ í•¨ìˆ˜ì˜ ì—°ì‚°ì„ ìˆ˜í–‰í•  ìˆ˜ ì—†ëŠ” ìžë£Œí˜•ì´ ì˜¤ëŠ” ê²½ìš°, ë¬¸ì œê°€ ë°œìƒí•©ë‹ˆë‹¤ !!!!
 
-ex. Á¤¼ö ¹× ½Ç¼öÀÇ µ¡¼À ¿¬»êÀÎ Add ÇÔ¼ö ±â¹ÝÀ¸·Î Function TemplateÀ» Á¤ÀÇÇß´Âµ¥,
-typenameÀ¸·Î ¹ÞÀº ÀÚ·áÇüÀÌ (char *) ÀÚ·áÇüÀÏ °æ¿ì ¹®Á¦°¡ ¹ß»ýÇÕ´Ï´Ù.
+ex. ì •ìˆ˜ ë° ì‹¤ìˆ˜ì˜ ë§ì…ˆ ì—°ì‚°ì¸ Add í•¨ìˆ˜ ê¸°ë°˜ìœ¼ë¡œ Function Templateì„ ì •ì˜í–ˆëŠ”ë°,
+typenameìœ¼ë¡œ ë°›ì€ ìžë£Œí˜•ì´ (char *) ìžë£Œí˜•ì¼ ê²½ìš° ë¬¸ì œê°€ ë°œìƒí•©ë‹ˆë‹¤.
 
-- (char *) ÀÚ·áÇüÀÇ ¹®ÀÚ¿­¿¡ ´ëÇØ¼­´Â ÀÏ¹ÝÀûÀÎ ÀÇ¹ÌÀÇ µ¡¼ÀÀÌ ºÒ°¡´É ÇÕ´Ï´Ù.
+- (char *) ìžë£Œí˜•ì˜ ë¬¸ìžì—´ì— ëŒ€í•´ì„œëŠ” ì¼ë°˜ì ì¸ ì˜ë¯¸ì˜ ë§ì…ˆì´ ë¶ˆê°€ëŠ¥ í•©ë‹ˆë‹¤.
 
-±×·¡¼­, ¿¹¿Ü »óÈ²À» Ã³¸®ÇÏ±â À§ÇØ¼­ Template Specialization(ÅÛÇÃ¸´ Æ¯¼öÈ­)°¡ ÇÊ¿äÇÕ´Ï´Ù.
+ê·¸ëž˜ì„œ, ì˜ˆì™¸ ìƒí™©ì„ ì²˜ë¦¬í•˜ê¸° ìœ„í•´ì„œ Template Specialization(í…œí”Œë¦¿ íŠ¹ìˆ˜í™”)ê°€ í•„ìš”í•©ë‹ˆë‹¤.
 
 ######################################################################################################
 
@@ -63,12 +66,12 @@ typenameÀ¸·Î ¹ÞÀº ÀÚ·áÇüÀÌ (char *) ÀÚ·áÇüÀÏ °æ¿ì ¹®Á¦°¡ ¹ß»ýÇÕ´Ï´Ù.
     Template Specialization
 ################################
 
-template<> angle brakets ¾È¿¡ ÀÚ·áÇüÀ» ÀûÁö ¾Ê´Â´Ù !!!!
-- ¾ÖÃÊ¿¡ ÀÚ·áÇüÀ» ¸í½ÃÇØ¼­ ÅÛÇÃ¸´À» ¸¸µì´Ï´Ù.
+template<> angle brakets ì•ˆì— ìžë£Œí˜•ì„ ì ì§€ ì•ŠëŠ”ë‹¤ !!!!
+- ì• ì´ˆì— ìžë£Œí˜•ì„ ëª…ì‹œí•´ì„œ í…œí”Œë¦¿ì„ ë§Œë“­ë‹ˆë‹¤.
 
 ex.
 
-template<> // <> angle brakets ¾È¿¡ ÀÚ·áÇüÀ» ÀûÁö ¾Ê´Â´Ù !!!!
+template<> // <> angle brakets ì•ˆì— ìžë£Œí˜•ì„ ì ì§€ ì•ŠëŠ”ë‹¤ !!!!
 char* Add(char * a, char *b)
 {
 	cout << "char* Add(char * a, char *b)" << endl;
@@ -84,14 +87,14 @@ char* Add(char * a, char *b)
 
 
 #######################################
-  2 °³ ÀÌ»óÀÇ ÀÚ·áÇüÀ» ¹Þ´Â Template
+  2 ê°œ ì´ìƒì˜ ìžë£Œí˜•ì„ ë°›ëŠ” Template
 #######################################
 
 ex. template <typename T1, typename T2, typename T3>
 
-","¸¦ »ç¿ëÇÏ¿© typenameÀÇ °³¼ö¸¸Å­ ±¸ºÐÁö¾îÁÖ¸é µË´Ï´Ù.
+","ë¥¼ ì‚¬ìš©í•˜ì—¬ typenameì˜ ê°œìˆ˜ë§Œí¼ êµ¬ë¶„ì§€ì–´ì£¼ë©´ ë©ë‹ˆë‹¤.
 
-ÁöÁ¤ÇÑ typenameÀÇ ¼ø¼­´ë·Î ¸í½ÃÇÑ ÀÚ·áÇüÀ» ¸ÅÄª½ÃÄÑÁØ´Ù.
+ì§€ì •í•œ typenameì˜ ìˆœì„œëŒ€ë¡œ ëª…ì‹œí•œ ìžë£Œí˜•ì„ ë§¤ì¹­ì‹œì¼œì¤€ë‹¤.
 
 ######################################################################################################
 
@@ -106,7 +109,7 @@ using std::endl;
 using std::cin;
 
 ////////////////////////////////////////////////////////////////////////////////////
-// Function Template(ÇÔ¼ö ÅÛÇÃ¸´)
+// Function Template(í•¨ìˆ˜ í…œí”Œë¦¿)
 template <typename T>
 T Add(T a, T b)
 {
@@ -114,8 +117,8 @@ T Add(T a, T b)
 }
 
 ////////////////////////////////////////////////////////////////////////////////////
-// Template Specialization(ÅÛÇÃ¸´ Æ¯¼öÈ­)
-template<> // <> angle brakets ¾È¿¡ ÀÚ·áÇüÀ» ÀûÁö ¾Ê´Â´Ù !!!!
+// Template Specialization(í…œí”Œë¦¿ íŠ¹ìˆ˜í™”)
+template<> // <> angle brakets ì•ˆì— ìžë£Œí˜•ì„ ì ì§€ ì•ŠëŠ”ë‹¤ !!!!
 char* Add(char * a, char *b)
 {
 	cout << "char* Add(char * a, char *b)" << endl;
@@ -129,8 +132,8 @@ char* Add(char * a, char *b)
 }
 
 template<>
-const char* Add(const char *a, const char *b) // Function Template ¿À¹ö·Îµù
-{											  // ÅÛÇÃ¸´ ÇÔ¼ö »ç¿ë ½Ã, Æ¯¼öÈ­ ½ÃÅ°´Â ÀÚ·áÇü¿¡ µû¶ó¼­ È£Ãâ..
+const char* Add(const char *a, const char *b) // Function Template ì˜¤ë²„ë¡œë”©
+{											  // í…œí”Œë¦¿ í•¨ìˆ˜ ì‚¬ìš© ì‹œ, íŠ¹ìˆ˜í™” ì‹œí‚¤ëŠ” ìžë£Œí˜•ì— ë”°ë¼ì„œ í˜¸ì¶œ..
 	cout << "const char* Add(const char *a, const char *b)" << endl;
 	int len = strlen(a) + strlen(b);
 	char *pName = new char[len + 1];
@@ -142,7 +145,7 @@ const char* Add(const char *a, const char *b) // Function Template ¿À¹ö·Îµù
 }
 
 ////////////////////////////////////////////////////////////////////////////////////
-// 2 °³ ÀÌ»óÀÇ ÀÚ·áÇüÀ» ¹Þ´Â Function Template
+// 2 ê°œ ì´ìƒì˜ ìžë£Œí˜•ì„ ë°›ëŠ” Function Template
 template <typename T1, typename T2, typename T3>
 T3 Add(T1 a, T2 b)
 {
@@ -156,7 +159,7 @@ int main(void)
 	cout << "##############################################################################" << endl;
 	cout << "### Template Function" << endl << endl;
 
-	// "ÇÔ¼ö ÅÛÇÃ¸´"À» ÀÌ¿ëÇÑ "ÅÛÇÃ¸´ ÇÔ¼ö" !!!!
+	// "í•¨ìˆ˜ í…œí”Œë¦¿"ì„ ì´ìš©í•œ "í…œí”Œë¦¿ í•¨ìˆ˜" !!!!
 	cout << Add<int>(10, 20) << endl;
 	cout << Add<float>(3.14f, 3.14f) << endl;
 	cout << Add<double>(3.1415, 3.1415) << endl;
@@ -169,15 +172,15 @@ int main(void)
 	delete[] pStr1;
 
 
-	// ÅÛÇÃ¸´ ÇÔ¼ö¸¦ ÁöÁ¤ÇØÁÙ ¶§, ³Ö´Â ÀÚ·áÇü¿¡ µû¶ó¼­ °áÁ¤µÇ´Â °Í !!!!
-	//const char *pStr2 = Add<char *>("Hello", "World"); // (char *) ÀÚ·áÇü
-	const char *pStr2 = Add<const char *>("Hello", "World"); // (const char *) ÀÚ·áÇü
+	// í…œí”Œë¦¿ í•¨ìˆ˜ë¥¼ ì§€ì •í•´ì¤„ ë•Œ, ë„£ëŠ” ìžë£Œí˜•ì— ë”°ë¼ì„œ ê²°ì •ë˜ëŠ” ê²ƒ !!!!
+	//const char *pStr2 = Add<char *>("Hello", "World"); // (char *) ìžë£Œí˜•
+	const char *pStr2 = Add<const char *>("Hello", "World"); // (const char *) ìžë£Œí˜•
 	cout << pStr2 << endl;
 	delete[] pStr2;
 
 
 	cout << "##############################################################################" << endl;
-	cout << "### 2°³ ÀÌ»óÀÇ ÀÚ·áÇüÀ» »ç¿ëÇÏ´Â Template" << endl << endl;
+	cout << "### 2ê°œ ì´ìƒì˜ ìžë£Œí˜•ì„ ì‚¬ìš©í•˜ëŠ” Template" << endl << endl;
 
 	double dNum = Add<int, float, double>(10, 1.1f);
 
