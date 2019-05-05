@@ -1,18 +1,16 @@
 /*
 
-2019.05.02.01 ¸ñ
-
 #####################################################
-   vector ÄÁÅ×ÀÌ³ÊÀÇ ¸Þ¸ð¸® Á¤Ã¥(¸Þ¸ð¸® È®º¸ ±ÔÄ¢)
+   vector ì»¨í…Œì´ë„ˆì˜ ë©”ëª¨ë¦¬ ì •ì±…(ë©”ëª¨ë¦¬ í™•ë³´ ê·œì¹™)
 #####################################################
 
-- ÇÒ´çµÈ ¸Þ¸ð¸®¸¦ ÃÊ°úÇÏ´Â »ðÀÔÀÇ ½Ãµµ°¡ ÀÖÀ» °æ¿ì, ¸Þ¸ð¸®ÀÇ ÀçÇÒ´ç ¹× º¹»ç°¡ ÀÏ¾î³³´Ï´Ù.
-- ÀçÇÒ´çÀº ±âÁ¸ ¸Þ¸ð¸®ÀÇ ¹Ý¸¸Å­ Áõ°¡ÇÏ¿© ÇÒ´çµË´Ï´Ù.
-ÀÌÈÄ, ±âÁ¸ ¸Þ¸ð¸®¿¡ ÀÖ´ø ¿ø¼ÒµéÀ» »õ·Î ÇÒ´çÇÑ ¸Þ¸ð¸®·Î º¹»ç¸¦ ÁøÇàÇÕ´Ï´Ù.
-So, µ¥ÀÌÅÍÀÇ Ãß°¡,Á¦°Å ½Ã ºñÈ¿À²ÀûÀÔ´Ï´Ù.
+- í• ë‹¹ëœ ë©”ëª¨ë¦¬ë¥¼ ì´ˆê³¼í•˜ëŠ” ì‚½ìž…ì˜ ì‹œë„ê°€ ìžˆì„ ê²½ìš°, ë©”ëª¨ë¦¬ì˜ ìž¬í• ë‹¹ ë° ë³µì‚¬ê°€ ì¼ì–´ë‚©ë‹ˆë‹¤.
+- ìž¬í• ë‹¹ì€ ê¸°ì¡´ ë©”ëª¨ë¦¬ì˜ ë°˜ë§Œí¼ ì¦ê°€í•˜ì—¬ í• ë‹¹ë©ë‹ˆë‹¤.
+ì´í›„, ê¸°ì¡´ ë©”ëª¨ë¦¬ì— ìžˆë˜ ì›ì†Œë“¤ì„ ìƒˆë¡œ í• ë‹¹í•œ ë©”ëª¨ë¦¬ë¡œ ë³µì‚¬ë¥¼ ì§„í–‰í•©ë‹ˆë‹¤.
+So, ë°ì´í„°ì˜ ì¶”ê°€,ì œê±° ì‹œ ë¹„íš¨ìœ¨ì ìž…ë‹ˆë‹¤.
 
-- vector ÄÁÅ×ÀÌ³Ê´Â À¯µ¿ÀûÀÎ µ¥ÀÌÅÍ Ãß°¡ ½Ã, ÀçÇÒ´ç ¹× º¹»ç¸¦ ÃÖ¼ÒÈ­ ÇÏ°íÀÚ
-¹Ì¸® »ç¿ëÇÒ Å©±â¸¸Å­ÀÇ ¸Þ¸ð¸®¸¦ È®º¸ÇÏ°Å³ª ¸Þ¸ð¸® °ø°£À» ¿¹¾àÇÏ¿© È°¿ëÇÕ´Ï´Ù.
+- vector ì»¨í…Œì´ë„ˆëŠ” ìœ ë™ì ì¸ ë°ì´í„° ì¶”ê°€ ì‹œ, ìž¬í• ë‹¹ ë° ë³µì‚¬ë¥¼ ìµœì†Œí™” í•˜ê³ ìž
+ë¯¸ë¦¬ ì‚¬ìš©í•  í¬ê¸°ë§Œí¼ì˜ ë©”ëª¨ë¦¬ë¥¼ í™•ë³´í•˜ê±°ë‚˜ ë©”ëª¨ë¦¬ ê³µê°„ì„ ì˜ˆì•½í•˜ì—¬ í™œìš©í•©ë‹ˆë‹¤.
 
 
 ###############################
@@ -20,120 +18,120 @@ ex.
 vector<int> temp;
 
 	temp.size()  capacity()
-	Ã³À½   0      0
-	Ãß°¡   1      1 (0/2_ ÃÖ¼Ò 1 Áõ°¡)
-	Ãß°¡   2      2 (1/2_ ÃÖ¼Ò 1 Áõ°¡)
-	Ãß°¡   3      3 (2/2_ 1 Áõ°¡)
-	Ãß°¡   4      4 (3/2_ 1 Áõ°¡)
-	Ãß°¡   5      6 (4/2_ 2 Áõ°¡)
-	Ãß°¡   6      6
-	Ãß°¡   7      9 (6/2_ 3 Áõ°¡)
+	ì²˜ìŒ   0      0
+	ì¶”ê°€   1      1 (0/2_ ìµœì†Œ 1 ì¦ê°€)
+	ì¶”ê°€   2      2 (1/2_ ìµœì†Œ 1 ì¦ê°€)
+	ì¶”ê°€   3      3 (2/2_ 1 ì¦ê°€)
+	ì¶”ê°€   4      4 (3/2_ 1 ì¦ê°€)
+	ì¶”ê°€   5      6 (4/2_ 2 ì¦ê°€)
+	ì¶”ê°€   6      6
+	ì¶”ê°€   7      9 (6/2_ 3 ì¦ê°€)
 ###############################
 
 ########################################################################################################
 
 ###########################################
-	vector ÄÁÅ×ÀÌ³Ê ¼±¾ð ½Ã, ¸Þ¸ð¸® È®º¸
+	vector ì»¨í…Œì´ë„ˆ ì„ ì–¸ ì‹œ, ë©”ëª¨ë¦¬ í™•ë³´
 ###########################################
 
-- °´Ã¼ ¼±¾ð°ú µ¿½Ã¿¡ operator() ¿¬»êÀÚ¸¦ ÀÌ¿ëÇÏ¿© ÇÒ´çÇÏ°íÀÚ ÇÏ´Â Å©±â¸¦ Àü´ÞÇØÁÖ¸é µË´Ï´Ù.
+- ê°ì²´ ì„ ì–¸ê³¼ ë™ì‹œì— operator() ì—°ì‚°ìžë¥¼ ì´ìš©í•˜ì—¬ í• ë‹¹í•˜ê³ ìž í•˜ëŠ” í¬ê¸°ë¥¼ ì „ë‹¬í•´ì£¼ë©´ ë©ë‹ˆë‹¤.
 
-ÀÌ¶§, È®º¸µÈ ¸Þ¸ð¸® °ø°£ÀÇ µ¥ÀÌÅÍ´Â "0"À¸·Î ÃÊ±âÈ­ µÇ¾îÀÖ½À´Ï´Ù !!!!
+ì´ë•Œ, í™•ë³´ëœ ë©”ëª¨ë¦¬ ê³µê°„ì˜ ë°ì´í„°ëŠ” "0"ìœ¼ë¡œ ì´ˆê¸°í™” ë˜ì–´ìžˆìŠµë‹ˆë‹¤ !!!!
 
 ########################################################################################################
 
 #####################
-  ¸Þ¸ð¸® °ø°£ Á¶Àý - resize() ¸â¹ö ÇÔ¼ö
+  ë©”ëª¨ë¦¬ ê³µê°„ ì¡°ì ˆ - resize() ë©¤ë²„ í•¨ìˆ˜
 ######################
 
 #############################################
-case 1. vector ÄÁÅ×ÀÌ³ÊÀÇ Å©±â¸¦ ÁÙÀÌ´Â °æ¿ì.
+case 1. vector ì»¨í…Œì´ë„ˆì˜ í¬ê¸°ë¥¼ ì¤„ì´ëŠ” ê²½ìš°.
 #############################################
 
-- ÀÎÀÚ·Î ³Ñ±ä Å©±â¸¸Å­ ³²±â°í ¸ðµç µ¥ÀÌÅÍ¸¦ Á¦°ÅÇÕ´Ï´Ù.
-but, ÀÌ¹Ì È®º¸µÈ ¸Þ¸ð¸® °ø°£ "capacity()"Àº ÁÙ¾îµéÁö ¾Ê½À´Ï´Ù !!!!
-(ÀÌ¶§, vector ÄÁÅ×ÀÌ³Ê¿¡ ½ÇÁ¦·Î µ¥ÀÌÅÍ´Â ³²¾ÆÀÖÁö¸¸ Á¢±ÙÇÒ ¼ö ÀÖ´Â index ¹üÀ§°¡ ÁÙ¾îµì´Ï´Ù.)
+- ì¸ìžë¡œ ë„˜ê¸´ í¬ê¸°ë§Œí¼ ë‚¨ê¸°ê³  ëª¨ë“  ë°ì´í„°ë¥¼ ì œê±°í•©ë‹ˆë‹¤.
+but, ì´ë¯¸ í™•ë³´ëœ ë©”ëª¨ë¦¬ ê³µê°„ "capacity()"ì€ ì¤„ì–´ë“¤ì§€ ì•ŠìŠµë‹ˆë‹¤ !!!!
+(ì´ë•Œ, vector ì»¨í…Œì´ë„ˆì— ì‹¤ì œë¡œ ë°ì´í„°ëŠ” ë‚¨ì•„ìžˆì§€ë§Œ ì ‘ê·¼í•  ìˆ˜ ìžˆëŠ” index ë²”ìœ„ê°€ ì¤„ì–´ë“­ë‹ˆë‹¤.)
 
 #############################################
-case 2. vector ÄÁÅ×ÀÌ³ÊÀÇ Å©±â¸¦ ´Ã¸®´Â °æ¿ì.
+case 2. vector ì»¨í…Œì´ë„ˆì˜ í¬ê¸°ë¥¼ ëŠ˜ë¦¬ëŠ” ê²½ìš°.
 #############################################
 
-- ³ÐÇôÁø ¸Þ¸ð¸® °ø°£ÀÇ µ¥ÀÌÅÍ´Â ÀÚµ¿ÀûÀ¸·Î "0"ÀÌ Ã¤¿öÁý´Ï´Ù.
+- ë„“í˜€ì§„ ë©”ëª¨ë¦¬ ê³µê°„ì˜ ë°ì´í„°ëŠ” ìžë™ì ìœ¼ë¡œ "0"ì´ ì±„ì›Œì§‘ë‹ˆë‹¤.
 
 
 
 
 #####################
-   ¸Þ¸ð¸® °ø°£ ¿¹¾à - reserve() ¸â¹ö ÇÔ¼ö
+   ë©”ëª¨ë¦¬ ê³µê°„ ì˜ˆì•½ - reserve() ë©¤ë²„ í•¨ìˆ˜
 #####################
 
-- ÀÎÀÚ·Î ³Ñ±ä Å©±â¸¸Å­ ¸Þ¸ð¸®¸¦ ÀçÇÒ´çÇØÁÝ´Ï´Ù.
-(ÀÌ¶§, ¸Þ¸ð¸® È®º¸ ±ÔÄ¢¿¡ µû¸¥ capacity() Áõ°¡°¡ ¾Æ´Õ´Ï´Ù.
-ÀÎÀÚ·Î ¹ÞÀº Å©±â¸¸Å­ ÀçÇÒ´ç µÇ´Â °Í.)
+- ì¸ìžë¡œ ë„˜ê¸´ í¬ê¸°ë§Œí¼ ë©”ëª¨ë¦¬ë¥¼ ìž¬í• ë‹¹í•´ì¤ë‹ˆë‹¤.
+(ì´ë•Œ, ë©”ëª¨ë¦¬ í™•ë³´ ê·œì¹™ì— ë”°ë¥¸ capacity() ì¦ê°€ê°€ ì•„ë‹™ë‹ˆë‹¤.
+ì¸ìžë¡œ ë°›ì€ í¬ê¸°ë§Œí¼ ìž¬í• ë‹¹ ë˜ëŠ” ê²ƒ.)
 
 #########################################################
-- ¸Þ¸ð¸®¸¸ ÇÒ´çÇÒ »Ó, µ¥ÀÌÅÍ´Â Ãß°¡ÇÏÁö ¾Ê½À´Ï´Ù.
-(So, size() : º¯È­ ¾øÀ½, capacity() : ÀÎÀÚ·Î Àü´ÞµÈ Å©±â)
+- ë©”ëª¨ë¦¬ë§Œ í• ë‹¹í•  ë¿, ë°ì´í„°ëŠ” ì¶”ê°€í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
+(So, size() : ë³€í™” ì—†ìŒ, capacity() : ì¸ìžë¡œ ì „ë‹¬ëœ í¬ê¸°)
 #########################################################
 
-- ÄÁÅ×ÀÌ³ÊÀÇ Å©±â¸¦ Ãà¼ÒÇÏ´Â ¹æÇâÀ¸·Î´Â ¿¬»êÀ» ¼öÇàÇÏÁö ¾Ê½À´Ï´Ù !!!!
+- ì»¨í…Œì´ë„ˆì˜ í¬ê¸°ë¥¼ ì¶•ì†Œí•˜ëŠ” ë°©í–¥ìœ¼ë¡œëŠ” ì—°ì‚°ì„ ìˆ˜í–‰í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤ !!!!
 
 
 ########################################################################################################
 
 ##########################
-	Á¶°ÇÀÚ(Predicate)
+	ì¡°ê±´ìž(Predicate)
 ##########################
 
-- bool ÀÚ·áÇüÀÇ °ªÀ» ¹ÝÈ¯ÇÏ´Â ÇÔ¼öÀÇ "ÇÔ¼ö Æ÷ÀÎÅÍ" ¶Ç´Â "ÇÔ¼ö °´Ã¼(Functor)"
+- bool ìžë£Œí˜•ì˜ ê°’ì„ ë°˜í™˜í•˜ëŠ” í•¨ìˆ˜ì˜ "í•¨ìˆ˜ í¬ì¸í„°" ë˜ëŠ” "í•¨ìˆ˜ ê°ì²´(Functor)"
 
-- STL(Standard Template Library)¿¡¼­ Á¦°øÇÏ´Â ¾Ë°í¸®Áò¿¡ ÀÎÀÚ·Î »ç¿ëµË´Ï´Ù.
-(Á¤·Ä, °Ë»öÀÇ Á¶°ÇÀ» Á¦°øÇÏ±â À§ÇØ...)
+- STL(Standard Template Library)ì—ì„œ ì œê³µí•˜ëŠ” ì•Œê³ ë¦¬ì¦˜ì— ì¸ìžë¡œ ì‚¬ìš©ë©ë‹ˆë‹¤.
+(ì •ë ¬, ê²€ìƒ‰ì˜ ì¡°ê±´ì„ ì œê³µí•˜ê¸° ìœ„í•´...)
 
 
-case 1. ´ÜÇ× Á¶°ÇÀÚ(ÄÁÅ×ÀÌ³ÊÀÇ µ¥ÀÌÅÍ¿¡ ´ëÇÑ Á¶°ÇÀ» ÆÇº°)
-case 2. ÀÌÇ× Á¶°ÇÀÚ(ÄÁÅ×ÀÌ³ÊÀÇ µ¥ÀÌÅÍ 2°³¿¡ ´ëÇÑ °ü°è¸¦ ÆÇº°)
+case 1. ë‹¨í•­ ì¡°ê±´ìž(ì»¨í…Œì´ë„ˆì˜ ë°ì´í„°ì— ëŒ€í•œ ì¡°ê±´ì„ íŒë³„)
+case 2. ì´í•­ ì¡°ê±´ìž(ì»¨í…Œì´ë„ˆì˜ ë°ì´í„° 2ê°œì— ëŒ€í•œ ê´€ê³„ë¥¼ íŒë³„)
 
 
 #######################################################
-- ÇÔ¼ö Æ÷ÀÎÅÍµµ Á¶°ÇÀÚ(Predicate)·Î »ç¿ëµÉ ¼ö ÀÖ½À´Ï´Ù.
+- í•¨ìˆ˜ í¬ì¸í„°ë„ ì¡°ê±´ìž(Predicate)ë¡œ ì‚¬ìš©ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 #######################################################
 
 ########################################################################################################
 
 ###############################
-   STLÀÇ sort() ÅÛÇÃ¸´ ÇÔ¼ö - <algorithm> header ÆÄÀÏ¿¡ Á¸Àç, namespace Ãß°¡ÇØÁà¾ß...
+   STLì˜ sort() í…œí”Œë¦¿ í•¨ìˆ˜ - <algorithm> header íŒŒì¼ì— ì¡´ìž¬, namespace ì¶”ê°€í•´ì¤˜ì•¼...
 ###############################
 
-- Bubble Sort·Î ±¸ÇöµÇ¾î ÀÖ½À´Ï´Ù.
+- Bubble Sortë¡œ êµ¬í˜„ë˜ì–´ ìžˆìŠµë‹ˆë‹¤.
 
-- STL¿¡¼­ Á¦°øÇÏ¸ç, ÄÁÅ×ÀÌ³ÊÀÇ µ¥ÀÌÅÍ¸¦ Á¤·ÄÇÒ ¼ö ÀÖ´Â "ÅÛÇÃ¸´ ÇÔ¼ö"ÀÔ´Ï´Ù.
-("ÀÓÀÇ Á¢±Ù ¹Ýº¹ÀÚ¸¦ ÀÌ¿ëÇÏ´Â °æ¿ì"¿¡¸¸ µ¿ÀÛÇÕ´Ï´Ù !!!!
-µ¿Àû ¹è¿­ ±â¹ÝÀÇ ÄÁÅ×ÀÌ³Ê´Â Random Access Iterator !!!!)
+- STLì—ì„œ ì œê³µí•˜ë©°, ì»¨í…Œì´ë„ˆì˜ ë°ì´í„°ë¥¼ ì •ë ¬í•  ìˆ˜ ìžˆëŠ” "í…œí”Œë¦¿ í•¨ìˆ˜"ìž…ë‹ˆë‹¤.
+("ìž„ì˜ ì ‘ê·¼ ë°˜ë³µìžë¥¼ ì´ìš©í•˜ëŠ” ê²½ìš°"ì—ë§Œ ë™ìž‘í•©ë‹ˆë‹¤ !!!!
+ë™ì  ë°°ì—´ ê¸°ë°˜ì˜ ì»¨í…Œì´ë„ˆëŠ” Random Access Iterator !!!!)
 
 
-- Á¤·Ä ±âÁØÀÎ "Predicate"À» Àü´ÞÇÏÁö ¾ÊÀ¸¸é default·Î "Ascending Order" (¿À¸§Â÷¼ø Á¤·Ä)
+- ì •ë ¬ ê¸°ì¤€ì¸ "Predicate"ì„ ì „ë‹¬í•˜ì§€ ì•Šìœ¼ë©´ defaultë¡œ "Ascending Order" (ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬)
 
-- ¸Å°³º¯¼ö´Â (ÄÁÅ×ÀÌ³ÊÀÇ Ã³À½ À§Ä¡ ¹Ýº¹ÀÚ,
-			¸¶Áö¸· À§Ä¡ÀÇ ´ÙÀ½ ¹Ýº¹ÀÚ,
-			Á¤·Ä ±âÁØ_"ÀÌÇ× Predicate" ÇÔ¼ö Æ÷ÀÎÅÍ or Functor)
+- ë§¤ê°œë³€ìˆ˜ëŠ” (ì»¨í…Œì´ë„ˆì˜ ì²˜ìŒ ìœ„ì¹˜ ë°˜ë³µìž,
+			ë§ˆì§€ë§‰ ìœ„ì¹˜ì˜ ë‹¤ìŒ ë°˜ë³µìž,
+			ì •ë ¬ ê¸°ì¤€_"ì´í•­ Predicate" í•¨ìˆ˜ í¬ì¸í„° or Functor)
 
 ###################################################
-("Predicate"ÀÌ "Âü"ÀÌ¸é Á¤·Ä(swap)À» ¼öÇàÇÏÁö ¾ÊÀ½.
-"°ÅÁþ"ÀÌ¾î¾ß Á¤·Ä(swap)À» ¼öÇàÇÕ´Ï´Ù.)
+("Predicate"ì´ "ì°¸"ì´ë©´ ì •ë ¬(swap)ì„ ìˆ˜í–‰í•˜ì§€ ì•ŠìŒ.
+"ê±°ì§“"ì´ì–´ì•¼ ì •ë ¬(swap)ì„ ìˆ˜í–‰í•©ë‹ˆë‹¤.)
 ###################################################
 
 
 
 
 ##############################
-   STLÀÌ Á¦°øÇÏ´Â Predicate
+   STLì´ ì œê³µí•˜ëŠ” Predicate
 ##############################
 
-- <functional> header¿¡ µé¾îÀÖ½À´Ï´Ù.
-¹°·Ð, namespaceµµ Ãß°¡ÇØÁà¾ß...
+- <functional> headerì— ë“¤ì–´ìžˆìŠµë‹ˆë‹¤.
+ë¬¼ë¡ , namespaceë„ ì¶”ê°€í•´ì¤˜ì•¼...
 
-- ¿À¸§Â÷¼ø ¹× ³»¸²Â÷¼ø µî Á¶°ÇÀÚ(Predicate)°¡ ÇÔ¼ö °´Ã¼(Functor)·Î Á¤ÀÇµÇ¾î ÀÖ½À´Ï´Ù !!!!
+- ì˜¤ë¦„ì°¨ìˆœ ë° ë‚´ë¦¼ì°¨ìˆœ ë“± ì¡°ê±´ìž(Predicate)ê°€ í•¨ìˆ˜ ê°ì²´(Functor)ë¡œ ì •ì˜ë˜ì–´ ìžˆìŠµë‹ˆë‹¤ !!!!
 
 ex. less, greater
 
@@ -141,25 +139,25 @@ ex. less, greater
 
 
 #################################
-   STLÀÇ count_if() ÅÛÇÃ¸´ ÇÔ¼ö - <algorithm> header ÆÄÀÏ¿¡ Á¸Àç, namespace Ãß°¡ÇØÁà¾ß...
+   STLì˜ count_if() í…œí”Œë¦¿ í•¨ìˆ˜ - <algorithm> header íŒŒì¼ì— ì¡´ìž¬, namespace ì¶”ê°€í•´ì¤˜ì•¼...
 #################################
 
-ÄÁÅ×ÀÌ³ÊÀÇ µ¥ÀÌÅÍ¸¦ ¼øÈ¸ÇÏ¸é¼­, ÀÎÀÚ·Î Àü´Þ¹ÞÀº
+ì»¨í…Œì´ë„ˆì˜ ë°ì´í„°ë¥¼ ìˆœíšŒí•˜ë©´ì„œ, ì¸ìžë¡œ ì „ë‹¬ë°›ì€
 
-- ´ÜÇ× PredicateÀ» ¹ÞÀ½.
+- ë‹¨í•­ Predicateì„ ë°›ìŒ.
 
 
 
 ###############################
-   STLÀÇ for_each ÅÛÇÃ¸´ ÇÔ¼ö - <algorithm> header ÆÄÀÏ¿¡ Á¸Àç, namespace Ãß°¡ÇØÁà¾ß...
+   STLì˜ for_each í…œí”Œë¦¿ í•¨ìˆ˜ - <algorithm> header íŒŒì¼ì— ì¡´ìž¬, namespace ì¶”ê°€í•´ì¤˜ì•¼...
 ###############################
 
-- Ã¹ ¹øÂ°·Î ¹ÞÀº ¹Ýº¹ÀÚºÎÅÍ µÎ ¹øÂ°·Î ¹ÞÀº ¹Ýº¹ÀÚ±îÁö ¼øÈ¸ÇÏ¸é¼­,
-¼¼ ¹øÂ°·Î ¹ÞÀº Predicate(Á¶°ÇÀÚ_ ÇÔ¼ö Æ÷ÀÎÅÍ, ÇÔ¼ö °´Ã¼)ÀÇ ¿¬»êÀ» ¹Ýº¹ÇÏ´Â ÅÛÇÃ¸´ ÇÔ¼öÀÔ´Ï´Ù.
+- ì²« ë²ˆì§¸ë¡œ ë°›ì€ ë°˜ë³µìžë¶€í„° ë‘ ë²ˆì§¸ë¡œ ë°›ì€ ë°˜ë³µìžê¹Œì§€ ìˆœíšŒí•˜ë©´ì„œ,
+ì„¸ ë²ˆì§¸ë¡œ ë°›ì€ Predicate(ì¡°ê±´ìž_ í•¨ìˆ˜ í¬ì¸í„°, í•¨ìˆ˜ ê°ì²´)ì˜ ì—°ì‚°ì„ ë°˜ë³µí•˜ëŠ” í…œí”Œë¦¿ í•¨ìˆ˜ìž…ë‹ˆë‹¤.
 
 
 #################################################################
-- Á¶°ÇÀÚÀÇ ¿¬»êÀ» ±×³É ¼öÇà¸¸ ÇÕ´Ï´Ù, (bool ¹ÝÈ¯ÀÌ ¾Æ´Õ´Ï´Ù !!!!)
+- ì¡°ê±´ìžì˜ ì—°ì‚°ì„ ê·¸ëƒ¥ ìˆ˜í–‰ë§Œ í•©ë‹ˆë‹¤, (bool ë°˜í™˜ì´ ì•„ë‹™ë‹ˆë‹¤ !!!!)
 #################################################################
 
 ########################################################################################################
@@ -169,7 +167,7 @@ ex. less, greater
 
 #include <iostream>
 #include <vector>
-#include <algorithm> // STLÀÇ ¾Ë°í¸®ÁòÀ» »ç¿ëÇÏ±â À§ÇØ¼­ Æ÷ÇÔ !!!!
+#include <algorithm> // STLì˜ ì•Œê³ ë¦¬ì¦˜ì„ ì‚¬ìš©í•˜ê¸° ìœ„í•´ì„œ í¬í•¨ !!!!
 #include <functional> //
 
 #define TRUE 1
@@ -188,30 +186,30 @@ using std::greater;
 using std::less;
 
 ///////////////////////////////////////////////////////////////////////////////////
-// Á¶°ÇÀÚ(Predicate) Á¤ÀÇ - sort() ÅÛÇÃ¸´ ÇÔ¼ö
+// ì¡°ê±´ìž(Predicate) ì •ì˜ - sort() í…œí”Œë¦¿ í•¨ìˆ˜
 
 template <typename T>
-bool Ascend(T a, T b) // ¿À¸§Â÷¼ø Á¤·Ä
-{					  // ÀÌÇ× Predicate
+bool Ascend(T a, T b) // ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
+{					  // ì´í•­ Predicate
 
-	return a < b; // "TRUE"¸é swapÀ» ÇÏÁö ¾ÊÀ½.
+	return a < b; // "TRUE"ë©´ swapì„ í•˜ì§€ ì•ŠìŒ.
 }
 
 template <typename T>
-bool Descend(T a, T b) // ³»¸²Â÷¼ø Á¤·Ä
-{					   // ÀÌÇ× Predicate
+bool Descend(T a, T b) // ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
+{					   // ì´í•­ Predicate
 
-	return a > b; // "TRUE"¸é swapÀ» ÇÏÁö ¾ÊÀ½.
+	return a > b; // "TRUE"ë©´ swapì„ í•˜ì§€ ì•ŠìŒ.
 }
 ///////////////////////////////////////////////////////////////////////////////////
-// Á¶°ÇÀÚ(Predicate) Á¤ÀÇ - count_if() ÅÛÇÃ¸´ ÇÔ¼ö
+// ì¡°ê±´ìž(Predicate) ì •ì˜ - count_if() í…œí”Œë¦¿ í•¨ìˆ˜
 
 template <typename T>
-bool CheckNum(T num) // ´ÜÇ× Predicate
+bool CheckNum(T num) // ë‹¨í•­ Predicate
 {
-	if (num % 2 == 1) // È¦¼ö...
+	if (num % 2 == 1) // í™€ìˆ˜...
 	{
-		return TRUE; // "TRUE_ È¦¼ö"¸é count¸¦ ¼Á´Ï´Ù.
+		return TRUE; // "TRUE_ í™€ìˆ˜"ë©´ countë¥¼ ì…‰ë‹ˆë‹¤.
 	}
 	else
 	{
@@ -219,10 +217,10 @@ bool CheckNum(T num) // ´ÜÇ× Predicate
 	}
 }
 ///////////////////////////////////////////////////////////////////////////////////
-// Á¶°ÇÀÚ(Predicate) Á¤ÀÇ - for_each() ÅÛÇÃ¸´ ÇÔ¼ö
+// ì¡°ê±´ìž(Predicate) ì •ì˜ - for_each() í…œí”Œë¦¿ í•¨ìˆ˜
 
 template <typename T>
-void SafeDelete(T obj) // for_each() ÅÛÇÃ¸´ ÇÔ¼ö´Â "Predicate"À¸·Î ³Ñ¾î¿Â ÇÔ¼ö¸¦ ¹Ýº¹ ¼öÇà.
+void SafeDelete(T obj) // for_each() í…œí”Œë¦¿ í•¨ìˆ˜ëŠ” "Predicate"ìœ¼ë¡œ ë„˜ì–´ì˜¨ í•¨ìˆ˜ë¥¼ ë°˜ë³µ ìˆ˜í–‰.
 {
 	if (obj != nullptr)
 	{
@@ -235,10 +233,10 @@ void SafeDelete(T obj) // for_each() ÅÛÇÃ¸´ ÇÔ¼ö´Â "Predicate"À¸·Î ³Ñ¾î¿Â ÇÔ¼ö¸¦
 int main(void)
 {
 	cout << "################################################################" << endl;
-	cout << "### vector ÄÁÅ×ÀÌ³ÊÀÇ ¸Þ¸ð¸® Á¤Ã¥" << endl << endl;
+	cout << "### vector ì»¨í…Œì´ë„ˆì˜ ë©”ëª¨ë¦¬ ì •ì±…" << endl << endl;
 
 	vector<int> intVec11;
-	vector<int> intVec12(10); // ¸Þ¸ð¸® °ø°£ÀÌ ÀâÇôÀÖ°í, µ¥ÀÌÅÍµµ "0"À¸·Î µé¾î°¡ÀÖ´Â »óÅÂ !!!!
+	vector<int> intVec12(10); // ë©”ëª¨ë¦¬ ê³µê°„ì´ ìž¡í˜€ìžˆê³ , ë°ì´í„°ë„ "0"ìœ¼ë¡œ ë“¤ì–´ê°€ìžˆëŠ” ìƒíƒœ !!!!
 
 	intVec11.push_back(1);
 	intVec11.push_back(2);
@@ -266,38 +264,38 @@ int main(void)
 	cout << "intVec12 capacity : " << intVec12.capacity() << endl << endl;
 
 	cout << "################################################################" << endl;
-	cout << "### vector ÄÁÅ×ÀÌ³ÊÀÇ capacity() Å©±â º¯µ¿" << endl << endl;
+	cout << "### vector ì»¨í…Œì´ë„ˆì˜ capacity() í¬ê¸° ë³€ë™" << endl << endl;
 
-	// vector ÄÁÅ×ÀÌ³ÊÀÇ ÇÒ´çµÈ ¸Þ¸ð¸® °ø°£À» ³Ñ¾î¼­ µ¥ÀÌÅÍ Ãß°¡ ½Ã, capacity() °¡ Áõ°¡ÇÕ´Ï´Ù.
-	// ÀÌ¶§, µ¥ÀÌÅÍ Ãß°¡ÇÏ±â ÀüÀÇ capacity() °ªÀÇ ¹ÝÀý¸¸Å­ capacity() °ªÀÌ Áõ°¡ÇÕ´Ï´Ù.
-	// (but, ¼Ò¼öÁ¡Àº ¹ö¸®°í, ÃÖ¼Ò 1¸¸Å­ Å©±â°¡ Áõ°¡ ÇÕ´Ï´Ù.)
+	// vector ì»¨í…Œì´ë„ˆì˜ í• ë‹¹ëœ ë©”ëª¨ë¦¬ ê³µê°„ì„ ë„˜ì–´ì„œ ë°ì´í„° ì¶”ê°€ ì‹œ, capacity() ê°€ ì¦ê°€í•©ë‹ˆë‹¤.
+	// ì´ë•Œ, ë°ì´í„° ì¶”ê°€í•˜ê¸° ì „ì˜ capacity() ê°’ì˜ ë°˜ì ˆë§Œí¼ capacity() ê°’ì´ ì¦ê°€í•©ë‹ˆë‹¤.
+	// (but, ì†Œìˆ˜ì ì€ ë²„ë¦¬ê³ , ìµœì†Œ 1ë§Œí¼ í¬ê¸°ê°€ ì¦ê°€ í•©ë‹ˆë‹¤.)
 
 	vector<int> temp;
 
-	cout << "##### ÃÊ±â »óÅÂ   ####" << endl;
+	cout << "##### ì´ˆê¸° ìƒíƒœ   ####" << endl;
 	cout << "size: " << temp.size() << ", ";				 // size(), capacity()
 	cout << "capacity: " << temp.capacity() << endl << endl; // 0, 0
 
-	cout << "##### µ¥ÀÌÅÍ Ãß°¡ ####" << endl;
+	cout << "##### ë°ì´í„° ì¶”ê°€ ####" << endl;
 	temp.push_back(42);
 	cout << "size: " << temp.size() << ", ";
-	cout << "capacity: " << temp.capacity() << endl; // 1, 1 (0/2 = 0, ÃÖ¼Ò 1 Áõ°¡)
+	cout << "capacity: " << temp.capacity() << endl; // 1, 1 (0/2 = 0, ìµœì†Œ 1 ì¦ê°€)
 
 	temp.push_back(42);
 	cout << "size: " << temp.size() << ", ";
-	cout << "capacity: " << temp.capacity() << endl; // 2, 2 (1/2 = 0, ÃÖ¼Ò 1 Áõ°¡)
+	cout << "capacity: " << temp.capacity() << endl; // 2, 2 (1/2 = 0, ìµœì†Œ 1 ì¦ê°€)
 
 	temp.push_back(42);
 	cout << "size: " << temp.size() << ", ";
-	cout << "capacity: " << temp.capacity() << endl; // 3, 3 (2/2 = 1 Áõ°¡)
+	cout << "capacity: " << temp.capacity() << endl; // 3, 3 (2/2 = 1 ì¦ê°€)
 
 	temp.push_back(42);
 	cout << "size: " << temp.size() << ", ";
-	cout << "capacity: " << temp.capacity() << endl; // 4, 4 (3/2 = 1 Áõ°¡)
+	cout << "capacity: " << temp.capacity() << endl; // 4, 4 (3/2 = 1 ì¦ê°€)
 
 	temp.push_back(42);
 	cout << "size: " << temp.size() << ", ";
-	cout << "capacity: " << temp.capacity() << endl; // 5, 6 (4/2 = 2 Áõ°¡)
+	cout << "capacity: " << temp.capacity() << endl; // 5, 6 (4/2 = 2 ì¦ê°€)
 
 	temp.push_back(42);
 	cout << "size: " << temp.size() << ", ";
@@ -305,7 +303,7 @@ int main(void)
 
 	temp.push_back(42);
 	cout << "size: " << temp.size() << ", ";
-	cout << "capacity: " << temp.capacity() << endl; // 7, 9 (6/2 = 3 Áõ°¡)
+	cout << "capacity: " << temp.capacity() << endl; // 7, 9 (6/2 = 3 ì¦ê°€)
 
 	temp.push_back(42);
 	cout << "size: " << temp.size() << ", ";
@@ -317,11 +315,11 @@ int main(void)
 
 	temp.push_back(42);
 	cout << "size: " << temp.size() << ", ";
-	cout << "capacity: " << temp.capacity() << endl; // 10, 13 (9/2 = 4 Áõ°¡)
+	cout << "capacity: " << temp.capacity() << endl; // 10, 13 (9/2 = 4 ì¦ê°€)
 
 
 	cout << "################################################################" << endl;
-	cout << "### resize() ¸â¹ö ÇÔ¼ö - vector ÄÁÅ×ÀÌ³ÊÀÇ µ¿Àû ¹è¿­ Å©±â ÀçÇÒ´ç" << endl << endl;
+	cout << "### resize() ë©¤ë²„ í•¨ìˆ˜ - vector ì»¨í…Œì´ë„ˆì˜ ë™ì  ë°°ì—´ í¬ê¸° ìž¬í• ë‹¹" << endl << endl;
 
 	vector<int> intVec21;
 
@@ -339,12 +337,12 @@ int main(void)
 	}
 	cout << endl << endl;
 
-	intVec11.resize(7); // vector ÄÁÅ×ÀÌ³ÊÀÇ ÀÎµ¦½º ¹üÀ§¸¦ Á¶Á¤ÇÏ´Â °ÍÀÓ.
-						// Å©±â¸¦ ÁÙ¿´À» ¶§, µ¥ÀÌÅÍ´Â ³²¾ÆÀÖÁö¸¸ Á¢±ÙÀ» ¸øÇÏ´Â °ÍÀÓ !!!!
-						// Å©±â¸¦ ´Ã·È´Ù¸é, ¸Þ¸ð¸® °ø°£ÀÇ ÀçÇÒ´çÀÌ ÀÌ·ç¾îÁö¸é¼­ µ¥ÀÌÅÍ º¹»ç°¡ ÀÌ·ç¾îÁý´Ï´Ù.
-						// ±×¸®°í, ÀÚµ¿À¸·Î ³ª¸ÓÁö ºÎºÐ¿¡´Â "0" °ªÀÌ Ã¤¿öÁý´Ï´Ù.
+	intVec11.resize(7); // vector ì»¨í…Œì´ë„ˆì˜ ì¸ë±ìŠ¤ ë²”ìœ„ë¥¼ ì¡°ì •í•˜ëŠ” ê²ƒìž„.
+						// í¬ê¸°ë¥¼ ì¤„ì˜€ì„ ë•Œ, ë°ì´í„°ëŠ” ë‚¨ì•„ìžˆì§€ë§Œ ì ‘ê·¼ì„ ëª»í•˜ëŠ” ê²ƒìž„ !!!!
+						// í¬ê¸°ë¥¼ ëŠ˜ë ¸ë‹¤ë©´, ë©”ëª¨ë¦¬ ê³µê°„ì˜ ìž¬í• ë‹¹ì´ ì´ë£¨ì–´ì§€ë©´ì„œ ë°ì´í„° ë³µì‚¬ê°€ ì´ë£¨ì–´ì§‘ë‹ˆë‹¤.
+						// ê·¸ë¦¬ê³ , ìžë™ìœ¼ë¡œ ë‚˜ë¨¸ì§€ ë¶€ë¶„ì—ëŠ” "0" ê°’ì´ ì±„ì›Œì§‘ë‹ˆë‹¤.
 
-	// 0 1 2 3 4 6 6 9 ¼øÀ¸·Î capacity() °ªÀÌ Áõ°¡ÇÕ´Ï´Ù.
+	// 0 1 2 3 4 6 6 9 ìˆœìœ¼ë¡œ capacity() ê°’ì´ ì¦ê°€í•©ë‹ˆë‹¤.
 
 	cout << "intVec11 size : " << intVec11.size() << endl;
 	cout << "intVec11 capacity : " << intVec11.capacity() << endl;
@@ -356,7 +354,7 @@ int main(void)
 	cout << endl << endl;
 
 	cout << "################################################################" << endl;
-	cout << "### reserve() ¸â¹ö ÇÔ¼ö - ¸Þ¸ð¸® °ø°£ ¿¹¾à" << endl << endl;
+	cout << "### reserve() ë©¤ë²„ í•¨ìˆ˜ - ë©”ëª¨ë¦¬ ê³µê°„ ì˜ˆì•½" << endl << endl;
 
 	vector<int> intVec22(3);
 
@@ -370,21 +368,21 @@ int main(void)
 	cout << "intVec22 capacity : " << intVec22.capacity() << endl << endl;
 
 
-	intVec22.reserve(7); // ¸Þ¸ð¸® °ø°£À» ¿¹¾àÇÏ´Â ¹æ¹ý.
-						 // ¸Þ¸ð¸® È®º¸ ±ÔÄ¢°ú °ü·ÃÀÌ ¾øÀÌ Áõ°¡ÇÕ´Ï´Ù.
-						 // ±×¸®°í, µ¥ÀÌÅÍ Ãß°¡ ¾øÀÌ capacity() °ª¸¸ ´Ã·Á ¸Þ¸ð¸® ÀçÇÒ´çÀ» ÇÕ´Ï´Ù.
-						 // but, ¸Þ¸ð¸® °ø°£À» ¿¹¾àÇÏ´Â °³³äÀÌ¶ó¼­ ±Ô¸ð¸¦ Ãà¼ÒÇÏ´Â °ÍÀº ºÒ°¡´ÉÇÕ´Ï´Ù.
+	intVec22.reserve(7); // ë©”ëª¨ë¦¬ ê³µê°„ì„ ì˜ˆì•½í•˜ëŠ” ë°©ë²•.
+						 // ë©”ëª¨ë¦¬ í™•ë³´ ê·œì¹™ê³¼ ê´€ë ¨ì´ ì—†ì´ ì¦ê°€í•©ë‹ˆë‹¤.
+						 // ê·¸ë¦¬ê³ , ë°ì´í„° ì¶”ê°€ ì—†ì´ capacity() ê°’ë§Œ ëŠ˜ë ¤ ë©”ëª¨ë¦¬ ìž¬í• ë‹¹ì„ í•©ë‹ˆë‹¤.
+						 // but, ë©”ëª¨ë¦¬ ê³µê°„ì„ ì˜ˆì•½í•˜ëŠ” ê°œë…ì´ë¼ì„œ ê·œëª¨ë¥¼ ì¶•ì†Œí•˜ëŠ” ê²ƒì€ ë¶ˆê°€ëŠ¥í•©ë‹ˆë‹¤.
 
-	// ¿ø·¡´Â....
-	// 0 1 2 3 4 6 6 9 ¼øÀ¸·Î capacity() °ªÀÌ Áõ°¡ÇÕ´Ï´Ù.
+	// ì›ëž˜ëŠ”....
+	// 0 1 2 3 4 6 6 9 ìˆœìœ¼ë¡œ capacity() ê°’ì´ ì¦ê°€í•©ë‹ˆë‹¤.
 
 	intVec22.push_back(4);
 	intVec22.push_back(5);
 	intVec22.push_back(6);
-	intVec22.push_back(7); // 7¹øÂ° µ¥ÀÌÅÍ Ãß°¡ÀÌÁö¸¸, capacity() °ªÀÌ "7"·Î µÇ¾îÀÖÀ¸¹Ç·Î ±×³É ÇÒ´çµÊ.
-						   // ÀÌÈÄÀÇ µ¥ÀÌÅÍ Ãß°¡ ½Ã, capacity() º¯µ¿Àº...
-						   // ¹è¿­ÀÇ Å©±â°¡ ²Ë Â÷ÀÖÀ¸¹Ç·Î ÀçÇÒ´ç ¹Þ¾Æ¾ß ÇÕ´Ï´Ù.
-						   // So, ¿ø·¡ ±ÔÄ¢´ë·Î capacity() °ªÀÌ ÀÌÀü °ªÀÇ ¹ÝÀý¸¸Å­ Áõ°¡ÇÏ¹Ç·Î... (7/2 = 3 Áõ°¡)
+	intVec22.push_back(7); // 7ë²ˆì§¸ ë°ì´í„° ì¶”ê°€ì´ì§€ë§Œ, capacity() ê°’ì´ "7"ë¡œ ë˜ì–´ìžˆìœ¼ë¯€ë¡œ ê·¸ëƒ¥ í• ë‹¹ë¨.
+						   // ì´í›„ì˜ ë°ì´í„° ì¶”ê°€ ì‹œ, capacity() ë³€ë™ì€...
+						   // ë°°ì—´ì˜ í¬ê¸°ê°€ ê½‰ ì°¨ìžˆìœ¼ë¯€ë¡œ ìž¬í• ë‹¹ ë°›ì•„ì•¼ í•©ë‹ˆë‹¤.
+						   // So, ì›ëž˜ ê·œì¹™ëŒ€ë¡œ capacity() ê°’ì´ ì´ì „ ê°’ì˜ ë°˜ì ˆë§Œí¼ ì¦ê°€í•˜ë¯€ë¡œ... (7/2 = 3 ì¦ê°€)
 	for (size_t i = 0; i < intVec22.size(); ++i)
 	{
 		cout << intVec22[i] << ' ';
@@ -396,7 +394,7 @@ int main(void)
 
 
 
-	intVec22.push_back(8); // vector ÄÁÅ×ÀÌ³Ê¿¡ µ¥ÀÌÅÍ¸¦ 1°³ Ãß°¡ÇÏ¸é capacity()°¡ "3"Áõ°¡µÈ "10"ÀÌ µË´Ï´Ù.
+	intVec22.push_back(8); // vector ì»¨í…Œì´ë„ˆì— ë°ì´í„°ë¥¼ 1ê°œ ì¶”ê°€í•˜ë©´ capacity()ê°€ "3"ì¦ê°€ëœ "10"ì´ ë©ë‹ˆë‹¤.
 
 	for (size_t i = 0; i < intVec22.size(); ++i)
 	{
@@ -409,7 +407,7 @@ int main(void)
 
 
 	cout << "################################################################" << endl;
-	cout << "### case 1. sort() ÅÛÇÃ¸´ ÇÔ¼ö" << endl << endl;
+	cout << "### case 1. sort() í…œí”Œë¦¿ í•¨ìˆ˜" << endl << endl;
 
 	vector<int> intVec31;
 	intVec31.reserve(5);
@@ -428,13 +426,13 @@ int main(void)
 
 
 	///////////////////////////////////////////////////////////////////////////////////
-	// <algorithm> header ÆÄÀÏ¿¡ ÀÖ´Â sort() ÅÛÇÃ¸´ ÇÔ¼ö »ç¿ëÇÏ±â
-	// ¸Å°³ º¯¼ö - Ã³À½ À§Ä¡, ¸¶Áö¸· À§Ä¡ + 1, Predicate(ÇÔ¼ö Æ÷ÀÎÅÍ, ÇÔ¼ö °´Ã¼)
+	// <algorithm> header íŒŒì¼ì— ìžˆëŠ” sort() í…œí”Œë¦¿ í•¨ìˆ˜ ì‚¬ìš©í•˜ê¸°
+	// ë§¤ê°œ ë³€ìˆ˜ - ì²˜ìŒ ìœ„ì¹˜, ë§ˆì§€ë§‰ ìœ„ì¹˜ + 1, Predicate(í•¨ìˆ˜ í¬ì¸í„°, í•¨ìˆ˜ ê°ì²´)
 	///////////////////////////////////////////////////////////////////////////////////
 
 	sort(intVec31.begin(), intVec31.end(), Ascend<int>);
-	// "Predicate"ÀÇ Á¶°ÇÀÌ "TRUE"(Âü)ÀÌ¸é swapÇÏ¿© Á¤·ÄÇÏÁö ¾ÊÀ½.
-	// "FALSE"(°ÅÁþ)ÀÌ¾î¾ß swapÀ» ¼öÇàÇÕ´Ï´Ù.
+	// "Predicate"ì˜ ì¡°ê±´ì´ "TRUE"(ì°¸)ì´ë©´ swapí•˜ì—¬ ì •ë ¬í•˜ì§€ ì•ŠìŒ.
+	// "FALSE"(ê±°ì§“)ì´ì–´ì•¼ swapì„ ìˆ˜í–‰í•©ë‹ˆë‹¤.
 
 	for (size_t i = 0; i < intVec31.size(); ++i)
 	{
@@ -444,8 +442,8 @@ int main(void)
 
 
 	sort(intVec31.begin(), intVec31.end(), Descend<int>);
-	// "Predicate"ÀÇ Á¶°ÇÀÌ "TRUE"(Âü)ÀÌ¸é swapÇÏ¿© Á¤·ÄÇÏÁö ¾ÊÀ½.
-	// "FALSE"(°ÅÁþ)ÀÌ¾î¾ß swapÀ» ¼öÇàÇÕ´Ï´Ù.
+	// "Predicate"ì˜ ì¡°ê±´ì´ "TRUE"(ì°¸)ì´ë©´ swapí•˜ì—¬ ì •ë ¬í•˜ì§€ ì•ŠìŒ.
+	// "FALSE"(ê±°ì§“)ì´ì–´ì•¼ swapì„ ìˆ˜í–‰í•©ë‹ˆë‹¤.
 
 	for (size_t i = 0; i < intVec31.size(); ++i)
 	{
@@ -455,13 +453,13 @@ int main(void)
 
 
 	///////////////////////////////////////////////////////////////////////////////////
-	// <functional> header ÆÄÀÏ¿¡ ÀÖ´Â Predicate(Á¶°ÇÀÚ) »ç¿ëÇÏ±â
+	// <functional> header íŒŒì¼ì— ìžˆëŠ” Predicate(ì¡°ê±´ìž) ì‚¬ìš©í•˜ê¸°
 	// #### less, greater <= Functor ####
 	///////////////////////////////////////////////////////////////////////////////////
 
 	sort(intVec31.begin(), intVec31.end(), less<int>());
-	// <functional> header ÆÄÀÏ¿¡ Functor·Î Predicate°¡ ±¸ÇöµÇ¾î ÀÖÀ½.
-	// ±×·¡¼­ È£Ãâ ½Ã, Function Call Operator() »ç¿ëÇß½À´Ï´Ù.
+	// <functional> header íŒŒì¼ì— Functorë¡œ Predicateê°€ êµ¬í˜„ë˜ì–´ ìžˆìŒ.
+	// ê·¸ëž˜ì„œ í˜¸ì¶œ ì‹œ, Function Call Operator() ì‚¬ìš©í–ˆìŠµë‹ˆë‹¤.
 
 	for (size_t i = 0; i < intVec31.size(); ++i)
 	{
@@ -480,7 +478,7 @@ int main(void)
 
 
 	cout << "################################################################" << endl;
-	cout << "### case 2. count_if() ÅÛÇÃ¸´ ÇÔ¼ö" << endl << endl;
+	cout << "### case 2. count_if() í…œí”Œë¦¿ í•¨ìˆ˜" << endl << endl;
 
 	vector<int> intVec41;
 
@@ -492,26 +490,26 @@ int main(void)
 
 	int count41 = count_if(intVec41.begin(), intVec41.end(), CheckNum<int>);
 
-	cout << "È¦¼ö °¹¼ö(count3): " << count41 << endl << endl;
+	cout << "í™€ìˆ˜ ê°¯ìˆ˜(count3): " << count41 << endl << endl;
 
 
-	cout << "count_if() ÅÛÇÃ¸´ ÇÔ¼ö´Â ÀÏ¹Ý ¹è¿­¿¡¼­µµ »ç¿ëÀÌ °¡´ÉÇÕ´Ï´Ù." << endl;
+	cout << "count_if() í…œí”Œë¦¿ í•¨ìˆ˜ëŠ” ì¼ë°˜ ë°°ì—´ì—ì„œë„ ì‚¬ìš©ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤." << endl;
 	int arr42[5] = { 1, 2, 3, 4, 5 };
 
 	int count42 = count_if(arr42, arr42 + (sizeof(arr42) / sizeof(int)), CheckNum<int>);
 	int count43 = count_if(arr42, arr42 + 5, CheckNum<int>);
-	// ¿¬»êÀ» ¼öÇàÇÏ°íÀÚ ÇÏ´Â ¹è¿­ÀÇ ÁÖ¼Ò(½ÃÀÛ À§Ä¡),
-	// ¿¬»êÀ» ¼öÇàÇÏ°íÀÚ ÇÏ´Â ¹è¿­ÀÇ ÁÖ¼Ò(¸¶Áö¸· À§Ä¡) + 1,
-	// ¿¬»êÀÇ Á¶°Ç "Predicate" - ÇÔ¼ö Æ÷ÀÎÅÍ, ÇÔ¼ö °´Ã¼(Functor)
+	// ì—°ì‚°ì„ ìˆ˜í–‰í•˜ê³ ìž í•˜ëŠ” ë°°ì—´ì˜ ì£¼ì†Œ(ì‹œìž‘ ìœ„ì¹˜),
+	// ì—°ì‚°ì„ ìˆ˜í–‰í•˜ê³ ìž í•˜ëŠ” ë°°ì—´ì˜ ì£¼ì†Œ(ë§ˆì§€ë§‰ ìœ„ì¹˜) + 1,
+	// ì—°ì‚°ì˜ ì¡°ê±´ "Predicate" - í•¨ìˆ˜ í¬ì¸í„°, í•¨ìˆ˜ ê°ì²´(Functor)
 
-	cout << "È¦¼ö(count42): " << count42 << endl;
-	cout << "È¦¼ö(count43): " << count43 << endl << endl;
+	cout << "í™€ìˆ˜(count42): " << count42 << endl;
+	cout << "í™€ìˆ˜(count43): " << count43 << endl << endl;
 
 
 	cout << "################################################################" << endl;
-	cout << "### case 3. for_each() ÅÛÇÃ¸´ ÇÔ¼ö" << endl << endl;
+	cout << "### case 3. for_each() í…œí”Œë¦¿ í•¨ìˆ˜" << endl << endl;
 
-	cout << "±âÁ¸ ¹æ½ÄÀÇ µ¿Àû ¸Þ¸ð¸® ÇØÁ¦" << endl;
+	cout << "ê¸°ì¡´ ë°©ì‹ì˜ ë™ì  ë©”ëª¨ë¦¬ í•´ì œ" << endl;
 	vector<int *> intPtrVec11;
 
 	for (int i = 0; i < 5; ++i)
@@ -529,19 +527,19 @@ int main(void)
 	cout << "intPtrVec11 size : " << intPtrVec11.size() << endl;
 	cout << "intPtrVec11 capacity : " << intPtrVec11.capacity() << endl << endl;
 
-	// ±âÁ¸ ¹æ½ÄÀÇ µ¿Àû ¸Þ¸ð¸® ÇØÁ¦
+	// ê¸°ì¡´ ë°©ì‹ì˜ ë™ì  ë©”ëª¨ë¦¬ í•´ì œ
 	for (size_t i = 0; i < intPtrVec11.size(); ++i)
 	{
-		delete intPtrVec11[i]; // vector ÄÁÅ×ÀÌ³ÊÀÇ µ¥ÀÌÅÍ¿¡ Á¢±ÙÇÏ¿©, µ¿Àû ÇÒ´ç ¹ÞÀº ¸Þ¸ð¸®¸¦ ÇØÁ¦ ÇßÀ½.
-		intPtrVec11[i] = nullptr; // vector ÄÁÅ×ÀÌ³Ê¸¦ ºñ¿ì´Â ¿¬»êÀÌ ¾Æ´Ô !!!!
+		delete intPtrVec11[i]; // vector ì»¨í…Œì´ë„ˆì˜ ë°ì´í„°ì— ì ‘ê·¼í•˜ì—¬, ë™ì  í• ë‹¹ ë°›ì€ ë©”ëª¨ë¦¬ë¥¼ í•´ì œ í–ˆìŒ.
+		intPtrVec11[i] = nullptr; // vector ì»¨í…Œì´ë„ˆë¥¼ ë¹„ìš°ëŠ” ì—°ì‚°ì´ ì•„ë‹˜ !!!!
 								  //
-								  // So, size()´Â º¯ÇÔ ¾øÀ½.
-								  // ±×¸®°í "nullptr"·Î ¸¸µé¾î¹ö·Á¼­ Á¢±Ù ¶ÇÇÑ ºÒ°¡´ÉÇÕ´Ï´Ù !!!!
-								  // ¹®Á¦ ¹ß»ý °¡´ÉÇÑ ÄÚµå !!!!
+								  // So, size()ëŠ” ë³€í•¨ ì—†ìŒ.
+								  // ê·¸ë¦¬ê³  "nullptr"ë¡œ ë§Œë“¤ì–´ë²„ë ¤ì„œ ì ‘ê·¼ ë˜í•œ ë¶ˆê°€ëŠ¥í•©ë‹ˆë‹¤ !!!!
+								  // ë¬¸ì œ ë°œìƒ ê°€ëŠ¥í•œ ì½”ë“œ !!!!
 	}
 
 						 // ######################################################################
-	intPtrVec11.clear(); // ´Ù½Ã »ç¿ëÇÏ·Á¸é clear() ¸â¹ö ÇÔ¼ö·Î µ¥ÀÌÅÍ¸¦ Á¦°ÅÇÏ°í »ç¿ëÇØ¾ß ÇÕ´Ï´Ù.
+	intPtrVec11.clear(); // ë‹¤ì‹œ ì‚¬ìš©í•˜ë ¤ë©´ clear() ë©¤ë²„ í•¨ìˆ˜ë¡œ ë°ì´í„°ë¥¼ ì œê±°í•˜ê³  ì‚¬ìš©í•´ì•¼ í•©ë‹ˆë‹¤.
 						 // ######################################################################
 	for (size_t i = 0; i < intPtrVec11.size(); ++i)
 	{
@@ -564,13 +562,13 @@ int main(void)
 
 	///////////////////////////////////////////////////////////////////////////////////
 	///////////////////////////////////////////////////////////////////////////////////
-	// <algorithm> header ÆÄÀÏ¿¡ ÀÖ´Â for_each() ÅÛÇÃ¸´ ÇÔ¼ö »ç¿ëÇÏ±â
-	// ¸Å°³ º¯¼ö - ¿¬»êÀ» ¼öÇàÇÒ ¹è¿­ÀÇ Ã³À½ ÀÎµ¦½º ÁÖ¼Ò,
-	//			   ¿¬»êÀ» ¼öÇàÇÒ ¹è¿­ÀÇ ¸¶Áö¸· ÀÎµ¦½º + 1, 
-	//			   Predicate(ÇÔ¼ö Æ÷ÀÎÅÍ, ÇÔ¼ö °´Ã¼)
+	// <algorithm> header íŒŒì¼ì— ìžˆëŠ” for_each() í…œí”Œë¦¿ í•¨ìˆ˜ ì‚¬ìš©í•˜ê¸°
+	// ë§¤ê°œ ë³€ìˆ˜ - ì—°ì‚°ì„ ìˆ˜í–‰í•  ë°°ì—´ì˜ ì²˜ìŒ ì¸ë±ìŠ¤ ì£¼ì†Œ,
+	//			   ì—°ì‚°ì„ ìˆ˜í–‰í•  ë°°ì—´ì˜ ë§ˆì§€ë§‰ ì¸ë±ìŠ¤ + 1, 
+	//			   Predicate(í•¨ìˆ˜ í¬ì¸í„°, í•¨ìˆ˜ ê°ì²´)
 	//
-	// for_each() ÅÛÇÃ¸´ ÇÔ¼ö´Â "Predicate"ÀÇ ¿¬»êÀ» ¹Ýº¹ÀûÀ¸·Î ¼öÇàÇÕ´Ï´Ù.
-	// bool ÀÚ·áÇüÀÇ °ªÀ» ¹ÝÈ¯ÇÏÁö ¾Ê½À´Ï´Ù !!!!
+	// for_each() í…œí”Œë¦¿ í•¨ìˆ˜ëŠ” "Predicate"ì˜ ì—°ì‚°ì„ ë°˜ë³µì ìœ¼ë¡œ ìˆ˜í–‰í•©ë‹ˆë‹¤.
+	// bool ìžë£Œí˜•ì˜ ê°’ì„ ë°˜í™˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤ !!!!
 	///////////////////////////////////////////////////////////////////////////////////
 	cout << "################################################" << endl;
 
@@ -593,14 +591,14 @@ int main(void)
 
 
 	for_each(intPtrVec12.begin(), intPtrVec12.end(), SafeDelete<int *>);
-	// ÀÏ¹Ý ¹è¿­¿¡¼­µµ »ç¿ëÀÌ °¡´ÉÇÕ´Ï´Ù.
-	// ¹°·Ð, ¸Å°³º¯¼ö°¡ "Ã³À½ ÀÎµ¦½º ÁÖ¼Ò", "¸¶Áö¸· ÀÎµ¦½º ÁÖ¼Ò + 1", "¼öÇàÇÒ ¿¬»ê"
+	// ì¼ë°˜ ë°°ì—´ì—ì„œë„ ì‚¬ìš©ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤.
+	// ë¬¼ë¡ , ë§¤ê°œë³€ìˆ˜ê°€ "ì²˜ìŒ ì¸ë±ìŠ¤ ì£¼ì†Œ", "ë§ˆì§€ë§‰ ì¸ë±ìŠ¤ ì£¼ì†Œ + 1", "ìˆ˜í–‰í•  ì—°ì‚°"
 
 	// #######################################################################################
-	// "Predicate"·Î µé¾î¿Â "SafeDelete" ÇÔ¼ö Æ÷ÀÎÅÍ°¡ ¸Å°³º¯¼ö·Î ÀÏ¹Ý ÀÚ·áÇüÀ» ¹ÞÀ¸¸é...
-	// ¸Å°³º¯¼öµµ Áö¿ªº¯¼öÀÌ¹Ç·Î, "nullptr"·Î º¯ÇÏ´Â °ÍÀº º¹»çµÈ °ª.
-	// ½ÇÁ¦ ÁÖ¼ÒµéÀº º¯ÇÏÁö ¾Ê°í, delete ¿¬»ê ½Ã ¸Þ¸ð¸® ÇØÁ¦µÇ°í ³²Àº ¾²·¹±â °ªÀ» °¡¸®Å°°Ô µÊ.
-	// ¹°·Ð, ÀÌ·± ¹®Á¦´Â ¸Å°³º¯¼ö¸¦ Reference ÀÚ·áÇüÀ¸·Î ¼öÁ¤ÇÏ¸é µË´Ï´Ù !!!!
+	// "Predicate"ë¡œ ë“¤ì–´ì˜¨ "SafeDelete" í•¨ìˆ˜ í¬ì¸í„°ê°€ ë§¤ê°œë³€ìˆ˜ë¡œ ì¼ë°˜ ìžë£Œí˜•ì„ ë°›ìœ¼ë©´...
+	// ë§¤ê°œë³€ìˆ˜ë„ ì§€ì—­ë³€ìˆ˜ì´ë¯€ë¡œ, "nullptr"ë¡œ ë³€í•˜ëŠ” ê²ƒì€ ë³µì‚¬ëœ ê°’.
+	// ì‹¤ì œ ì£¼ì†Œë“¤ì€ ë³€í•˜ì§€ ì•Šê³ , delete ì—°ì‚° ì‹œ ë©”ëª¨ë¦¬ í•´ì œë˜ê³  ë‚¨ì€ ì“°ë ˆê¸° ê°’ì„ ê°€ë¦¬í‚¤ê²Œ ë¨.
+	// ë¬¼ë¡ , ì´ëŸ° ë¬¸ì œëŠ” ë§¤ê°œë³€ìˆ˜ë¥¼ Reference ìžë£Œí˜•ìœ¼ë¡œ ìˆ˜ì •í•˜ë©´ ë©ë‹ˆë‹¤ !!!!
 	// #######################################################################################
 
 	for (size_t i = 0; i < intPtrVec12.size(); ++i)
@@ -635,7 +633,7 @@ int main(void)
 	cout << "intPtrVec12 capacity : " << intPtrVec12.capacity() << endl << endl;
 
 
-	cout << "for_each() ÅÛÇÃ¸´ ÇÔ¼ö´Â ÀÏ¹Ý ¹è¿­¿¡¼­µµ »ç¿ëÀÌ °¡´ÉÇÕ´Ï´Ù." << endl;
+	cout << "for_each() í…œí”Œë¦¿ í•¨ìˆ˜ëŠ” ì¼ë°˜ ë°°ì—´ì—ì„œë„ ì‚¬ìš©ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤." << endl;
 	int *arr12[5];
 
 	for (int i = 0; i < sizeof(arr12) / sizeof(int*); ++i)
@@ -646,9 +644,9 @@ int main(void)
 	cout << endl;
 
 	for_each(arr12 + 1, arr12 + 3, SafeDelete<int *>);
-	// ¿¬»êÀ» ¼öÇàÇÏ°íÀÚ ÇÏ´Â ¹è¿­ÀÇ ÁÖ¼Ò(½ÃÀÛ À§Ä¡),
-	// ¿¬»êÀ» ¼öÇàÇÏ°íÀÚ ÇÏ´Â ¹è¿­ÀÇ ÁÖ¼Ò(¸¶Áö¸· À§Ä¡) + 1,
-	// ¹Ýº¹ÇÒ ¿¬»êÀÇ Á¶°Ç "Predicate" - ÇÔ¼ö Æ÷ÀÎÅÍ, ÇÔ¼ö °´Ã¼(Functor)
+	// ì—°ì‚°ì„ ìˆ˜í–‰í•˜ê³ ìž í•˜ëŠ” ë°°ì—´ì˜ ì£¼ì†Œ(ì‹œìž‘ ìœ„ì¹˜),
+	// ì—°ì‚°ì„ ìˆ˜í–‰í•˜ê³ ìž í•˜ëŠ” ë°°ì—´ì˜ ì£¼ì†Œ(ë§ˆì§€ë§‰ ìœ„ì¹˜) + 1,
+	// ë°˜ë³µí•  ì—°ì‚°ì˜ ì¡°ê±´ "Predicate" - í•¨ìˆ˜ í¬ì¸í„°, í•¨ìˆ˜ ê°ì²´(Functor)
 
 	for (int i = 0; i < sizeof(arr12) / sizeof(int*); ++i)
 	{
