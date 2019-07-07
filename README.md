@@ -46,3 +46,10 @@ MFC Tool 과제. Map Tool("NecroDancer"의 바닥 타일과 그 위에 배치할
 2019.07.05 금요일 </br>
 MFC Tile Tool - 진짜 생각보다 너무 어려움. 추가하고 싶은 기능도 많고, 일반화 시켜서 저장해야하고... </br>
 우선, 그전까지는 만들어보고 게임을 선택해봅시다.
+2019.07.06 토요일 </br>
+MFC Tile Tool - 다이얼로그 배치랑 타일 리소스 정리, 뷰 크기 조절하는 것까지 했지... </br>
+그런데, MFC에서 Control을 추가하면 ID가 Resource.h 헤더파일에 추가되는 데, 충돌나서 힘들었음. </br>
+2019.07.07 일요일 </br>
+MFC Tile Tool - 전체적인 모습은 갖추었음. Save & Load, Layout, Attribute Selection Picking 등... </br>
+코드 짜는 속도가 느려서 많은 것은 못했지만, 조금만 더 해보고 싶다 ㅋㅋㅋㅋ. 재미있네. </br>
+2019.07.
