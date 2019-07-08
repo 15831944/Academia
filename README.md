@@ -55,4 +55,5 @@ MFC Tile Tool - 전체적인 모습은 갖추었음. Save & Load, Layout, Attrib
 2019.07.08 월요일 </br>
 MFC Tile Tool - 과제 완. (퀄리티는 썩 좋지 못하지만... 그래도 구현했어 !!!!) </br>
 조금 더 실력을 키워서 제대로 만들고 싶어 ㅎㅎ </br>
+다음 과정에는 시연회가 있는데, Tool & Client 둘 다 해야하니 힘내자 !!! </br>
 
