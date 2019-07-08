@@ -1,16 +1,30 @@
-Tile Tool(�簢�� Ÿ��) �ʱ� ��ȹ��
+Tile Tool(사각형 타일)
 
-- Terrain "����, ����, ����, �ҷ�����" ���.
-- DrawID�� Option "�Ӽ� ����" ���.
-- Layout�� ���� "���� ���" ���.
-
-
-DrawID - Ÿ���� �̹���.
-
-Option - PASS, NON_PASS ���� ����
-       - PASS(�⺻������ ��������, Ư�� "Object ���� ��ġ" ǥ��)
-       - NON_PASS(Ÿ���� ���ų�, ������ �� ���� Ÿ�� �Ǵ� ���� ǥ��)
-
-����, GameObject���� ��ġ�� Option ���� ����, Object Tool�� ��ġ�� ��ȹ
+-  생성, 삭제, 저장, 불러오기 기능
+- DrawID와 Option 속성을 지정 기능
+- Layout을 통한 화면 출력 기능
 
 
+DrawID - 타일의 이미지.
+
+Option - PASS, NON_PASS 지역 구분
+       - PASS(기본적으로 지나가고, 특정 Object 출현 위치 표현)
+
+이후, 위치 정보를 통해서 Object Tool로 배치할 계획
+
+
+문제점.
+
+1. Dialog 위에 Tab Control을 사용했는데...
+Picture Control의 화면이 다른 화면으로 가려지면 이미지가 안 보여짐.
+
+2. Drag & Drop 시, 다이얼 로그 내부의 ListBox를 구분하지 못했음.
+
+3. 다이얼로그 위에 Tab Control을 사용했으므로,
+ 새로운 다이얼로그 추가 + 새로운 클래스 생성하는 형태입니다.
+그렇다면, 처음에 Tab Control을 출력하기 위한 TileTool 클래스는 그냥 띄워주는 용도이고,
+세부 독립적인 클래스들에 ToolView, Terrain 클래스의 객체에 대한 정보를 가지고 있어야하는지...
+
+4. TileTool 클래스와 Terrain 클래스의 연관성(?!)이 짙어짐.
+아무리 관련된 기능의 처리를 TileTool에서 한다고 해도...
+TileTool에서 변경된 정보를 Terrain 클래스에 넣어줘야하니까 발생하는 문제.
