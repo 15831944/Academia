@@ -1,0 +1,16 @@
+Tile Tool(사각형 타일) 초기 기획서
+
+- Terrain "생성, 삭제, 저장, 불러오기" 기능.
+- DrawID와 Option "속성 지정" 기능.
+- Layout을 통한 "선택 출력" 기능.
+
+
+DrawID - 타일의 이미지.
+
+Option - PASS, NON_PASS 지역 구분
+       - PASS(기본적으로 지나가고, 특정 "Object 출현 위치" 표시)
+       - NON_PASS(타일이 없거나, 지나갈 수 없는 타일 또는 벽을 표시)
+
+이후, GameObject들을 위치와 Option 값을 통해, Object Tool로 배치할 계획
+
+
