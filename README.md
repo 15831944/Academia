@@ -68,3 +68,5 @@ D2D OT, The Wizard Of Legend 기획서 발표. 솔직히, 아직도 자신감이
 MFC 복습 중. 거의 끝나감. W.O.L 리소스 확인. </br>
 PathExtractor 기능 공부해야함. </br>
 2019.07.17 수요일 </br>
+리소스 Pivot 작업, A* 알고리즘을 적용한 Path Finding 과제 </br>
+2019.07.18 목요일 </br>
