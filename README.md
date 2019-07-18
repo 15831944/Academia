@@ -69,4 +69,7 @@ MFC 복습 중. 거의 끝나감. W.O.L 리소스 확인. </br>
 PathExtractor 기능 공부해야함. </br>
 2019.07.17 수요일 </br>
 리소스 Pivot 작업, A* 알고리즘을 적용한 Path Finding 과제 </br>
-2019.07.18 목요일 </br>
+2019.07.18(목요일) </br>
+D2D_WOL 리소스 작업 중, 게임 흐름 짜기, Develop Framework 짜기 </br>
+Client에서 크기 비교해야 함. 프로젝트 새로 올릴 것(Tool 작업 시작해야 함.) </br>
+2019.07.19(금요일) </br>
