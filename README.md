@@ -73,3 +73,4 @@ PathExtractor 기능 공부해야함. </br>
 D2D_WOL 리소스 작업 중, 게임 흐름 짜기, Develop Framework 짜기 </br>
 Client에서 크기 비교해야 함. 프로젝트 새로 올릴 것(Tool 작업 시작해야 함.) </br>
 2019.07.19(금요일) </br>
+MFC 마지막 복습,
