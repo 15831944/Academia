@@ -87,24 +87,42 @@ void Player::Render()
 	int imageWidth = pTextureInfo->tImageInfo.Width;
 	int imageHeight = pTextureInfo->tImageInfo.Height;
 
+	// 원본 이미지로부터 계산한 중심.
 	float centerX = pTextureInfo->tImageInfo.Width * 0.5f;
 	float centerY = pTextureInfo->tImageInfo.Height * 0.5f;
 
-	RECT rcRender = { imageWidth/2, 0, imageWidth, imageHeight };
+	RECT rcRender = { imageWidth / 2, 0, imageWidth, imageHeight };
 
 	DeviceManager::getInstance()->getSprite()->SetTransform(&(m_tInfo.matWorld));
 	DeviceManager::getInstance()->getSprite()->Draw(
 		pTextureInfo->pTexture,
+		//nullptr,
 		&rcRender,
-		nullptr, //&D3DXVECTOR3(centerX, centerY, 0.0f),
 		nullptr,
+		//&D3DXVECTOR3(centerY, centerY, 0.0f),
+		//&D3DXVECTOR3(50, 50, 0.0f),
+		//nullptr,
+		&D3DXVECTOR3(-100.0f, -200.0f, 0.0f),
 		D3DCOLOR_ARGB(255, 255, 255, 255)
 	);
 
+	// ###########################################################################################################
 	// 매개변수의 의미
-	// SrcRect	:
-	// Center	:
-	// Position	: 
+	// SrcRect	: 이미지의 어느 부분부터 보여줄 것인지.
+	// Center	: SrcRect의 정해진 부분에서 Texture 이미지가 그려지는 중심(+ 회전 중심) (NULL - 이미지의 (0, 0) 위치)
+	// Position	: 어느정도 Offset을 줄 것인지
+	// ###########################################################################################################
+	// ex. 400X400 큐브 이미지.
+	// X 축 반절 크기로 보여주고 - RECT rcRender = { imageWidth/2, 0, imageWidth, imageHeight };
+	// Center를 원본 이미지 크기의 중앙으로 잡고 - &D3DXVECTOR3(centerX, centerY, 0.0f),
+	// Position을 X 축 방향으로 100.0f 이동시켰을 때...- &D3DXVECTOR3(100.0f, 0.0f, 0.0f),
+	// ###########################################################################################################
+	// - 우선. vPos를 (0, 0)으로 하여 원본 이미지의 오른쪽의 반절인 (200, 0) ~ (400, 400) 부분. 즉, 크기가 200X400 이미지를 보여줍니다.
+	// - centerX = 200, centerY = 200 => 그려진 이미지의 (200, 200) 부분이 vPos 위치에 오도록합니다.
+	// (여기까지는 200X400 그림이 (200, 200)부분이 vPos에 있고 큐브의 반절이 왼쪽에 있습니다.
+	// - Position이 X 축으로 100만큼 이동했으므로,
+	// So, 200X400 이미지의 정중앙인 (100, 200) 부분이 vPos를 중심으로 그려지게 됩니다.
+	// ###########################################################################################################
 }
 
 void Player::Init()
