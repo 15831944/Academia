@@ -8,7 +8,8 @@
 
 
 Player::Player()
-	: m_pSingleTexture(nullptr)
+	: m_pSingleTexture(nullptr),
+	m_IsInit(false)
 {
 }
 
@@ -27,7 +28,7 @@ void Player::Update()
 
 	// 크기 행렬
 	D3DXMatrixScaling(&(m_tInfo.matScale), m_tInfo.vSize.x, m_tInfo.vSize.y, 0.0f); // D2D니까 Z 성분은 0.0f !!!!
-	
+
 	// 회전 행렬(Rotation, 자전)
 	D3DXMatrixRotationZ(&(m_tInfo.matRotZ), D3DXToRadian(-(m_RotAngle))); // "Negative 부호" ?!?!
 
@@ -43,6 +44,7 @@ void Player::Update()
 		// 벡터와 행렬 간에 곱셈 연산 - 벡터의 "w" 성분의 값이 "1"이기 때문에, 결과는 "위치 벡터"입니다.
 		D3DXVec3TransformCoord(&(m_vConvert[i]), &(m_vOrigin[i]), &(m_tInfo.matWorld));
 	}
+	D3DXVec3TransformCoord(&m_vCenterConvert, &m_vCenterOrigin, &(m_tInfo.matWorld));
 
 	// 벡터와 행렬 간에 곱셈 연산 - 벡터의 "w" 성분의 값이 "0"이기 때문에, 결과는 "방향 벡터"입니다.
 	D3DXVec3TransformNormal(&(m_tInfo.vDir), &(m_tInfo.vDirOrigin), &(m_tInfo.matWorld));
@@ -115,13 +117,18 @@ void Player::Init()
 	// 0 1
 	// 3 2
 
+	m_vCenterOrigin = { 0.0f, 0.0f, 0.0f };
 	m_vOrigin[0] = { -50.0f, -50.0f, 0.0f };
-	m_vOrigin[1] = {  50.0f, -50.0f, 0.0f };
-	m_vOrigin[2] = {  50.0f,  50.0f, 0.0f };
+	m_vOrigin[1] = { 50.0f, -50.0f, 0.0f };
+	m_vOrigin[2] = { 50.0f,  50.0f, 0.0f };
 	m_vOrigin[3] = { -50.0f,  50.0f, 0.0f };
 
-	m_pSingleTexture = new SingleTexture;
-	m_pSingleTexture->LoadTexture(L"../Texture/Player.png");
+	if (m_IsInit == false)
+	{
+		m_pSingleTexture = new SingleTexture;
+		m_pSingleTexture->LoadTexture(L"../Texture/Player.png");
+		m_IsInit == true;
+	}
 }
 
 void Player::Release()
@@ -130,6 +137,22 @@ void Player::Release()
 
 void Player::InputKeyboard()
 {
+	if (GetAsyncKeyState('1') & 0x8000)
+	{
+		cout << "######################################################" << endl;
+		cout << "Player" << endl;
+		cout << "ASDW - Pos" << endl;
+		cout << "RT - Rotation" << endl;
+		cout << "FG - Revolution" << endl;
+		cout << "VB - Scaling" << endl;
+	}
+
+	if (GetAsyncKeyState('2') & 0x8000)
+	{
+		Init();
+	}
+
+
 	if (GetAsyncKeyState(VK_LBUTTON) & 0x8000)
 	{
 		cout << "#########################################################" << endl;
@@ -198,6 +221,7 @@ void Player::InputKeyboard()
 	if (GetAsyncKeyState('Z') & 0x8000)
 	{
 		cout << "####################################################################" << endl;
+		cout << "Cen: " << m_vCenterConvert.x << " / " << m_vCenterConvert.y << endl;
 		cout << "Con[0]: " << m_vConvert[0].x << " / " << m_vConvert[0].y << endl;
 		cout << "Con[1]: " << m_vConvert[1].x << " / " << m_vConvert[1].y << endl;
 		cout << "Con[2]: " << m_vConvert[2].x << " / " << m_vConvert[2].y << endl;

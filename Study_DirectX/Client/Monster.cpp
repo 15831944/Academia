@@ -8,7 +8,8 @@
 
 
 Monster::Monster()
-	: m_pSingleTexture(nullptr)
+	: m_pSingleTexture(nullptr),
+	m_IsInit(false)
 {
 }
 
@@ -45,9 +46,9 @@ void Monster::Update()
 	{
 		D3DXVec3TransformCoord(&(m_vConvert[i]), &(m_vOrigin[i]), &(m_tInfo.matWorld));
 	}
+	D3DXVec3TransformCoord(&m_vCenterConvert, &m_vCenterOrigin, &(m_tInfo.matWorld));
 
 	D3DXVec3TransformNormal(&(m_tInfo.vDir), &(m_tInfo.vDirOrigin), &(m_tInfo.matWorld));
-
 	D3DXVec3Normalize(&(m_tInfo.vDir), &(m_tInfo.vDir));
 }
 
@@ -120,13 +121,18 @@ void Monster::Init()
 	// 0 1
 	// 3 2
 
+	m_vCenterOrigin = { 0.0f, 0.0f, 0.0f };
 	m_vOrigin[0] = { -50.0f, -50.0f, 0.0f };
 	m_vOrigin[1] = { 50.0f, -50.0f, 0.0f };
 	m_vOrigin[2] = { 50.0f,  50.0f, 0.0f };
 	m_vOrigin[3] = { -50.0f,  50.0f, 0.0f };
 
-	m_pSingleTexture = new SingleTexture;
-	m_pSingleTexture->LoadTexture(L"../Texture/Monster.png");
+	if (m_IsInit == false)
+	{
+		m_pSingleTexture = new SingleTexture;
+		m_pSingleTexture->LoadTexture(L"../Texture/Monster.png");
+		m_IsInit == true;
+	}
 }
 
 void Monster::Release()
@@ -135,6 +141,20 @@ void Monster::Release()
 
 void Monster::InputKeyboard()
 {
+	if (GetAsyncKeyState('1') & 0x8000)
+	{
+		cout << "Monster" << endl;
+		cout << "È­»ìÇ¥ - Pos" << endl;
+		cout << "YU - Rotation" << endl;
+		cout << "HJ - Revolution" << endl;
+		cout << "BN - Scaling" << endl;
+	}
+
+	if (GetAsyncKeyState('2') & 0x8000)
+	{
+		Init();
+	}
+
 	if (GetAsyncKeyState(VK_LBUTTON) & 0x8000)
 	{
 		cout << "M-Size : " << m_tInfo.vSize.x << " / " << m_tInfo.vSize.y << endl;
@@ -201,6 +221,7 @@ void Monster::InputKeyboard()
 
 	if (GetAsyncKeyState('Z') & 0x8000)
 	{
+		cout << "M-Cen: " << m_vCenterConvert.x << " / " << m_vCenterConvert.y << endl;
 		cout << "M-Con[0]: " << m_vConvert[0].x << " / " << m_vConvert[0].y << endl;
 		cout << "M-Con[1]: " << m_vConvert[1].x << " / " << m_vConvert[1].y << endl;
 		cout << "M-Con[2]: " << m_vConvert[2].x << " / " << m_vConvert[2].y << endl;
