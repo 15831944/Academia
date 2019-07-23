@@ -82,4 +82,8 @@ D2D_WOL MapTool 작업 중인데, 너무 어렵다. </br>
 내가 극복해 나가야하는 건데 말야. 조금만 더 잘 했으면 !!!! </br>
 그래도, 로또가 태어난 날이니까. 특별한 날이야. </br>
 2019.07.22(월요일) </br>
-D2D_WOL MapTool - Layout 작업 중. </br> 
+D2D_WOL MapTool - Layout 작업 중. </br>
+D2D_WOL Render Tool 구조 생각해야 함. </br>
+Observer Pattern 배웠음.(이벤트 처리, 상태 변화 처리를 할 수 있을 것 같아.) </br>
+2019.07.23(화요일) </br>
+D2D_WOL Render Tool 작업 중. </br>
